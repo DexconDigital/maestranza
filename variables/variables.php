@@ -231,7 +231,7 @@ $iconos_servicios = [
 	"arrendamientos" => "fas fa-sign",
 	"ventas" => "fas fa-tags",
 	"administracion" => "fas fa-user-tie",
-	"samyl" => "<fas fa-toolbox",
+	"samyl" => "fas fa-toolbox",
 	"corretaje" => "fas fa-handshake",
 	"gerencia_comercial" => "fas fa-users"
 ];
