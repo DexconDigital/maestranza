@@ -16,6 +16,146 @@ body{
 h1, h2, h3, h4, h5, h6 {
     font-family: "roboto"; 
 }
-p, span {
+p, span, b {
     font-family: "roboto"; 
+}
+
+#hero{
+    #style_slide_uno{
+        margin-top: -27%;
+        font-size: 255%;
+    }
+    #style_slide_dos{
+        margin-top: -27%;
+        font-size: 255%;
+    }
+    #style_slide_tres{
+        margin-top: -27%;
+        font-size: 255%;
+    }
+    #logo{
+        object-fit: contain;
+        position: absolute;
+        margin-top: -260%;
+        z-index: 98;
+    }
+}
+.boton_dorado{
+    background-color: $color_dorado;
+    color: white;
+
+}
+.boton_dorado:hover{
+    background-color: white;
+    color:$color_dorado;
+}
+.margen_busca{
+    margin-bottom: 21px;
+    
+}
+.posicion_buscar{
+    margin-left: 12%;
+}
+
+#buscador{
+    position: relative;
+    margin-top: -10%;
+    z-index: 2;
+
+
+    .container{
+    margin-top: 34px;
+    background-color: #f8f9fa;
+    padding: 2%;
+    }
+    .cont_interno{
+        margin-left: 0%;
+    }
+
+}
+
+#nav{
+    .container{
+        position: absolute;
+        z-index: 11;
+
+        nav{
+            background-color: #e3f2fd03;
+        }
+    }
+    
+}
+.color_a_nav{
+    color: white;
+    
+}
+.color_a_nav:hover{
+    color: $color_dorado;
+    text-decoration:none;
+}
+.logo{
+     width: 34%;
+    height: 0%;
+    margin-top: -7%;
+    padding: 1%
+    }
+#texto_logo{
+    margin-top: -104px;
+    .contenedor_parrafo{
+    padding: 8%;
+    margin-top: -14%;
+    }
+}    
+.boton_azul{
+    background-color: $color_azul_oscuro;
+    color: white;
+}
+.boton_azul:hover{
+    background-color: white;
+    color: $color_azul;
+}
+#destacadas{
+    .precio_inmueble{
+    position: absolute;
+    top: 214px;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: rgba(181, 141, 16, 0.66);
+    padding: 16px 45px 11px 45px;
+    margin-left: 0%;
+    }
+    .gestion_inmueble{
+        position: absolute;
+        top: 0px;
+        font-size: 9px;
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: 1.5px;
+        background-color: rgba(181, 141, 16, 0.66);
+        padding: 12px 41px 11px 45px;
+        margin-left: 39%;
+    }
+    .info_inmueble{
+        display: flex;
+        list-style: none;
+        margin-left: -6%;
+        margin-right: -10%;
+    }
+    .container_li{
+        margin-right: 1.5em;
+    }
+    .color_linea_divisora_Card{
+        border-top: 1px solid rgba(0, 34, 48, 0.65);
+    }
+    .card-body{
+        background-color: $color_azul_oscuro;
+    }
+    .dorado{
+        color: $color_dorado;
+    }
+    .color_palabras{
+        color: white;
+    }
 }

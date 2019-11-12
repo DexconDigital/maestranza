@@ -7638,7 +7638,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "roboto"; }
 
-p, span, b {
+p, span {
   font-family: "roboto"; }
 
 #hero #style_slide_uno {
@@ -7686,68 +7686,5 @@ p, span, b {
   z-index: 11; }
   #nav .container nav {
     background-color: #e3f2fd03; }
-
-.color_a_nav {
-  color: white; }
-
-.color_a_nav:hover {
-  color: #B58D10;
-  text-decoration: none; }
-
-.logo {
-  width: 34%;
-  height: 0%;
-  margin-top: -7%;
-  padding: 1%; }
-
-#texto_logo {
-  margin-top: -104px; }
-  #texto_logo .contenedor_parrafo {
-    padding: 8%;
-    margin-top: -14%; }
-
-.boton_azul {
-  background-color: #002230;
-  color: white; }
-
-.boton_azul:hover {
-  background-color: white;
-  color: #0057A1; }
-
-#destacadas .precio_inmueble {
-  position: absolute;
-  top: 214px;
-  font-size: 9px;
-  color: #ffffff;
-  text-align: center;
-  letter-spacing: 1.5px;
-  background-color: rgba(181, 141, 16, 0.66);
-  padding: 16px 45px 11px 45px;
-  margin-left: 0%; }
-#destacadas .gestion_inmueble {
-  position: absolute;
-  top: 0px;
-  font-size: 9px;
-  color: #ffffff;
-  text-align: center;
-  letter-spacing: 1.5px;
-  background-color: rgba(181, 141, 16, 0.66);
-  padding: 12px 41px 11px 45px;
-  margin-left: 39%; }
-#destacadas .info_inmueble {
-  display: flex;
-  list-style: none;
-  margin-left: -6%;
-  margin-right: -10%; }
-#destacadas .container_li {
-  margin-right: 1.5em; }
-#destacadas .color_linea_divisora_Card {
-  border-top: 1px solid rgba(0, 34, 48, 0.65); }
-#destacadas .card-body {
-  background-color: #002230; }
-#destacadas .dorado {
-  color: #B58D10; }
-#destacadas .color_palabras {
-  color: white; }
 
 /*# sourceMappingURL=style.css.map */

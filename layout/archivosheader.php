@@ -1,4 +1,6 @@
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/swiper.min.css">   
 <link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/mdb.min.css">
 <link rel="stylesheet" href="css/style.css">
