@@ -607,7 +607,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                         <div class="text-center">
                                             <i class="cont_icono <?php echo $iconos_servicios['administracion'] ?>"></i>
                                         </div>
-                                        <h4 class="text-center text_servi">Administracion</h4>
+                                        <h4 class="text-center text_servi">Administración</h4>
                                     </div>
                                     <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
                                         <div class="text-center">
