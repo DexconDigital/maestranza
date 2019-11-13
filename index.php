@@ -60,7 +60,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view  container_movil">
-                            <img class="d-block w-100" id="style_slider_img" src="images/ciudad-1.jpg" alt="Third slide">
+                            <img class="d-block w-100" id="style_slider_img" src="images/Manchester Render.jpg" alt="Third slide">
                             <div class="mask rgba-black-light waves-light"></div>
                         </div>
                         <div class="carousel-caption wow fadeInDown" data-wow-delay="0.6s">
@@ -117,7 +117,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <input type="text" class="form-control rounded-0" id="" placeholder="Área Mínima">
                     </div>
                     <div class="col-xl-3 col-md-4 col-12  margen_busca">
-                        <input type="text" class="form-control rounded-0" id="" placeholder="Área Maxima">
+                        <input type="text" class="form-control rounded-0" id="" placeholder="Área Máxima">
                     </div>
                     <div class="col-xl-3 col-md-4 col-12  margen_busca">
                         <input type="text" class="form-control rounded-0" id="" placeholder="Baños">
@@ -148,42 +148,20 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <img src="images/Maestranza Logo 3.png" width="300" height="300" alt="">
             </div>
             <div class="col-12 contenedor_parrafo">
-                <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker que incluye versiones de Lorem Ipsum.</p>
+                <p class="text-justify">Maestranza es una empresa que se desarrolla en el sector inmobiliario con la intención de sumarse  a los objetivos y estrategias de nuestros clientes de manera integral, ágil y oportuna.<br>
+                Trabajamos bajo dos pilares fundamentales, el Talento Humano concentrando nuestros esfuerzos en el  proceso de selección, formación y capacitación constante de nuestro personal, generando empoderamiento y una alineación perfecta con nuestra cultura del servicio y La Responsabilidad Social siendo un eje  empresarial de Maestranza, la mejora social, económica y ambiental bajo la implementación del SG SST, promoviendo condiciones laborales favorables para la calidad de vida, el desarrollo humano y profesional de nuestra comunidad.</p>
+                <p class="text-justify"></p>
                 <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" id="buscar"><span>Ver más</span></button>
-            </div>
-        </section>
-
-        <section id="destacadas_slider" class="mb-4">
-            <div class="container">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="card" style="width: 22rem;">
-                                <img src="images/no_image.png" class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card" style="width: 22rem;">
-                                <img src="images/no_image.png" class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card" style="width: 22rem;">
-                                <img src="images/no_image.png" class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
         <!--Plantilla de cards <section id="destacadas" class=" mt-4">
             <div class="container">
                  <div class="col-12"></div>
-                       <div class="col-6 border border-dark">
+                       <div class="col-6 ">
 
                     </div> 
-                    <div class="col-6 border border-dark"></div>
+                    <div class="col-6 "></div>
 
                 <div class="col-12">
                     <div class="row">
@@ -600,52 +578,54 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
         </section>
 
-        <section id="servicios">
-            <div class="container border border-dark">
-                <div class="col-12 border border-dark">
+        <section id="servicios" class="back_fondo">
+        <div class="overlay">
+        </div>
+            <div class="container ">
+                <div class="col-12 ">
                     <div class="row">
-                        <div class="col-5 border border-dark">
-                            <h2 class="main-title letra_gruesa"> Nuestros servicios</h2>
-                            <p class="mt-4">Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica.
+                        <div class="col-5 titulo_cont_servi ">
+                            <h2 class="main-title letra_gruesa2"> Nuestros servicios</h2>
+                            <p class="mt-4 color_blanco">Somos especialistas en</p>
                         </div>
-                        <div class="col-7 border border-dark">
+                        <div class="col-7 ">
                             <div class="cont_servi col-12 ">
                                 <div class="row">
-                                    <div class="col-5 border border-dark cont_servi cont_servi cont_arrendamiento">
+                                    <div class="col-5 border color_fichas border-dark cont_servi cont_servi cont_arrendamiento">
                                         <div class="text-center">
                                             <i class="cont_icono <?php echo $iconos_servicios['arrendamientos'] ?>"></i>
                                         </div>
-                                        <h4 class="text-center">Arrendamientos</h4>
+                                        <h4 class="text-center text_servi">Arrendamientos</h4>
                                     </div>
-                                    <div class="col-5 border border-dark cont_servi cont_ventas">
+                                    <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
                                         <div class="text-center">
                                             <i class="cont_icono <?php echo $iconos_servicios['ventas'] ?>"></i>
                                         </div>
-                                        <h4 class="text-center">Ventas</h4>
+                                        <h4 class="text-center text_servi">Ventas</h4>
                                     </div>
-                                    <div class="col-6 border border-dark cont_servi">
+                                    <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
                                         <div class="text-center">
                                             <i class="cont_icono <?php echo $iconos_servicios['administracion'] ?>"></i>
                                         </div>
-                                        <h4 class="text-center">Administracion</h4>
+                                        <h4 class="text-center text_servi">Administracion</h4>
                                     </div>
-                                    <div class="col-6 border border-dark cont_servi">
+                                    <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
                                         <div class="text-center">
                                             <i class="cont_icono <?php echo $iconos_servicios['samyl'] ?>"></i>
                                         </div>
-                                        <h4 class="text-center">Samyl</h4>
+                                        <h4 class="text-center text_servi">Samyl</h4>
                                     </div>
-                                    <div class="col-6 border border-dark cont_servi">
+                                    <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
                                         <div class="text-center">
                                             <i class="cont_icono <?php echo $iconos_servicios['corretaje'] ?>"></i>
                                         </div>
-                                        <h4 class="text-center">Corretaje</h4>
+                                        <h4 class="text-center text_servi">Corretaje</h4>
                                     </div>
-                                    <div class="col-6 border border-dark cont_servi">
+                                    <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
                                         <div class="text-center">
                                             <i class="cont_icono <?php echo $iconos_servicios['gerencia_comercial'] ?>"></i>
                                         </div>
-                                        <h4 class="text-center">Gerencia Comercial</h4>
+                                        <h4 class="text-center text_servi">Gerencia Comercial</h4>
                                     </div>
                                 </div>
                             </div>

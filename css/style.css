@@ -7715,43 +7715,41 @@ p, span, b {
   background-color: white;
   color: #0057A1; }
 
-#destacadas {
-  margin-top: 7.5rem !important; }
-  #destacadas .precio_inmueble {
-    position: absolute;
-    top: 221px;
-    font-size: 9px;
-    color: #ffffff;
-    text-align: center;
-    letter-spacing: 1.5px;
-    background-color: rgba(181, 141, 16, 0.66);
-    padding: 16px 45px 11px 45px;
-    margin-left: 0%; }
-  #destacadas .gestion_inmueble {
-    position: absolute;
-    top: 0px;
-    font-size: 9px;
-    color: #ffffff;
-    text-align: center;
-    letter-spacing: 1.5px;
-    background-color: rgba(181, 141, 16, 0.66);
-    padding: 12px 41px 11px 45px;
-    margin-left: 40%; }
-  #destacadas .info_inmueble {
-    display: flex;
-    list-style: none;
-    margin-left: -6%;
-    margin-right: -10%; }
-  #destacadas .container_li {
-    margin-right: 1.5em; }
-  #destacadas .color_linea_divisora_Card {
-    border-top: 1px solid #eeeeee; }
-  #destacadas .card-body {
-    background-color: #002230; }
-  #destacadas .dorado {
-    color: #B58D10; }
-  #destacadas .color_palabras {
-    color: white; }
+#destacadas .precio_inmueble {
+  position: absolute;
+  top: 221px;
+  font-size: 9px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1.5px;
+  background-color: rgba(181, 141, 16, 0.66);
+  padding: 16px 45px 11px 45px;
+  margin-left: 0%; }
+#destacadas .gestion_inmueble {
+  position: absolute;
+  top: 0px;
+  font-size: 9px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1.5px;
+  background-color: rgba(181, 141, 16, 0.66);
+  padding: 12px 41px 11px 45px;
+  margin-left: 40%; }
+#destacadas .info_inmueble {
+  display: flex;
+  list-style: none;
+  margin-left: -6%;
+  margin-right: -10%; }
+#destacadas .container_li {
+  margin-right: 1.5em; }
+#destacadas .color_linea_divisora_Card {
+  border-top: 1px solid #eeeeee; }
+#destacadas .card-body {
+  background-color: #002230; }
+#destacadas .dorado {
+  color: #B58D10; }
+#destacadas .color_palabras {
+  color: white; }
 
 .swiper-container {
   width: 100%;
@@ -7802,27 +7800,58 @@ p, span, b {
   position: absolute;
   height: 3px;
   width: 23%;
-  bottom: 79px;
-  background-color: #c8ae5c;
-  margin: auto; }
+  background-color: #B58D10;
+  margin: auto;
+  margin-top: 15%; }
 
 .main-title_destacadas::before {
   content: '';
   position: absolute;
   height: 3px;
   width: 30%;
-  background-color: #c8ae5c;
+  background-color: #B58D10;
   margin: auto;
   margin-top: 33%; }
 
-#servicios .cont_servi {
-  padding: 6%; }
-#servicios .cont_icono {
-  font-size: 226%;
-  padding: 9%; }
-#servicios .cont_arrendamiento {
-  margin: 17px; }
-#servicios .cont_ventas {
-  margin: 3%; }
+#servicios {
+  background-image: url(../images/Nuestros\ servicios.jpg);
+  margin: 0px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative; }
+  #servicios .cont_servi {
+    padding: 6%; }
+  #servicios .cont_icono {
+    font-size: 226%;
+    padding: 9%;
+    color: #B58D10; }
+  #servicios .cont_arrendamiento {
+    margin: 17px; }
+  #servicios .cont_ventas {
+    margin: 3%; }
+  #servicios .titulo_cont_servi {
+    margin-top: 24%; }
+  #servicios .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #101734ab; }
+  #servicios .letra_gruesa2 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold; }
+  #servicios .color_blanco {
+    color: white; }
+  #servicios .color_fichas {
+    background-color: white; }
+  #servicios .text_servi {
+    font-weight: bold;
+    color: #002230; }
 
 /*# sourceMappingURL=style.css.map */

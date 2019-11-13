@@ -115,7 +115,6 @@ p, span, b {
     color: $color_azul;
 }
 #destacadas{
-    margin-top: 7.5rem !important;
     .precio_inmueble{
     position: absolute;
     top: 221px;
@@ -210,9 +209,9 @@ p, span, b {
     position: absolute;
     height: 3px;
     width: 23%;
-    bottom: 79px;
-    background-color: #c8ae5c;
+    background-color:$color_dorado;
     margin: auto;
+    margin-top: 15%;
     
 }
 .main-title_destacadas::before{
@@ -220,18 +219,26 @@ p, span, b {
     position: absolute;
     height: 3px;
     width: 30%;
-    background-color: #c8ae5c;
+    background-color:$color_dorado;
     margin: auto;
     margin-top: 33%;
     
 }
 #servicios{
+    background-image: url(../images/Nuestros\ servicios.jpg);
+    margin: 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
     .cont_servi{
         padding: 6%;
     }
     .cont_icono{
     font-size: 226%;
     padding: 9%;
+    color: $color_dorado;
     }
     .cont_arrendamiento{
         margin: 17px;
@@ -239,4 +246,35 @@ p, span, b {
     .cont_ventas{
         margin: 3%;
     }
+    .titulo_cont_servi{
+        margin-top: 24%;
+        
+    }
+    .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #101734ab;
+    }
+    .letra_gruesa2{
+        color: white;
+        font-size: 48px;
+        font-weight: bold;
+      }
+      .color_blanco{
+          color: white;
+      }
+      .color_fichas{
+        background-color: white;
+      }
+      .text_servi{
+        font-weight: bold;
+        color: $color_azul_oscuro;
+
+      }
+    
 }
