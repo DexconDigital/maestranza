@@ -148,9 +148,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <img src="images/Maestranza Logo 3.png" width="300" height="300" alt="">
             </div>
             <div class="col-12 contenedor_parrafo">
-                <p class="text-justify">Maestranza es una empresa que se desarrolla en el sector inmobiliario con la intención de sumarse  a los objetivos y estrategias de nuestros clientes de manera integral, ágil y oportuna.<br>
-                Trabajamos bajo dos pilares fundamentales, el Talento Humano concentrando nuestros esfuerzos en el  proceso de selección, formación y capacitación constante de nuestro personal, generando empoderamiento y una alineación perfecta con nuestra cultura del servicio y La Responsabilidad Social siendo un eje  empresarial de Maestranza, la mejora social, económica y ambiental bajo la implementación del SG SST, promoviendo condiciones laborales favorables para la calidad de vida, el desarrollo humano y profesional de nuestra comunidad.</p>
-                <p class="text-justify"></p>
+                <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][0] ?></p>
+                <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][1] ?></p>
                 <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" id="buscar"><span>Ver más</span></button>
             </div>
         </section>
@@ -364,7 +363,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                                                 <div class="col-md-12">
                                                     <p class="mb-1">
-                                                        <b class="color_palabras">Codigo: 90</b>
+                                                        <b class="color_palabras">Código: 90</b>
                                                     </p>
                                                 </div>
                                                 <div class="col-md-12">
@@ -420,7 +419,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                                                 <div class="col-md-12">
                                                     <p class="mb-1">
-                                                        <b class="color_palabras">Codigo: 90</b>
+                                                        <b class="color_palabras">Código: 90</b>
                                                     </p>
                                                 </div>
                                                 <div class="col-md-12">
@@ -476,7 +475,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                                                 <div class="col-md-12">
                                                     <p class="mb-1">
-                                                        <b class="color_palabras">Codigo: 90</b>
+                                                        <b class="color_palabras">Código: 90</b>
                                                     </p>
                                                 </div>
                                                 <div class="col-md-12">
@@ -532,7 +531,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                                                 <div class="col-md-12">
                                                     <p class="mb-1">
-                                                        <b class="color_palabras">Codigo: 90</b>
+                                                        <b class="color_palabras">Código: 90</b>
                                                     </p>
                                                 </div>
                                                 <div class="col-md-12">
