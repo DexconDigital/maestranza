@@ -125,7 +125,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 
                     <div class="col-xl-3 col-md-4 col-12  margen_busca">
-                        <input type="text" class="form-control rounded-0" id="" placeholder="Alchobas">
+                        <input type="text" class="form-control rounded-0" id="" placeholder="Alcobas">
                     </div>
 
 
