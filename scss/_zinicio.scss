@@ -270,11 +270,253 @@ p, span, b {
       }
       .color_fichas{
         background-color: white;
+        -webkit-transform: scale(1,1);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transform: scale(1,1);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
       }
+      .color_fichas:hover{
+        -webkit-transform: scale(1.12,1.12);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 100ms;
+        -moz-transform: scale(1.12,1.12);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 100ms;
+
+      }
+
       .text_servi{
         font-weight: bold;
         color: $color_azul_oscuro;
 
       }
     
+}
+
+#asesores{
+    .letra_titulo{
+        color: $color_dorado;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .color_titulo_Card{
+        color: $color_azul_oscuro;
+    }
+    .color_parrafo{
+        color: $color_dorado;
+    }
+    
+    .card{
+        widows: 100%;
+        height: 100%;
+        transition: 1s;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: 0 0px 0px 0 rgba(0,0,0,.16), 0 0px 0px 0 rgba(0,0,0,.12);
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: all 400ms ease-in;
+            &:hover {
+              transform: scale(1.1);
+            }
+        }
+    }
+
+    
+   
+}
+
+.espacio_margen{
+    margin-top: 5%;
+}
+.titulo{
+    color: $color_dorado;
+    font-size: 48px;
+    font-weight: bold;
+}
+#aseguradoras{
+    
+   .margen_top{
+        
+    }
+}
+#aliados{
+    .titulo{
+    color: $color_azul_oscuro;
+    font-size: 48px;
+    font-weight: bold;
+    }
+    img{
+    height: 100%;
+    object-fit: contain;
+    }
+    .margen_cont{
+        margin-top: 8%;
+    }
+    .margen_titulo{
+        margin-top: -2%;
+    }
+    .main-title::before {
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 23%;
+        background-color: #B58D10;
+        margin: auto;
+        margin-top: 15%;
+    }
+}
+#ultimas_noticias{
+    .letra_titulo{
+        color: $color_dorado;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    hr{
+        width: 90%;
+        border-top: 1px solid $color_dorado;
+    }
+    .boton_ver_mas{
+        background-color: $color_azul_oscuro;
+        color: white;
+    }
+    .boton_ver_mas:hover{
+        background-color: white;
+        color: $color_azul_oscuro;
+    }
+}
+#consignar{
+    position: relative;
+    z-index: 2;
+    margin-bottom: -3%;
+    .container{
+    margin-top: 34px;
+    background-color: #f8f9fa;
+    padding: 2%;
+    }
+    .color_btn{
+        background-color: $color_azul_oscuro;
+        color: white;
+        
+    }.color_btn:hover{
+        background-color: white;
+            color: $color_azul_oscuro;
+
+    }
+    h2{
+        color: white;
+    }
+    .color_fondo{
+        background-color: $color_dorado;
+    }
+}
+#footer{
+  background-image: url(../images/footer.jpg);
+  margin: 0px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+
+  .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #101734ab;
+    }
+    .style_icono{
+    color: white;
+    display: block;
+    transition: all 0.35s ease-out;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: auto;
+    text-align: center;
+    background: transparent;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 0%;
+    border: 1px solid $color_dorado;
+    display: inline-block;
+    margin-right: 5px;
+    }
+    .style_icono:hover{
+        color: $color_dorado;
+    }
+    .margen_iconos{
+        margin-top: -15%;
+        a{
+            text-decoration: none;
+        }
+    }
+    .logo_footer{
+        margin-top: -7%;
+        width: 68%;
+    }
+    .margen_telefono{
+        margin-top: 11%;
+    }
+    .estylo_teelfonos{
+        list-style: none;
+        margin-bottom: 5%;
+        a{
+            text-decoration: none;
+        }
+    }
+    .div_info{
+    margin-top: -30%;
+    margin-bottom: 11%;
+    }
+    .top_mapa{
+        margin-top: 48px;
+    }
+    .tamaño_mapa{
+    height: 70%;
+    width: 100%;
+    }
+    .boton_como_llegar{
+        background-color: white;
+        color: $color_dorado;
+    }
+    .boton_como_llegar:hover{
+        background-color: $color_dorado;
+        color: white;
+    }
+    .color_info{
+        color: white;
+    }
+    i{
+        color: $color_dorado;
+    }
+    i:hover{
+        color: white;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color: $color_dorado;
+    }
+    .cont_contact{
+        text-align: center;
+    padding-left: 0%;
+    }
+    .copy_style{
+        color: white;
+    }
+    .color_a_foot_imper{
+        color: $color_azul;
+        text-decoration: none;
+    }
+
 }

@@ -55,7 +55,7 @@ $datos_contacto = [
 	"telefono_fijo" => [
 		"link"=> "0343229927",
 		"imprimir" => "+57 (4) 322 9927",
-		"icono" => "fas fa-phone-alt",
+		"icono" => "fas fa-phone",
 	],
 	"celular" => [
 		"link"=> "+573113548532",
@@ -81,7 +81,6 @@ $datos_contacto = [
 $logos_aliados = [
 	0 => "images/bernal_restrepo.png",
 	1 => "images/bien_raiz.png",
-	2 => "images/cosmovision.png",
 	3 => "images/cosmovision.png",
 	4 => "images/fabricas_unidas.png",
 	5 => "images/ideas_&_concretos.png",
