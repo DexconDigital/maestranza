@@ -284,6 +284,7 @@ p, span, b {
         -moz-transform: scale(1.12,1.12);
         -moz-transition-timing-function: ease-out;
         -moz-transition-duration: 100ms;
+        
 
       }
 
@@ -520,3 +521,16 @@ p, span, b {
     }
 
 }
+
+.subir {
+    display: none;
+    padding: 15px;
+    background-color: $color_azul_oscuro;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: -1px 1px 5px 1px #B58D10;
+    z-index: 2; }
