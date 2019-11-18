@@ -7635,7 +7635,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
-  padding-left: 3%; }
+  padding-left: 70px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "roboto"; }
@@ -7697,7 +7697,7 @@ p, span, b {
   text-decoration: none; }
 
 .logo {
-  width: 34%;
+  width: 44%;
   height: 0%;
   margin-top: -7%;
   padding: 1%; }
@@ -8038,8 +8038,61 @@ p, span, b {
     color: #0057A1;
     text-decoration: none; }
 
+.margen.contacto {
+  margin-right: 8%; }
+
 .contenedor_footer {
   margin-left: 3%; }
+
+.dropbtn {
+  background-color: #fff;
+  color: #000;
+  padding: 4px 0;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all ease; }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #c6a062;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 100%;
+  left: 0; }
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 22px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown-content a {
+  width: 100%; }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+.dropdown:hover .dropbtn {
+  background-color: #c6a062;
+  color: #fff; }
+
+.dropdown-content a:hover {
+  color: #fff;
+  background-color: #c6a062;
+  padding: 10px 22px;
+  line-height: 35px !important;
+  transition: 0.5s all ease; }
 
 .subir {
   display: none;
@@ -8168,6 +8221,17 @@ p, span, b {
     left: 0;
     right: 0;
     background-color: #101734ab; }
+  #arrendamientos .boton {
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word; }
   #arrendamientos .color_servicio {
     margin-top: -5%; }
 
@@ -8187,6 +8251,17 @@ p, span, b {
     text-align: left;
     list-style: none;
     margin-top: 3%; }
+  #contenido_arrendamientos .boton {
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word; }
 
 #ventas {
   background-image: url(../images/Gerencia\ comercial.jpg);
@@ -8223,6 +8298,17 @@ p, span, b {
     left: 0;
     right: 0;
     background-color: #101734ab; }
+  #administracion .boton {
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word; }
 
 #symil {
   background-image: url(../images/SAMYL.jpg);
@@ -8241,6 +8327,17 @@ p, span, b {
     left: 0;
     right: 0;
     background-color: #101734ab; }
+  #symil .boton {
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word; }
 
 #symil2 {
   padding: 6%; }
@@ -8275,6 +8372,17 @@ p, span, b {
     left: 0;
     right: 0;
     background-color: #101734ab; }
+  #corretaje .boton {
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word; }
 
 #Gerencia_Comercial {
   background-image: url(../images/Gerencia\ comercial.jpg);
@@ -8293,6 +8401,17 @@ p, span, b {
     left: 0;
     right: 0;
     background-color: #101734ab; }
+  #Gerencia_Comercial .boton {
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word; }
 
 #inmuebles {
   background-image: url(../images/propiedades.jpg);
@@ -8319,47 +8438,61 @@ p, span, b {
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 10%; }
+  #inmuebles .boton {
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word; }
 
-#buscador_inmuebles .linea_decoracion {
-  background: #002230;
-  margin-top: 12px;
-  padding: 4%;
-  color: white; }
-#buscador_inmuebles .tamaño_letra {
-  font-size: 19px; }
-#buscador_inmuebles .precio_inmueble {
-  position: absolute;
-  top: 178px;
-  font-size: 9px;
-  color: #ffffff;
-  text-align: center;
-  letter-spacing: 1.5px;
-  background-color: rgba(181, 141, 16, 0.66);
-  padding: 16px 45px 11px 45px;
-  margin-left: 0%; }
-#buscador_inmuebles .gestion_inmueble {
-  position: absolute;
-  top: 0px;
-  font-size: 9px;
-  color: #ffffff;
-  text-align: center;
-  letter-spacing: 1.5px;
-  background-color: rgba(181, 141, 16, 0.66);
-  padding: 12px 41px 11px 45px;
-  margin-left: 40%; }
-#buscador_inmuebles .card-body {
-  background-color: #002230; }
-#buscador_inmuebles .dorado {
-  color: #B58D10; }
-#buscador_inmuebles .color_palabras {
-  color: white; }
-#buscador_inmuebles .color_linea_divisora_Card {
-  border-top: 1px solid #eeeeee; }
-#buscador_inmuebles .info_inmueble {
-  display: flex;
-  list-style: none;
-  margin-left: -6%;
-  margin-right: -10%; }
+#buscador_inmuebles {
+  padding-bottom: 30%;
+  position: relative; }
+  #buscador_inmuebles .linea_decoracion {
+    background: #002230;
+    margin-top: 12px;
+    padding: 4%;
+    color: white; }
+  #buscador_inmuebles .tamaño_letra {
+    font-size: 19px; }
+  #buscador_inmuebles .precio_inmueble {
+    position: absolute;
+    top: 247px;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: rgba(181, 141, 16, 0.66);
+    padding: 16px 45px 11px 45px;
+    margin-left: 0%; }
+  #buscador_inmuebles .gestion_inmueble {
+    position: absolute;
+    top: 0px;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: rgba(181, 141, 16, 0.66);
+    padding: 12px 41px 11px 45px;
+    margin-left: 40%; }
+  #buscador_inmuebles .card-body {
+    background-color: #002230; }
+  #buscador_inmuebles .dorado {
+    color: #B58D10; }
+  #buscador_inmuebles .color_palabras {
+    color: white; }
+  #buscador_inmuebles .color_linea_divisora_Card {
+    border-top: 1px solid #eeeeee; }
+  #buscador_inmuebles .info_inmueble {
+    display: flex;
+    list-style: none;
+    margin-left: -6%;
+    margin-right: -10%; }
 
 #contacto .caja {
   padding-top: 7px;

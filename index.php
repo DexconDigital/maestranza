@@ -10,6 +10,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <link rel="stylesheet" href="./menu/bootstrap.css">
 <link rel="stylesheet" href="./menu/menu.css">
+
 <?php include 'layout/archivosheader.php'; ?>
 <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 
@@ -30,7 +31,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <div class="col-6">
                         <a href="index.php" class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
                     </div>
-                    <div class="p-4">
+                    <div class="col-5">
                         <form class="form-inline">
                             <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
                             <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
@@ -409,24 +410,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <div class="col-7 ">
                             <div class="cont_servi col-12 ">
                                 <div class="row">
-                                    <div class="col-5 border color_fichas border-dark cont_servi cont_servi cont_arrendamiento">
-                                        <a href="">
-                                            <div class="text-center">
-                                                <i class="cont_icono <?php echo $iconos_servicios['arrendamientos'] ?>"></i>
-                                            </div>
-                                            <h4 class="text-center text_servi">Arrendamientos</h4>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
-                                        <a href="venta.php">
-                                            <div class="text-center">
-                                                <i class="cont_icono <?php echo $iconos_servicios['ventas'] ?>"></i>
-                                            </div>
-                                            <h4 class="text-center text_servi">Ventas</h4>
-                                        </a>
-                                    </div>
-                                    <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
+                                   <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
                                         <a href="administracion.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['administracion'] ?>"></i>
@@ -707,6 +691,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     <!-- Bootstrap -->
     <script src="./menu/bootstrap.js.download"></script>
+    
     <!-- from slider -->
     <script src="./menu/menu.js.download"></script>
 

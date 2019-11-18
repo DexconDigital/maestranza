@@ -25,9 +25,24 @@
     text-align: center;
     margin-bottom: 10%;
     }
+
+    .boton{
+        padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    }
     
 }
 #buscador_inmuebles{
+    padding-bottom: 30%;
+    position: relative;
     .linea_decoracion{
         background: $color_azul_oscuro;
         margin-top: 12px;
@@ -39,7 +54,7 @@
         }
         .precio_inmueble {
             position: absolute;
-            top: 178px;
+            top: 247px;
             font-size: 9px;
             color: #ffffff;
             text-align: center;

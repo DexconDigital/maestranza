@@ -5,14 +5,19 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <?php include 'layout/archivosheader.php'; ?>
-    <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<?php include 'layout/archivosheader.php'; ?>
+<link rel="stylesheet" href="./menu/bootstrap.css">
+<link rel="stylesheet" href="./menu/menu.css">
+<title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
+<header class="webp-creative-header">
+
+    <?php include 'layout/menu.php' ?>
+
+</header>
 
 <body>
 
@@ -25,9 +30,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <a class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
                 </div>
                 <form class="form-inline">
-                    <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
+                    <a href="index.php" class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" type="submit">Contáctanos</button>
+                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0 boton" type="submit">Contáctanos</button>
                 </form>
             </nav>
             <div class="col-12 text-center titulo">
@@ -46,19 +51,19 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="row">
                     <div class="col-3 border ">
                         <img class="icono posicion_servi" src="images/limpieza-y-desinfección.png" alt="">
-                        <p class="text-justify parrafo_Servi"><?php echo $texto_servicios ['samyl'] ['parrafos'] ['limpieza'] [0]?></p>
+                        <p class="text-justify parrafo_Servi"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
                     </div>
                     <div class="col-3 border ">
                         <img class="icono" src="images/Mantenimiento.png" alt="">
-                        <p class="text-justify parrafo"><?php echo $texto_servicios ['samyl'] ['parrafos'] ['mantenimiento'] [0]?></p>
+                        <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['mantenimiento'][0] ?></p>
                     </div>
                     <div class="col-3 border ">
                         <img class="icono" src="images/facility-service.png" alt="">
-                        <p class="text-justify parrafo"><?php echo $texto_servicios ['samyl'] ['parrafos'] ['facility'] [0]?></p>
+                        <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['facility'][0] ?></p>
                     </div>
                     <div class="col-3 border ">
-                        <img class="icono"  src="images/Exteriores.png" alt="">
-                        <p class="text-justify parrafo"><?php echo $texto_servicios ['samyl'] ['parrafos'] ['exteriores'] [0]?></p>
+                        <img class="icono" src="images/Exteriores.png" alt="">
+                        <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
                     </div>
                 </div>
             </div>
@@ -74,6 +79,15 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <script>
     var pagina = 'servicios'
 </script>
+
+<!-- jQuery -->
+<script src="./menu/jquery.min.js.download"></script>
+
+<!-- Bootstrap -->
+<script src="./menu/bootstrap.js.download"></script>
+
+<!-- from slider -->
+<script src="./menu/menu.js.download"></script>
 
 <?php include('layout/archivosfooter.php'); ?>
 

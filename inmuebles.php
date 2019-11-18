@@ -32,7 +32,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <form class="form-inline">
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
+                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0 boton " onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
                 </form>
             </nav>
             <div class="col-12 text-center titulo">
@@ -42,51 +42,63 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     </section>
 
-    <section id="buscador_inmuebles">
+    <section id="buscador">
+        <div class="container">
+            <div class=" row col-12 cont_interno">
+                <div class="col-xl-3 col-md-4 col-12  margen_busca">
+                    <input type="text" class="form-control rounded-0" id="codigo_buscar" placeholder="Código">
+                </div>
 
+                <div class="col-xl-3 col-md-4 col-12  margen_busca">
+                    <select id="ciudad_buscar" class="form-control rounded-0">
+                        <option selected="" value="0">Ciudad</option>
+                    </select>
+                </div>
+                <div class="col-xl-3 col-md-4 col-12  margen_busca"><select id="barrio_buscar" class="form-control rounded-0">
+                        <option selected="" value="0">Barrio</option>
+                    </select>
+                </div>
+                <div class="col-xl-3 col-md-4 col-12  margen_busca"><select id="tipo_gestion_buscar" class="form-control rounded-0">
+                        <option selected="" value="0">Tipo de gestión</option>
+                    </select>
+                </div>
+                <div class="col-xl-3 col-md-4 col-12  margen_busca"><select id="tipo_inmueble_buscar" class="form-control rounded-0">
+                        <option selected="" value="0">Tipo de inmueble</option>
+                    </select>
+                </div>
+                <div class="col-xl-3 col-md-4 col-12  margen_busca">
+                    <input type="text" class="form-control rounded-0" id="" placeholder="Área Mínima">
+                </div>
+                <div class="col-xl-3 col-md-4 col-12  margen_busca">
+                    <input type="text" class="form-control rounded-0" id="" placeholder="Área Máxima">
+                </div>
+                <div class="col-xl-3 col-md-4 col-12  margen_busca">
+                    <input type="text" class="form-control rounded-0" id="" placeholder="Baños">
+                </div>
+
+                <div class="col-xl-3 col-md-4 col-12  margen_busca">
+                    <input type="text" class="form-control rounded-0" id="" placeholder="Alcobas">
+                </div>
+
+
+                <div class="col-xl-3 col-md-4 col-12  margen_busca">
+                    <input type="text" class="form-control rounded-0" id="codigo_buscar" placeholder="Garajes">
+                </div>
+
+
+                <div class="col-xl-3 col-md-4 col-12  margen_busca"><input type="text" class="form-control rounded-0" id="precio_minimo_buscar" onkeyup="format(this)" onchange="format(this)" placeholder=" Precio Mínimo"></div>
+                <div class="col-xl-3 col-md-4 col-12  margen_busca"><input type="text" class="form-control rounded-0" id="precio_maximo_buscar" onkeyup="format(this)" onchange="format(this)" placeholder=" Precio Máximo"></div>
+                <div class="col-xl-12 col-md-12 col-12 text-center margen_busca">
+                    <button type="button" class="btn rounded-0 col-9 boton_buscar boton_dorado posicion_buscar" id="buscar"><span>Buscar</span></button></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="buscador_inmuebles">
         <div class="col-12 p-5">
             <div class="row">
-                <div class="col-3 border">
-                    <p class="rounded-0 linea_decoracion text-center tamaño_letra">Buscador</p>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca">
-                        <input type="text" class="form-control rounded-0" id="codigo_buscar" placeholder="Código">
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca">
-                        <select id="ciudad_buscar" class="form-control rounded-0">
-                            <option selected="" value="0">Ciudad</option>
-                        </select>
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca"><select id="barrio_buscar" class="form-control rounded-0">
-                            <option selected="" value="0">Barrio</option>
-                        </select>
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca"><select id="tipo_gestion_buscar" class="form-control rounded-0">
-                            <option selected="" value="0">Tipo de gestión</option>
-                        </select>
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca"><select id="tipo_inmueble_buscar" class="form-control rounded-0">
-                            <option selected="" value="0">Tipo de inmueble</option>
-                        </select>
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca">
-                        <input type="text" class="form-control rounded-0" id="" placeholder="Área Mínima">
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca">
-                        <input type="text" class="form-control rounded-0" id="" placeholder="Área Máxima">
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca">
-                        <input type="text" class="form-control rounded-0" id="" placeholder="Baños">
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca">
-                        <input type="text" class="form-control rounded-0" id="" placeholder="Alcobas">
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca">
-                        <input type="text" class="form-control rounded-0" id="codigo_buscar" placeholder="Garajes">
-                    </div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca"><input type="text" class="form-control rounded-0" id="precio_minimo_buscar" onkeyup="format(this)" onchange="format(this)" placeholder=" Precio Mínimo"></div>
-                    <div class="col-xl-12 col-md-4 col-12  margen_busca"><input type="text" class="form-control rounded-0" id="precio_maximo_buscar" onkeyup="format(this)" onchange="format(this)" placeholder=" Precio Máximo"></div>
-                </div>
-                <div class="col-9">
+                <div class="col-12">
                     <div class="row">
                         <div class="col-4">
                             <div class="item" style="height: 180px;">
@@ -262,15 +274,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
-
-
-
 
     <section id="footer" class="fondo">
         <?php include 'layout/footer.php' ?>

@@ -1,4 +1,54 @@
-<!-- /Navigation BOC -->
+<!-- Codigo del preloader -->
+<style>
+    #wrap-preload {
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        opacity: 1;
+        visibility: visible;
+        transition: opacity .5s ease, visibility .5s ease;
+        z-index: 1032;
+    }
+
+    #wrap-preload.close {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    #wrap-preload>img.gif {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        z-index: 1032;
+        height: 15%;
+    }
+</style>
+<div id="wrap-preload">
+    <img src="images/preloader.gif" alt="gif" class="gif" id="gif">
+</div>
+<script>
+    var loader = document.getElementById("wrap-preload");
+    window.addEventListener("load", function() {
+        loader.style.visibility = "hidden";
+    });
+</script>
+<!-- Fin de codigo preloader -->
+
+
+<!--Menu -->
 <div class=" container yit-custom-nav-2 left-side-nav js-nav-active yit-custom-slide-left-nav">
 
 
@@ -19,11 +69,35 @@
                     <font style="vertical-align: inherit;">Quienes Somos</font>
                 </font>
             </a></li>
-        <li><a href="">
+        <li class="dropdown">
+            <div class="dropbtn">
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Nuestros servicios</font>
                 </font>
-            </a></li>
+            </div>
+            <div class="dropdown-content">
+                <a href="administracion.php">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Administración </font>
+                    </font>
+                </a>
+                <a href="samyl.php">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Samyl</font>
+                    </font>
+                </a>
+                <a href="corretaje.php">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Corretaje</font>
+                    </font>
+                </a>
+                <a href="gerencia_comercial.php">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Gerencia Comercial</font>
+                    </font>
+                </a>
+            </div>
+        </li>
         <li><a href="inmuebles.php">
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Propiedades</font>
@@ -44,7 +118,7 @@
                     <font style="vertical-align: inherit;">Consigna tu inmueble</font>
                 </font>
             </a></li>
-        <li><a href="">
+        <li><a href="contactanos.php">
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Contáctanos</font>
                 </font>

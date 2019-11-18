@@ -5,14 +5,20 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <?php include 'layout/archivosheader.php'; ?>
-    <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="./menu/bootstrap.css">
+<link rel="stylesheet" href="./menu/menu.css">
+<?php include 'layout/archivosheader.php'; ?>
+<title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
+<header class="webp-creative-header">
+
+    <?php include 'layout/menu.php' ?>
+
+</header>
+
 
 <body>
 
@@ -112,7 +118,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <script>
     var pagina = 'inicio'
 </script>
+<!-- jQuery -->
+<script src="./menu/jquery.min.js.download"></script>
 
+<!-- Bootstrap -->
+<script src="./menu/bootstrap.js.download"></script>
+<!-- from slider -->
+<script src="./menu/menu.js.download"></script>
 <?php include('layout/archivosfooter.php'); ?>
 
 </html>
