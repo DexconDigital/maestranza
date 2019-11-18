@@ -1,5 +1,5 @@
 <?php require 'variables/variables.php';
-$page = 'Detalle Asesor';
+$page = 'samyl';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <body>
 
-    <section id="arrendamientos">
+    <section id="symil">
         <div class="overlay">
         </div>
         <div class="container col-12">
@@ -37,27 +37,30 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     </section>
 
-    <section id="contenido_arrendamientos">
+    <section id="symil2">
         <div class="container">
             <div class="col-12 text-center mt-4">
-                <h2 class="color_servicio"><?php echo $texto_servicios['gerencia_comercial']['titulo'] ?></h2>
+                <h2 class="color_servicio"><?php echo $texto_servicios['samyl']['titulo'] ?></h2>
             </div>
             <div class="col-12 text-center mt-3">
-                <h4><?php echo $texto_servicios['gerencia_comercial']['etapas']['titulo'] ?></h4>
-                <ul class="lista">
-                    <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial']['etapas'][0] ?>
-                    </li>
-                    <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial']['etapas'][1] ?>
-                    </li>
-                    <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial']['etapas'][2] ?>
-                    </li>
-                    <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial']['etapas'][3] ?>
-                    </li>
-                </ul>
+                <div class="row">
+                    <div class="col-3 border ">
+                        <img class="icono posicion_servi" src="images/limpieza-y-desinfección.png" alt="">
+                        <p class="text-justify parrafo_Servi"><?php echo $texto_servicios ['samyl'] ['parrafos'] ['limpieza'] [0]?></p>
+                    </div>
+                    <div class="col-3 border ">
+                        <img class="icono" src="images/Mantenimiento.png" alt="">
+                        <p class="text-justify parrafo"><?php echo $texto_servicios ['samyl'] ['parrafos'] ['mantenimiento'] [0]?></p>
+                    </div>
+                    <div class="col-3 border ">
+                        <img class="icono" src="images/facility-service.png" alt="">
+                        <p class="text-justify parrafo"><?php echo $texto_servicios ['samyl'] ['parrafos'] ['facility'] [0]?></p>
+                    </div>
+                    <div class="col-3 border ">
+                        <img class="icono"  src="images/Exteriores.png" alt="">
+                        <p class="text-justify parrafo"><?php echo $texto_servicios ['samyl'] ['parrafos'] ['exteriores'] [0]?></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -65,11 +68,11 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <section id="footer" class="fondo">
         <?php include 'layout/footer.php' ?>
     </section>
-    
+
 </body>
 
 <script>
-    var pagina = 'inicio'
+    var pagina = 'servicios'
 </script>
 
 <?php include('layout/archivosfooter.php'); ?>

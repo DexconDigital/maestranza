@@ -1,5 +1,5 @@
 <?php require 'variables/variables.php';
-$page = 'Venta';
+$page = 'Administracion';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <body>
 
-    <section id="ventas">
+    <section id="administracion">
         <div class="overlay">
         </div>
         <div class="container col-12">
@@ -40,21 +40,39 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <section id="contenido_arrendamientos">
         <div class="container">
             <div class="col-12 text-center mt-4">
-                <h2 class="color_servicio"><?php echo $texto_servicios['gerencia_comercial']['ventajas']['titulo'] ?></h2>
+                <h2 class="color_servicio"><?php echo $texto_servicios['administracion']['titulo'] ?></h2>
             </div>
             <div class="col-12 text-center mt-3">
                 <ul class="lista">
                     <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial']['ventajas'][0] ?>
+                        <?php echo $texto_servicios['administracion']['parrafos'][0] ?>
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial'] ['ventajas'][1] ?>
+                        <?php echo $texto_servicios['administracion'] ['parrafos'][1] ?>
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial'] ['ventajas'][2] ?>
+                        <?php echo $texto_servicios['administracion'] ['parrafos'][2] ?>
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial'] ['ventajas'][3] ?>
+                        <?php echo $texto_servicios['administracion'] ['parrafos'][3] ?>
+                    </li>
+                    <li class="mb-1">
+                        <?php echo $texto_servicios['administracion']['parrafos'][4] ?>
+                    </li>
+                    <li class="mb-1">
+                        <?php echo $texto_servicios['administracion']['parrafos'][5] ?>
+                    </li>
+                    <li class="mb-1">
+                        <?php echo $texto_servicios['administracion']['parrafos'][6] ?>
+                    </li>
+                    <li class="mb-1">
+                        <?php echo $texto_servicios['administracion']['parrafos'][7] ?>
+                    </li>
+                    <li class="mb-1">
+                        <?php echo $texto_servicios['administracion']['parrafos'][8] ?>
+                    </li>
+                    <li class="mb-1">
+                        <?php echo $texto_servicios['administracion']['parrafos'][9] ?>
                     </li>
                 </ul>
             </div>

@@ -16,15 +16,16 @@
         right: 0;
         background-color: #101734ab;
     }
-    .titulo{
-        color: #e9ecef;
-    font-size: 48px;
-    font-weight: bold;
-    padding: 2%;
-    }
+    
     .color_servicio{
         margin-top: -5%;
     }
+}
+.titulo{
+    color: #e9ecef;
+font-size: 48px;
+font-weight: bold;
+padding: 2%;
 }
 #contenido_arrendamientos{
     padding: 7%;
@@ -39,3 +40,119 @@
         margin-top: 3%;
     }
 }
+#ventas{
+    background-image: url(../images/Gerencia\ comercial.jpg);
+    margin: 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #101734ab;
+    }
+}
+#administracion{
+    background-image: url(../images/administración\ de\ inmuebles.jpg);
+    margin: 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #101734ab;
+    }
+}
+#symil{
+    background-image: url(../images/SAMYL.jpg);
+    margin: 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #101734ab;
+    }
+    
+}
+#symil2{
+    padding: 6%;
+}
+.posicion_servi{
+    margin-top: -25%;
+}
+
+.parrafo_Servi{
+    margin-top: -12%;
+}
+    .parrafo{
+        margin-top: -37%;
+    }
+
+.icono{
+    width: 106%;
+    object-fit: none;
+    }
+
+    #corretaje{
+        background-image: url(../images/corretaje.jpg);
+        margin: 0px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        position: relative;
+        .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #101734ab;
+        }
+        
+    }
+    #Gerencia_Comercial{
+        background-image: url(../images/Gerencia\ comercial.jpg);
+        margin: 0px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        position: relative;
+        .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #101734ab;
+        }
+    }

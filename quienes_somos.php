@@ -27,7 +27,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <form class="form-inline">
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" type="submit">Contáctanos</button>
+                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
                 </form>
             </nav>
             <div class="col-12 text-center titulo">
@@ -171,7 +171,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 </body>
 
 <script>
-    var pagina = 'inicio'
+    var pagina = 'quienes_somos'
 </script>
 
 <?php include('layout/archivosfooter.php'); ?>

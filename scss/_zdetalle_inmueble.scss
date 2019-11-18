@@ -1,0 +1,92 @@
+#contacto{
+    .caja{
+    padding-top: 7px;
+    padding-bottom: 5px;
+    -webkit-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.1);
+    width: 486px;
+    position: relative;
+    margin: auto;
+    img{
+        object-fit: cover;
+    }
+    }
+    .caja_texto{
+    padding: 6%;
+    margin-top: -6%;
+    }
+    .div_condiciones{
+    padding: 7%;
+    margin-top: -10%;
+    }
+    .color_a_condiciones{
+        color: $color_azul;
+        &:hover{
+        color: $color_dorado;
+        }
+    }
+    .texto_compartir{
+    margin-top: 19px;
+    margin-left: -10%;
+    }
+    .color_comparit{
+        background-color: $color_azul_oscuro;
+        
+
+        &:hover{
+            background-color: $color_azul
+            
+        }
+        .color_blanco_url{
+            color: white;
+        }
+    }
+    .icon_foot{
+        font-size: 23px;
+        padding: 0px;
+    }
+    .container_icon_compartir{
+        margin-left: 2%;
+        margin-top: 2%;
+        padding: 0px;
+    }
+    .margen_iconos{
+        margin-top: 15px;
+        a{
+            color: $color_azul;
+            &:hover{
+                color: $color_dorado;
+            }
+        }
+    }
+    .property-single-detail-title{
+        border-bottom: 1px solid #cdcdcd;
+        padding-bottom: 11px;
+        margin-bottom: 30px;
+    }
+    .propiedades_similares {
+        
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: $color_dorado;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    }
+    .property{
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+   
+    .alto_img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+#cont_margen_total{
+    margin-top: 5%;
+}

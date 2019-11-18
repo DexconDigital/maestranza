@@ -1,5 +1,5 @@
 <?php require 'variables/variables.php';
-$page = 'Venta';
+$page = 'Corretaje';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <body>
 
-    <section id="ventas">
+    <section id="corretaje">
         <div class="overlay">
         </div>
         <div class="container col-12">
@@ -40,31 +40,34 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <section id="contenido_arrendamientos">
         <div class="container">
             <div class="col-12 text-center mt-4">
-                <h2 class="color_servicio"><?php echo $texto_servicios['gerencia_comercial']['ventajas']['titulo'] ?></h2>
+                <h2 class="color_servicio"><?php echo $texto_servicios['corretaje']['titulo'] ?></h2>
             </div>
             <div class="col-12 text-center mt-3">
                 <ul class="lista">
                     <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial']['ventajas'][0] ?>
+                        <?php echo $texto_servicios ['corretaje']['parrafos'][0] ?>
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial'] ['ventajas'][1] ?>
+                        <?php echo $texto_servicios ['corretaje']['parrafos'][1] ?>
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial'] ['ventajas'][2] ?>
+                        <?php echo $texto_servicios ['corretaje']['parrafos'][2] ?>
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['gerencia_comercial'] ['ventajas'][3] ?>
+                        <?php echo $texto_servicios ['corretaje']['parrafos'][3] ?>
+                    </li>
+                    <li class="mb-1">
+                        <?php echo $texto_servicios ['corretaje']['parrafos'][4] ?>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section id="footer" class="fondo">
+      <section id="footer" class="fondo">
         <?php include 'layout/footer.php' ?>
     </section>
-    
+
 </body>
 
 <script>

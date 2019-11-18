@@ -14,6 +14,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 </head>
 
 <body>
+
     <div id="contenedor" class="container-fluid body">
 
         <section id="nav">
@@ -25,17 +26,15 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <form class="form-inline">
                         <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
                         <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                        <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" type="submit">Contáctanos</button>
+                        <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
                     </form>
                 </nav>
             </div>
         </section>
 
         <section id="hero" class="margen_slider">
-            <!--Carousel Wrapper-->
-            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
 
-                <!--Slides-->
+            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="view container_movil">
@@ -47,7 +46,6 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <!--Mask color-->
                         <div class="view  container_movil">
                             <img class="d-block w-100" id="style_slider_img" src="images/ciudad-3.jpg" alt="Second slide">
                             <div class="mask rgba-black-light waves-light"></div>
@@ -58,7 +56,6 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <!--Mask color-->
                         <div class="view  container_movil">
                             <img class="d-block w-100" id="style_slider_img" src="images/Manchester Render.jpg" alt="Third slide">
                             <div class="mask rgba-black-light waves-light"></div>
@@ -94,7 +91,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="container">
                 <div class=" row col-12 cont_interno">
                     <div class="col-xl-3 col-md-4 col-12  margen_busca">
-                        <input type="text" class="form-control rounded-0" id="codigo_buscar" placeholder="Código"></div>
+                        <input type="text" class="form-control rounded-0" id="codigo_buscar" placeholder="Código">
+                    </div>
 
                     <div class="col-xl-3 col-md-4 col-12  margen_busca">
                         <select id="ciudad_buscar" class="form-control rounded-0">
@@ -123,7 +121,6 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <input type="text" class="form-control rounded-0" id="" placeholder="Baños">
                     </div>
 
-
                     <div class="col-xl-3 col-md-4 col-12  margen_busca">
                         <input type="text" class="form-control rounded-0" id="" placeholder="Alcobas">
                     </div>
@@ -136,7 +133,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                     <div class="col-xl-3 col-md-4 col-12  margen_busca"><input type="text" class="form-control rounded-0" id="precio_minimo_buscar" onkeyup="format(this)" onchange="format(this)" placeholder=" Precio Mínimo"></div>
                     <div class="col-xl-3 col-md-4 col-12  margen_busca"><input type="text" class="form-control rounded-0" id="precio_maximo_buscar" onkeyup="format(this)" onchange="format(this)" placeholder=" Precio Máximo"></div>
-                    <div class="col-xl-12 col-md-12 col-12  margen_busca">
+                    <div class="col-xl-12 col-md-12 col-12 text-center margen_busca">
                         <button type="button" class="btn rounded-0 col-9 boton_buscar boton_dorado posicion_buscar" id="buscar"><span>Buscar</span></button></div>
 
                 </div>
@@ -167,7 +164,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <div class="owl-carousel owl-theme" id="aliados_slide">
                                 <div class="item" style="height: 180px;">
                                     <div class="card">
-                                        <a href="./detalle_inmueble.php?co=90">
+                                        <a href="./detalle_inmueble.php">
                                             <img src="images/no_image.png" class="card-img-top" alt="...">
                                         </a>
                                         <span class="precio_inmueble">$950,000,000</span>
@@ -223,7 +220,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 </div>
                                 <div class="item" style="height: 180px;">
                                     <div class="card">
-                                        <a href="./detalle_inmueble.php?co=90">
+                                        <a href="./detalle_inmueble.php">
                                             <img src="images/no_image.png" class="card-img-top" alt="...">
                                         </a>
                                         <span class="precio_inmueble">$950,000,000</span>
@@ -279,7 +276,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 </div>
                                 <div class="item" style="height: 180px;">
                                     <div class="card">
-                                        <a href="./detalle_inmueble.php?co=90">
+                                        <a href="./detalle_inmueble.php">
                                             <img src="images/no_image.png" class="card-img-top" alt="...">
                                         </a>
                                         <span class="precio_inmueble">$950,000,000</span>
@@ -412,7 +409,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <div class="cont_servi col-12 ">
                                 <div class="row">
                                     <div class="col-5 border color_fichas border-dark cont_servi cont_servi cont_arrendamiento">
-                                        <a href="arrendamientos.php">
+                                        <a href="">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['arrendamientos'] ?>"></i>
                                             </div>
@@ -421,7 +418,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     </div>
 
                                     <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
-                                        <a href="ventas.php">
+                                        <a href="venta.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['ventas'] ?>"></i>
                                             </div>
@@ -429,28 +426,36 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                         </a>
                                     </div>
                                     <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
-                                        <div class="text-center">
-                                            <i class="cont_icono <?php echo $iconos_servicios['administracion'] ?>"></i>
-                                        </div>
-                                        <h4 class="text-center text_servi">Administración</h4>
+                                        <a href="administracion.php">
+                                            <div class="text-center">
+                                                <i class="cont_icono <?php echo $iconos_servicios['administracion'] ?>"></i>
+                                            </div>
+                                            <h4 class="text-center text_servi">Administración</h4>
+                                        </a>
                                     </div>
                                     <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
-                                        <div class="text-center">
-                                            <i class="cont_icono <?php echo $iconos_servicios['samyl'] ?>"></i>
-                                        </div>
-                                        <h4 class="text-center text_servi">Samyl</h4>
+                                        <a href="samyl.php">
+                                            <div class="text-center">
+                                                <i class="cont_icono <?php echo $iconos_servicios['samyl'] ?>"></i>
+                                            </div>
+                                            <h4 class="text-center text_servi">Samyl</h4>
+                                        </a>
                                     </div>
                                     <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
-                                        <div class="text-center">
-                                            <i class="cont_icono <?php echo $iconos_servicios['corretaje'] ?>"></i>
-                                        </div>
-                                        <h4 class="text-center text_servi">Corretaje</h4>
+                                        <a href="corretaje.php">
+                                            <div class="text-center">
+                                                <i class="cont_icono <?php echo $iconos_servicios['corretaje'] ?>"></i>
+                                            </div>
+                                            <h4 class="text-center text_servi">Corretaje</h4>
+                                        </a>
                                     </div>
                                     <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
-                                        <div class="text-center">
-                                            <i class="cont_icono <?php echo $iconos_servicios['gerencia_comercial'] ?>"></i>
-                                        </div>
-                                        <h4 class="text-center text_servi">Gerencia Comercial</h4>
+                                        <a href="gerencia_comercial.php">
+                                            <div class="text-center">
+                                                <i class="cont_icono <?php echo $iconos_servicios['gerencia_comercial'] ?>"></i>
+                                            </div>
+                                            <h4 class="text-center text_servi">Gerencia Comercial</h4>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -497,7 +502,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         </section>
 
         <div class="col-12">
-            <h2 class="text-center titulo">
+            <h2 class="text-center titulo_Servi">
                 Formularios aseguradoras
             </h2>
         </div>
@@ -691,13 +696,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <section id="footer" class="fondo">
             <?php include 'layout/footer.php' ?>
         </section>
+    </div>
 
+    <script>
+        var pagina = 'inicio'
+    </script>
 
-        <script>
-            var pagina = 'inicio'
-        </script>
-
-        <?php include('layout/archivosfooter.php'); ?>
+    <?php include('layout/archivosfooter.php'); ?>
 
 
 </body>
