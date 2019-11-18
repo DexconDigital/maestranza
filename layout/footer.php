@@ -1,7 +1,7 @@
 <i class="fas fa-angle-double-up subir"></i>
     <footer>
         <div class="">
-            <div class="col-12 ">
+            <div class=" container col-11 ">
                 <div class="row">
                     <div class="col-4  text-center">
                         <img class="logo_footer" src="images/isotipo-4.png" alt="">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom-area d-flex justify-content-between col-12 mt-4">
+        <div class="footer-bottom-area d-flex justify-content-between col-12 mt-4 contenedor_footer">
             <div class="container col-9">
                 <p class="copy_style"> Diseñado y Desarrollado por <a class="color_a_foot_imper" target="blanck" href="https://www.dexcondigital.com">Dexcon Digital </a>©Copyright 2019 para Inmobiliaria Maestranza. Todos los derechos reservados.</p>
             </div>

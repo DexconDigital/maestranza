@@ -7634,7 +7634,8 @@ body {
   flex-direction: column;
   overflow-x: hidden;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  padding-left: 3%; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "roboto"; }
@@ -8036,6 +8037,9 @@ p, span, b {
   #footer .color_a_foot_imper {
     color: #0057A1;
     text-decoration: none; }
+
+.contenedor_footer {
+  margin-left: 3%; }
 
 .subir {
   display: none;

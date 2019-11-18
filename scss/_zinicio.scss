@@ -10,6 +10,7 @@ body{
         overflow-x:hidden;
         padding: 0;
         margin: 0;
+        padding-left: 3%;
         
     }
 
@@ -526,6 +527,12 @@ p, span, b {
     }
 
 }
+
+.contenedor_footer{
+    margin-left: 3%;
+}
+
+
 
 .subir {
     display: none;

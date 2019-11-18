@@ -1,18 +1,23 @@
 <?php require 'variables/variables.php';
-$page = 'Detalle Asesor';
+$page = 'Quienes Somos';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <?php include 'layout/archivosheader.php'; ?>
-    <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="./menu/bootstrap.css">
+<link rel="stylesheet" href="./menu/menu.css">
+<?php include 'layout/archivosheader.php'; ?>
+<title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 
-</head>
+<header class="webp-creative-header">
+
+    <?php include 'layout/menu.php' ?>
+
+</header>
 
 <body>
 
@@ -22,7 +27,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <div class="container col-12">
             <nav class="navbar navbar-light">
                 <div class="col-6">
-                    <a class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
+                    <a href="index.php" class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
                 </div>
                 <form class="form-inline">
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
@@ -173,7 +178,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <script>
     var pagina = 'quienes_somos'
 </script>
+<!-- jQuery -->
+<script src="./menu/jquery.min.js.download"></script>
 
+<!-- Bootstrap -->
+<script src="./menu/bootstrap.js.download"></script>
+<!-- from slider -->
+<script src="./menu/menu.js.download"></script>
 <?php include('layout/archivosfooter.php'); ?>
 
 </html>
