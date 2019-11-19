@@ -28,10 +28,10 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <div class="container col-12">
             <nav class="navbar navbar-light">
                 <div class="col-6">
-                    <a class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
+                    <a href="index.php" class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
                 </div>
                 <form class="form-inline">
-                    <a href="index.php" class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
+                    <a  class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
                     <button class="btn  my-2 my-sm-0 boton_dorado rounded-0 boton" onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
                 </form>
@@ -51,19 +51,24 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="col-12 text-center mt-3">
                 <ul class="lista">
                     <li class="mb-1">
-                        <?php echo $texto_servicios['corretaje']['parrafos'][0] ?>
+                        <p><?php echo $texto_servicios['corretaje']['parrafos'][0] ?></p>
+                        
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['corretaje']['parrafos'][1] ?>
+                        <p><?php echo $texto_servicios['corretaje']['parrafos'][1] ?></p>
+                        
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['corretaje']['parrafos'][2] ?>
+                        <p> <?php echo $texto_servicios['corretaje']['parrafos'][2] ?></p>
+                       
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['corretaje']['parrafos'][3] ?>
+                        <p><?php echo $texto_servicios['corretaje']['parrafos'][3] ?></p>
+                        
                     </li>
                     <li class="mb-1">
-                        <?php echo $texto_servicios['corretaje']['parrafos'][4] ?>
+                        <p>  <?php echo $texto_servicios['corretaje']['parrafos'][4] ?></p>
+                      
                     </li>
                 </ul>
             </div>

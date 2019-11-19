@@ -27,7 +27,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <div class="container col-12">
             <nav class="navbar navbar-light">
                 <div class="col-6">
-                    <a class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
+                    <a href="index.php" class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
                 </div>
                 <form class="form-inline">
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
@@ -36,7 +36,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 </form>
             </nav>
             <div class="col-12 text-center titulo">
-                <h2>Propiedades</h2>
+                <h2 class="tit">Propiedades</h2>
             </div>
         </div>
 
@@ -295,7 +295,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <script src="./menu/jquery.min.js.download"></script>
 
 <!-- Bootstrap -->
-<script src="./menu/bootstrap.js.download"></script>
+
 <!-- from slider -->
 <script src="./menu/menu.js.download"></script>
 

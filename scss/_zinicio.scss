@@ -248,7 +248,7 @@ p, span, b {
         margin: 3%;
     }
     .titulo_cont_servi{
-        margin-top: 24%;
+        margin-top: 14%;
         
     }
     .overlay{
@@ -589,6 +589,15 @@ p, span, b {
     padding: 10px 22px;
     line-height: 35px !important;
     transition: 0.5s all ease;
+}
+.cont_botton{
+    margin-top: -200%;
+}
+.dimencion_boton_pse{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    padding-top: 218%;
 }
 
 

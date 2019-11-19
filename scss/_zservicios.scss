@@ -49,9 +49,29 @@ padding: 2%;
     }
     .lista{
         text-align: left;
-        list-style: none;
-        margin-top: 3%;
+    margin-top: 3%;
+    li{
+        color: $color_dorado;
     }
+    p{
+        color: $color_azul_oscuro;
+    }
+    
+}
+.lista2{
+    text-align: left;
+margin-top: 3%;
+list-style: none;
+li{
+    color: $color_dorado;
+    span{
+        color: $color_dorado;
+    }
+}
+p{
+    color: $color_azul_oscuro;
+}
+}
     .boton{
         padding: .84rem 2.14rem;
     font-size: .81rem;
@@ -229,3 +249,45 @@ padding: 2%;
         word-wrap: break-word;
         }
     }
+    
+    #proyecto{
+        background-image: url(../images/proyectos_nuevos.jpg);
+    margin: 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #101734ab;
+    }
+    .boton{
+        padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    }
+    
+
+    
+}
+.tit{
+    font-family: "roboto";
+    
+}
+.cuerpo_proyecto{
+    padding: 10%;
+}

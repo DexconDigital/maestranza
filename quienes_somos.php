@@ -36,7 +36,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 </form>
             </nav>
             <div class="col-12 text-center titulo">
-                <h2>Quienes somos</h2>
+                <h2>Quíenes Somos</h2>
             </div>
         </div>
 

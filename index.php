@@ -149,7 +149,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="col-12 contenedor_parrafo">
                 <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][0] ?></p>
                 <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][1] ?></p>
-                <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" id="buscar"><span>Ver más</span></button>
+                <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" onclick=" location.href='quienes_somos.php' " id="buscar"><span>Ver más</span></button>
             </div>
         </section>
 

@@ -7833,7 +7833,7 @@ p, span, b {
   #servicios .cont_ventas {
     margin: 3%; }
   #servicios .titulo_cont_servi {
-    margin-top: 24%; }
+    margin-top: 14%; }
   #servicios .overlay {
     position: absolute;
     width: 100%;
@@ -8094,6 +8094,15 @@ p, span, b {
   line-height: 35px !important;
   transition: 0.5s all ease; }
 
+.cont_botton {
+  margin-top: -200%; }
+
+.dimencion_boton_pse {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  padding-top: 218%; }
+
 .subir {
   display: none;
   padding: 15px;
@@ -8249,8 +8258,21 @@ p, span, b {
     font-weight: bold; }
   #contenido_arrendamientos .lista {
     text-align: left;
-    list-style: none;
     margin-top: 3%; }
+    #contenido_arrendamientos .lista li {
+      color: #B58D10; }
+    #contenido_arrendamientos .lista p {
+      color: #002230; }
+  #contenido_arrendamientos .lista2 {
+    text-align: left;
+    margin-top: 3%;
+    list-style: none; }
+    #contenido_arrendamientos .lista2 li {
+      color: #B58D10; }
+      #contenido_arrendamientos .lista2 li span {
+        color: #B58D10; }
+    #contenido_arrendamientos .lista2 p {
+      color: #002230; }
   #contenido_arrendamientos .boton {
     padding: .84rem 2.14rem;
     font-size: .81rem;
@@ -8413,6 +8435,41 @@ p, span, b {
     white-space: normal;
     word-wrap: break-word; }
 
+#proyecto {
+  background-image: url(../images/proyectos_nuevos.jpg);
+  margin: 0px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative; }
+  #proyecto .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #101734ab; }
+  #proyecto .boton {
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word; }
+
+.tit {
+  font-family: "roboto"; }
+
+.cuerpo_proyecto {
+  padding: 10%; }
+
 #inmuebles {
   background-image: url(../images/propiedades.jpg);
   margin: 0px;
@@ -8462,7 +8519,7 @@ p, span, b {
     font-size: 19px; }
   #buscador_inmuebles .precio_inmueble {
     position: absolute;
-    top: 247px;
+    top: 240px;
     font-size: 9px;
     color: #ffffff;
     text-align: center;
@@ -8646,7 +8703,7 @@ p, span, b {
   height: 100%; }
 
 #blog {
-  background-image: url(../images/proyectos\ nuevos.jpg);
+  background-image: url(../images/proyectos_nuevos.jpg);
   margin: 0px;
   background-position: center center;
   background-size: cover;
@@ -8670,6 +8727,20 @@ p, span, b {
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 10%; }
+  #blog .boton {
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word; }
+
+.tit {
+  font-family: "roboto"; }
 
 .imagen_card {
   object-fit: cover;

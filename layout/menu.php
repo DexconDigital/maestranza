@@ -66,13 +66,13 @@
             </a></li>
         <li><a href="quienes_somos.php">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Quienes Somos</font>
+                    <font style="vertical-align: inherit;">Quíenes Somos</font>
                 </font>
             </a></li>
         <li class="dropdown">
             <div class="dropbtn">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Nuestros servicios</font>
+                    <font style="vertical-align: inherit;">Nuestros Servicios</font>
                 </font>
             </div>
             <div class="dropdown-content">
@@ -103,26 +103,57 @@
                     <font style="vertical-align: inherit;">Propiedades</font>
                 </font>
             </a></li>
-        <li><a href="">
+        <li>
+            <a href="proyecto.php">
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Proyectos</font>
                 </font>
-            </a></li>
+            </a>
+        </li>
+        <li class="dropdown">
+            <div class="dropbtn">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Transacciones en Línea</font>
+                </font>
+            </div>
+            <div class="dropdown-content">
+                <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="blanck">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Arrendatarios</font>
+                    </font>
+                </a>
+                <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="blanck">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Propietarios</font>
+                    </font>
+                </a>
+                <a href="corretaje.php">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Pagos PSE</font>
+                    </font>
+                </a>
+
+            </div>
+        </li>
         <li><a href="">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Transaccion en Linea</font>
+                    <font style="vertical-align: inherit;">Consigna tu Inmueble</font>
                 </font>
             </a></li>
-        <li><a href="">
-                <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Consigna tu inmueble</font>
-                </font>
-            </a></li>
-        <li><a href="contactanos.php">
+        <li>
+            <a href="contactanos.php">
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Contáctanos</font>
                 </font>
-            </a></li>
+            </a>
+        </li>
+        <li>
+            <a href="blog.php">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Blog</font>
+                </font>
+            </a>
+        </li>
     </ul>
 
 
@@ -134,6 +165,13 @@
             <li><a href="<?php echo $redes_sociales['linkedin']['link'] ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
             <li><a href="<?php echo $redes_sociales['youtube']['link'] ?>" target="_blank"><i class="fab fa-youtube"></i></a></li>
             <li><a href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <a href="index.php"> <img class="dimencion_boton_pse" src="images/logopse.png" alt=""> </a>
         </ul>
     </div>
+    <!-- /Logo BOC -->
+    <div class="cont_botton yit-social2">
+
+    </div>
+
+    <!-- /Logo EOC -->
 </div>

@@ -1119,7 +1119,8 @@ header.webp-creative-header {
     z-index: 99999;
 }
 .yit-social ul{
-	padding:0;
+    padding:0;
+    margin-top: 158%;
 }
 a.nav-toggle-bar {
     float: left;

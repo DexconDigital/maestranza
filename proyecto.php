@@ -1,17 +1,16 @@
 <?php require 'variables/variables.php';
-$page = 'Gerencia Comercial';
+$page = 'Quienes Somos';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<?php include 'layout/archivosheader.php'; ?>
 <link rel="stylesheet" href="./menu/bootstrap.css">
 <link rel="stylesheet" href="./menu/menu.css">
+<?php include 'layout/archivosheader.php'; ?>
 <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 
 <header class="webp-creative-header">
@@ -22,7 +21,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <body>
 
-    <section id="arrendamientos">
+    <section id="proyecto">
         <div class="overlay">
         </div>
         <div class="container col-12">
@@ -33,43 +32,21 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <form class="form-inline">
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0 boton " onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
+                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
                 </form>
             </nav>
             <div class="col-12 text-center titulo">
-                <h2 class="color_servicio">Servicios</h2>
+                <h2>Proyectos</h2>
             </div>
         </div>
 
     </section>
 
-    <section id="contenido_arrendamientos">
-        <div class="container">
-            <div class="col-12 text-center mt-4">
-                <h2 class="color_servicio"><?php echo $texto_servicios['gerencia_comercial']['titulo'] ?></h2>
-            </div>
-            <div class="col-12 text-center mt-3">
-                <h4><?php echo $texto_servicios['gerencia_comercial']['etapas']['titulo'] ?></h4>
-                <ul class="lista2">
-                    <li class="mb-1">
-                        <p><span>1. </span><?php echo $texto_servicios['gerencia_comercial']['etapas'][0] ?></p>
-                       
-                    </li>
-                    <li class="mb-1">
-                        <p><span>2. </span><?php echo $texto_servicios['gerencia_comercial']['etapas'][1] ?></p>
-                        
-                    </li>
-                    <li class="mb-1">
-                        <p><span>3. </span> <?php echo $texto_servicios['gerencia_comercial']['etapas'][2] ?></p>
-                       
-                    </li>
-                    <li class="mb-1">
-                        <p><span>4. </span> <?php echo $texto_servicios['gerencia_comercial']['etapas'][3] ?></p>
-                       
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <section id="" class="text-center">
+       <div class="cuerpo_proyecto">
+
+       </div>
+
     </section>
 
     <section id="footer" class="fondo">
@@ -79,18 +56,15 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 </body>
 
 <script>
-    var pagina = 'servicios'
+    var pagina = 'Proyecto'
 </script>
 <!-- jQuery -->
 <script src="./menu/jquery.min.js.download"></script>
 
 <!-- Bootstrap -->
 <script src="./menu/bootstrap.js.download"></script>
-
 <!-- from slider -->
 <script src="./menu/menu.js.download"></script>
-
-
 <?php include('layout/archivosfooter.php'); ?>
 
 </html>
