@@ -1,7 +1,7 @@
 <?php require 'variables/variables.php';
 $page = 'Inicio';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
-
+<?php require 'controllers/indexController.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <meta charset="UTF-8">
@@ -16,7 +16,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <header class="webp-creative-header">
 
-<?php include 'layout/menu.php' ?> 
+    <?php include 'layout/menu.php' ?>
 
 </header>
 
@@ -164,7 +164,15 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                         <div class="col-8">
                             <div class="owl-carousel owl-theme" id="aliados_slide">
-                                <div class="item" style="height: 180px;">
+
+                                <?php
+                                if (is_array($api)) {
+                                    inmuebles_destacados($api);
+                                } else {
+                                    echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
+                                }
+                                ?>
+                                <!-- <div class="item" style="height: 180px;">
                                     <div class="card">
                                         <a href="./detalle_inmueble.php">
                                             <img src="images/no_image.png" class="card-img-top" alt="...">
@@ -387,7 +395,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
@@ -410,7 +418,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <div class="col-7 ">
                             <div class="cont_servi col-12 ">
                                 <div class="row">
-                                   <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
+                                    <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
                                         <a href="administracion.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['administracion'] ?>"></i>
@@ -691,7 +699,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     <!-- Bootstrap -->
     <script src="./menu/bootstrap.js.download"></script>
-    
+
     <!-- from slider -->
     <script src="./menu/menu.js.download"></script>
 

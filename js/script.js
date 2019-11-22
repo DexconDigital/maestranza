@@ -20,8 +20,8 @@ $(document).ready(function() {
     $('#aliados_slide').owlCarousel({
         loop: true,
         margin: 10,
-        autoplay: 100,
-        autoplayHoverPause: false,   
+     //   autoplay: 100,
+      //  autoplayHoverPause: false,   
         nav: false,
         responsive: {
             0: {
@@ -39,8 +39,8 @@ $(document).ready(function() {
     $('#aliados2').owlCarousel({
         loop: true,
         margin: 10,
-        autoplay: 100,
-        autoplayHoverPause: false, 
+    //    autoplay: 100,
+    //    autoplayHoverPause: false, 
         nav: false,
         responsive: {
             0: {
@@ -58,8 +58,8 @@ $(document).ready(function() {
     $('#aliados_slide1').owlCarousel({
         loop: true,
         margin: 10,
-        autoplay: true,
-        autoplayTimeout: 2000,
+      //  autoplay: true,
+       // autoplayTimeout: 2000,
         nav: false,
         responsive: {
             0: {
