@@ -1,7 +1,7 @@
 <?php require 'variables/variables.php';
+//require 'controllers/indexController.php';
 $page = 'Inicio';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
-<?php require 'controllers/indexController.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <meta charset="UTF-8">
@@ -26,13 +26,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <div id="contenedor" class="container-fluid body">
 
         <section id="nav">
-            <div class="container col-12">
+            <div class="container col-12 ">
                 <nav class="navbar navbar-light">
-                    <div class="col-6">
-                        <a href="index.php" class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
+                    <div class="col-5">
+                        <a href="index.php" class="navbar-brand contenedor_imagen"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
                     </div>
                     <div class="col-5">
-                        <form class="form-inline">
+                        <form class="form-inline espacio_contacto">
                             <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
                             <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
                             <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
@@ -165,238 +165,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <div class="col-8">
                             <div class="owl-carousel owl-theme" id="aliados_slide">
 
-                                <?php
-                                if (is_array($api)) {
-                                    inmuebles_destacados($api);
-                                } else {
-                                    echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
-                                }
-                                ?>
-                                <!-- <div class="item" style="height: 180px;">
-                                    <div class="card">
-                                        <a href="./detalle_inmueble.php">
-                                            <img src="images/no_image.png" class="card-img-top" alt="...">
-                                        </a>
-                                        <span class="precio_inmueble">$950,000,000</span>
-                                        <span class="gestion_inmueble">Apartamento en Venta</span>
-                                        <div class="card-body">
-                                            <div class="col-md-12 row">
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <i class="fas fa-map-marker-alt mr-2 dorado">
-                                                            <b class="color_palabras">Ubicación</b>
-                                                        </i>
-                                                    </p>
-                                                </div>
-
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <b class="color_palabras">Código: 90</b>
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <a href="" class="btn rounded-0 col-9 boton_cards contenedor_bot_card"><span>Ver Más</span></a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <hr class="color_linea_divisora_Card">
-                                            <div class="col-md-12 row ">
-
-                                                <ul class="info_inmueble mt-3">
-                                                    <li class="container_li">
-                                                        <i class="fas fa-chart-area icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">146m<sup>2</sup></b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fas fa-bath icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras"> 4</b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fa fa-bed icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">3</b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fa fa-car icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">3</b>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item" style="height: 180px;">
-                                    <div class="card">
-                                        <a href="./detalle_inmueble.php">
-                                            <img src="images/no_image.png" class="card-img-top" alt="...">
-                                        </a>
-                                        <span class="precio_inmueble">$950,000,000</span>
-                                        <span class="gestion_inmueble">Apartamento en Venta</span>
-                                        <div class="card-body">
-                                            <div class="col-md-12 row">
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <i class="fas fa-map-marker-alt mr-2 dorado">
-                                                            <b class="color_palabras">Ubicación</b>
-                                                        </i>
-                                                    </p>
-                                                </div>
-
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <b class="color_palabras">Código: 90</b>
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <a href="" class="btn rounded-0 col-9 boton_cards contenedor_bot_card"><span>Ver Más</span></a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <hr class="color_linea_divisora_Card">
-                                            <div class="col-md-12 row ">
-
-                                                <ul class="info_inmueble mt-3">
-                                                    <li class="container_li">
-                                                        <i class="fas fa-chart-area icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">146m<sup>2</sup></b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fas fa-bath icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras"> 4</b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fa fa-bed icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">3</b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fa fa-car icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">3</b>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item" style="height: 180px;">
-                                    <div class="card">
-                                        <a href="./detalle_inmueble.php">
-                                            <img src="images/no_image.png" class="card-img-top" alt="...">
-                                        </a>
-                                        <span class="precio_inmueble">$950,000,000</span>
-                                        <span class="gestion_inmueble">Apartamento en Venta</span>
-                                        <div class="card-body">
-                                            <div class="col-md-12 row">
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <i class="fas fa-map-marker-alt mr-2 dorado">
-                                                            <b class="color_palabras">Ubicación</b>
-                                                        </i>
-                                                    </p>
-                                                </div>
-
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <b class="color_palabras">Código: 90</b>
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <a href="" class="btn rounded-0 col-9 boton_cards contenedor_bot_card"><span>Ver Más</span></a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <hr class="color_linea_divisora_Card">
-                                            <div class="col-md-12 row ">
-
-                                                <ul class="info_inmueble mt-3">
-                                                    <li class="container_li">
-                                                        <i class="fas fa-chart-area icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">146m<sup>2</sup></b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fas fa-bath icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras"> 4</b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fa fa-bed icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">3</b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fa fa-car icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">3</b>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item" style="height: 180px;">
-                                    <div class="card">
-                                        <a href="./detalle_inmueble.php?co=90">
-                                            <img src="images/no_image.png" class="card-img-top" alt="...">
-                                        </a>
-                                        <span class="precio_inmueble">$950,000,000</span>
-                                        <span class="gestion_inmueble">Apartamento en Venta</span>
-                                        <div class="card-body">
-                                            <div class="col-md-12 row">
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <i class="fas fa-map-marker-alt mr-2 dorado">
-                                                            <b class="color_palabras">Ubicación</b>
-                                                        </i>
-                                                    </p>
-                                                </div>
-
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <b class="color_palabras">Código: 90</b>
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <p class="mb-1">
-                                                        <a href="" class="btn rounded-0 col-9 boton_cards contenedor_bot_card"><span>Ver Más</span></a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <hr class="color_linea_divisora_Card">
-                                            <div class="col-md-12 row ">
-
-                                                <ul class="info_inmueble mt-3">
-                                                    <li class="container_li">
-                                                        <i class="fas fa-chart-area icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">146m<sup>2</sup></b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fas fa-bath icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras"> 4</b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fa fa-bed icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">3</b>
-
-                                                    </li>
-                                                    <li class="container_li">
-                                                        <i class="fa fa-car icono_inmueble mr-1 dorado"></i>
-                                                        <b class="color_palabras">3</b>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-
+                                <!-- <?php
+                                        if (is_array($api)) {
+                                            inmuebles_destacados($api);
+                                        } else {
+                                            echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
+                                        }
+                                        ?> -->
                             </div>
                         </div>
                     </div>
@@ -677,7 +452,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <div class="col-1"></div>
                         <div class="col-1"></div>
                         <div class="col-3">
-                            <a href="" class="btn color_btn rounded-0" data-toggle="modal" data-target="#consigna">Consignar Inmueble</a>
+                            <a  class="btn color_btn rounded-0" data-toggle="modal" data-target="#exampleModal">Consignar Inmueble</a>
                         </div>
                         <div class="col-1"></div>
                     </div>
@@ -694,6 +469,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <script>
         var pagina = 'inicio'
     </script>
+
     <!-- jQuery -->
     <script src="./menu/jquery.min.js.download"></script>
 

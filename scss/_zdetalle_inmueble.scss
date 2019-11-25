@@ -17,7 +17,7 @@
     margin-top: -6%;
     }
     .div_condiciones{
-    padding: 7%;
+    padding: 3%;
     margin-top: -10%;
     }
     .color_a_condiciones{
@@ -82,11 +82,19 @@
     }
    
     .alto_img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
     }
 }
 #cont_margen_total{
     margin-top: 5%;
+}
+.color_asesor{
+    color: $color_azul;
+    text-decoration: none;
+    &:hover{
+        color: $color_azul_oscuro;
+        text-decoration: none;
+    }
 }

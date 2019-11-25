@@ -4101,7 +4101,7 @@ a.close.disabled {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 4;
   width: 100vw;
   height: 100vh;
   background-color: #000; }
@@ -7685,9 +7685,14 @@ p, span, b {
 
 #nav .container {
   position: absolute;
-  z-index: 11; }
+  z-index: 11;
+  left: 0%; }
   #nav .container nav {
     background-color: #e3f2fd03; }
+  #nav .container .espacio_contacto {
+    padding-left: 10%; }
+  #nav .container .contenedor_imagen {
+    margin-left: 8%; }
 
 .color_a_nav {
   color: white; }
@@ -8116,6 +8121,18 @@ p, span, b {
   box-shadow: -1px 1px 5px 1px #B58D10;
   z-index: 2; }
 
+.color_enviar {
+  background-color: #0057A1;
+  color: white; }
+  .color_enviar:hover {
+    color: white; }
+
+.color_cancelar {
+  background-color: rgba(204, 3, 3, 0.801);
+  color: white; }
+  .color_cancelar:hover {
+    color: white; }
+
 #detalle_asesor {
   padding: 10%; }
   #detalle_asesor .style_titulo {
@@ -8508,7 +8525,7 @@ p, span, b {
     word-wrap: break-word; }
 
 #buscador_inmuebles {
-  padding-bottom: 30%;
+  padding-bottom: 4%;
   position: relative; }
   #buscador_inmuebles .linea_decoracion {
     background: #002230;
@@ -8519,7 +8536,7 @@ p, span, b {
     font-size: 19px; }
   #buscador_inmuebles .precio_inmueble {
     position: absolute;
-    top: 240px;
+    top: 210px;
     font-size: 9px;
     color: #ffffff;
     text-align: center;
@@ -8527,6 +8544,12 @@ p, span, b {
     background-color: rgba(181, 141, 16, 0.66);
     padding: 16px 45px 11px 45px;
     margin-left: 0%; }
+  #buscador_inmuebles .imagenes_inmueble {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; }
+  #buscador_inmuebles .margen_cards {
+    margin-bottom: 27%; }
   #buscador_inmuebles .gestion_inmueble {
     position: absolute;
     top: 0px;
@@ -8536,7 +8559,7 @@ p, span, b {
     letter-spacing: 1.5px;
     background-color: rgba(181, 141, 16, 0.66);
     padding: 12px 41px 11px 45px;
-    margin-left: 40%; }
+    margin-left: 50%; }
   #buscador_inmuebles .card-body {
     background-color: #002230; }
   #buscador_inmuebles .dorado {
@@ -8547,9 +8570,7 @@ p, span, b {
     border-top: 1px solid #eeeeee; }
   #buscador_inmuebles .info_inmueble {
     display: flex;
-    list-style: none;
-    margin-left: -6%;
-    margin-right: -10%; }
+    list-style: none; }
 
 #contacto .caja {
   padding-top: 7px;
@@ -8566,7 +8587,7 @@ p, span, b {
   padding: 6%;
   margin-top: -6%; }
 #contacto .div_condiciones {
-  padding: 7%;
+  padding: 3%;
   margin-top: -10%; }
 #contacto .color_a_condiciones {
   color: #0057A1; }
@@ -8611,12 +8632,19 @@ p, span, b {
   position: relative;
   width: 100%; }
 #contacto .alto_img {
-  height: 100%;
   width: 100%;
+  height: 250px;
   object-fit: cover; }
 
 #cont_margen_total {
   margin-top: 5%; }
+
+.color_asesor {
+  color: #0057A1;
+  text-decoration: none; }
+  .color_asesor:hover {
+    color: #002230;
+    text-decoration: none; }
 
 #contactanos {
   background-image: url(../images/Contacto.jpg);
