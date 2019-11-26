@@ -135,9 +135,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 </div>
                                 <div class="col-2 margen_iconos">
                                     <div class="row">
-                                        <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot row"><a href="" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
-                                        <div class="col-md-5 col-2 col-sm-1 mr-2 icon_foot row"><a href="" target="_blank"><i class="fab fa-twitter "></i></a></div>
-                                        <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot row"><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                                        <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot row"><a href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www..com.co/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
+                                        <div class="col-md-5 col-2 col-sm-1 mr-2 icon_foot row"><a href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.maestranza.com.co%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank"><i class="fab fa-twitter "></i></a></div>
+                                        <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot row"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.maestranza.com.co%2FdetalleInmueble%3Fcodigo%3D<?php echo $co; ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
                                     </div>
                                 </div>
                             </div>

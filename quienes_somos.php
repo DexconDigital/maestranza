@@ -56,29 +56,29 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     </section>
 
-    <section id="banner_contador">
-        <div class="cont">
+    F<section id="banner_contador">
+        <div class="cont" id="contador">
             <div class="col-12">
                 <div class="row text-center">
                     <div class="col-3 color_conted">
-                        <h1>7</h1>
+                        <h1 id="counter-propertys"></h1>
                         <h5>Total Inmuebles</h5>
                     </div>
                     <div class="col-3 color_conted">
-                        <h1>40</h1>
+                        <h1 id="counter-rent"></h1>
                         <h5> Inmuebles en Arriendo</h5>
                     </div>
                     <div class="col-3 color_conted">
-                        <h1>30</h1>
+                        <h1 id="counter-sale"></h1>
                         <h5>Inmuebles en Venta</h5>
                     </div>
                     <div class="col-3 color_conted">
-                        <h1>2</h1>
+                        <h1 id="counter-sale-rent">0</h1>
                         <h5>Inmuebles en Arriendo/Venta</h5>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </section>
 
@@ -180,11 +180,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 </script>
 <!-- jQuery -->
 <script src="./menu/jquery.min.js.download"></script>
-
 <!-- Bootstrap -->
 <script src="./menu/bootstrap.js.download"></script>
 <!-- from slider -->
 <script src="./menu/menu.js.download"></script>
 <?php include('layout/archivosfooter.php'); ?>
+<!--  contador -->
+<script src="js/countUp.min.js"></script>
+<script src="js/counter-propertys.js"></script>
 
 </html>

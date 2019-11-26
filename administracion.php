@@ -9,9 +9,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<?php include 'layout/archivosheader.php'; ?>
 <link rel="stylesheet" href="./menu/bootstrap.css">
 <link rel="stylesheet" href="./menu/menu.css">
+<?php include 'layout/archivosheader.php'; ?>
 <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 <header class="webp-creative-header">
 
