@@ -1,0 +1,47 @@
+
+#detalle_asesor{
+    padding: 10%;
+    .style_titulo{
+        color: $color_azul_oscuro;
+        font-weight: bold;
+    }
+    ul li span{
+        display: inline-block;
+        color: $color_azul_oscuro;
+    }
+    li{
+    margin-bottom: 10px;
+    font-weight: 500;
+    list-style: none;
+    }
+    .info_espacio {
+        margin-right: 5%;
+    }
+    .alineacion_izq{
+        text-align: right;
+    }
+    .card{
+        box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,.12);
+        border: 0px solid rgba(0, 0, 0, 0.125);
+    }
+    .card-body{
+        padding: 0.25rem;
+    }
+
+    .linea_decoracion{
+    background: $color_azul_oscuro;
+    margin-top: 12px;
+    padding: 5%;
+    }
+    .color_btn{
+    background-color: white;
+    color: $color_azul;
+    }
+    .color_btn:hover{
+        background-color: $color_azul;
+        color: white;
+        
+    }
+    
+}
+

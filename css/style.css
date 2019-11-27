@@ -7644,14 +7644,17 @@ p, span, b {
   font-family: "roboto"; }
 
 #hero #style_slide_uno {
-  margin-top: -27%;
-  font-size: 255%; }
+  margin-top: -29%;
+  font-size: 339%;
+  text-shadow: 0px 0px 4px #ffffff; }
 #hero #style_slide_dos {
-  margin-top: -27%;
-  font-size: 255%; }
+  margin-top: -32%;
+  font-size: 339%;
+  text-shadow: 0px 0px 4px #ffffff; }
 #hero #style_slide_tres {
-  margin-top: -27%;
-  font-size: 255%; }
+  margin-top: -32%;
+  font-size: 339%;
+  text-shadow: 0px 0px 4px #ffffff; }
 #hero #logo {
   object-fit: contain;
   position: absolute;
@@ -8133,6 +8136,12 @@ p, span, b {
   .color_cancelar:hover {
     color: white; }
 
+.color_dorado {
+  color: #B58D10; }
+
+.color_azul {
+  color: #002230; }
+
 #detalle_asesor {
   padding: 10%; }
   #detalle_asesor .style_titulo {
@@ -8321,7 +8330,7 @@ p, span, b {
     background-color: #101734ab; }
 
 #administracion {
-  background-image: url(../images/administración\ de\ inmuebles.jpg);
+  background-image: url(../images/administracion.jpg);
   margin: 0px;
   background-position: center center;
   background-size: cover;
@@ -8570,7 +8579,9 @@ p, span, b {
     border-top: 1px solid #eeeeee; }
   #buscador_inmuebles .info_inmueble {
     display: flex;
-    list-style: none; }
+    list-style: none;
+    margin-left: -6%;
+    margin-right: -10%; }
 
 #contacto .caja {
   padding-top: 7px;
@@ -8583,6 +8594,8 @@ p, span, b {
   margin: auto; }
   #contacto .caja img {
     object-fit: cover; }
+  #contacto .caja .fas {
+    color: #B58D10; }
 #contacto .caja_texto {
   padding: 6%;
   margin-top: -6%; }

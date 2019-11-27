@@ -1,0 +1,103 @@
+#inmuebles{
+    background-image: url(../images/propiedades.jpg);
+    margin: 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #101734ab;
+    }
+    .titulo{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10%;
+    }
+
+    .boton{
+        padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    }
+    
+}
+#buscador_inmuebles{
+    padding-bottom: 4%;
+    position: relative;
+    .linea_decoracion{
+        background: $color_azul_oscuro;
+        margin-top: 12px;
+        padding: 4%;
+        color: white;
+        }
+        .tamaño_letra{
+            font-size: 19px;
+        }
+        .precio_inmueble {
+            position: absolute;
+            top: 210px;
+            font-size: 9px;
+            color: #ffffff;
+            text-align: center;
+            letter-spacing: 1.5px;
+            background-color: rgba(181, 141, 16, 0.66);
+            padding: 16px 45px 11px 45px;
+            margin-left: 0%;
+        }
+        .imagenes_inmueble{
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .margen_cards{
+            margin-bottom: 27%;
+        }
+        .gestion_inmueble{
+            position: absolute;
+            top: 0px;
+            font-size: 9px;
+            color: #ffffff;
+            text-align: center;
+            letter-spacing: 1.5px;
+            background-color: rgba(181, 141, 16, 0.66);
+            padding: 12px 41px 11px 45px;
+            margin-left: 50%;
+        }
+        .card-body{
+            background-color: $color_azul_oscuro;
+        }
+        .dorado{
+            color: $color_dorado;
+        }
+        .color_palabras{
+          color: white;
+        }
+        .color_linea_divisora_Card{
+            border-top: 1px solid #eeeeee;
+        }
+        .info_inmueble{
+            display: flex;
+            list-style: none;
+            margin-left: -6%;
+            margin-right: -10%;
+        }
+}

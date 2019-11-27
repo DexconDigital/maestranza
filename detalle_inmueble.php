@@ -240,9 +240,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 <img class="cont_img" src="<?php echo $asesor['FotoAsesor']; ?>" width="100%" height="100%" alt="">
                             </div>
                             <div class="col-8">
-                                <p>Nombre: <span><?php echo $asesor['ntercero']; ?></span></p>
-                                <p>Telefono: <span><a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></span></p>
-                                <p>Correo: <span><a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></span></p>
+                                <p><i class="fas fa-user"></i></i> <span><?php echo $asesor['ntercero']; ?></span></p>
+                                <p><i class="fas fa-mobile-alt"></i></i> <span><a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></span></p>
+                                <p><i class="fas fa-envelope"></i></i> <span><a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></span></p>
                             </div>
                         </div>
                         <div class="container p-3">

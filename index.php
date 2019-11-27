@@ -52,7 +52,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <div class="mask rgba-black-light waves-light"></div>
                         </div>
                         <div class="carousel-caption wow fadeInUp" data-wow-delay="0.6s">
-                            <h1 id="style_slide_uno" class="h3-responsive"> Maestranza Gestión Inmobiliaria</h1>
+                            <h1 id="style_slide_uno" class="h3-responsive"> <span class="color_dorado">Maestranza</span> <span class="color_azul">Gestión</span> <span class="color_dorado">Inmobiliaria</span></h1>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -61,8 +61,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <div class="mask rgba-black-light waves-light"></div>
                         </div>
                         <div class="carousel-caption wow fadeInLeft" data-wow-delay="0.6s">
-                            <h1 id="style_slide_dos" class="h3-responsive"> Trabajamos en tus sueños porque creemos en ellos</h1>
-
+                            <h1 id="style_slide_dos" class="h3-responsive"><span class="color_dorado">Trabajamos</span> <span class="color_azul">en tus</span> <span class="color_dorado">sueños,</span> <br> <span class="color_azul">porque</span> <span class="color_dorado">creemos</span> <span class="color_azul">en ellos</span></h1>
+   
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -71,7 +71,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <div class="mask rgba-black-light waves-light"></div>
                         </div>
                         <div class="carousel-caption wow fadeInDown" data-wow-delay="0.6s">
-                            <h1 id="style_slide_tres" class="h3-responsive">Encuentra la propiedad que siempre has querido</h1>
+                            <h1 id="style_slide_tres" class="h3-responsive"> <span class="color_dorado">Encuentra</span> <span class="color_azul">la propiedad</span> <span class="color_azul">que</span> <br> <span class="color_azul">siempre</span> <span class="color_dorado"> has querido</span></h1>
 
                         </div>
                     </div>
@@ -397,11 +397,11 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="col-12">
                     <div class="row">
                         <div class="col-1"></div>
-                        <div class="col-5">
+                        <div class="col-7">
                             <h2>¿Quieres consignar tu inmueble?</h2>
                         </div>
-                        <div class="col-1"></div>
-                        <div class="col-1"></div>
+                       
+                       
                         <div class="col-3">
                             <a class="btn color_btn rounded-0" data-toggle="modal" data-target="#exampleModal">Consignar Inmueble</a>
                         </div>

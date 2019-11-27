@@ -1,0 +1,646 @@
+@font-face{
+    font-family: 'roboto';
+    src: url("../fonts/Roboto-Regular.ttf");
+    
+}
+body{
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        overflow-x:hidden;
+        padding: 0;
+        margin: 0;
+        padding-left: 70px;
+        
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "roboto"; 
+}
+p, span, b {
+    font-family: "roboto"; 
+}
+
+#hero{
+    #style_slide_uno{
+        margin-top: -29%;
+        font-size: 339%;
+        text-shadow: 0px 0px 4px #ffffff;
+    }
+    #style_slide_dos{
+        margin-top: -32%;
+        font-size: 339%;
+        text-shadow: 0px 0px 4px #ffffff;
+    }
+    #style_slide_tres{
+        margin-top: -32%;
+        font-size: 339%;
+        text-shadow: 0px 0px 4px #ffffff;
+    }
+    #logo{
+        object-fit: contain;
+        position: absolute;
+        margin-top: -260%;
+        z-index: 98;
+    }
+}
+.boton_dorado{
+    background-color: $color_dorado;
+    color: white;
+
+}
+.boton_dorado:hover{
+    background-color: white;
+    color:$color_dorado;
+}
+.margen_busca{
+    margin-bottom: 21px;
+    
+}
+.posicion_buscar{
+    margin-left: 12%;
+}
+
+#buscador{
+    position: relative;
+    margin-top: -10%;
+    z-index: 2;
+
+
+    .container{
+    margin-top: 34px;
+    background-color: #f8f9fa;
+    padding: 2%;
+    }
+    .cont_interno{
+        margin-left: 0%;
+    }
+
+}
+
+#nav{
+    .container{
+        position: absolute;
+        z-index: 11;
+        left: 0%;
+        nav{
+            background-color: #e3f2fd03;
+        }
+        .espacio_contacto{
+            padding-left: 10%;
+        }
+        .contenedor_imagen{
+            margin-left: 8%;
+        }
+    }
+    
+}
+.color_a_nav{
+    color: white;
+    
+}
+.color_a_nav:hover{
+    color: $color_dorado;
+    text-decoration:none;
+}
+.logo{
+     width: 44%;
+    height: 0%;
+    margin-top: -7%;
+    padding: 1%
+    }
+#texto_logo{
+    margin-top: -104px;
+    .contenedor_parrafo{
+    padding: 8%;
+    margin-top: -14%;
+    }
+}    
+.boton_azul{
+    background-color: $color_azul_oscuro;
+    color: white;
+}
+.boton_azul:hover{
+    background-color: white;
+    color: $color_azul;
+}
+#destacadas{
+    .precio_inmueble{
+    position: absolute;
+    top: 221px;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: rgba(181, 141, 16, 0.66);
+    padding: 16px 45px 11px 45px;
+    margin-left: 0%;
+    }
+    .gestion_inmueble{
+        position: absolute;
+        top: 0px;
+        font-size: 9px;
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: 1.5px;
+        background-color: rgba(181, 141, 16, 0.66);
+        padding: 12px 41px 11px 45px;
+        margin-left: 40%;
+    }
+    .info_inmueble{
+        display: flex;
+        list-style: none;
+        margin-left: -6%;
+        margin-right: -10%;
+    }
+    .container_li{
+        margin-right: 1.5em;
+    }
+    .color_linea_divisora_Card{
+        border-top: 1px solid rgb(238, 238, 238);
+    }
+    .card-body{
+        background-color: $color_azul_oscuro;
+    }
+    .dorado{
+        color: $color_dorado;
+    }
+    .color_palabras{
+        color: white;
+    }
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .tamaño_swiper_card{
+    width: 369px;
+    margin-right: 0px;
+  }
+  .swiper-pagination-bullet-active{
+    background: $color_azul_oscuro;
+  }
+  .boton_cards{
+    border-color: $color_dorado;
+    background-color: $color_azul_oscuro;
+    color: $color_dorado;
+  }
+  .boton_cards:hover{
+    background-color: $color_dorado;
+    color: white;
+  }
+  .contenedor_bot_card{
+    margin-left: 43%;
+    margin-top: -8%;
+  }
+  .letra_gruesa{
+    color:$color_azul_oscuro;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .main-title::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 23%;
+    background-color:$color_dorado;
+    margin: auto;
+    margin-top: 15%;
+    
+}
+.main-title_destacadas::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30%;
+    background-color:$color_dorado;
+    margin: auto;
+    margin-top: 33%;
+    
+}
+#servicios{
+    background-image: url(../images/Nuestros\ servicios.jpg);
+    margin: 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    .cont_servi{
+        padding: 6%;
+    }
+    .cont_icono{
+    font-size: 226%;
+    padding: 9%;
+    color: $color_dorado;
+    }
+    .cont_arrendamiento{
+        margin: 17px;
+    }
+    .cont_ventas{
+        margin: 3%;
+    }
+    .titulo_cont_servi{
+        margin-top: 14%;
+        
+    }
+    .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #101734ab;
+    }
+    .letra_gruesa2{
+        color: white;
+        font-size: 48px;
+        font-weight: bold;
+      }
+      .color_blanco{
+          color: white;
+      }
+      .color_fichas{
+        background-color: white;
+        -webkit-transform: scale(1,1);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transform: scale(1,1);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
+      }
+      .color_fichas:hover{
+        -webkit-transform: scale(1.12,1.12);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 100ms;
+        -moz-transform: scale(1.12,1.12);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 100ms;
+        
+
+      }
+
+      .text_servi{
+        font-weight: bold;
+        color: $color_azul_oscuro;
+
+      }
+    
+}
+
+#asesores{
+    .letra_titulo{
+        color: $color_dorado;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .color_titulo_Card{
+        color: $color_azul_oscuro;
+    }
+    .color_parrafo{
+        color: $color_dorado;
+    }
+    
+    .card{
+        widows: 100%;
+        height: 100%;
+        transition: 1s;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: 0 0px 0px 0 rgba(0,0,0,.16), 0 0px 0px 0 rgba(0,0,0,.12);
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: all 400ms ease-in;
+            &:hover {
+              transform: scale(1.1);
+            }
+        }
+    }
+
+    
+   
+}
+
+.espacio_margen{
+    margin-top: 5%;
+}
+.titulo{
+    color: $color_dorado;
+    font-size: 48px;
+    font-weight: bold;
+}
+.titulo_Servi{
+    color: $color_dorado;
+    font-size: 48px;
+    font-weight: bold;
+}
+#aseguradoras{
+    
+   .margen_top{
+        
+    }
+}
+#aliados{
+    .titulo{
+    color: $color_azul_oscuro;
+    font-size: 48px;
+    font-weight: bold;
+    }
+    img{
+    height: 100%;
+    object-fit: contain;
+    }
+    .margen_cont{
+        margin-top: 8%;
+    }
+    .margen_titulo{
+        margin-top: -2%;
+    }
+    .main-title::before {
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 23%;
+        background-color: #B58D10;
+        margin: auto;
+        margin-top: 15%;
+    }
+}
+#ultimas_noticias{
+    .letra_titulo{
+        color: $color_dorado;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    hr{
+        width: 90%;
+        border-top: 1px solid $color_dorado;
+    }
+    .boton_ver_mas{
+        background-color: $color_azul_oscuro;
+        color: white;
+    }
+    .boton_ver_mas:hover{
+        background-color: white;
+        color: $color_azul_oscuro;
+    }
+}
+#consignar{
+    position: relative;
+    z-index: 2;
+    margin-bottom: -3%;
+    .container{
+    margin-top: 34px;
+    background-color: #f8f9fa;
+    padding: 2%;
+    }
+    .color_btn{
+        background-color: $color_azul_oscuro;
+        color: white;
+        
+    }.color_btn:hover{
+        background-color: white;
+            color: $color_azul_oscuro;
+
+    }
+    h2{
+        color: white;
+    }
+    .color_fondo{
+        background-color: $color_dorado;
+    }
+}
+#footer{
+  background-image: url(../images/footer.jpg);
+  margin: 0px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+
+  .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #101734ab;
+    }
+    .style_icono{
+    color: white;
+    display: block;
+    transition: all 0.35s ease-out;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: auto;
+    text-align: center;
+    background: transparent;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 0%;
+    border: 1px solid $color_dorado;
+    display: inline-block;
+    margin-right: 5px;
+    }
+    .style_icono:hover{
+        color: $color_dorado;
+    }
+    .margen_iconos{
+        margin-top: -15%;
+        a{
+            text-decoration: none;
+        }
+    }
+    .logo_footer{
+        margin-top: -7%;
+        width: 68%;
+    }
+    .margen_telefono{
+        margin-top: 11%;
+    }
+    .estylo_teelfonos{
+        list-style: none;
+        margin-bottom: 5%;
+        a{
+            text-decoration: none;
+        }
+    }
+    .div_info{
+    margin-top: -30%;
+    margin-bottom: 11%;
+    }
+    .top_mapa{
+        margin-top: 48px;
+    }
+    .tamaño_mapa{
+    height: 70%;
+    width: 100%;
+    }
+    .boton_como_llegar{
+        background-color: white;
+        color: $color_dorado;
+    }
+    .boton_como_llegar:hover{
+        background-color: $color_dorado;
+        color: white;
+    }
+    .color_info{
+        color: white;
+    }
+    i{
+        color: $color_dorado;
+    }
+    i:hover{
+        color: white;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color: $color_dorado;
+    }
+    .cont_contact{
+        text-align: center;
+    padding-left: 0%;
+    }
+    .copy_style{
+        color: white;
+    }
+    .color_a_foot_imper{
+        color: $color_azul;
+        text-decoration: none;
+    }
+
+}
+.margen.contacto{
+        margin-right: 8%;    
+
+}
+
+.contenedor_footer{
+    margin-left: 3%;
+}
+
+.dropbtn {
+	background-color: #fff;
+	color: #000;
+	padding: 4px 0;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	transition: 0.5s all ease;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #c6a062;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	width:100%;
+	left:0;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 10px 22px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a{
+	width:100%;
+}
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #c6a062;
+    color: #fff;
+}
+.dropdown-content a:hover {
+    color: #fff;
+    background-color: #c6a062;
+    padding: 10px 22px;
+    line-height: 35px !important;
+    transition: 0.5s all ease;
+}
+.cont_botton{
+    margin-top: -200%;
+}
+.dimencion_boton_pse{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    padding-top: 218%;
+}
+
+
+.subir {
+    display: none;
+    padding: 15px;
+    background-color: $color_azul_oscuro;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: -1px 1px 5px 1px #B58D10;
+    z-index: 2; }
+    .color_enviar{
+        background-color: $color_azul;
+        color: white;
+
+        &:hover{
+            color: white;
+        }
+}
+    .color_cancelar{
+        background-color: rgba(204, 3, 3, 0.801);
+        color: white;
+        &:hover{
+            color: white;
+        }
+    }
+
+    .color_dorado{
+        color: $color_dorado;
+    }
+    .color_azul{
+        color: $color_azul_oscuro;
+    }
