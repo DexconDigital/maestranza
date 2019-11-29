@@ -49,7 +49,7 @@ $redes_sociales = [
 //datos de contacto 
 $datos_contacto = [
 	"direccion" => [
-		"direccion" => "Carrera 42 # 3 sur - 81 Torre 2 Oficina: 717 Milla de Oro Distrito de Negocios",
+		"direccion" => "Carrera 42 # 3 sur - 81 Torre 2 Oficina: 717 <br> Milla de Oro Distrito de Negocios",
 		"icono" => "fas fa-map-marker-alt",
 	],
 	"telefono_fijo" => [
@@ -288,19 +288,19 @@ $texto_servicios = [
 		"parrafos" => [
 			"limpieza" => [
 				"icono" => "images/limpieza-y-desinfección.png",
-				0 => "Limpieza y desinfección: Bajo nuestro objetivo de garantizar un entorno limpio y seguro para su empresa, utilizamos la tecnología más innovadora y mantenemos siempre los estándares más exigentes de calidad en todos nuestros servicios.",
+				0 => "Bajo nuestro objetivo de garantizar un entorno limpio y seguro para su empresa, utilizamos la tecnología más innovadora y mantenemos siempre los estándares más exigentes de calidad en todos nuestros servicios.",
 				],
 			"mantenimiento" => [
 				"icono" => "images/Mantenimiento.png",
-				0 => "Mantenimiento: El área de Mantenimiento de Samyl dispone de personal cualificado, los medios y equipos más avanzados del mercado, garantizando así el correcto funcionamiento de las infraestructuras. Somos especialistas en mantenimiento predictivo, preventivo y correctivo.",
+				0 => "El área de Mantenimiento de Samyl dispone de personal cualificado, los medios y equipos más avanzados del mercado, garantizando así el correcto funcionamiento de las infraestructuras. Somos especialistas en mantenimiento predictivo, preventivo y correctivo.",
 				],
 			"facility" => [
 				"icono" => "images/facility-service.png",
-				0 => "Facility Services: SAMYL confía en un modelo de soluciones integrales, por esto nuestra experiencia nos ha ayudado a desarrollar los Software informáticos más avanzados del mercado, permitiéndonos de esta manera, un mayor control de toda la gestión, comunicación y operación.",
+				0 => "SAMYL confía en un modelo de soluciones integrales, por esto nuestra experiencia nos ha ayudado a desarrollar los Software informáticos más avanzados del mercado, permitiéndonos de esta manera, un mayor control de toda la gestión, comunicación y operación.",
 				],				
 			"exteriores" => [
 				"icono" => "images/Exteriores.png",
-				0 => "Exteriores: Somos especialistas en la realización de estudios de calidad ambiental, certificando la adecuación de las instalaciones en las condiciones higiénicas y sanitarias óptimas.",
+				0 => "Somos especialistas en la realización de estudios de calidad ambiental, certificando la adecuación de las instalaciones en las condiciones higiénicas y sanitarias óptimas.",
 				],
 			],
 	],			

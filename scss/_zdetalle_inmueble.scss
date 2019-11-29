@@ -38,11 +38,12 @@
         
 
         &:hover{
-            background-color: $color_azul
+            background-color: $color_dorado;
             
         }
         .color_blanco_url{
             color: white;
+            text-decoration: none;
         }
     }
     .icon_foot{

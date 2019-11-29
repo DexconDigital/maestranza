@@ -26,20 +26,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <div id="contenedor" class="container-fluid body">
 
         <section id="nav">
-            <div class="container col-12 ">
-                <nav class="navbar navbar-light">
-                    <div class="col-5">
-                        <a href="index.php" class="navbar-brand contenedor_imagen"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
-                    </div>
-                    <div class="col-5">
-                        <form class="form-inline espacio_contacto">
-                            <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
-                            <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                            <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
-                        </form>
-                    </div>
-                </nav>
-            </div>
+            <?php include 'layout/header.php' ?>
         </section>
 
         <section id="hero" class="margen_slider">
@@ -94,13 +81,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         </section>
 
         <section id="texto_logo" class="text-center">
-            <div class="col-12">
+            <div class="col-12 mt-5">
                 <img src="images/Maestranza Logo 3.png" width="300" height="300" alt="">
             </div>
             <div class="col-12 contenedor_parrafo">
                 <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][0] ?></p>
                 <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][1] ?></p>
-                <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" onclick=" location.href='quienes_somos.php' " id="buscar"><span>Ver más</span></button>
+                <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" onclick=" location.href='quienes_somos.php' " id="buscar"><span class="tamaño_btn_buscar" >Ver más</span></button>
             </div>
         </section>
 
@@ -222,7 +209,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
         <div class="col-12">
             <h2 class="text-center titulo_Servi">
-                Formularios aseguradoras
+                Formularios Aseguradoras
             </h2>
         </div>
         <div class="">
@@ -344,7 +331,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </section>
 
-        <section id="ultimas_noticias">
+        <section id="ultimas_noticias" class="mb-5">
             <div class="container espacio_margen">
                 <div class="col-12 mb-4">
                     <h2 class="text-center letra_titulo"> Últimas Noticias</h2>
@@ -392,7 +379,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </section>
 
-        <section id="consignar">
+        <!-- <section id="consignar">
             <div class="container color_fondo">
                 <div class="col-12">
                     <div class="row">
@@ -410,7 +397,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 </div>
 
             </div>
-        </section>
+        </section> -->
 
         <section id="footer" class="fondo">
             <?php include 'layout/footer.php' ?>

@@ -1,5 +1,5 @@
 <?php require 'variables/variables.php';
-$page = 'Contactanos';
+$page = 'Contáctanos';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!DOCTYPE html>
@@ -24,23 +24,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <body>
 
         <section id="contactanos">
-            <div class="overlay">
-            </div>
-            <div class="container col-12">
-                <nav class="navbar navbar-light">
-                    <div class="col-6">
-                        <a href="index.php" class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
-                    </div>
-                    <form class="form-inline">
-                        <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
-                        <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                        <button class="btn  my-2 my-sm-0 boton_dorado rounded-0 boton" onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
-                    </form>
-                </nav>
-                <div class="col-12 text-center titulo">
-                    <h2>Contáctanos</h2>
-                </div>
-            </div>
+
+            <?php include 'layout/header2.php' ?>
 
         </section>
 
@@ -52,7 +37,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <h2 class="main-title_contac letra_titulo_contac">Datos de Contacto</h2>
                             <ul class="lista_contacto pl-0">
                                 <li>
-                                    <a class="info_color"><i class="fas fa-map-marker-alt mr-2"></i><?php echo $datos_contacto['direccion']['direccion'] ?>&nbsp&nbsp</a>
+                                    <p class="info_color" style="font-family: inherit;"><i class="fas fa-map-marker-alt mr-2"></i><?php echo $datos_contacto['direccion']['direccion'] ?>&nbsp&nbsp</p>
                                 </li>
                                 <li>
                                     <a class="info_color" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
@@ -67,7 +52,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     <a class="info_color" href="mailto:<?php echo $datos_contacto['correo']['correo'] ?>"><i class="far fa-envelope mr-2"></i><?php echo $datos_contacto['correo']['correo'] ?></a>
                                 </li>
                                 <li>
-                                    <a class="info_color"><i class="fas fa-calendar-alt mr-2"></i><?php echo $datos_contacto['horario']['horario'] ?></a>
+                                    <p class="info_color" style="font-family: inherit;"><i class="fas fa-calendar-alt mr-2"></i><?php echo $datos_contacto['horario']['horario'] ?></p>
                                 </li>
 
                             </ul>

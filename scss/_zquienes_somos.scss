@@ -17,7 +17,6 @@
         background-color: #101734ab;
     }
     .titulo{
-    font-size: 36px;
     font-weight: 500;
     line-height: 32px;
     color: #fff;
@@ -30,7 +29,7 @@
     margin-top: -2%;
     .titulo_cont{
         margin-top: -5%;
-        
+        font-weight: bold;
     }
 }
 #banner_contador{
@@ -75,6 +74,13 @@
     margin-bottom: 6%;
     
    }
+   #cont_top_valores2{
+    margin-bottom: 9%;
+    
+   }
+   #valores{
+    margin-bottom: 4%;
+   }
    h2{
     margin-bottom: 5%;
    }
@@ -83,7 +89,8 @@
    }
    .color_titulo_valores{
        color: $color_azul_oscuro;
+       font-weight: bold;
    }
-   
+      
 
 }

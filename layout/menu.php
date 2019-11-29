@@ -117,17 +117,17 @@
                 </font>
             </div>
             <div class="dropdown-content">
-                <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="blanck">
+                <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="_blank">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">Arrendatarios</font>
                     </font>
                 </a>
-                <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="blanck">
+                <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="_blank">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">Propietarios</font>
                     </font>
                 </a>
-                <a href="corretaje.php">
+                <a href="">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">Pagos PSE</font>
                     </font>
@@ -142,16 +142,16 @@
                 </font>
             </a></li>
         <li>
-            <a href="contactanos.php">
+            <a href="blog.php">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Contáctanos</font>
+                    <font style="vertical-align: inherit;">Blog</font>
                 </font>
             </a>
         </li>
         <li>
-            <a href="blog.php">
+            <a href="contactanos.php">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Blog</font>
+                    <font style="vertical-align: inherit;">Contáctanos</font>
                 </font>
             </a>
         </li>

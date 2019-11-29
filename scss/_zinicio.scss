@@ -50,8 +50,8 @@ p, span, b {
 
 }
 .boton_dorado:hover{
-    background-color: white;
-    color:$color_dorado;
+    background-color: $color_azul_oscuro;
+    color: white;
 }
 .margen_busca{
     margin-bottom: 21px;
@@ -87,7 +87,7 @@ p, span, b {
             background-color: #e3f2fd03;
         }
         .espacio_contacto{
-            padding-left: 10%;
+            padding-left: 4%;
         }
         .contenedor_imagen{
             margin-left: 8%;
@@ -104,10 +104,13 @@ p, span, b {
     text-decoration:none;
 }
 .logo{
-     width: 44%;
+     width: 60%;
     height: 0%;
     margin-top: -7%;
     padding: 1%
+    }
+    .margen_top{
+        margin-top: -3%;
     }
 #texto_logo{
     margin-top: -104px;
@@ -121,8 +124,11 @@ p, span, b {
     color: white;
 }
 .boton_azul:hover{
-    background-color: white;
-    color: $color_azul;
+    background-color: $color_dorado;
+    color: white;
+}
+.tamaño_btn_buscar{
+    font-size: 16px;
 }
 #destacadas{
     .precio_inmueble{
@@ -533,6 +539,11 @@ p, span, b {
     .color_a_foot_imper{
         color: $color_azul;
         text-decoration: none;
+ 
+        &:hover{
+            color: white;
+        }
+
     }
 
 }
@@ -564,7 +575,7 @@ p, span, b {
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #c6a062;
+	background-color: $color_azul_oscuro;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
@@ -589,8 +600,12 @@ p, span, b {
   }
   
   .dropdown:hover .dropbtn {
-    background-color: #c6a062;
+    background-color:$color_azul_oscuro;
     color: #fff;
+}
+.texto_tamaño_est{
+    font-size: 54px;
+    font-family: "roboto";
 }
 .dropdown-content a:hover {
     color: #fff;
@@ -618,22 +633,24 @@ p, span, b {
     font-size: 12px;
     cursor: pointer;
     position: fixed;
-    bottom: 20px;
+    bottom: 47px;
     right: 20px;
     box-shadow: -1px 1px 5px 1px #B58D10;
     z-index: 2; }
     .color_enviar{
-        background-color: $color_azul;
+        background-color: $color_dorado;
         color: white;
 
         &:hover{
+            background-color: $color_azul_oscuro;
             color: white;
         }
 }
     .color_cancelar{
-        background-color: rgba(204, 3, 3, 0.801);
+        background-color: $color_azul_oscuro;
         color: white;
         &:hover{
+            background-color: $color_dorado;
             color: white;
         }
     }
@@ -643,4 +660,17 @@ p, span, b {
     }
     .color_azul{
         color: $color_azul_oscuro;
+    }
+
+    .titulo{
+    font-weight: 500;
+    line-height: 32px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10%;
+    }
+    .codigo_style{
+        padding-left: 0;
+        font-weight: bold;
     }

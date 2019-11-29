@@ -6,19 +6,19 @@
                     <div class="col-4  text-center">
                         <img class="logo_footer" src="images/isotipo-4.png" alt="">
                         <ul class="margen_iconos pl-0">
-                            <a href="<?php echo $redes_sociales['facebook']['link'] ?>" target="black">
+                            <a href="<?php echo $redes_sociales['facebook']['link'] ?>" target="_blank">
                                 <i class="<?php echo $redes_sociales['facebook']['icono'] ?> style_icono"></i>
                             </a>
-                            <a href="<?php echo $redes_sociales['instagram']['link'] ?>" target="black">
+                            <a href="<?php echo $redes_sociales['instagram']['link'] ?>" target="_blank">
                                 <i class="<?php echo $redes_sociales['instagram']['icono'] ?> style_icono"></i>
                             </a>
-                            <a href="<?php echo $redes_sociales['twitter']['link'] ?>" target="black">
+                            <a href="<?php echo $redes_sociales['twitter']['link'] ?>" target="_blank">
                                 <i class="<?php echo $redes_sociales['twitter']['icono'] ?> style_icono"></i>
                             </a>
-                            <a href="<?php echo $redes_sociales['linkedin']['link'] ?>" target="black">
+                            <a href="<?php echo $redes_sociales['linkedin']['link'] ?>" target="_blank">
                                 <i class="<?php echo $redes_sociales['linkedin']['icono'] ?> style_icono"></i>
                             </a>
-                            <a href="<?php echo $redes_sociales['youtube']['link'] ?>" target="black">
+                            <a href="<?php echo $redes_sociales['youtube']['link'] ?>" target="_blank">
                                 <i class="<?php echo $redes_sociales['youtube']['icono'] ?> style_icono"></i>
                             </a>
                         </ul>

@@ -22,51 +22,91 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <body>
 
     <section id="symil">
-        <div class="overlay">
-        </div>
-        <div class="container col-12">
-            <nav class="navbar navbar-light">
-                <div class="col-6">
-                    <a href="index.php" class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
-                </div>
-                <form class="form-inline">
-                    <a  class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
-                    <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0 boton" type="submit">Contáctanos</button>
-                </form>
-            </nav>
-            <div class="col-12 text-center titulo">
-                <h2 class="color_servicio">Servicios</h2>
-            </div>
-        </div>
+
+        <?php include 'layout/header_Servicios.php' ?>
 
     </section>
-
     <section id="symil2">
-        <div class="container">
-            <div class="col-12 text-center mt-4">
-                <h2 class="color_servicio"><?php echo $texto_servicios['samyl']['titulo'] ?></h2>
-            </div>
-            <div class="col-12 text-center mt-3">
-                <div class="row">
-                    <div class="col-3 border ">
-                        <img class="icono posicion_servi" src="images/limpieza.png" alt="">
-                        <p class="text-justify parrafo_Servi"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
+        <div class="col-12 text-center mt-4">
+            <h2 class="color_servicio"><?php echo $texto_servicios['samyl']['titulo'] ?></h2>
+        </div>
+    </section>
+    <section>
+        <div class="container" style="    margin-bottom: 10%;">
+
+            <div class="col-12 text-center mt-3 d-flex justify-content-betwee">
+
+
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-2 dimencion_imagen">
+                            <img class="icono cuadro_button" src="images/limpieza-y-desinfección_azul.png" alt="">
+                            <span class="cuadro_dorado"></span>
+                        </div>
+                        <div class="col-10 " >
+                            <h5 class="estilo_titulo">Limpieza y desinfección:</h5>
+                            <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
+                        </div>
                     </div>
-                    <div class="col-3 border ">
-                        <img class="icono" src="images/Mantenimiento.png" alt="">
-                        <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['mantenimiento'][0] ?></p>
-                    </div>
-                    <div class="col-3 border ">
-                        <img class="icono" src="images/facility-service.png" alt="">
-                        <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['facility'][0] ?></p>
-                    </div>
-                    <div class="col-3 border ">
-                        <img class="icono" src="images/Exteriores.png" alt="">
-                        <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
+                </div>
+                <div class="col-6 ml-5">
+                    <div class="row">
+                        <div class="col-2 dimencion_imagen_facility">
+                            <img class="icono cuadro_button" src="images/facility-service_azul.png" alt="">
+                            <span class="cuadro_dorado"></span>
+                        </div>
+                        <div class="col-10 ">
+                            <h5 class="estilo_titulo">Facility Services:</h5>
+                            <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['facility'][0] ?></p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col-12 text-center mt-5 d-flex justify-content-betwee">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-2 dimencion_imagen_mantenimiento"   >
+                            <img class="icono cuadro_button" src="images/Mantenimiento_azul.png" alt="">
+                            <span class="cuadro_dorado"></span>
+                        </div>
+                        <div class="col-10 ">
+                            <h5 class="estilo_titulo" >Mantenimiento:</h5>
+                            <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['mantenimiento'][0] ?></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 ml-5">
+                    <div class="row">
+                        <div class="col-2 dimencion_imagen">
+                            <img class="icono cuadro_button_exteriores" src="images/Exteriores_azul.png" alt="">
+                            <span  class="cuadro_dorado"></span>
+                        </div>
+                        <div class="col-10 ">
+                            <h5 class="estilo_titulo" >Exteriores:</h5>
+                            <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  <div class="col-3">
+                  <img class="icono posicion_servi" src="images/" alt="">
+                  <p class="text-justify parrafo_Servi"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
+              </div>
+              <div class="col-3">
+                  <img class="icono" src="images/" alt="">
+                  <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['mantenimiento'][0] ?></p>
+              </div>
+              <div class="col-3">
+                  <img class="icono" src="images/" alt="">
+                  <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['facility'][0] ?></p>
+              </div>
+              <div class="col-3">
+                  <img class="icono" src="images/Exteriores_dorado.png" alt="">
+                  <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
+              </div> -->
+
+            </div>
+        </div>
         </div>
     </section>
 

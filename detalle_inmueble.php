@@ -67,10 +67,10 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <div class="col-12">
                         <div class="row">
                             <div class="col-3">
-                                <p>Código: <span> <?php echo $co; ?></span></p>
+                                <p class="codigo_style">Código: <span> <?php echo $co; ?></span></p>
                             </div>
                             <div class="col-8">
-                                <p>Precio:
+                                <p class="codigo_style">Precio:
                                     <?php if ($r['Gestion'] == 'Arriendo') {
                                         echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
                                     } else if ($r['Gestion'] == 'Venta') {
@@ -271,6 +271,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
                                     <label class="custom-control-label" for="defaultContactFormCopy">&nbsp&nbsp&nbsp&nbsp&nbspConfimo que he leído, entendido y acepto la<a class="color_a_condiciones" href="Política de tratamiento de datos personales.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                                 </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="button" class="btn color_comparit rounded-0 col-4 compartir_boton" name=""><a class="color_blanco_url" href="">Enviar</a></button>
                             </div>
                         </div>
                         <div class="col-12 p-5">

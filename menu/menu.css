@@ -127,7 +127,7 @@
     -o-transition: all .5s ease-in-out 0s;
     -ms-transition: all .5s ease-in-out 0s;
     transition: all .5s ease-in-out 0s;
-    border-right:1px solid #eeeeee;
+    border-right:1px solid #b58d10;;
 }
 .yit-custom-nav-2.left-side-nav::after {
     content: "";
@@ -161,7 +161,7 @@
 	transition:all ease 0.5s 0s;
 }
 .toogle-nav li:hover{
-	background-color:#c6a062;
+	background-color:#002230;;
 	color:#fff;
 	transition:all ease 0.5s 0s;
 }

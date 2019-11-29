@@ -1,5 +1,5 @@
 <?php require 'variables/variables.php';
-$page = 'Quienes Somos';
+$page = 'Quíenes Somos';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!DOCTYPE html>
@@ -22,31 +22,14 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <body>
 
     <section id="contact">
-        <div class="overlay">
-        </div>
-        <div class="container col-12">
-            <nav class="navbar navbar-light">
-                <div class="col-6">
-                    <a href="index.php" class="navbar-brand"> <img class="logo" src="images/isotipo-4.png" width="100" height="100" alt=""> </a>
-                </div>
-                <form class="form-inline">
-                    <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>
-                    <a class="color_a_nav" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                    <button class="btn  my-2 my-sm-0 boton_dorado rounded-0" onclick=" location.href='contactanos.php' " type="button">Contáctanos</button>
-                </form>
-            </nav>
-            <div class="col-12 text-center titulo">
-                <h2>Quíenes Somos</h2>
-            </div>
-        </div>
-
+        <?php include 'layout/header2.php'  ?>
     </section>
 
     <section id="texto_contacto" class="text-center">
         <div class="col-12">
             <img src="images/Maestranza Logo 3.png" width="300" height="300" alt="">
         </div>
-        <h2 class="titulo_cont"><strong><?php echo $texto_quienes_somos['quienes_somos']['titulo'] ?></strong> </h2>
+        <h2 class="titulo_cont"><?php echo $texto_quienes_somos['quienes_somos']['titulo'] ?></h2>
         <div class="col-12 mt-4">
             <div class="container text-justify">
                 <p><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][0] ?>&nbsp<?php echo $texto_quienes_somos['quienes_somos']['parrafos'][1] ?></p>
@@ -111,7 +94,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <p> <?php echo $texto_quienes_somos['vision']['parrafo'] ?></p>
                         </div>
                     </div>
-                    <div class="carousel-item ">
+                    <div class="carousel-item">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block cont_top_valores">
                             <h2 class="color_titulo"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
@@ -133,10 +116,10 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item ">
+                    <div class="carousel-item">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block cont_top_valores">
-                            <h2 class="color_titulo"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
+                        <div id="cont_top_valores2" class="carousel-caption d-none d-md-block">
+                            <h2 id="valores" class="color_titulo"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
                             <div class="col-12">
                                 <div class="row text-center">
                                     <div class="col-6">
