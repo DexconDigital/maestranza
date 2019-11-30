@@ -113,10 +113,15 @@ p, span, b {
         margin-top: -3%;
     }
 #texto_logo{
-    margin-top: -104px;
+    margin-top: 10px;
     .contenedor_parrafo{
     padding: 8%;
-    margin-top: -14%;
+    margin-top: -15%;
+    }
+    .logo_inicio_seccion{
+        margin-bottom: 7rem;
+        width: 14%;
+         height: 100%;
     }
 }    
 .boton_azul{
@@ -204,13 +209,14 @@ p, span, b {
   }
   .boton_cards{
     border-color: $color_dorado;
-    background-color: $color_azul_oscuro;
-    color: $color_dorado;
-  }
-  .boton_cards:hover{
     background-color: $color_dorado;
     color: white;
+
+    &:hover{
+        color: $color_azul_oscuro;
+    }
   }
+  
   .contenedor_bot_card{
     margin-left: 43%;
     margin-top: -8%;
@@ -332,7 +338,7 @@ p, span, b {
         border: 1px solid rgba(0, 0, 0, 0);
         box-shadow: 0 0px 0px 0 rgba(0,0,0,.16), 0 0px 0px 0 rgba(0,0,0,.12);
 
-        img {
+        /* img {
             height: 100%;
             width: 100%;
             object-fit: cover;
@@ -340,9 +346,23 @@ p, span, b {
             &:hover {
               transform: scale(1.1);
             }
-        }
+        } */
+       
     }
-
+    img{
+        display: block;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+        object-fit: cover;
+        &:hover {
+            transform: scale(1.1);
+          }
+    }
+    .efecto{
+    overflow: hidden;
+    position: relative;
+    height: 259px;
+    }
     
    
 }
@@ -407,8 +427,8 @@ p, span, b {
         color: white;
     }
     .boton_ver_mas:hover{
-        background-color: white;
-        color: $color_azul_oscuro;
+        background-color: $color_dorado ;
+        color:white;
     }
 }
 #consignar{

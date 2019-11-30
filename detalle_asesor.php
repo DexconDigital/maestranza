@@ -1,6 +1,7 @@
 <?php require 'variables/variables.php';
 $page = 'Detalle Asesor';
-$nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
+$nombre_inmobiliaria = 'Inmobiliaria Maestranza';
+require_once('controllers/detalle_asesor.php');  ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,11 +28,11 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="col-12">
                 <div class="row">
                     <div class="col-8 alineacion_izq">
-                        <h4 class="style_titulo">Daniel Solano</h4>
+                        <h4 class="style_titulo"><?php echo $nombre ?></h4>
                         <ul class="">
                             <li>
                                 <font class="">
-                                    <font class="info_espacio">Administrador: </font>
+                                    <font class="info_espacio"><?php echo $nombre ?> :</font>
                                 </font>
                                 <span>
                                     <font>
@@ -41,7 +42,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </li>
                             <li>
                                 <font class="">
-                                    <font class="info_espacio">+ 1-559-393-0227: </font>
+                                    <font class="info_espacio"><?php echo $celular ?> :</font>
                                 </font>
                                 <span>
                                     <font>
@@ -51,7 +52,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </li>
                             <li>
                                 <font class="">
-                                    <font class="info_espacio">ejemplo@dominio.com:</font>
+                                    <font class="info_espacio"><?php echo $correo ?> :</font>
                                 </font>
                                 <span>
                                     <font>
@@ -60,7 +61,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 </span>
                             </li>
                         </ul>
-                        <p><strong>Descripción:</strong> Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la revolvió para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios.</p>
+                        <p><?php echo $descripcion ?></p>
                         <button type="button" class="btn color_btn rounded-0 border border-info" data-toggle="modal" data-target="#exampleModalLong">
                             Enviar Mensaje
                         </button>
@@ -99,7 +100,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     </div>
                     <div class="col-4">
                         <div class="card" style="width: 21rem;">
-                            <img src="images/no_image.png" class="card-img-top" alt="...">
+                            <img src="<?php echo $ruta_imagen ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="rounded-0 linea_decoracion"></p>
                             </div>

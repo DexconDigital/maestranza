@@ -7715,10 +7715,14 @@ p, span, b {
   margin-top: -3%; }
 
 #texto_logo {
-  margin-top: -104px; }
+  margin-top: 10px; }
   #texto_logo .contenedor_parrafo {
     padding: 8%;
-    margin-top: -14%; }
+    margin-top: -15%; }
+  #texto_logo .logo_inicio_seccion {
+    margin-bottom: 7rem;
+    width: 14%;
+    height: 100%; }
 
 .boton_azul {
   background-color: #002230;
@@ -7795,12 +7799,10 @@ p, span, b {
 
 .boton_cards {
   border-color: #B58D10;
-  background-color: #002230;
-  color: #B58D10; }
-
-.boton_cards:hover {
   background-color: #B58D10;
   color: white; }
+  .boton_cards:hover {
+    color: #002230; }
 
 .contenedor_bot_card {
   margin-left: 43%;
@@ -7896,14 +7898,27 @@ p, span, b {
   height: 100%;
   transition: 1s;
   border: 1px solid rgba(0, 0, 0, 0);
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12); }
-  #asesores .card img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: all 400ms ease-in; }
-    #asesores .card img:hover {
-      transform: scale(1.1); }
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+  /* img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: all 400ms ease-in;
+      &:hover {
+        transform: scale(1.1);
+      }
+  } */ }
+#asesores img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  object-fit: cover; }
+  #asesores img:hover {
+    transform: scale(1.1); }
+#asesores .efecto {
+  overflow: hidden;
+  position: relative;
+  height: 259px; }
 
 .espacio_margen {
   margin-top: 5%; }
@@ -7949,8 +7964,8 @@ p, span, b {
   background-color: #002230;
   color: white; }
 #ultimas_noticias .boton_ver_mas:hover {
-  background-color: white;
-  color: #002230; }
+  background-color: #B58D10;
+  color: white; }
 
 #consignar {
   position: relative;

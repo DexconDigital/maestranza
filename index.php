@@ -1,5 +1,7 @@
 <?php require 'variables/variables.php';
 //require 'controllers/indexController.php';
+require 'controllers/noticiasController.php';
+require 'controllers/asesor_detalle.php';
 $page = 'Inicio';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <!DOCTYPE html>
@@ -49,7 +51,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                         <div class="carousel-caption wow fadeInLeft" data-wow-delay="0.6s">
                             <h1 id="style_slide_dos" class="h3-responsive"><span class="color_dorado">Trabajamos</span> <span class="color_azul">en tus</span> <span class="color_dorado">sueños,</span> <br> <span class="color_azul">porque</span> <span class="color_dorado">creemos</span> <span class="color_azul">en ellos</span></h1>
-   
+
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -82,12 +84,12 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
         <section id="texto_logo" class="text-center">
             <div class="col-12 mt-5">
-                <img src="images/Maestranza Logo 3.png" width="300" height="300" alt="">
+                <img src="images/Maestranza_Logo 3.png" class="logo_inicio_seccion" alt="">
             </div>
             <div class="col-12 contenedor_parrafo">
                 <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][0] ?></p>
                 <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][1] ?></p>
-                <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" onclick=" location.href='quienes_somos.php' " id="buscar"><span class="tamaño_btn_buscar" >Ver más</span></button>
+                <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" onclick=" location.href='quienes_somos.php' " id="buscar"><span class="tamaño_btn_buscar">Ver más</span></button>
             </div>
         </section>
 
@@ -173,7 +175,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </section>
 
-        <section id="asesores">
+        <section id="asesores" class="mb-5">
             <div class="container espacio_margen">
                 <div class="col-12">
                     <h2 class="letra_titulo text-center"> Nuestros Asesores</h2>
@@ -181,26 +183,16 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                 <div class="col-12 mt-5">
                     <div class="owl-carousel owl-theme margen" style="" id="aliados2">
-                        <div class="item">
-                            <div class="card style_card" style="width: 15rem;">
-                                <a href="detalle_asesor.php">
-                                    <img src="images/no_image.png" class="card-img-top imagen_card" alt="...">
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title text-center color_titulo_Card">Daniel</h5>
-                                    <p class="text-center color_parrafo">Administrador</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card style_card" style="width: 15rem;">
-                                <img src="images/no_image.png" class="card-img-top imagen_card" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center color_titulo_Card">Daniel</h5>
-                                    <p class="text-center color_parrafo">Administrador</p>
-                                </div>
-                            </div>
-                        </div>
+                        
+                            <?php if (isset($asesor_array)) {
+                                modelo_asesor($asesor_array);
+                            } else {
+                                echo '<div class="col 12">
+                        <h3 class="text-center">No hay asesores para mostrar<h3>
+                        </div>';
+                            }
+                            ?>
+                        
                     </div>
                 </div>
             </div>
@@ -338,42 +330,14 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 </div>
                 <div class="col-12 mt-4">
                     <div class="row">
-                        <div class="col-4">
-                            <div class="card" style="width: 21rem;">
-                                <img src="images/no_image.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h4>Últimas Ofertas</h4>
-                                    <p class="card-text">2019-11-14</p>
-                                    <p class="card-text">Carta de presentación</p>
-                                    <hr>
-                                    <a href="" class="btn boton_ver_mas rounded-0">Ver Más</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card" style="width: 21rem;">
-                                <img src="images/no_image.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h4>Últimas Ofertas</h4>
-                                    <p class="card-text">2019-11-14</p>
-                                    <p class="card-text">Carta de presentación</p>
-                                    <hr>
-                                    <a href="" class="btn boton_ver_mas rounded-0">Ver Más</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card" style="width: 21rem;">
-                                <img src="images/no_image.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h4>Últimas Ofertas</h4>
-                                    <p class="card-text">2019-11-14</p>
-                                    <p class="card-text">Carta de presentación</p>
-                                    <hr>
-                                    <a href="" class="btn boton_ver_mas rounded-0">Ver Más</a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php if (isset($noticias_array)) {
+                            modelo_ultima_noticia($noticias_array);
+                        } else {
+                            echo '<div class="col 12">
+                        <h3 class="text-center">Muy pronto publicaremos contenido para ti<h3>
+                        </div>';
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
