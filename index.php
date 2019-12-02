@@ -382,7 +382,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <script src="./menu/menu.js.download"></script>
 
     <?php include('layout/archivosfooter.php'); ?>
-
+    <script src="conexion_api/validadores.js"></script>
     <script src="conexion_api/buscador.js"></script>
 
 </body>

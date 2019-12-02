@@ -7680,6 +7680,10 @@ p, span, b {
   position: relative;
   margin-top: -10%;
   z-index: 2; }
+  #buscador .form-control:focus {
+    border-color: #B58D10 !important;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #B58D10 !important;
+    outline: 0 none; }
   #buscador .container {
     margin-top: 34px;
     background-color: #f8f9fa;
@@ -8163,7 +8167,7 @@ p, span, b {
 
 .dropdown-content a:hover {
   color: #fff;
-  background-color: #c6a062;
+  background-color: #B58D10;
   padding: 10px 22px;
   line-height: 35px !important;
   transition: 0.5s all ease; }
@@ -8671,8 +8675,8 @@ p, span, b {
     font-size: 19px; }
   #buscador_inmuebles .precio_inmueble {
     position: absolute;
-    top: 210px;
-    font-size: 9px;
+    top: 205px;
+    font-size: 12px;
     color: #ffffff;
     text-align: center;
     letter-spacing: 1.5px;
@@ -8688,7 +8692,7 @@ p, span, b {
   #buscador_inmuebles .gestion_inmueble {
     position: absolute;
     top: 0px;
-    font-size: 14px;
+    font-size: 12px;
     color: #ffffff;
     text-align: center;
     letter-spacing: 1.5px;
@@ -8756,7 +8760,7 @@ p, span, b {
     #contacto .margen_iconos a:hover {
       color: #B58D10; }
 #contacto .property-single-detail-title {
-  border-bottom: 1px solid #cdcdcd;
+  border-bottom: 1px solid #B58D10;
   padding-bottom: 11px;
   margin-bottom: 30px; }
 #contacto .propiedades_similares {

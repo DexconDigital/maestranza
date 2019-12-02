@@ -27,11 +27,11 @@ while ($field = mysqli_fetch_array($result)) {
 }
 function modelo_ultima_noticia($r)
 {      
-    if(count($r) > 2){
-        $cantidad_noticias = 3;
-    }else{
-        $cantidad_noticias = count($r);
-    }
+        if(count($r) > 2){
+            $cantidad_noticias = 3;
+        }else{
+            $cantidad_noticias = count($r);
+        }
     for($i=0; $i<$cantidad_noticias; $i++){
        $limite_de_cadena = 100;
        echo'

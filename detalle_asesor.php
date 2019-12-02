@@ -91,8 +91,8 @@ require_once('controllers/detalle_asesor.php');  ?>
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-danger rounded-0" data-dismiss="modal">Cerrar</button>
-                                        <button type="button" class="btn btn-primary rounded-0">Enviar</button>
+                                        <button type="button" class="btn  rounded-0 color_cancelar" data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn  rounded-0 color_enviar">Enviar</button>
                                     </div>
                                 </div>
                             </div>

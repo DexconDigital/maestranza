@@ -222,9 +222,9 @@ var busqueda = function(){
         '&aremax='+area_maxima_buscar+
         '&premin=' +precio_minimo_buscar+
         '&premax=' +precio_maximo_buscar+
-        '&alc=' +alcobas_buscar+
-        '&ban=' +banios_buscar+
-        '&gar=' +garajes_buscar+
+        '&alcobas=' +alcobas_buscar+
+        '&banios=' +banios_buscar+
+        '&garajes=' +garajes_buscar+
         '';
     }
 }
