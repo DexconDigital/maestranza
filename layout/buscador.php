@@ -44,8 +44,8 @@
         </div>
 
 
-        <div class="col-xl-3 col-md-4 col-12  margen_busca"><input type="number" class="form-control rounded-0" id="precio_minimo_buscar" onkeyup="format(this)" onchange="format(this)" placeholder=" Precio Mínimo"></div>
-        <div class="col-xl-3 col-md-4 col-12  margen_busca"><input type="number" class="form-control rounded-0" id="precio_maximo_buscar" onkeyup="format(this)" onchange="format(this)" placeholder=" Precio Máximo"></div>
+        <div class="col-xl-3 col-md-4 col-12  margen_busca"><input type="number" class="form-control rounded-0" id="precio_minimo_buscar"  placeholder=" Precio Mínimo"></div>
+        <div class="col-xl-3 col-md-4 col-12  margen_busca"><input type="number" class="form-control rounded-0" id="precio_maximo_buscar"  placeholder=" Precio Máximo"></div>
         <div class="col-xl-12 col-md-12 col-12 text-center margen_busca">
             <button type="button" class="btn rounded-0 col-2 boton_buscar boton_dorado posicion_buscar" id="buscar"><span class="tamaño_btn_buscar">Buscar</span></button></div>
 
