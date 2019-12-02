@@ -8713,6 +8713,9 @@ p, span, b {
     margin-left: -6%;
     margin-right: -10%; }
 
+.boton_buscar {
+  padding: .84rem 2.14rem; }
+
 #contacto .caja {
   padding-top: 7px;
   padding-bottom: 5px;
