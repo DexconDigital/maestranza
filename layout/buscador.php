@@ -21,7 +21,7 @@
         </div>
         <div class="col-xl-3 col-md-4 col-12  margen_busca">
             <select id="tipo_inmueble_buscar" class="form-control rounded-0">
-                <option selected="" value="0">Tipo de inmueble</option>
+                <option selected="" value="0">Tipo de Inmueble</option>
             </select>
         </div>
         <div class="col-xl-3 col-md-4 col-12  margen_busca">

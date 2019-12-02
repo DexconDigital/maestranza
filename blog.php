@@ -1,4 +1,5 @@
 <?php require 'variables/variables.php';
+require 'controllers/noticiasController.php';
 $page = 'Blog';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
@@ -28,44 +29,17 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     <section>
         <div class="container margen_blog">
-            <div class="col-12">
+            <div class="col-12 mt-4">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="card" style="border-color: white;">
-                            <img src="images/no_image.png" class="card-img-top imagen_card" alt="...">
-                            <div class="card-body espacio_tageta mt-4">
-                                <h4 class="card-title">Últimas Ofertas</h4>
-                                <p>2019-09-14</p>
-                                <p class="card-text_blog">Carta de presentacion</p>
-                                <a id="bonton_verde" href="" class="btn rounded-0 text-center waves-effect waves-light boton_blog">Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card" style="border-color: white;">
-                            <img src="images/no_image.png" class="card-img-top imagen_card" alt="...">
-                            <div class="card-body espacio_tageta mt-4">
-                                <h4 class="card-title">Últimas Ofertas</h4>
-                                <p>2019-09-14</p>
-                                <p class="card-text_blog">Carta de presentacion</p>
-                                <a id="bonton_verde" href="" class="btn rounded-0 text-center waves-effect waves-light boton_blog">Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card" style="border-color: white;">
-                            <img src="images/no_image.png" class="card-img-top imagen_card" alt="...">
-                            <div class="card-body espacio_tageta mt-4">
-                                <h4 class="card-title">Últimas Ofertas</h4>
-                                <p>2019-09-14</p>
-                                <p class="card-text_blog">Carta de presentacion</p>
-                                <a id="bonton_verde" href="" class="btn rounded-0 text-center waves-effect waves-light boton_blog">Ver más</a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php if (isset($noticias_array)) {
+                        modelo_ultima_noticia($noticias_array);
+                    } else {
+                        echo '<div class="col 12">
+                        <h3 class="text-center">Muy pronto publicaremos contenido para ti<h3>
+                        </div>';
+                    }
+                    ?>
                 </div>
-            </div>
-        </div>
     </section>
 
 

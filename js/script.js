@@ -58,8 +58,8 @@ $(document).ready(function() {
     $('#aliados_slide1').owlCarousel({
         loop: true,
         margin: 10,
-        //autoplay: true,
-        //autoplayTimeout: 2000,
+        autoplay: true,
+        autoplayTimeout: 2000,
         nav: false,
         responsive: {
             0: {

@@ -178,31 +178,36 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <section id="asesores" class="mb-5">
             <div class="container espacio_margen">
                 <div class="col-12">
-                    <h2 class="letra_titulo text-center"> Nuestros Asesores</h2>
+                    <h2 class="main-title letra_titulo text-left mb-5"> Nuestros Asesores</h2>
                 </div>
 
                 <div class="col-12 mt-5">
-                    <div class="owl-carousel owl-theme margen" style="" id="aliados2">
-                        
-                            <?php if (isset($asesor_array)) {
-                                modelo_asesor($asesor_array);
-                            } else {
-                                echo '<div class="col 12">
+                    <div class="row justify-content-center">
+
+
+                        <?php if (isset($asesor_array)) {
+                            modelo_asesor($asesor_array);
+                        } else {
+                            echo '<div class="col 12">
                         <h3 class="text-center">No hay asesores para mostrar<h3>
                         </div>';
-                            }
-                            ?>
-                        
+                        }
+                        ?>
+
                     </div>
                 </div>
+
+
             </div>
 
         </section>
 
-        <div class="col-12">
-            <h2 class="text-center titulo_Servi">
-                Formularios Aseguradoras
-            </h2>
+        <div id="formualrios" class="container">
+            <div class="col-12 ">
+                <h2 class="linea text-left titulo_Servi mb-5">
+                    Formularios Aseguradoras
+                </h2>
+            </div>
         </div>
         <div class="">
             <div class="">
@@ -224,14 +229,14 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
         <section id="aliados">
             <div class="container margen_cont">
-                <div class="col-12">
+                <div class="col-12 margen">
                     <div class="row">
                         <div class="col-5 margen_titulo">
                             <h1 class="titulo main-title">Nuestros Aliados</h1>
                         </div>
-                        <div class="col-7">
+                        <div class="col-7 aliados_contenedor">
                             <div class="owl-carousel owl-theme" id="aliados_slide1">
-                                <div class="item">
+                                <div class="item mr-3">
                                     <div class="" style="width: 10rem;">
                                         <img src="<?php echo $logos_aliados[0] ?>" class="card-img-top imagen_card" alt="...">
                                     </div>
@@ -249,11 +254,6 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 <div class="item">
                                     <div class="" style="width: 10rem;">
                                         <img src="<?php echo $logos_aliados[4] ?>" class="card-img-top imagen_card" alt="...">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="" style="width: 10rem;">
-                                        <img src="<?php echo $logos_aliados[5] ?>" class="card-img-top imagen_card" alt="...">
                                     </div>
                                 </div>
                                 <div class="item">
@@ -325,8 +325,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
         <section id="ultimas_noticias" class="mb-5">
             <div class="container espacio_margen">
-                <div class="col-12 mb-4">
-                    <h2 class="text-center letra_titulo"> Últimas Noticias</h2>
+                <div class="col-12 mb-5">
+                    <h2 class="main-title text-left letra_titulo"> Últimas Noticias</h2>
                 </div>
                 <div class="col-12 mt-4">
                     <div class="row">

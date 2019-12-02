@@ -32,7 +32,7 @@ require_once('controllers/detalle_asesor.php');  ?>
                         <ul class="">
                             <li>
                                 <font class="">
-                                    <font class="info_espacio"><?php echo $nombre ?> :</font>
+                                    <font class="info_espacio"><?php echo $cargo ?> :</font>
                                 </font>
                                 <span>
                                     <font>

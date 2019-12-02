@@ -30,10 +30,10 @@ while ($field = mysqli_fetch_array($result1)) {
 
 function modelo_asesor($r)
 {
-    for ($i = 0; $i < count($r); $i++) {
+     for ($i = 0; $i < count($r); $i++) {
         $ruta_imagen = "./Maestranza-Admin/admin/" . $r[$i]['imagen'];
         echo '
-     <div class="item">
+     <div class="item col-lg-3">
             <div class="efecto">
         <a href="detalle_asesor.php?co=' . $r[$i]['id'] . '">
           <img class="imagen" src="' . $ruta_imagen . '" alt="">

@@ -44,7 +44,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <span class="cuadro_dorado"></span>
                         </div>
                         <div class="col-10 " >
-                            <h5 class="estilo_titulo">Limpieza y desinfección:</h5>
+                            <h5 class="estilo_titulo">Limpieza y Desinfección:</h5>
                             <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
                         </div>
                     </div>

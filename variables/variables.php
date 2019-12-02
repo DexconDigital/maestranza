@@ -83,7 +83,6 @@ $logos_aliados = [
 	1 => "images/bien_raiz.png",
 	3 => "images/cosmovision.png",
 	4 => "images/fabricas_unidas.png",
-	5 => "images/ideas_&_concretos.png",
 	6 => "images/jch.png",
 	7 => "images/gomez.png",
 	8 => "images/lonja.png",
@@ -155,23 +154,23 @@ $texto_quienes_somos = [
 		"titulo" => "Valores: Pilares de la Compañía",
 		"parrafos" => [
 			0 => [
-				"titulo" => "HONESTIDAD", // en azul del cliente
+				"titulo" => "Honestidad", // en azul del cliente
 				"parrafo" => "Generar relaciones laborales basadas en la confianza, que den respaldo y nos mantenga en el tiempo. Transparencia, equilibrio, confianza, respaldo y permanencia.",
 			],
 			1 => [
-				"titulo" => "RESPONSABILIDAD", // en azul del cliente
+				"titulo" => "Responsabilidad", // en azul del cliente
 				"parrafo" => "Cumplir las expectativas del mercado y de la empresa de manera organizada y coherente, empoderando el equipo humano con el cliente interno y externo.",
 			],
 			2 => [
-				"titulo" => "RESPETO", // en azul del cliente
+				"titulo" => "Respeto", // en azul del cliente
 				"parrafo" => "Lo orientamos a un trato amable construyendo una cultura que cumple con nuestra promesa de valor.",
 			],
 			3 => [
-				"titulo" => "TRABAJO EN EQUIPO", // en azul del cliente
+				"titulo" => "Trabajo en Equipo", // en azul del cliente
 				"parrafo" => "Alcanzamos los niveles de eficiencia y productividad trazados, con un equipo humano comprometido, que aúne los esfuerzos, capacidades y recursos individuales y colectivos de la Organización.",
 			],
 			4 => [
-				"titulo" => "CALIDAD", // en azul del cliente
+				"titulo" => "Calidad", // en azul del cliente
 				"parrafo" => "Es cuidar cada uno de los detalles en nuestro desempeño del día a día para agregar valor, generando satisfacción en nuestros clientes.",
 			],
 		],

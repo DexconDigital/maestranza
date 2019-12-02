@@ -41,7 +41,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: 'roboto';
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
@@ -51,7 +51,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: $font-family-base; */
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -7735,41 +7735,43 @@ p, span, b {
 .tamaño_btn_buscar {
   font-size: 16px; }
 
-#destacadas .precio_inmueble {
-  position: absolute;
-  top: 221px;
-  font-size: 9px;
-  color: #ffffff;
-  text-align: center;
-  letter-spacing: 1.5px;
-  background-color: rgba(181, 141, 16, 0.66);
-  padding: 16px 45px 11px 45px;
-  margin-left: 0%; }
-#destacadas .gestion_inmueble {
-  position: absolute;
-  top: 0px;
-  font-size: 9px;
-  color: #ffffff;
-  text-align: center;
-  letter-spacing: 1.5px;
-  background-color: rgba(181, 141, 16, 0.66);
-  padding: 12px 41px 11px 45px;
-  margin-left: 40%; }
-#destacadas .info_inmueble {
-  display: flex;
-  list-style: none;
-  margin-left: -6%;
-  margin-right: -10%; }
-#destacadas .container_li {
-  margin-right: 1.5em; }
-#destacadas .color_linea_divisora_Card {
-  border-top: 1px solid #eeeeee; }
-#destacadas .card-body {
-  background-color: #002230; }
-#destacadas .dorado {
-  color: #B58D10; }
-#destacadas .color_palabras {
-  color: white; }
+#destacadas {
+  margin-top: -6%; }
+  #destacadas .precio_inmueble {
+    position: absolute;
+    top: 221px;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: rgba(181, 141, 16, 0.66);
+    padding: 16px 45px 11px 45px;
+    margin-left: 0%; }
+  #destacadas .gestion_inmueble {
+    position: absolute;
+    top: 0px;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: rgba(181, 141, 16, 0.66);
+    padding: 12px 41px 11px 45px;
+    margin-left: 40%; }
+  #destacadas .info_inmueble {
+    display: flex;
+    list-style: none;
+    margin-left: -6%;
+    margin-right: -10%; }
+  #destacadas .container_li {
+    margin-right: 1.5em; }
+  #destacadas .color_linea_divisora_Card {
+    border-top: 1px solid #eeeeee; }
+  #destacadas .card-body {
+    background-color: #002230; }
+  #destacadas .dorado {
+    color: #B58D10; }
+  #destacadas .color_palabras {
+    color: white; }
 
 .swiper-container {
   width: 100%;
@@ -7886,9 +7888,17 @@ p, span, b {
     color: #002230; }
 
 #asesores .letra_titulo {
-  color: #B58D10;
+  color: #002230;
   font-size: 48px;
   font-weight: bold; }
+#asesores .main-title::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 10%;
+  background-color: #B58D10;
+  margin: auto;
+  margin-top: 6%; }
 #asesores .color_titulo_Card {
   color: #002230; }
 #asesores .color_parrafo {
@@ -7928,15 +7938,27 @@ p, span, b {
   font-size: 48px;
   font-weight: bold; }
 
-.titulo_Servi {
-  color: #B58D10;
+#formualrios .titulo_Servi {
+  color: #002230;
   font-size: 48px;
   font-weight: bold; }
+#formualrios .linea::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 12%;
+  background-color: #B58D10;
+  margin: auto;
+  margin-top: 6%; }
 
 #aliados .titulo {
   color: #002230;
   font-size: 48px;
   font-weight: bold; }
+#aliados .margen {
+  padding-left: 0%; }
+#aliados .aliados_contenedor {
+  left: 7%; }
 #aliados img {
   height: 100%;
   object-fit: contain; }
@@ -7954,9 +7976,17 @@ p, span, b {
   margin-top: 15%; }
 
 #ultimas_noticias .letra_titulo {
-  color: #B58D10;
+  color: #002230;
   font-size: 48px;
   font-weight: bold; }
+#ultimas_noticias .main-title::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 9%;
+  background-color: #B58D10;
+  margin: auto;
+  margin-top: 7%; }
 #ultimas_noticias hr {
   width: 90%;
   border-top: 1px solid #B58D10; }
@@ -7964,6 +7994,14 @@ p, span, b {
   background-color: #002230;
   color: white; }
 #ultimas_noticias .boton_ver_mas:hover {
+  background-color: #B58D10;
+  color: white; }
+
+.boton_ver_mas {
+  background-color: #002230;
+  color: white; }
+
+.boton_ver_mas:hover {
   background-color: #B58D10;
   color: white; }
 
@@ -8242,7 +8280,7 @@ p, span, b {
     margin-bottom: 10%; }
 
 #texto_contacto {
-  margin-top: -2%; }
+  margin-top: 9%; }
   #texto_contacto .titulo_cont {
     margin-top: -5%;
     font-weight: bold; }

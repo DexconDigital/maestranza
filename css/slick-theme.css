@@ -89,6 +89,8 @@
 .slick-prev:before
 {
     content: '‹';
+    width: 100% !important; 
+    transform: scale(2)!important; 
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -106,11 +108,13 @@
 }
 .slick-next:before
 {
-    content: '›';
+    content: "\f051";
 }
 [dir='rtl'] .slick-next:before
 {
     content: '‹';
+    width: 100% !important; 
+    transform: scale(2)!important; 
 }
 
 /* Dots */

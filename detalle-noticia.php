@@ -23,8 +23,8 @@ require_once('controllers/detalle_noticiasController.php'); ?>
 <body>
 
 
-    <div class="container-fluid">
-        <div class="row justify-content-center">
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center ">
 
 
             <div class="col-11 col-md-8 col-lg-6 margen_imagen_detalle" style="margin-bottom: -1%;">
