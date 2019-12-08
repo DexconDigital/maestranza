@@ -37,7 +37,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="row">
                     <div class="col-6">
                         <ul class="lista">
-                           <li class="mb-1">
+                            <li class="mb-1">
                                 <p> <?php echo $texto_servicios['administracion']['parrafos'][0] ?></p>
                             </li>
                             <li class="mb-1">
@@ -85,6 +85,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     </section>
 
     <section id="footer" class="fondo">
+        <div class="overlay">
+        </div>
         <?php include 'layout/footer.php' ?>
     </section>
 

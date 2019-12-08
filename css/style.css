@@ -7724,9 +7724,24 @@ p, span, b {
     padding: 8%;
     margin-top: -15%; }
   #texto_logo .logo_inicio_seccion {
-    margin-bottom: 7rem;
-    width: 14%;
+    margin-bottom: 0rem;
+    width: 70%;
     height: 100%; }
+  #texto_logo .efecto_zoom {
+    background-color: white;
+    -webkit-transform: scale(1, 1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1, 1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms; }
+  #texto_logo .efecto_zoom:hover {
+    -webkit-transform: scale(1.12, 1.12);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 100ms;
+    -moz-transform: scale(1.12, 1.12);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 100ms; }
 
 .boton_azul {
   background-color: #002230;
@@ -7740,7 +7755,7 @@ p, span, b {
   font-size: 16px; }
 
 #destacadas {
-  margin-top: -6%; }
+  margin-top: 0%; }
   #destacadas .precio_inmueble {
     position: absolute;
     top: 221px;
@@ -7934,9 +7949,6 @@ p, span, b {
   position: relative;
   height: 259px; }
 
-.espacio_margen {
-  margin-top: 5%; }
-
 .titulo {
   color: #B58D10;
   font-size: 48px;
@@ -7962,7 +7974,7 @@ p, span, b {
 #aliados .margen {
   padding-left: 0%; }
 #aliados .aliados_contenedor {
-  left: 7%; }
+  left: -11%; }
 #aliados img {
   height: 100%;
   object-fit: contain; }
@@ -8107,7 +8119,7 @@ p, span, b {
   #footer .copy_style {
     color: white; }
   #footer .color_a_foot_imper {
-    color: #0057A1;
+    color: #B58D10;
     text-decoration: none; }
     #footer .color_a_foot_imper:hover {
       color: white; }
@@ -8179,7 +8191,7 @@ p, span, b {
   width: 50%;
   height: 50%;
   object-fit: contain;
-  padding-top: 218%; }
+  padding-top: 0%; }
 
 .subir {
   display: none;
@@ -8225,6 +8237,55 @@ p, span, b {
 .codigo_style {
   padding-left: 0;
   font-weight: bold; }
+
+#ultimas_noticias {
+  margin-top: 5%; }
+
+#div_formulario {
+  margin-top: 5%; }
+
+.color_facebook:hover {
+  color: #3A559F; }
+
+.color_instagram:hover {
+  color: #cf3c6d; }
+
+.color_tw:hover {
+  color: #00BBF2; }
+
+.color_linked:hover {
+  color: #0073B1; }
+
+.color_youtube:hover {
+  color: #FF0000; }
+
+.color_wapp {
+  color: #00E676; }
+  .color_wapp:hover {
+    color: #00E676; }
+
+#redes_sociales .tamaño {
+  font-size: 18px; }
+#redes_sociales .tamaño_wapp {
+  font-size: 30px;
+  margin-top: 215%;
+  -webkit-transform: scale(1, 1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transform: scale(1, 1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms; }
+#redes_sociales .tamaño_wapp:hover {
+  -webkit-transform: scale(1.12, 1.12);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 100ms;
+  -moz-transform: scale(1.12, 1.12);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 100ms; }
+
+.imagen_formulario {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%); }
 
 #detalle_asesor {
   padding: 10%; }
@@ -8290,12 +8351,12 @@ p, span, b {
     font-weight: bold; }
 
 #banner_contador {
-  background: url(../images/aseguradoras.jpg);
+  background: url(../images/banner_estadisticas.jpg);
   padding-top: 80px;
   padding-bottom: 80px;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: repeat;
   margin-top: 5%; }
   #banner_contador h5 {
     color: white; }
@@ -8317,9 +8378,9 @@ p, span, b {
 #slider_mision_vision .cont_top_valores {
   margin-bottom: 6%; }
 #slider_mision_vision #cont_top_valores2 {
-  margin-bottom: 9%; }
+  margin-bottom: 12%; }
 #slider_mision_vision #valores {
-  margin-bottom: 4%; }
+  margin-bottom: 5%; }
 #slider_mision_vision h2 {
   margin-bottom: 5%; }
 #slider_mision_vision .color_titulo {
@@ -8419,7 +8480,7 @@ p, span, b {
     background-color: #101734ab; }
 
 #administracion {
-  background-image: url(../images/administración_de_inmuebles.jpg);
+  background-image: url(../images/administracion_de_inmuebles.jpg);
   margin: 0px;
   background-position: center center;
   background-size: cover;

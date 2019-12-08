@@ -128,10 +128,31 @@ p, span, b {
     margin-top: -15%;
     }
     .logo_inicio_seccion{
-        margin-bottom: 7rem;
-        width: 14%;
+        margin-bottom: 0rem;
+        width: 70%;
          height: 100%;
     }
+    .efecto_zoom{
+        
+            background-color: white;
+            -webkit-transform: scale(1,1);
+            -webkit-transition-timing-function: ease-out;
+            -webkit-transition-duration: 250ms;
+            -moz-transform: scale(1,1);
+            -moz-transition-timing-function: ease-out;
+            -moz-transition-duration: 250ms;
+          }
+          .efecto_zoom:hover{
+            -webkit-transform: scale(1.12,1.12);
+            -webkit-transition-timing-function: ease-out;
+            -webkit-transition-duration: 100ms;
+            -moz-transform: scale(1.12,1.12);
+            -moz-transition-timing-function: ease-out;
+            -moz-transition-duration: 100ms;
+    
+    }
+    
+    
 }    
 .boton_azul{
     background-color: $color_azul_oscuro;
@@ -145,7 +166,7 @@ p, span, b {
     font-size: 16px;
 }
 #destacadas{
-    margin-top: -6%;
+    margin-top: 0%;
     .precio_inmueble{
     position: absolute;
     top: 221px;
@@ -387,7 +408,7 @@ p, span, b {
 }
 
 .espacio_margen{
-    margin-top: 5%;
+    
 }
 .titulo{
     color: $color_dorado;
@@ -430,7 +451,7 @@ p, span, b {
         padding-left: 0%;   
     }
     .aliados_contenedor{
-        left: 7%;
+        left: -11%;
     }
     img{
     height: 100%;
@@ -525,6 +546,7 @@ p, span, b {
   background-repeat: no-repeat;
   display: block;
   position: relative;
+  
 
   .overlay{
     position: absolute;
@@ -618,7 +640,7 @@ p, span, b {
         color: white;
     }
     .color_a_foot_imper{
-        color: $color_azul;
+        color: $color_dorado;
         text-decoration: none;
  
         &:hover{
@@ -702,7 +724,7 @@ p, span, b {
     width: 50%;
     height: 50%;
     object-fit: contain;
-    padding-top: 218%;
+    padding-top: 0%;
 }
 
 
@@ -754,4 +776,83 @@ p, span, b {
     .codigo_style{
         padding-left: 0;
         font-weight: bold;
+    }
+
+    #ultimas_noticias{
+        margin-top: 5%;
+    }
+    #div_formulario{
+        margin-top: 5%;
+    }
+    .color_facebook{
+      
+
+      &:hover{
+          color: #3A559F;
+      }
+    }
+    .color_instagram{
+
+
+        &:hover{
+            color: #cf3c6d;
+        }
+    }
+    .color_tw{
+        
+
+        &:hover{
+            color: #00BBF2;
+        }
+    }
+    .color_linked{
+        
+
+        &:hover{
+            color: #0073B1;
+        }
+    }
+    .color_youtube{
+        
+
+        &:hover{
+            color: #FF0000;
+        }
+    }
+    .color_wapp{
+        color: #00E676;
+
+        &:hover{
+            color: #00E676;
+        }
+    }
+    #redes_sociales{
+        .tamaño{
+            font-size: 18px;
+        }
+        .tamaño_wapp{
+            font-size: 30px;
+            margin-top: 215%;
+            -webkit-transform: scale(1,1);
+            -webkit-transition-timing-function: ease-out;
+            -webkit-transition-duration: 250ms;
+            -moz-transform: scale(1,1);
+            -moz-transition-timing-function: ease-out;
+            -moz-transition-duration: 250ms;
+        }
+      
+        .tamaño_wapp:hover{
+            -webkit-transform: scale(1.12,1.12);
+            -webkit-transition-timing-function: ease-out;
+            -webkit-transition-duration: 100ms;
+            -moz-transform: scale(1.12,1.12);
+            -moz-transition-timing-function: ease-out;
+            -moz-transition-duration: 100ms;
+            
+    
+          }
+    }
+    .imagen_formulario{
+        -webkit-filter: brightness(50%);
+        filter: brightness(50%);
     }

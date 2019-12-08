@@ -33,13 +33,14 @@
     }
 }
 #banner_contador{
-    background: url(../images/aseguradoras.jpg);
+    background: url(../images/banner_estadisticas.jpg);
     padding-top: 80px;
     padding-bottom: 80px;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: repeat;
     margin-top: 5%;
+    
 
     .color_conted{
        
@@ -75,11 +76,11 @@
     
    }
    #cont_top_valores2{
-    margin-bottom: 9%;
+    margin-bottom: 12%;
     
    }
    #valores{
-    margin-bottom: 4%;
+    margin-bottom: 5%;
    }
    h2{
     margin-bottom: 5%;

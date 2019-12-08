@@ -138,13 +138,13 @@
         <li>
             <a data-toggle="modal" data-target="#exampleModal">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Consigna tu Inmueble</font>
+                    <font style="vertical-align: inherit;">Formularios</font>
                 </font>
             </a></li>
         <li>
             <a href="blog.php">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Blog</font>
+                    <font style="vertical-align: inherit;">Infomativo inmobilario</font>
                 </font>
             </a>
         </li>
@@ -159,13 +159,13 @@
 
 
     <div class="yit-social style-1 text-center cont_sociales">
-        <ul>
-            <li><a href="<?php echo $redes_sociales['facebook']['link'] ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="<?php echo $redes_sociales['instagram']['link'] ?>" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="<?php echo $redes_sociales['twitter']['link'] ?>" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="<?php echo $redes_sociales['linkedin']['link'] ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="<?php echo $redes_sociales['youtube']['link'] ?>" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+        <ul id="redes_sociales">
+            <li class="tamaño"><a href="<?php echo $redes_sociales['facebook']['link'] ?>" target="_blank"><i class="color_facebook fab fa-facebook-f"></i></a></li>
+            <li class="tamaño"><a href="<?php echo $redes_sociales['instagram']['link'] ?>" target="_blank"><i class="color_instagram fab fa-instagram"></i></a></li>
+            <li class="tamaño"><a href="<?php echo $redes_sociales['twitter']['link'] ?>" target="_blank"><i class="color_tw fab fa-twitter"></i></a></li>
+            <li class="tamaño"><a href="<?php echo $redes_sociales['linkedin']['link'] ?>" target="_blank"><i class="color_linked fab fa-linkedin-in"></i></a></li>
+            <li class="tamaño"><a href="<?php echo $redes_sociales['youtube']['link'] ?>" target="_blank"><i class="color_youtube fab fa-youtube"></i></a></li>
+            <li class="tamaño_wapp"><a href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"><i class="color_wapp fab fa-whatsapp"></i></a></li>
             <a href="index.php"> <img class="dimencion_boton_pse" src="images/logopse.png" alt=""> </a>
         </ul>
     </div>

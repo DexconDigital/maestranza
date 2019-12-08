@@ -3,6 +3,7 @@ require_once ('conexion.php');
 $id=$_REQUEST["id"];
 $nombre=$_REQUEST["titulo"];
 $descripcion=$_REQUEST["descripcion"];
+$url=$_REQUEST["url"];
 $noticia=$_REQUEST["noticia"];
 $foto=$_FILES["imagen"]["name"];
 $ruta=$_FILES["imagen"]["tmp_name"];
@@ -38,7 +39,7 @@ if($destino == $comparador_fotos && $destinos == $comparador_archivo){
             
             $destino = $res[3];
     $con = Conect();
-    $qry=("update noticias set nombre='$nombre', descripcion='$descripcion', noticia='$noticia' where id='$id'");
+    $qry=("update noticias set nombre='$nombre', descripcion='$descripcion', video_url='$url' , noticia='$noticia' where id='$id'");
     $sql=mysqli_query($con,$qry);
         if(!$sql){
     }else{
@@ -50,7 +51,7 @@ if($destino == $comparador_fotos && $destinos == $comparador_archivo){
 if($destino != $comparador_fotos && $destinos == $comparador_archivo){
     copy($ruta,$destino);
     $con = Conect();
-    $qry=("update noticias set nombre='$nombre', descripcion='$descripcion', imagen='$destino',noticia='$noticia' where id='$id '");
+    $qry=("update noticias set nombre='$nombre', descripcion='$descripcion', video_url='$url',  imagen='$destino',noticia='$noticia' where id='$id '");
     $sql=mysqli_query($con,$qry);  
 
     if(!$sql){

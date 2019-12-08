@@ -64,7 +64,7 @@
                 <p class="copy_style"> Diseñado y Desarrollado por <a class="color_a_foot_imper" target="blanck" href="https://www.dexcondigital.com">Dexcon Digital </a>©Copyright 2019 para Inmobiliaria Maestranza. Todos los derechos reservados.</p>
             </div>
             <div class="container col-3">
-                <p class=""><a class="color_a_foot_imper" href="Política de tratamiento de datos personales.pdf" download="Politica de tratamiento de infromación.pdf"> Política de tratamiento de datos</p>
+                <p class=""><a class="color_a_foot_imper" href="Politica_de_tratamiento_de_datos_personales.pdf" download="Politica de tratamiento de infromación.pdf"> Política de tratamiento de datos</p>
             </div>
         </div>
     </footer>

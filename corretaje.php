@@ -69,6 +69,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     </section>
 
     <section id="footer" class="fondo">
+        <div class="overlay">
+        </div>
         <?php include 'layout/footer.php' ?>
     </section>
 

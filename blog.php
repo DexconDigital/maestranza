@@ -1,6 +1,6 @@
 <?php require 'variables/variables.php';
 require 'controllers/noticiasController.php';
-$page = 'Blog';
+$page = 'Infomativo inmobilario';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!DOCTYPE html>
@@ -44,6 +44,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 
     <section id="footer" class="fondo">
+        <div class="overlay">
+        </div>
         <?php include 'layout/footer.php' ?>
     </section>
 

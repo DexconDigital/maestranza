@@ -40,10 +40,10 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="col-6">
                     <div class="row">
                         <div class="col-2 dimencion_imagen">
-                            <img class="icono cuadro_button" src="images/limpieza-y-desinfección_azul.png" alt="">
+                            <img class="icono cuadro_button" src="images/limpieza-y-desinfeccion_azul.png" alt="">
                             <span class="cuadro_dorado"></span>
                         </div>
-                        <div class="col-10 " >
+                        <div class="col-10 ">
                             <h5 class="estilo_titulo">Limpieza y Desinfección:</h5>
                             <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
                         </div>
@@ -65,12 +65,12 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="col-12 text-center mt-5 d-flex justify-content-betwee">
                 <div class="col-6">
                     <div class="row">
-                        <div class="col-2 dimencion_imagen_mantenimiento"   >
+                        <div class="col-2 dimencion_imagen_mantenimiento">
                             <img class="icono cuadro_button" src="images/Mantenimiento_azul.png" alt="">
                             <span class="cuadro_dorado"></span>
                         </div>
                         <div class="col-10 ">
-                            <h5 class="estilo_titulo" >Mantenimiento:</h5>
+                            <h5 class="estilo_titulo">Mantenimiento:</h5>
                             <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['mantenimiento'][0] ?></p>
                         </div>
                     </div>
@@ -79,10 +79,10 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <div class="row">
                         <div class="col-2 dimencion_imagen">
                             <img class="icono cuadro_button_exteriores" src="images/Exteriores_azul.png" alt="">
-                            <span  class="cuadro_dorado"></span>
+                            <span class="cuadro_dorado"></span>
                         </div>
                         <div class="col-10 ">
-                            <h5 class="estilo_titulo" >Exteriores:</h5>
+                            <h5 class="estilo_titulo">Exteriores:</h5>
                             <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
                         </div>
                     </div>
@@ -111,6 +111,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     </section>
 
     <section id="footer" class="fondo">
+        <div class="overlay">
+        </div>
         <?php include 'layout/footer.php' ?>
     </section>
 

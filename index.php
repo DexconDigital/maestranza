@@ -83,39 +83,45 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         </section>
 
         <section id="texto_logo" class="text-center">
-            <div class="col-12 mt-5">
-                <img src="images/Maestranza_Logo 3.png" class="logo_inicio_seccion" alt="">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="col-4  mt-5 efecto_zoom">
+
+                    <a href="quienes_somos.php">
+                        <img src="images/Maestranza_Logo 3.png" class="logo_inicio_seccion " alt="">
+                    </a>
+
+                </div>
             </div>
-            <div class="col-12 contenedor_parrafo">
+            <!--   <div class="col-12 contenedor_parrafo">
                 <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][0] ?></p>
                 <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][1] ?></p>
                 <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" onclick=" location.href='quienes_somos.php' " id="buscar"><span class="tamaño_btn_buscar">Ver más</span></button>
-            </div>
+            </div> -->
         </section>
 
-        <section id="destacadas">
-
-            <div class="container">
+        <section id="asesores" class="mb-5">
+            <div class="container espacio_margen">
                 <div class="col-12">
-                    <div class="row">
-                        <div class="col-4" style="margin-top: 8%;">
-                            <h2 class=" main-title_destacadas  letra_gruesa"> Propiedades Destacadas</h2>
-                            <p class="mt-4"> Nuestras propiedades destacadas en este momento</p>
-                        </div>
-                        <div class="col-8">
-                            <div class="owl-carousel owl-theme" id="aliados_slide">
+                    <h2 class="main-title letra_titulo text-left mb-5">Asesores</h2>
+                </div>
 
-                                <!-- <?php
-                                        if (is_array($api)) {
-                                            inmuebles_destacados($api);
-                                        } else {
-                                            echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
-                                        }
-                                        ?> -->
-                            </div>
-                        </div>
+                <div class="col-12 mt-5">
+                    <div class="row justify-content-center">
+
+
+                        <?php if (isset($asesor_array)) {
+                            modelo_asesor($asesor_array);
+                        } else {
+                            echo '<div class="col 12">
+                        <h3 class="text-center">No hay asesores para mostrar<h3>
+                        </div>';
+                        }
+                        ?>
+
                     </div>
                 </div>
+
+
             </div>
 
         </section>
@@ -127,7 +133,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="col-12 ">
                     <div class="row">
                         <div class="col-5 titulo_cont_servi ">
-                            <h2 class="main-title letra_gruesa2"> Nuestros servicios</h2>
+                            <h2 class="main-title letra_gruesa2">Servicios</h2>
                             <p class="mt-4 color_blanco">Somos especialistas en</p>
                         </div>
                         <div class="col-7 ">
@@ -175,67 +181,42 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </section>
 
-        <section id="asesores" class="mb-5">
-            <div class="container espacio_margen">
+        <section id="destacadas">
+
+            <div class="container">
                 <div class="col-12">
-                    <h2 class="main-title letra_titulo text-left mb-5"> Nuestros Asesores</h2>
-                </div>
+                    <div class="row">
+                        <div class="col-4" style="margin-top: 8%;">
+                            <h2 class=" main-title_destacadas  letra_gruesa"> Propiedades Destacadas</h2>
+                            <p class="mt-4"> Nuestras propiedades destacadas en este momento</p>
+                        </div>
+                        <div class="col-8">
+                            <div class="owl-carousel owl-theme" id="aliados_slide">
 
-                <div class="col-12 mt-5">
-                    <div class="row justify-content-center">
-
-
-                        <?php if (isset($asesor_array)) {
-                            modelo_asesor($asesor_array);
-                        } else {
-                            echo '<div class="col 12">
-                        <h3 class="text-center">No hay asesores para mostrar<h3>
-                        </div>';
-                        }
-                        ?>
-
+                                <!-- <?php
+                                        if (is_array($api)) {
+                                            inmuebles_destacados($api);
+                                        } else {
+                                            echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
+                                        }
+                                        ?> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-
             </div>
 
         </section>
-
-        <div id="formualrios" class="container">
-            <div class="col-12 ">
-                <h2 class="linea text-left titulo_Servi mb-5">
-                    Formularios Aseguradoras
-                </h2>
-            </div>
-        </div>
-        <div class="">
-            <div class="">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/aseguradoras.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/aseguradoras.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/aseguradoras.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <section id="aliados">
             <div class="container margen_cont">
                 <div class="col-12 margen">
                     <div class="row">
                         <div class="col-5 margen_titulo">
-                            <h1 class="titulo main-title">Nuestros Aliados</h1>
+                            <h1 class="titulo main-title text-left">Aliados</h1>
                         </div>
                         <div class="col-7 aliados_contenedor">
-                            <div class="owl-carousel owl-theme" id="aliados_slide1">
+                            <div class="owl-carousel owl-theme" style="width: 126%;" id="aliados_slide1">
                                 <div class="item mr-3">
                                     <div class="" style="width: 10rem;">
                                         <img src="<?php echo $logos_aliados[0] ?>" class="card-img-top imagen_card" alt="...">
@@ -323,10 +304,38 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </section>
 
+        <section id="div_formulario">
+            <div id="formualrios" class="container">
+                <div class="col-12 ">
+                    <h2 class="linea text-left titulo_Servi mb-5">
+                        Formularios
+                    </h2>
+                </div>
+            </div>
+            <div class="">
+                <div class="">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-ite active">
+                                <img class="imagen_formulario" src="images/aseguradoras.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/aseguradoras.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/aseguradoras.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <section id="ultimas_noticias" class="mb-5">
             <div class="container espacio_margen">
                 <div class="col-12 mb-5">
-                    <h2 class="main-title text-left letra_titulo"> Últimas Noticias</h2>
+                    <h2 class="main-title text-left letra_titulo"> Informativo Inmobilairio </h2>
                 </div>
                 <div class="col-12 mt-4">
                     <div class="row">
@@ -364,6 +373,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         </section> -->
 
         <section id="footer" class="fondo">
+            <div class="overlay">
+            </div>
             <?php include 'layout/footer.php' ?>
         </section>
     </div>

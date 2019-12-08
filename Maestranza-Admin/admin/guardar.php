@@ -3,6 +3,7 @@ require_once 'conexion.php';
 
 $nombre=$_REQUEST["titulo"];
 $descripcion=$_REQUEST["descripcion"];
+$url=$_REQUEST["url"];
 $fecha=$_REQUEST["fecha"];
 $noticia= $_POST["noticia"];
 $foto=$_FILES["imagen"]["name"];
@@ -11,7 +12,6 @@ $nombre_foto = str_replace(" ","",$foto);
 $destino="fotos/".$nombre_foto;
 $fecha = date("Y-m-d");
 $id_inmo = 12;
-
 
 $nombre_ar = $_FILES['archivo']['name'];
 $limite_kb = 850;
@@ -37,10 +37,10 @@ $con = Conect();
     copy($ruta,$destino);
 
     if($nombre_ar!=""){
-        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$destino', '$destinos', '$noticia', '$fecha', '$id_inmo')");
+        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `video_url` , `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$url' , '$destino', '$destinos', '$noticia', '$fecha', '$id_inmo')");
         header("Location: lista-publicaciones.php");
     }else{
-        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$destino', '', '$noticia', '$fecha', '$id_inmo')");
+        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `video_url` , `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$url' , '$destino', '', '$noticia', '$fecha', '$id_inmo')");
         header("Location: lista-publicaciones.php");
     }
 ?>

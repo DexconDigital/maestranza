@@ -45,6 +45,13 @@ input[type]:focus{
                         <input type="text" class="form-control" name="descripcion" id="descripcion" placeholder="Descripción Corta" required>
                     </div>
                 </div>
+                
+                <div class="form-group row mb-4">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Url del Video</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="url" id="url" placeholder="Url del video a publicar" required>
+                    </div>
+                </div>
                 <div class="form-group row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Publicación:</label>
                     <div class="col-sm-10">

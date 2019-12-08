@@ -88,7 +88,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     <div class="col-md-12">
                                         <div class="custom-control custom-checkbox mb-4">
                                             <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
-                                            <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="color_a_contacto" href="Política de tratamiento de datos personales.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                            <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="color_a_contacto" href="Politica_de_tratamiento_de_datos_personales.pdf" download="Política de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
@@ -114,6 +114,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 
         <section id="footer" class="fondo">
+            <div class="overlay">
+            </div>
             <?php include 'layout/footer.php' ?>
         </section>
 

@@ -15,6 +15,7 @@ while ($field = mysqli_fetch_array($result)) {
     $noticia = $field['noticia'];
     $fecha = $field['fecha'];
     $archivo = $field['archivo'];
+    $url = $field['video_url'];
     $noticias_array[] = array(
         'titulo' => $nombre,
         'id' => $id,
@@ -22,7 +23,8 @@ while ($field = mysqli_fetch_array($result)) {
         'imagen' => 'Maestranza-Admin/admin/'.$imagen,
         'noticia' => $noticia,
         'fecha' => $fecha,
-        'archivo' => $archivo
+        'archivo' => $archivo,
+        'video_url' => $url,
     );
 }
 function modelo_ultima_noticia($r)
@@ -43,12 +45,20 @@ function modelo_ultima_noticia($r)
             <p class="card-text">' . $r[$i]['fecha'] .'</p>
             <p class="card-text">' . $r[$i]['descripcion'] . '</p>
             <hr>
-            <a href="./detalle-noticia.php?co=' . $r[$i]['id'] . '" class="btn boton_ver_mas rounded-0">Ver Más</a>
+            
+            <a href="./detalle-noticia.php?co=' . $r[$i]['id'] . '" class="btn boton_ver_mas rounded-0">Ver Más</a>';
+             if ($r[$i]['video_url'] != "" ) {
+                 echo '
+            <a href="' . $r[$i]['video_url'] .'" target="_blank" class="btn boton_ver_mas rounded-0">Ver video</a>';
+              } echo'
+            
         </div>
     </div>
+
 </div>  ';
-    }
+             
 }
+    }
 
 
 /* function modelo_noticia($r)

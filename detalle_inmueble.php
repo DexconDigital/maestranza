@@ -62,26 +62,31 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <section id="cont_margen_total">
         <div class="container">
             <div class="col-12">
-                <div class="col-6">
-                    <h4>Apartamento en Arriendo</h4>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-3">
-                                <p class="codigo_style">Código: <span> <?php echo $co; ?></span></p>
-                            </div>
-                            <div class="col-8">
-                                <p class="codigo_style">Precio:
-                                    <?php if ($r['Gestion'] == 'Arriendo') {
-                                        echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
-                                    } else if ($r['Gestion'] == 'Venta') {
-                                        echo '<span class="precio">$ ' . $r['ValorVenta'] . '</span>';
-                                    } else {
-                                        echo '<span class="precio">$ ' . $r['ValorCanon'] . ' /$' . $r['ValorVenta'] . '</span>';
-                                    }
-                                    ?>
-                                </p>
+                <div class="row">
+                    <div class="col-6">
+                        <h4><?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?></h4>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <p class="codigo_style">Código: <span> <?php echo $co; ?></span></p>
+                                </div>
+                                <div class="col-8">
+                                    <p class="codigo_style">Precio:
+                                        <?php if ($r['Gestion'] == 'Arriendo') {
+                                            echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
+                                        } else if ($r['Gestion'] == 'Venta') {
+                                            echo '<span class="precio">$ ' . $r['ValorVenta'] . '</span>';
+                                        } else {
+                                            echo '<span class="precio">$ ' . $r['ValorCanon'] . ' /$' . $r['ValorVenta'] . '</span>';
+                                        }
+                                        ?>
+                                    </p>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-6">
+                        <h4 class="text-center">Contacto con Asesor </h4>
                     </div>
                 </div>
             </div>
@@ -269,7 +274,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <div class="col-12 div_condiciones text-break">
                                 <div class="custom-control custom-checkbox mb-4">
                                     <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
-                                    <label class="custom-control-label" for="defaultContactFormCopy">&nbsp&nbsp&nbsp&nbsp&nbspConfimo que he leído, entendido y acepto la<a class="color_a_condiciones" href="Política de tratamiento de datos personales.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                    <label class="custom-control-label" for="defaultContactFormCopy">&nbsp&nbsp&nbsp&nbsp&nbspConfimo que he leído, entendido y acepto la<a class="color_a_condiciones" href="Politica_de_tratamiento_de_datos_personales.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                                 </div>
                             </div>
                             <div class="col-12 text-center">
@@ -326,6 +331,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 
     <section id="footer" class="fondo">
+        <div class="overlay">
+        </div>
         <?php include 'layout/footer.php' ?>
     </section>
 

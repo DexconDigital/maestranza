@@ -1,4 +1,4 @@
-<?php
+	<?php
 
 $nombre_inmobiliaria = "Inmobiliaria Maestranza";
 
@@ -144,34 +144,34 @@ $texto_quienes_somos = [
 	],
 	"mision" => [
 		"titulo" => "Misión",
-		"parrafo" => "Somos facilitadores de negocios inmobiliarios, buscamos crecimiento rentable, generación de empleo, posicionamiento, credibilidad y confianza; acompañamos de manera integral a nuestro cliente generando satisfacción.",
+		"parrafo" => "Somos facilitadores de negocios inmobiliarios, buscamos crecimiento rentable, generación de empleo, posicionamiento, credibilidad, confianza, satisfacción y un acompañamiento integral a nuestros clientes.",
 	],
 	"vision" => [
 		"titulo" => "Visión",
-		"parrafo" => "Maestranza Gestión Inmobiliaria para el 2021 tendrá la Gerencia Comercial de proyectos inmobiliarios importantes en la ciudad de Medellín, con procesos internos estructurados e innovadores potencializando nuestro capital humano.",
+		"parrafo" => "Maestranza Gestión Inmobiliaria en el 2025 tendrá la representación Comercial de grandes proyectos inmobiliarios de la ciudad, con procesos innovadores que potencialicen nuestro capital humano y construyan tejido social.",
 	],
 	"valores" => [
 		"titulo" => "Valores: Pilares de la Compañía",
 		"parrafos" => [
 			0 => [
 				"titulo" => "Honestidad", // en azul del cliente
-				"parrafo" => "Generar relaciones laborales basadas en la confianza, que den respaldo y nos mantenga en el tiempo. Transparencia, equilibrio, confianza, respaldo y permanencia.",
+				"parrafo" => "Generar relaciones laborales basadas en la confianza, transparencia, equilibrio, respaldo y permanencia.",
 			],
 			1 => [
 				"titulo" => "Responsabilidad", // en azul del cliente
-				"parrafo" => "Cumplir las expectativas del mercado y de la empresa de manera organizada y coherente, empoderando el equipo humano con el cliente interno y externo.",
+				"parrafo" => "Cumplir las expectativas del mercado y de la empresa de manera organizada y coherente, empoderando al equipo humano permitiendo una alineación con el cliente interno y externo.",
 			],
 			2 => [
 				"titulo" => "Respeto", // en azul del cliente
-				"parrafo" => "Lo orientamos a un trato amable construyendo una cultura que cumple con nuestra promesa de valor.",
+				"parrafo" => "Orientados a construir una cultura de servicio que cumpla con nuestra promesa de valor.",
 			],
 			3 => [
 				"titulo" => "Trabajo en Equipo", // en azul del cliente
-				"parrafo" => "Alcanzamos los niveles de eficiencia y productividad trazados, con un equipo humano comprometido, que aúne los esfuerzos, capacidades y recursos individuales y colectivos de la Organización.",
+				"parrafo" => "Somos un equipo humano comprometido en unificar esfuerzos, capacidades y recursos individuales, buscando tener niveles de eficiencia y productividad, con el fin de alcanzar nuestros objetivos.",
 			],
 			4 => [
 				"titulo" => "Calidad", // en azul del cliente
-				"parrafo" => "Es cuidar cada uno de los detalles en nuestro desempeño del día a día para agregar valor, generando satisfacción en nuestros clientes.",
+				"parrafo" => "Trabajamos día a día en el mejoramiento de los procesos, buscando el bienestar de nuestros clientes.",
 			],
 		],
 	],
@@ -277,7 +277,7 @@ $texto_servicios = [
 			0 => "Estamos enfocados en la búsqueda de todo tipo de inmueble, para facilitar la experiencia de nuestros clientes a la hora de arrendar, comprar o vender.",
 			1 => "Evaluación de precios de inmuebles, rentabilidad, valorización, plusvalía, deterioro y tendencias acordes con el mercado.",
 			2 => "Intermediación, (Comprador, arrendatario y Vendedor), conciliando los intereses de todas las partes de manera exitosa.",
-			3 => "Gestionar todo el proceso el cual incluye, financiación, estudio de seguridad del cliente, adecuaciones, estudio de titulos, avalúos, contratos, escrituración y entrega del inmueble.",
+			3 => "Gestionar todo el proceso, incluyendo,  financiación, estudio de seguridad del cliente, adecuaciones, estudio de titulos, avalúos, contratos, escrituración y entrega del inmueble.",
 			4 => "Difusión de la propiedad a través de diferentes medios y formas (prensa, portales, volantes, letreros, fotos, etc.), además de filtrar a los interesados y realizar los respectivos recorridos.",			
 			],
 	],	

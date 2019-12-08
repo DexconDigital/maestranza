@@ -58,6 +58,8 @@ require_once('controllers/detalle_noticiasController.php'); ?>
         </div>
     </div>
     <section id="footer" class="fondo">
+        <div class="overlay">
+        </div>
         <?php include 'layout/footer.php' ?>
     </section>
     </div>
