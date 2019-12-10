@@ -84,7 +84,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
         <section id="texto_logo" class="text-center">
             <div class="col-12 d-flex justify-content-center">
-                <div class="col-4  mt-5 efecto_zoom">
+                <div class="col-4  mt-5 mb-5 efecto_zoom">
 
                     <a href="quienes_somos.php">
                         <img src="images/Maestranza_Logo 3.png" class="logo_inicio_seccion " alt="">
@@ -92,11 +92,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                 </div>
             </div>
-            <!--   <div class="col-12 contenedor_parrafo">
-                <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][0] ?></p>
-                <p class="text-justify"><?php echo $texto_quienes_somos['quienes_somos']['parrafos'][1] ?></p>
-                <button type="button" class="btn rounded-0 col-2 boton_buscar boton_azul" onclick=" location.href='quienes_somos.php' " id="buscar"><span class="tamaño_btn_buscar">Ver más</span></button>
-            </div> -->
+           
         </section>
 
         <section id="asesores" class="mb-5">

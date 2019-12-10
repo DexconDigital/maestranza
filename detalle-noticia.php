@@ -42,12 +42,15 @@ require_once('controllers/detalle_noticiasController.php'); ?>
                 <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2" style="text-align: justify;">
                     <?php echo $noticia ?>
                 </div>
-                <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 borde-detalle-inmueble">
+                <div class="container col-12 col-md-10  col-lg-8 borde-detalle-inmueble">
                     <div class="row mb-4">
-                        <div class="col-12 col-md-7">
+                        <div class="col-12 col-md-5">
                             Publicado el: <?php echo $fecha_complete; ?>
                         </div>
-                        <div class="col-12 col-md-5">
+                        <div class="col-12 col-md-3">
+                            <a style="color:black;" href="<?php echo $url ?>"><i style="color:red;" class="fab fa-youtube mr-2"></i>Ver video</a>
+                        </div>
+                        <div class="col-12 col-md-4" style="text-align: end;">
                             <?php if ($ruta_archivo != $comparador . 'null') {
                                 echo '<a style="color:black;" href="' . $ruta_archivo . '" download="Noticias.pdf"><i style="color:red;" class="fas fa-file-pdf mr-3"></i>Descargar Archivo Adjunto</a>';
                             } ?>
