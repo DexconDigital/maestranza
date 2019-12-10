@@ -331,7 +331,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <section id="ultimas_noticias" class="mb-5">
             <div class="container espacio_margen">
                 <div class="col-12 mb-5">
-                    <h2 class="main-title text-left letra_titulo"> Informativo Inmobilairio </h2>
+                    <h2 class="main-title text-left letra_titulo"> Informativo Inmobiliario </h2>
                 </div>
                 <div class="col-12 mt-4">
                     <div class="row">

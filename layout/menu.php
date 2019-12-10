@@ -66,7 +66,7 @@
             </a></li>
         <li><a href="quienes_somos.php">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Quíenes Somos</font>
+                    <font style="vertical-align: inherit;">Quiénes Somos</font>
                 </font>
             </a></li>
         <li class="dropdown">
@@ -144,7 +144,7 @@
         <li>
             <a href="blog.php">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Infomativo inmobilario</font>
+                    <font style="vertical-align: inherit;">Infomativo inmobiliario</font>
                 </font>
             </a>
         </li>

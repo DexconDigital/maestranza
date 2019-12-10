@@ -1,5 +1,5 @@
 <?php require 'variables/variables.php';
-$page = 'Quíenes Somos';
+$page = 'Quiénes Somos';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!DOCTYPE html>

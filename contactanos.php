@@ -59,7 +59,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                         </div>
                         <div class="col-6 cont_formulario">
-                            <h2 class="main-title_contac letra_titulo_contac"> Formulario de contacto</h2>
+                            <h2 class="main-title_contac letra_titulo_contac"> Formulario de Contacto</h2>
                             <div class="mt-5">
                                 <form action="" method="Post">
                                     <div class="col-md-12 row">
