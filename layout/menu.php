@@ -144,7 +144,7 @@
         <li>
             <a href="blog.php">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Infomativo inmobiliario</font>
+                    <font style="vertical-align: inherit;">Infomativo Inmobiliario</font>
                 </font>
             </a>
         </li>

@@ -48,7 +48,13 @@ require_once('controllers/detalle_noticiasController.php'); ?>
                             Publicado el: <?php echo $fecha_complete; ?>
                         </div>
                         <div class="col-12 col-md-3">
-                            <a style="color:black;" href="<?php echo $url ?>"><i style="color:red;" class="fab fa-youtube mr-2"></i>Ver video</a>
+                            <?php if($url !="" ){
+                                echo '
+                                <a style="color:black;" href="<?php echo $url ?>"><i style="color:red;" class="fab fa-youtube mr-2"></i>Ver video</a> ';
+                            } 
+                           
+                            
+                            ?>
                         </div>
                         <div class="col-12 col-md-4" style="text-align: end;">
                             <?php if ($ruta_archivo != $comparador . 'null') {
