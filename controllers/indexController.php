@@ -1,10 +1,10 @@
 <?php
 require_once 'variables/config.php';
-require_once 'modelo_inmueble.php';
+require 'modelo_inmueble.php';
 
 $ch = curl_init();
-    $headers =  'Authorization:8JLOWfgCpU0J3K8bR00skoeK7d37qdC825PIVKBT-987';
-    curl_setopt($ch, CURLOPT_URL,'http://www.simi-api.com/ApiSimiweb/response/v21/inmueblesDestacados/total/9');
+    $headers =  'Authorization:' . TOKEN;
+    curl_setopt($ch, CURLOPT_URL,'http://www.simi-api.com/ApiSimiweb/response/v21/inmueblesDestacados/total/12');
     curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
@@ -14,11 +14,17 @@ $ch = curl_init();
     curl_close($ch);
     $api = json_decode($result, true);
     
+
 function inmuebles_destacados($r)
 {
-    $cantidad_inmuebles = count($r) - 1;
-    modelo_inmueble_destacadas($r, $cantidad_inmuebles);
+    if (is_array($r)) {
+            $cantidad_inmuebles= count($r)-1;
+            modelo_inmueble($r, $cantidad_inmuebles);
+    } else {
+        echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
+    }
 }
+
 
 function cantidad_inmuebles_imprimir($r){
     if (is_array($r)) {
@@ -30,3 +36,5 @@ function cantidad_inmuebles_imprimir($r){
 }
 
 cantidad_inmuebles_imprimir($api);
+
+?>

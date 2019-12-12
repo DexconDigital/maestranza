@@ -4,6 +4,7 @@ require_once 'conexion.php';
 $nombre=$_REQUEST["titulo"];
 $descripcion=$_REQUEST["descripcion"];
 $url=$_REQUEST["url"];
+$insta_url=$_REQUEST["insta_url"];
 $fecha=$_REQUEST["fecha"];
 $noticia= $_POST["noticia"];
 $foto=$_FILES["imagen"]["name"];
@@ -37,10 +38,10 @@ $con = Conect();
     copy($ruta,$destino);
 
     if($nombre_ar!=""){
-        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `video_url` , `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$url' , '$destino', '$destinos', '$noticia', '$fecha', '$id_inmo')");
+        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `video_url`, `instagram_url` , `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$url' , '$insta_url' , '$destino', '$destinos', '$noticia', '$fecha', '$id_inmo')");
         header("Location: lista-publicaciones.php");
     }else{
-        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `video_url` , `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$url' , '$destino', '', '$noticia', '$fecha', '$id_inmo')");
+        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `video_url`, `instagram_url` , `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$url' , '$insta_url' , '$destino', '', '$noticia', '$fecha', '$id_inmo')");
         header("Location: lista-publicaciones.php");
     }
 ?>

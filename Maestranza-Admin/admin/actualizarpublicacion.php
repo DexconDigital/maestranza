@@ -60,6 +60,12 @@ $res =  mysqli_fetch_array($sql);
                         <input type="text" class="form-control" name="url" id="url" value="<?php echo $res[7]; ?>">
                     </div>
                 </div>
+                <div class="form-group row mb-4 ">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Instagram Url</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="insta_url" id="insta_url" value="<?php echo $res[8]; ?>">
+                    </div>
+                </div>
                 <div class="form-group row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Noticia:</label>
                     <div class="col-sm-10">
@@ -92,5 +98,6 @@ $res =  mysqli_fetch_array($sql);
         </div>
     </div>
 </div>
-
+<script src="../js/jquery.min.js"></script>
+<script src="../js/validacion.js"></script>
 <?php include 'layout/layoutFooter.php'; ?>

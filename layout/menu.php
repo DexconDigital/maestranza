@@ -135,12 +135,25 @@
 
             </div>
         </li>
-        <li>
-            <a data-toggle="modal" data-target="#exampleModal">
+        <!-- <li class="dropdown">
+            <div class="dropbtn">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Formularios</font>
+                    <font style="vertical-align: inherit;">Formulario</font>
                 </font>
-            </a></li>
+            </div>
+            <div class="dropdown-content">
+                <a data-toggle="modal" data-target="#exampleModal">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Consignar Inmueble </font>
+                    </font>
+                </a>
+                <a href="https://www.unifianza.com.co/formularios-interactivos.html" target="_blank">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Aseguradora Unifianza</font>
+                    </font>
+                </a>
+            </div>
+        </li> -->
         <li>
             <a href="blog.php">
                 <font style="vertical-align: inherit;">

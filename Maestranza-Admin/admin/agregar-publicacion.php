@@ -4,52 +4,63 @@ require_once("conexion.php");
 include 'layout/layout.php';
 ?>
 <style>
-.color_boton{
-    background-color: #002230 ;
-    color: white;
-    
-}
-.color_boton:hover{
-    color: white;
-}
-.conct_botton{
-    text-align: center;
-    
-}
-.container{
-    background-color: white;
-}
-input[type]:focus{
-    border-color: #B58D10; !important;
-    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #B58D10; !important;
-    outline: 0 none;
+    .color_boton {
+        background-color: #002230;
+        color: white;
+
     }
 
+    .color_boton:hover {
+        color: white;
+    }
+
+    .conct_botton {
+        text-align: center;
+
+    }
+
+    .container {
+        background-color: white;
+    }
+
+    input[type]:focus {
+        border-color: #B58D10;
+         !important;
+        box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #B58D10;
+         !important;
+        outline: 0 none;
+    }
 </style>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-9" style="    margin-top: 27px;">
             <h2 style="margin-bottom: 35px;" class="text-center">Agregar Publicación</h2>
             <form method="POST" action="guardar.php" enctype="multipart/form-data">
-            
-               <div class="form-group row">
+
+                <div class="form-group row">
                     <label for="" class="col-sm-2 col-form-label">Título Publicación</label>
                     <div class="col-sm-10">
-                <input type="text" class="form-control" name="titulo" id="titulo" placeholder="Título Noticia"  required>
+                        <input type="text" class="form-control" name="titulo" id="titulo" placeholder="Título Noticia" required>
                     </div>
                 </div>
-                
+
                 <div class="form-group row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Descripción Corta</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" name="descripcion" id="descripcion" placeholder="Descripción Corta" required>
                     </div>
                 </div>
-                
+
                 <div class="form-group row mb-4">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Url del Video</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="url" id="url" placeholder="Url del video a publicar" required>
+                        <input type="text" class="form-control" name="url" id="url" placeholder="Url del video a publicar">
+                    </div>
+                </div>
+                <div class="form-group row mb-4">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Instagram Url</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="insta_url" id="insta_url" placeholder="Url de la noticia en instagram">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -58,7 +69,7 @@ input[type]:focus{
                         <textarea name="noticia" id="noticia"></textarea>
                     </div>
                 </div>
-                
+
                 <div class="form-group row">
                     <label for="" class="col-sm-2 col-form-label">Imagen</label>
                     <div class="col-sm-10">
@@ -83,5 +94,7 @@ input[type]:focus{
         </div>
     </div>
 </div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/validacion.js"></script>
 
 <?php include 'layout/layoutFooter.php'; ?>

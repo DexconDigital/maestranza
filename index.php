@@ -1,5 +1,4 @@
 <?php require 'variables/variables.php';
-//require 'controllers/indexController.php';
 require 'controllers/noticiasController.php';
 require 'controllers/asesor_detalle.php';
 $page = 'Inicio';
@@ -14,6 +13,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <link rel="stylesheet" href="./menu/menu.css">
 
 <?php include 'layout/archivosheader.php'; ?>
+<?php require 'controllers/indexController.php'; ?>
 <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 
 <header class="webp-creative-header">
@@ -92,7 +92,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                 </div>
             </div>
-           
+
         </section>
 
         <section id="asesores" class="mb-5">
@@ -189,13 +189,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <div class="col-8">
                             <div class="owl-carousel owl-theme" id="aliados_slide">
 
-                                <!-- <?php
-                                        if (is_array($api)) {
-                                            inmuebles_destacados($api);
-                                        } else {
-                                            echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
-                                        }
-                                        ?> -->
+                                <?php
+                                if (is_array($api)) {
+                                    inmuebles_destacados($api);
+                                } else {
+                                    echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
+                                }
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -300,33 +300,44 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </section>
 
-        <section id="div_formulario">
-            <div id="formualrios" class="container">
-                <div class="col-12 ">
-                    <h2 class="linea text-left titulo_Servi mb-5">
-                        Formularios
-                    </h2>
-                </div>
+
+        <section id="formulario">
+            <div class="overlay">
             </div>
-            <div class="">
-                <div class="">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-ite active">
-                                <img class="imagen_formulario" src="images/aseguradoras.jpg" class="d-block w-100" alt="...">
+            <div class="container espacio_margen ">
+                <div class="col-12 ">
+                    <div class="row">
+                        <div class="col-5 titulo_cont_servi ">
+                            <h2 class="main-title letra_gruesa2">Formularios</h2>
+                        </div>
+                        <div class="col-7 ">
+                            <div class="cont_servi col-12 ">
+                                <div class="row">
+                                    <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
+                                        <a data-toggle="modal" data-target="#exampleModal">
+                                            <div class="text-center">
+                                                <i class="cont_icono fas fa-home"></i>
+                                            </div>
+                                            <h4 class="text-center text_servi">Consignar inmueble</h4>
+                                        </a>
+                                    </div>
+                                    <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
+                                        <a href="https://www.unifianza.com.co/formularios-interactivos.html" target="_blank">
+                                            <div class="text-center">
+                                                <img class="tamaño_unifianza_logo" src="images/LOGO_UNIFIANZA.png" alt="">
+                                            </div>
+                                            <h4 class="text-center text_servi">Aseguradora Unifianza</h4>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="images/aseguradoras.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/aseguradoras.jpg" class="d-block w-100" alt="...">
-                            </div>
+
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
-
 
         <section id="ultimas_noticias" class="mb-5">
             <div class="container espacio_margen">

@@ -42,6 +42,7 @@ require_once('controllers/detalle_noticiasController.php'); ?>
                 <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2" style="text-align: justify;">
                     <?php echo $noticia ?>
                 </div>
+                
                 <div class="container col-12 col-md-10  col-lg-8 borde-detalle-inmueble">
                     <div class="row mb-4">
                         <div class="col-12 col-md-5">
@@ -50,14 +51,17 @@ require_once('controllers/detalle_noticiasController.php'); ?>
                         <div class="col-12 col-md-3">
                             <?php if($url !="" ){
                                 echo '
-                                <a style="color:black;" href="<?php echo $url ?>"><i style="color:red;" class="fab fa-youtube mr-2"></i>Ver video</a> ';
-                            } 
+                                <a style="color:black;" href="'.$url.'" target="_blank"><i style="color:red;" class="fab fa-youtube mr-2"></i>Ver video</a> ';
+                            } elseif ($insta_url !="" ){
+                                echo'
+                                <a style="color:black;" href="'.$insta_url.'" target="_blank"><i style="color: #cf3c6d;font-size: 21px;" class="fab fa-instagram mr-2"></i>Ver imagenes</a> ';
+                            }
                            
                             
                             ?>
                         </div>
                         <div class="col-12 col-md-4" style="text-align: end;">
-                            <?php if ($ruta_archivo != $comparador . 'null') {
+                            <?php if ($ruta_archivo != $comparador . "") {
                                 echo '<a style="color:black;" href="' . $ruta_archivo . '" download="Noticias.pdf"><i style="color:red;" class="fas fa-file-pdf mr-3"></i>Descargar Archivo Adjunto</a>';
                             } ?>
                         </div>

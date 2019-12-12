@@ -44,6 +44,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <link rel="stylesheet" href="./menu/bootstrap.css">
 <link rel="stylesheet" href="./menu/menu.css">
 <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
+
 <link itemprop="thumbnailUrl" href="<?php echo $r['fotos'][0]['foto']; ?>">
 <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
     <link itemprop="url" href="<?php echo $r['fotos'][0]['foto']; ?>">

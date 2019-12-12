@@ -124,11 +124,11 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 <div class="row text-center">
                                     <div class="col-6">
                                         <h5 class="color_titulo_valores"><?php echo $texto_quienes_somos['valores']['parrafos'][3]['titulo'] ?></h5>
-                                        <p class="text-justify"><?php echo $texto_quienes_somos['valores']['parrafos'][0]['parrafo'] ?></p>
+                                        <p class="text-justify"><?php echo $texto_quienes_somos['valores']['parrafos'][3]['parrafo'] ?></p>
                                     </div>
                                     <div class="col-6">
                                         <h5 class="color_titulo_valores"><?php echo $texto_quienes_somos['valores']['parrafos'][4]['titulo'] ?></h5>
-                                        <p class="text-justify"><?php echo $texto_quienes_somos['valores']['parrafos'][0]['parrafo'] ?></p>
+                                        <p class="text-justify"><?php echo $texto_quienes_somos['valores']['parrafos'][4]['parrafo'] ?></p>
                                     </div>
                                 </div>
                             </div>

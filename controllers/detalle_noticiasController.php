@@ -15,6 +15,7 @@
         $archivo = $field['archivo'];
         $noticia = $field['noticia'];
         $url = $field['video_url'];
+        $insta_url = $field['instagram_url'];
         $fecha_complete = $field['fecha'];
     }
     $comparador='./Maestranza-Admin/admin/';

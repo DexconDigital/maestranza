@@ -16,6 +16,7 @@ while ($field = mysqli_fetch_array($result)) {
     $fecha = $field['fecha'];
     $archivo = $field['archivo'];
     $url = $field['video_url'];
+    $insta_url = $field['instagram_url'];
     $noticias_array[] = array(
         'titulo' => $nombre,
         'id' => $id,
@@ -25,6 +26,7 @@ while ($field = mysqli_fetch_array($result)) {
         'fecha' => $fecha,
         'archivo' => $archivo,
         'video_url' => $url,
+        'instagram_url' => $insta_url,
     );
 }
 function modelo_ultima_noticia($r)
@@ -34,14 +36,23 @@ function modelo_ultima_noticia($r)
         }else{
             $cantidad_noticias = count($r);
         }
+
     for($i=0; $i<$cantidad_noticias; $i++){
-       $limite_de_cadena = 100;
+      $nombre = $r[$i]['titulo'];
+       $limite_de_cadena2 = 24;
+        // recortar cadena
+        //pedniente recortar cadena de descripcion corta
+         if (strlen($nombre) >= $limite_de_cadena2) {
+            $nombre = substr($nombre, 0, $limite_de_cadena2) . '...';
+        } else {
+            $nombre = $nombre . '...';
+        }
        echo'
     <div class="col-4">
       <div class="card" style="width: 21rem;">
        <img style="object-fit: cover;width: 100%;height: 255px;" src="'.$r[$i]['imagen'].'" class="card-img-top" alt="...">  
         <div class="card-body">
-            <h4>' . $r[$i]['titulo'] .'</h4>
+            <h4>' .$nombre.'</h4>
             <p class="card-text">' . $r[$i]['fecha'] .'</p>
             <p class="card-text">' . $r[$i]['descripcion'] . '</p>
             <hr>
@@ -50,6 +61,10 @@ function modelo_ultima_noticia($r)
              if ($r[$i]['video_url'] != "" ) {
                  echo '
             <a href="' . $r[$i]['video_url'] .'" target="_blank" class="btn boton_ver_mas rounded-0">Ver video</a>';
+            }
+            elseif($r[$i]['instagram_url'] != "" ){
+              echo' 
+                <a href="' . $r[$i]['instagram_url'] .'" target="_blank" class="btn boton_ver_mas rounded-0">Ver Imagenes</a>';
               } echo'
             
         </div>

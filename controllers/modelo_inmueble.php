@@ -9,27 +9,23 @@ function modelo_inmueble($r, $cantidad_inmuebles)
         $api = $r[$i];
 
         echo '
-            <div class="col-md-12 col-12 col-lg-12 item">
-            <div class="card mt-4" style="">
-              <div class="property">
-                <a href="detalle_inmueble.php?co=' . $codigo . '">
-                  <div class="property-image">
-                    <img alt="" src="' . $imagen . '"></div>
-                  <div class="precio">';
-        if ($api['Gestion'] == 'Arriendo/venta') {
-            echo '$' . $api['Canon'] . ' <br>$' . $api['Venta'];
-        } else if ($api['Gestion'] == 'Arriendo') {
-            echo '$' . $api['Canon'];
-        } else {
-            echo '$' . $api['Venta'];
-        }
-        echo '
+           
+
                       <div class="item" style="height: 180px;">
                       <div class="card">
-                          <a href="./detalle_inmueble.php">
-                              <img src="images/no_image.png" class="card-img-top" alt="...">
+                          <a href="./detalle_inmueble.php?co=' . $codigo . '">
+                              <img src="' . $imagen . '" class="card-img-top" alt="...">
                           </a>
-                          <span class="precio_inmueble">$950,000,000</span>
+                          <span class="precio_inmueble">';
+                          if ($api['Gestion'] == 'Arriendo/venta') {
+                              echo '$' . $api['Canon'] . ' <br>$' . $api['Venta'];
+                          } else if ($api['Gestion'] == 'Arriendo') {
+                              echo '$' . $api['Canon'];
+                          } else {
+                              echo '$' . $api['Venta'];
+                          }
+                          echo '
+                          </span>
                           <span class="gestion_inmueble">' . $api['Tipo_Inmueble'] . ' en ' . $api['Gestion'] . '</span>
                           <div class="card-body">
                               <div class="col-md-12 row">
@@ -58,7 +54,7 @@ function modelo_inmueble($r, $cantidad_inmuebles)
                                   <ul class="info_inmueble mt-3">
                                       <li class="container_li">
                                           <i class="fas fa-chart-area icono_inmueble mr-1 dorado"></i>
-                                          <b class="color_palabras"> ' . $api['AreaConstruida'] . '</sup></b>
+                                          <b class="color_palabras"> ' . $api['AreaConstruida'] . 'm<sup>2</sup></b>
 
                                       </li>
                                       <li class="container_li">
@@ -221,3 +217,5 @@ function existeImagen($r)
     }
     return $r;
 }
+
+?>

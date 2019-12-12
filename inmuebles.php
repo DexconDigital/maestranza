@@ -1,4 +1,5 @@
-<?php require 'variables/variables.php';
+<?php
+require 'variables/variables.php';
 require 'controllers/inmueblesController.php';
 $page = 'Inmuebles';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
