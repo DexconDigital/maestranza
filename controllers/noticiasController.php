@@ -39,13 +39,20 @@ function modelo_ultima_noticia($r)
 
     for($i=0; $i<$cantidad_noticias; $i++){
       $nombre = $r[$i]['titulo'];
-       $limite_de_cadena2 = 24;
+      $descrip = $r[$i]['descripcion'];
+      $limite_de_cadena1 = 124;
+      $limite_de_cadena11 = 120;
+      $limite_de_cadena2 = 24;
         // recortar cadena
         //pedniente recortar cadena de descripcion corta
          if (strlen($nombre) >= $limite_de_cadena2) {
             $nombre = substr($nombre, 0, $limite_de_cadena2) . '...';
-        } else {
+        }else {
             $nombre = $nombre . '...';
+        }if (strlen($descrip) >= $limite_de_cadena1) {
+            $descrip = substr($descrip, 0, $limite_de_cadena1) . '...';
+        }else {
+            $descrip = $descrip . '...';
         }
        echo'
     <div class="col-4">
@@ -54,7 +61,7 @@ function modelo_ultima_noticia($r)
         <div class="card-body">
             <h4>' .$nombre.'</h4>
             <p class="card-text">' . $r[$i]['fecha'] .'</p>
-            <p class="card-text">' . $r[$i]['descripcion'] . '</p>
+            <p class="card-text">'.$descrip.'</p>
             <hr>
             
             <a href="./detalle-noticia.php?co=' . $r[$i]['id'] . '" class="btn boton_ver_mas rounded-0">Ver Más</a>';

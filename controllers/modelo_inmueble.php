@@ -44,7 +44,7 @@ function modelo_inmueble($r, $cantidad_inmuebles)
                                   </div>
                                   <div class="col-md-12">
                                       <p class="mb-1">
-                                          <a href="href="detalle_inmueble.php?co=' . $codigo . '" class="btn rounded-0 col-9 boton_cards contenedor_bot_card"><span>Ver Más</span></a>
+                                          <a href="detalle_inmueble.php?co=' . $codigo . '" class="btn rounded-0 col-9 boton_cards contenedor_bot_card"><span>Ver Más</span></a>
                                       </p>
                                   </div>
                               </div>

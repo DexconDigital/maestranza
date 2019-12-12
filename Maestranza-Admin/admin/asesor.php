@@ -69,12 +69,14 @@ include 'layout/layout.php';
                     <label for="inputPassword" class="col-sm-2 col-form-label">Descripción:</label>
                     <div class="col-sm-9" style="margin-left: 8%;">
                         <textarea name="descrip" id="descrip"></textarea>
+                        <small id="tituloHepl" class="form-text text-muted"> Ingrese el Contenido de la publicación y si es un texto copiado no olvide borrar el formato </small> 
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="" class="col-sm-3 col-form-label">Foto del asesor</label>
                     <div class="col-sm-9">
                         <input type="file" class="form-control-file" name="imagen" id="imagen" accept="image/*">
+                        <small id="tituloHepl" class="form-text text-muted"> Ingrese una imagen que no supere las 2MB</small> 
                     </div>
                 </div>
 
