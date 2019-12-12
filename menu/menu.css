@@ -142,7 +142,7 @@
     height: 100%;
     position: relative;
     top: 0;
-    overflow-x: hidden;
+    overflow-x: inherit;
     padding-top: 60px !important;
     opacity: 0;
 	padding:0;
@@ -151,17 +151,20 @@
     -o-transition: all .5s ease-in-out 0s;
     -ms-transition: all .5s ease-in-out 0s;
     transition: all .5s ease-in-out 0s;
+    margin-left: 8%;
 }
 .yit-custom-nav-2.left-side-nav .toogle-nav li {
     margin-bottom: 9px;
     list-style: none;
-    padding-left: 20px;
+    padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
-	transition:all ease 0.5s 0s;
+    transition:all ease 0.5s 0s;
+    
+    
 }
 .toogle-nav li:hover{
-	background-color:#002230;;
+	background-color:#002230;
 	color:#fff;
 	transition:all ease 0.5s 0s;
 }
@@ -301,7 +304,7 @@ i.fa.fa-search{
     background: none;
 }
 .yit-custom-nav-2.left-side-nav.js-side-nav-open {
-    width: 275px;
+    width: 300px;
 }
 .yit-custom-nav-2.left-side-nav.js-side-nav-open .toogle-nav {
     opacity: 1;

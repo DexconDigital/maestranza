@@ -278,7 +278,7 @@ p, span, b {
     
 }
 #servicios{
-    background-image: url(../images/Nuestros\ servicios.jpg);
+    background-image: url(../images/Nuestros_servicios.jpg);
     margin: 0px;
     background-position: center center;
     background-size: cover;
@@ -735,7 +735,7 @@ p, span, b {
 .dropbtn {
 	background-color: #fff;
 	color: #000;
-	padding: 4px 0;
+    padding: 4px 0px 0px 0px;
 	font-size: 16px;
 	border: none;
 	cursor: pointer;
@@ -750,13 +750,13 @@ p, span, b {
   
   .dropdown-content {
 	display: none;
-	position: absolute;
+	position: inherit;
 	background-color: $color_azul_oscuro;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 	width:100%;
-	left:0;
+	left:-3%;
   }
   
 .dropdown-content a {
