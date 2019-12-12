@@ -983,9 +983,10 @@ i.fa.fa-search{
 .yit-custom-nav-2.left-side-nav {
     height: 80px;
     width: 100%;
+    max-width: 100%;
 }
 .yit-custom-nav-2.left-side-nav .nav-toggle-bar {
-    right: 0;
+    right: 22px;
     z-index: 1;
 }
 .yit-custom-nav-2.left-side-nav .yit-social {
