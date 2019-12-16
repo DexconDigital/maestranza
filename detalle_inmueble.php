@@ -15,14 +15,17 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <?php include 'layout/archivosheader.php' ?>
 <link rel="stylesheet" href="css/carousel.inmuebles.css">
 <link rel="stylesheet" href="mapas/leaflet.css" crossorigin="" />
+<!-- Datos para compartir por facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="<?php echo 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>" />
+<meta property="og:url" content="<?php echo 'https://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>" />
 <meta property="og:title" content="<?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?>" />
 <meta property="og:description" content="Inmueble ubicado en: <?php echo $r['barrio'] . ', ' . $r['ciudad'] . ', ' . $r['depto']; ?> " />
 <meta property="og:image" itemprop="image" content="<?php echo $r['fotos'][0]['foto']; ?>" />
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="300">
 <meta property="og:image:height" content="300">
+<!-- fin de datos para compartir por facebook -->
+
 <style>
     #map {
         height: 350px;
@@ -143,7 +146,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     <div class="row">
                                         <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot row"><a href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www..com.co/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
                                         <div class="col-md-5 col-2 col-sm-1 mr-2 icon_foot row"><a href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.maestranza.com.co%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank"><i class="fab fa-twitter "></i></a></div>
-                                        <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot row"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.maestranza.com.co%2FdetalleInmueble%3Fcodigo%3D<?php echo $co; ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                                        <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot row"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.maestranza.com.co%2Fdetalle_inmueble.php%3Fco%3D987-<?php echo $co; ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+
                                     </div>
                                 </div>
                             </div>

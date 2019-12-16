@@ -65,6 +65,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     </section>
 
+
     <section id="slider_mision_vision" class="mt-5">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">

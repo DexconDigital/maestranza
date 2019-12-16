@@ -8288,7 +8288,7 @@ p, span, b {
 .logo {
   width: 60%;
   height: 0%;
-  margin-top: -7%;
+  margin-top: -18%;
   padding: 1%; }
 
 .margen_top {
@@ -8458,7 +8458,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
   #servicios .letra_gruesa2 {
     color: white;
     font-size: 48px;
@@ -8514,7 +8514,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
   #formulario .letra_gruesa2 {
     color: white;
     font-size: 48px;
@@ -8716,7 +8716,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
   #footer .style_icono {
     color: white;
     display: block;
@@ -8855,7 +8855,7 @@ p, span, b {
   margin-top: -200%; }
 
 .dimencion_boton_pse {
-  width: 50%;
+  width: 65%;
   height: 50%;
   -o-object-fit: contain;
   object-fit: contain;
@@ -8934,11 +8934,11 @@ p, span, b {
     color: #00E676; }
 
 #redes_sociales .tamaño {
-  font-size: 18px; }
+  font-size: 25px; }
 
 #redes_sociales .tamaño_wapp {
-  font-size: 35px;
-  margin-top: 215%;
+  font-size: 50px;
+  margin-top: 200%;
   -webkit-transform: scale(1, 1);
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 250ms;
@@ -9086,7 +9086,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
   #arrendamientos .boton {
     padding: .84rem 2.14rem;
     font-size: .81rem;
@@ -9166,7 +9166,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
 
 #administracion {
   background-image: url(../images/administracion_de_inmuebles.jpg);
@@ -9184,7 +9184,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
   #administracion .boton {
     padding: .84rem 2.14rem;
     font-size: .81rem;
@@ -9217,7 +9217,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
   #symil .boton {
     padding: .84rem 2.14rem;
     font-size: .81rem;
@@ -9273,7 +9273,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
   #corretaje .boton {
     padding: .84rem 2.14rem;
     font-size: .81rem;
@@ -9306,7 +9306,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
   #Gerencia_Comercial .boton {
     padding: .84rem 2.14rem;
     font-size: .81rem;
@@ -9339,7 +9339,7 @@ p, span, b {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #101734ab; }
+    background-color: rgba(0, 0, 0, 0.38); }
   #proyecto .boton {
     padding: .84rem 2.14rem;
     font-size: .81rem;

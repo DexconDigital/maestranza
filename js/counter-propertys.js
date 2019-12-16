@@ -89,7 +89,7 @@ setTimeout(() => {
    });
 
    //  **********************************   Inmuebles en venta ***************************
-   $.ajax({
+   $.ajax({ 
       url: 'http://www.simi-api.com/ApiSimiweb/response/v2.1.1/filtroInmueble/limite/1/total/1/departamento/0/ciudad/0/zona/0/barrio/0/tipoInm/0/tipOper/5/areamin/0/areamax/0/valmin/0/valmax/0/campo/0/order/0/banios/0/alcobas/0/garajes/0/sede/0/usuario/0',
       type: 'GET',
       beforeSend: function (xhr) {
@@ -130,7 +130,7 @@ setTimeout(() => {
          
          // buscar el id en el dom y imprimir el resultado
          let contador4 = new CountUp("counter-sale-rent",0,response.datosGrales.totalInmuebles,N_INIT,TIME);
-
+      
          //  Iniciar el  efecto segun la posicion del scroll
          $(window).scroll(function (event) {
             var ubicacion = $("#contador").offset().top;

@@ -22,4 +22,4 @@
     $ruta_imagen='./Maestranza-Admin/admin/'.$imagen;
     $ruta_archivo= $comparador.$archivo;
 
-?>
+?>  

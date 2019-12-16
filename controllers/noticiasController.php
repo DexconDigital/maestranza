@@ -63,16 +63,20 @@ function modelo_ultima_noticia($r)
             <p class="card-text">' . $r[$i]['fecha'] .'</p>
             <p class="card-text">'.$descrip.'</p>
             <hr>
-            
-            <a href="./detalle-noticia.php?co=' . $r[$i]['id'] . '" class="btn boton_ver_mas rounded-0">Ver Más</a>';
+           ';
              if ($r[$i]['video_url'] != "" ) {
                  echo '
-            <a href="' . $r[$i]['video_url'] .'" target="_blank" class="btn boton_ver_mas rounded-0">Ver video</a>';
+            <a href="' . $r[$i]['video_url'] .'" target="_blank" class="btn boton_ver_mas rounded-0">Ver en Youtube</a>';
             }
             elseif($r[$i]['instagram_url'] != "" ){
               echo' 
-                <a href="' . $r[$i]['instagram_url'] .'" target="_blank" class="btn boton_ver_mas rounded-0">Ver Imagenes</a>';
-              } echo'
+                <a href="' . $r[$i]['instagram_url'] .'" target="_blank" class="btn boton_ver_mas rounded-0">Ver en Instagram</a>';
+            }
+            elseif($r[$i]['video_url'] == "" && $r[$i]['instagram_url'] == "" ){
+                echo'
+                <a href="./detalle-noticia.php?co=' . $r[$i]['id'] . '" class="btn boton_ver_mas rounded-0">Ver Publicación</a>';
+            } 
+              echo'
             
         </div>
     </div>

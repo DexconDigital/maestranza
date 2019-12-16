@@ -240,11 +240,11 @@ $texto_servicios = [
 		"imagen" => "images/Gerencia comercial.jpg",
 		"titulo" => "Gerencia Comercial",
 		"etapas" => [
-			"titulo" => "Etapas de la Gerencia Comercial de Proyectos Inmobiliarios",
+			"titulo" => "",
 				0 => "Planeación Comercial: Ubicamos los proyectos en los contextos adecuados para garantizar el éxito en las ventas.",
 				1 => "Implementación de Estrategia Comercial: Ejecutamos las acciones integrales que hacen realidad, el desarrollo comercial del proyecto.",
 				2 => "Cierres de Proceso de Ventas: Acompañamiento en trámites administrativos, legales y de gestión desde la estructuración hasta la entrega.",
-				3 => "Post Venta: Medimos la experiencia del usuario y garantizamos la satisfacción del mismo.",
+				3 => "Post Venta: : Medimos la experiencia del usuario y garantizamos la satisfacción del mismo. Cambiar por : Post Venta: Medimos la experiencia del usuario a traves del proceso y trabajamos para la satisfaccion de sus necesidades.",
 		],
 		"ventajas" => [
 			"titulo" => "Ventajas y Alacances de la Gerencia Comercial con Maestranza",
@@ -274,11 +274,11 @@ $texto_servicios = [
 		"imagen" => "images/corretaje.jpg",
 		"titulo" => "Corretaje",
 		"parrafos" => [
-			0 => "Estamos enfocados en la búsqueda de todo tipo de inmueble, para facilitar la experiencia de nuestros clientes a la hora de arrendar, comprar o vender.",
+			0 => "Estamos enfocados en la búsqueda de todo tipo de inmuebles, para facilitar la experiencia de nuestros clientes a la hora de arrendar, comprar o vender.",
 			1 => "Evaluación de precios de inmuebles, rentabilidad, valorización, plusvalía, deterioro y tendencias acordes con el mercado.",
 			2 => "Intermediación, (Comprador, arrendatario y Vendedor), conciliando los intereses de todas las partes de manera exitosa.",
 			3 => "Gestionar todo el proceso, incluyendo,  financiación, estudio de seguridad del cliente, adecuaciones, estudio de titulos, avalúos, contratos, escrituración y entrega del inmueble.",
-			4 => "Difusión de la propiedad a través de diferentes medios y formas (prensa, portales, volantes, letreros, fotos, etc.), además de filtrar a los interesados y realizar los respectivos recorridos.",			
+			4 => "Promoción de los inmuebles a través de diferentes medios y formas (prensa, portales, volantes, letreros, fotos, etc.), segmentación del mercado, clientes y propiedades.",			
 			],
 	],	
 	"samyl" =>[
