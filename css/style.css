@@ -9359,9 +9359,6 @@ p, span, b {
 .tit {
   font-family: "roboto"; }
 
-.cuerpo_proyecto {
-  padding: 10%; }
-
 .dimencion_imagen {
   background-color: white;
   margin-bottom: 10%; }
@@ -9736,3 +9733,6 @@ p, span, b {
   .boton_blog:hover {
     background-color: white;
     color: #002230; }
+
+.cuerpo_proyecto {
+  margin-top: 3%; }
