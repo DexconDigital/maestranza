@@ -244,7 +244,7 @@ $texto_servicios = [
 				0 => "Planeación Comercial: Ubicamos los proyectos en los contextos adecuados para garantizar el éxito en las ventas.",
 				1 => "Implementación de Estrategia Comercial: Ejecutamos las acciones integrales que hacen realidad, el desarrollo comercial del proyecto.",
 				2 => "Cierres de Proceso de Ventas: Acompañamiento en trámites administrativos, legales y de gestión desde la estructuración hasta la entrega.",
-				3 => "Medimos la experiencia del usuario a traves del proceso y trabajamos para la satisfaccion de sus necesidades.",
+				3 => "Post Venta: Medimos la experiencia del usuario a traves del proceso y trabajamos para la satisfaccion de sus necesidades.",
 		],
 		"ventajas" => [
 			"titulo" => "Ventajas y Alacances de la Gerencia Comercial con Maestranza",
