@@ -8991,6 +8991,10 @@ p, span, b {
     background-color: #0057A1;
     color: white; }
 
+.titulo_espacio {
+  padding: 0.25rem;
+  margin-top: 8%; }
+
 #contact {
   background-image: url(../images/Quienes_somos.jpg);
   margin: 0px;

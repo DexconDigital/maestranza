@@ -135,7 +135,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <div class="col-7 ">
                             <div class="cont_servi col-12 ">
                                 <div class="row">
-                                    <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
+                                    <div class="col-5 border color_fichas cont_servi cont_arrendamiento">
                                         <a href="administracion.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['administracion'] ?>"></i>
@@ -143,7 +143,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             <h4 class="text-center text_servi">Administración</h4>
                                         </a>
                                     </div>
-                                    <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
+                                    <div class="col-5 border color_fichas cont_servi cont_ventas">
                                         <a href="samyl.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['samyl'] ?>"></i>
@@ -151,7 +151,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             <h4 class="text-center text_servi">Samyl</h4>
                                         </a>
                                     </div>
-                                    <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
+                                    <div class="col-5 border color_fichas cont_servi cont_arrendamiento">
                                         <a href="corretaje.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['corretaje'] ?>"></i>
@@ -159,7 +159,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             <h4 class="text-center text_servi">Corretaje</h4>
                                         </a>
                                     </div>
-                                    <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
+                                    <div class="col-5 border color_fichas cont_servi cont_ventas">
                                         <a href="gerencia_comercial.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['gerencia_comercial'] ?>"></i>
@@ -313,7 +313,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <div class="col-7 ">
                             <div class="cont_servi col-12 ">
                                 <div class="row">
-                                    <div class="col-5 border color_fichas border-dark cont_servi cont_arrendamiento">
+                                    <div class="col-5 border color_fichas cont_servi cont_arrendamiento">
                                         <a data-toggle="modal" data-target="#exampleModal">
                                             <div class="text-center">
                                                 <i class="cont_icono fas fa-home"></i>
@@ -321,7 +321,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             <h4 class="text-center text_servi">Consignar inmueble</h4>
                                         </a>
                                     </div>
-                                    <div class="col-5 border color_fichas border-dark cont_servi cont_ventas">
+                                    <div class="col-5 border color_fichas cont_servi cont_ventas">
                                         <a href="https://www.unifianza.com.co/formularios-interactivos.html" target="_blank">
                                             <div class="text-center">
                                                 <img class="tamaño_unifianza_logo" src="images/LOGO_UNIFIANZA.png" alt="">

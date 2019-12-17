@@ -39,7 +39,7 @@ function modelo_asesor($r)
           <img class="imagen" src="' . $ruta_imagen . '" alt="">
         </a>
           </div>
-          <div class="card-body">
+          <div class="card-body titulo_espacio">
             <h5 class="card-title text-center color_titulo_Card">' . $r[$i]['nombre'] . '</h5>
             <p class="text-center color_parrafo">' . $r[$i]['cargo'] . '</p>
           </div>    
