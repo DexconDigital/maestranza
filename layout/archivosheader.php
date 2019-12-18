@@ -6,3 +6,5 @@
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/mdb.min.css">
+<link rel="stylesheet" href="css/detalleProyecto.css">
+<link rel="stylesheet" href="css/carousel.inmuebles.css">

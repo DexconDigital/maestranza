@@ -11,6 +11,7 @@
     background-size: cover;
     display: block;
 }
+
 h2 {
     color: black;
     font-size: 40px;
@@ -31,7 +32,7 @@ a:hover, a:focus {
     margin-bottom: 35px;
 }
 #headJumbotron .viewHead {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     font-size: 20px;
     color: #000;
     font-weight: bold;
@@ -39,11 +40,11 @@ a:hover, a:focus {
 #headJumbotron .viewFoot .viewRigth {
     display: block;
     float: right;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     font-size: 15px;
 }
 #headJumbotron .viewHead h1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     font-size: 20px;
     color: #FFF;
     font-weight: bold;
@@ -122,7 +123,7 @@ a:hover, a:focus {
 #list-proyects .infoProyect .contentInfoProy .titleContentPro h2 {
     font-size: 18px;
     font-weight: 500;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     margin: 0px 0px 5px 0px;
     padding: 0px;
     text-transform: uppercase;
@@ -132,7 +133,7 @@ a:hover, a:focus {
 }
 #list-proyects .infoProyect .contentInfoProy .titleContentPro p {
     color: #D4D2D2;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     font-size: 14px;
     line-height: 1;
 }
@@ -150,7 +151,7 @@ a:hover, a:focus {
     float: left;
     width: auto;
     font-weight: 300;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     position: relative;
     margin-bottom: 5px;
     margin-right: 20px;
@@ -159,7 +160,7 @@ a:hover, a:focus {
 #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .areaProy span {
     color: #bebebe;
     font-size: 14px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     margin-bottom: 2px;
     display: block;
 }
@@ -167,7 +168,7 @@ a:hover, a:focus {
     color: #FFF;
     font-size: 13px;
     line-height: 1;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     font-weight: 500;
 }
 #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .habiProy {
@@ -176,7 +177,7 @@ a:hover, a:focus {
     display: block;
     float: left;
     font-weight: 300;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     width: auto;
     position: relative;
     margin-bottom: 5px;
@@ -186,7 +187,7 @@ a:hover, a:focus {
 #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .habiProy span {
     color: #bebebe;
     font-size: 14px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     margin-bottom: 2px;
     display: block;
 }
@@ -194,7 +195,7 @@ a:hover, a:focus {
     color: #FFF;
     font-size: 13px;
     line-height: 1;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     font-weight: 500;
 }
 #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .precioProy {
@@ -203,7 +204,7 @@ a:hover, a:focus {
     display: block;
     float: left;
     font-weight: 300;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     width: auto;
     position: relative;
     margin-bottom: 5px;
@@ -213,7 +214,7 @@ a:hover, a:focus {
 #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .precioProy span {
     color: #bebebe;
     font-size: 14px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     margin-bottom: 2px;
     display: block;
 }
@@ -221,7 +222,7 @@ a:hover, a:focus {
     color: #FFF;
     font-size: 13px;
     line-height: 1;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "roboto";
     font-weight: 500;
 }
 @media only screen and (max-width: 480px) {

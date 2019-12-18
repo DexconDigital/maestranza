@@ -77,7 +77,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 </div>
                 <div class="col-6 ml-5">
                     <div class="row">
-                        <div class="col-2 dimencion_imagen">
+                        <div class="col-2 dimencion_imagen_tigeras">
                             <img class="icono cuadro_button_exteriores" src="images/Exteriores_azul.png" alt="">
                             <span class="cuadro_dorado"></span>
                         </div>
@@ -87,24 +87,6 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                 </div>
-
-                <!--  <div class="col-3">
-                  <img class="icono posicion_servi" src="images/" alt="">
-                  <p class="text-justify parrafo_Servi"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
-              </div>
-              <div class="col-3">
-                  <img class="icono" src="images/" alt="">
-                  <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['mantenimiento'][0] ?></p>
-              </div>
-              <div class="col-3">
-                  <img class="icono" src="images/" alt="">
-                  <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['facility'][0] ?></p>
-              </div>
-              <div class="col-3">
-                  <img class="icono" src="images/Exteriores_dorado.png" alt="">
-                  <p class="text-justify parrafo"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
-              </div> -->
-
             </div>
         </div>
         </div>

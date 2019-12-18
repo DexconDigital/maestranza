@@ -104,7 +104,7 @@
                 </font>
             </a></li>
         <li>
-            <a href="proyecto.php">
+            <a href="proyectos.php">
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Proyectos</font>
                 </font>
