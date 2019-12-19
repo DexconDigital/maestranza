@@ -49,7 +49,7 @@ function modelo_inmueble($r, $cantidad_inmuebles)
                                   </div>
                               </div>
                               <hr class="color_linea_divisora_Card">
-                              <div class="col-md-12 row ">
+                              <div class="col-md-12 row d-flex justify-content-center">
 
                                   <ul class="info_inmueble mt-3">
                                       <li class="container_li">
@@ -138,7 +138,7 @@ function modelo_inmueble2($r)
                     </div>
                 </div>
                 <hr class="color_linea_divisora_Card">
-                <div class="col-md-12 row ">
+                <div class="col-md-12 row d-flex justify-content-center">
 
                     <ul class="info_inmueble mt-3">
                         <li class="container_li mr-3">
