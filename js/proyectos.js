@@ -182,7 +182,7 @@ $(document).ready(function () {
                 $(".carousel-inner").append(carousel_items);
 
 
-                $("#nomproyectoLog").append('<h2 class="title">' + data[0].NombreProyecto + '</h2>');
+                $("#nomproyectoLog").append('<h2 class="title color_title">' + data[0].NombreProyecto + '</h2>');
                 $('.countArea').text(data[0].AreaLote);
                 if (data[0].parqueadero <= 0) {
                     $('.countParking').hide();

@@ -34,91 +34,112 @@ $fec           = date('YmdHis'); ?>
   <div class="container-fluid body" id="detalle">
     <section id="slide_fotos_deatalle" class="mt-4">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="nomproyectoLog" id="nomproyectoLog">
-              <!-- Imprimir titulo de JS -->
-            </div>
-          </div>
-          <!-- imprimir imagenes -->
-          <div class="col-12 col-md-10 col-lg-8 row justify-content-center">
-            <div id="carouselExampleControls" class="carousel slide w-100 overflow-hidden pl-4 pl-md-0" data-ride="carousel">
-              <div class="carousel-inner">
-                <!-- Imprimir las imagenes -->
+        <div class="col-12">
+          <div class="row justify-content-center">
+            <!-- titulo -->
+            <div class="col-12 text-center mb-4">
+              <div class="nomproyectoLog" id="nomproyectoLog">
+                <!-- Imprimir titulo de JS -->
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
-          </div>
-          <!-- CARACTERÍSTICAS -->
-          <div class="col-11 col-md-10 col-lg-8  cd-section" id="">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">
-                  CARACTERÍSTICAS DEL PROYECTO
-                </h4>
-                <p class="rtejustify descrLarga card-text">
-                </p>
+            <div class="col-12">
+              <!-- imprimir imagenes -->
+              <div class="col-12 col-md-10 col-lg-12 row justify-content-center">
+                <div id="carouselExampleControls" class="carousel slide w-100 overflow-hidden pl-4 pl-md-0" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <!-- Imprimir las imagenes -->
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
+
             </div>
 
-            <!-- Zonas COMUNES -->
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">
-                  ZONAS COMUNES
-                </h4>
-                <div class="col-md-11 col-md-offset-1" id="listZonas">
-                  <div class="col-md-12 list">
+            <div class="col-12 mt-5">
+              <div class="row">
+                <div class="col-4">
+                  <!-- CARACTERÍSTICAS -->
+                  <div class="cd-section" id="">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          CARACTERÍSTICAS DEL PROYECTO
+                        </h4>
+                        <p class="rtejustify descrLarga card-text">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 cd-section">
+                  <!-- Zonas COMUNES -->
+                  <div class="card ">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        ZONAS COMUNES
+                      </h4>
+                      <div class="col-md-11 col-md-offset-1" id="listZonas">
+                        <div class="col-md-12 list">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-4 cd-section">
+                  <!-- Otras Zonas -->
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">OTRAS</h5>
+                      <div class="col-md-11 col-md-offset-1" id="listOtras">
+                        <div class="col-md-12 list">
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-12 mt-4 mb-3">
+                  <!-- Mapas -->
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Mapa</h5>
+                      <div id="map" class="w-100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <!-- videos -->
+                  <div class="card video_url">
+                    <div class="card-body">
+                      <h5 class="card-title">Video</h5>
+                      <iframe class="iframeVideo" width="100%" height="320" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <!-- Otras Zonas -->
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">OTRAS</h5>
-                <div class="col-md-11 col-md-offset-1" id="listOtras">
-                  <div class="col-md-12 list">
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <!-- Mapas -->
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Mapa</h5>
-                <div id="map" class="w-100"></div>
-              </div>
-            </div>
-
-            <!-- videos -->
-            <div class="card video_url">
-              <div class="card-body">
-                <h5 class="card-title">Video</h5>
-                <iframe class="iframeVideo" width="100%" height="320" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-
           </div>
-
         </div>
+
+
+      </div>
     </section>
   </div>
   <div class="caracproyecto">
 
     <div class="row justify-content-center">
       <div class="col-md-4 col-md-offset-2 mb-4">
-        <a class="btn btn-block btn-primary" href="proyectos.php">Ver más proyectos</a>
+        <a class="btn btn-block boton_dorado" href="proyectos.php">Ver más proyectos</a>
       </div>
     </div>
 

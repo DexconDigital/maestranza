@@ -33,9 +33,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
   <!-- fin de menu -->
 
   <!-- buscador de proyectos -->
-  <div class="filtrobusqueda">
+  <div class="filtrobusqueda fondo_buscador">
     <div class="container text-center">
-      <div class="formFilter">
+      <div class="formFilter mt-5">
         <form name="formFilter" class="row">
           <!-- <input type="hidden" name="inmo" value="786"> -->
           <input type="hidden" name="inmo" value="987">
@@ -83,7 +83,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
           </div>
           <div class="col-9 offset-1 form-group pt-4">
-            <button type="submit" class="btn-block btn btn-light btn-submitFilter boton_dorado">Buscar</button>
+            <button type="submit" class="btn-block btn btn-submitFilter boton_dorado">Buscar</button>
           </div>
         </form>
       </div>
