@@ -97,7 +97,7 @@ $fec           = date('YmdHis'); ?>
                   <!-- Otras Zonas -->
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">OTRAS</h5>
+                      <h4 class="card-title">OTRAS</h4>
                       <div class="col-md-11 col-md-offset-1" id="listOtras">
                         <div class="col-md-12 list">
                         </div>
@@ -112,7 +112,7 @@ $fec           = date('YmdHis'); ?>
                   <!-- Mapas -->
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">Mapa</h5>
+                      <h4 class="card-title">Mapa</h4>
                       <div id="map" class="w-100"></div>
                     </div>
                   </div>
@@ -121,7 +121,7 @@ $fec           = date('YmdHis'); ?>
                   <!-- videos -->
                   <div class="card video_url">
                     <div class="card-body">
-                      <h5 class="card-title">Video</h5>
+                      <h4 class="card-title">Video</h4>
                       <iframe class="iframeVideo" width="100%" height="320" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                   </div>
