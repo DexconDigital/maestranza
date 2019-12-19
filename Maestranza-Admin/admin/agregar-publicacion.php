@@ -31,6 +31,9 @@ include 'layout/layout.php';
         outline: 0 none;
     }
 </style>
+<div class="container-fluid p-0">
+
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-9" style="    margin-top: 27px;">
@@ -101,6 +104,7 @@ include 'layout/layout.php';
             </form>
         </div>
     </div>
+</div>
 </div>
 <script src="../js/jquery.min.js"></script>
 <script src="../js/validacion.js"></script>

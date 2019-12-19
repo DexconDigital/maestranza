@@ -30,7 +30,7 @@ $color_fondo = "";
         }
 
         body {
-            background-image: url("../images/Nuestros servicios.jpg");
+            background-image: url("../images/Nuestros_servicios.jpg");
             background-attachment: fixed;
             height: 700px;
             margin: 0px;
@@ -53,7 +53,7 @@ $color_fondo = "";
 
 <body>
     <div class="container-fluid altologin">
-        <div class="row justify-content-md-center altologin" style="background:#<?php echo $color_fondo ?>">
+        <div class="row justify-content-md-center altologin">
             <div class="col-md-4 col-12 align-self-center">
                 <div class="card">
                     <div class="card-header img_container">
