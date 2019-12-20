@@ -46,7 +46,7 @@ $fec           = date('YmdHis'); ?>
               <!-- imprimir imagenes -->
               <div class="col-12 col-md-10 col-lg-12 row justify-content-center">
                 <div id="carouselExampleControls" class="carousel slide w-100 overflow-hidden pl-4 pl-md-0" data-ride="carousel">
-                  <div class="carousel-inner">
+                  <div class="carousel-inner fondo_carrousel">
                     <!-- Imprimir las imagenes -->
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
