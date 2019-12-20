@@ -52,7 +52,7 @@ $sql = mysqli_query($con, $qry);
                                 <td>' . $res["id"] . '</td>
                                 <td>' . $res["nombre"] . '</td>
                                 <td><a href="actualizarpublicacion.php?id=' . $res["id"] . '"><i style="color:#B58D10;" class="fas fa-edit"></i></a></td>
-                                <td><a href="#" data-href="eliminar_asesor.php?id=' . $res["id"] . '" data-toggle="modal" data-target="#confirm-delete"><i style="color: #B58D10;"class="fas fa-trash-alt"></i></a></td>
+                                <td><a href="#" data-href="eliminar.php?id=' . $res["id"] . '" data-toggle="modal" data-target="#confirm-delete"><i style="color: #B58D10;"class="fas fa-trash-alt"></i></a></td>
                         </tr>';
           }
           ?>
@@ -69,7 +69,7 @@ $sql = mysqli_query($con, $qry);
             </button>
           </div>
           <div class="modal-body">
-            ¿Estas seguro de que quieres eliminar este asesor?
+            ¿Estas seguro de que quieres eliminar esta noticia?
           </div>
           <div class="modal-footer">
             <button type="button" class="btn color_cancelar rounded-0" data-dismiss="modal">Cancelar</button>
