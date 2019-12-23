@@ -6335,8 +6335,11 @@ a.close.disabled {
   opacity: 0.9;
 }
 
-.carousel-control-prev {
-  left: 0;
+@media (max-width:425px){
+  .carousel-control-prev {
+    left: 0;
+    
+  }
 }
 
 .carousel-control-next {

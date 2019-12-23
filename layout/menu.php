@@ -183,8 +183,8 @@
         </ul>
     </div>
     <!-- /Logo BOC -->
-    <div class="cont_botton yit-social2">
-
+    <div class="container">
+        <a class="logo phone_logo" href="index.php" title="Logo"> <img class="tamaño" src="images/Maestranza_Logo 3.png" alt="WebPanda Creative Studio"> </a>
     </div>
 
     <!-- /Logo EOC -->

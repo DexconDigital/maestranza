@@ -8207,7 +8207,13 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
-  padding-left: 70px; }
+  padding-left: 0px; }
+  @media (min-width: 768px) {
+    body {
+      padding-left: 0px; } }
+  @media (min-width: 992px) {
+    body {
+      padding-left: 70px; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "roboto"; }
@@ -8216,19 +8222,49 @@ p, span, b {
   font-family: "roboto"; }
 
 #hero #style_slide_uno {
-  margin-top: -29%;
-  font-size: 339%;
+  margin-top: -24%;
+  font-size: 143%;
   text-shadow: 0px 1px 2px #ffffff; }
+  @media (min-width: 768px) {
+    #hero #style_slide_uno {
+      font-size: 233%;
+      margin-top: -60%;
+      text-shadow: 0px 1px 2px #ffffff; } }
+  @media (min-width: 992px) {
+    #hero #style_slide_uno {
+      margin-top: -29%;
+      font-size: 339%;
+      text-shadow: 0px 1px 2px #ffffff; } }
 
 #hero #style_slide_dos {
-  margin-top: -32%;
-  font-size: 339%;
+  margin-top: -28%;
+  font-size: 147%;
   text-shadow: 0px 1px 2px #ffffff; }
+  @media (min-width: 768px) {
+    #hero #style_slide_dos {
+      margin-top: -68%;
+      font-size: 272%;
+      text-shadow: 0px 1px 2px #ffffff; } }
+  @media (min-width: 992px) {
+    #hero #style_slide_dos {
+      margin-top: -32%;
+      font-size: 339%;
+      text-shadow: 0px 1px 2px #ffffff; } }
 
 #hero #style_slide_tres {
-  margin-top: -32%;
-  font-size: 339%;
+  margin-top: 0%;
+  font-size: 135%;
   text-shadow: 0px 1px 2px #ffffff; }
+  @media (min-width: 768px) {
+    #hero #style_slide_tres {
+      margin-top: -66%;
+      font-size: 263%;
+      text-shadow: 0px 1px 2px #ffffff; } }
+  @media (min-width: 992px) {
+    #hero #style_slide_tres {
+      margin-top: -32%;
+      font-size: 339%;
+      text-shadow: 0px 1px 2px #ffffff; } }
 
 #hero #logo {
   -o-object-fit: contain;
@@ -8236,6 +8272,15 @@ p, span, b {
   position: absolute;
   margin-top: -260%;
   z-index: 98; }
+
+.margen_slider {
+  margin-top: 77px; }
+  @media (min-width: 768px) {
+    .margen_slider {
+      margin-top: 77px; } }
+  @media (min-width: 992px) {
+    .margen_slider {
+      margin-top: 0px; } }
 
 .boton_dorado {
   background-color: #B58D10;
@@ -8860,6 +8905,19 @@ p, span, b {
   -o-object-fit: contain;
   object-fit: contain;
   padding-top: 0%; }
+  @media (min-width: 768px) {
+    .dimencion_boton_pse {
+      width: 7%;
+      height: 50%;
+      -o-object-fit: contain;
+      margin-top: -3%; } }
+  @media (min-width: 992px) {
+    .dimencion_boton_pse {
+      width: 65%;
+      height: 50%;
+      -o-object-fit: contain;
+      object-fit: contain;
+      padding-top: 0%; } }
 
 .subir {
   display: none;
