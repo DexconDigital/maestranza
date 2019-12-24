@@ -8228,7 +8228,7 @@ p, span, b {
   @media (min-width: 768px) {
     #hero #style_slide_uno {
       font-size: 233%;
-      margin-top: -60%;
+      margin-top: -62%;
       text-shadow: 0px 1px 2px #ffffff; } }
   @media (min-width: 992px) {
     #hero #style_slide_uno {
@@ -8237,7 +8237,7 @@ p, span, b {
       text-shadow: 0px 1px 2px #ffffff; } }
 
 #hero #style_slide_dos {
-  margin-top: -28%;
+  margin-top: -25%;
   font-size: 147%;
   text-shadow: 0px 1px 2px #ffffff; }
   @media (min-width: 768px) {
@@ -8252,7 +8252,7 @@ p, span, b {
       text-shadow: 0px 1px 2px #ffffff; } }
 
 #hero #style_slide_tres {
-  margin-top: 0%;
+  margin-top: -24%;
   font-size: 135%;
   text-shadow: 0px 1px 2px #ffffff; }
   @media (min-width: 768px) {
@@ -8306,11 +8306,32 @@ p, span, b {
     box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #B58D10 !important;
     outline: 0 none; }
   #buscador .container {
-    margin-top: 34px;
+    margin-top: 77px;
     background-color: #f8f9fa;
     padding: 2%; }
+    @media (min-width: 768px) {
+      #buscador .container {
+        margin-top: -169px; } }
+    @media (min-width: 992px) {
+      #buscador .container {
+        margin-top: 77px; } }
   #buscador .cont_interno {
     margin-left: 0%; }
+
+#posicion_flechas {
+  width: 17px;
+  height: 17px;
+  margin-top: -6%; }
+  @media (min-width: 768px) {
+    #posicion_flechas {
+      width: 21px;
+      height: 22px;
+      margin-top: -172%; } }
+  @media (min-width: 992px) {
+    #posicion_flechas {
+      width: 40px;
+      height: 40px;
+      margin-top: -25%; } }
 
 #nav .container {
   position: absolute;
@@ -8346,7 +8367,7 @@ p, span, b {
     margin-top: -15%; }
   #texto_logo .logo_inicio_seccion {
     margin-bottom: 0rem;
-    width: 70%;
+    width: 100%;
     height: 100%; }
   #texto_logo .efecto_zoom {
     background-color: white;
@@ -8461,19 +8482,19 @@ p, span, b {
   content: '';
   position: absolute;
   height: 3px;
-  width: 23%;
+  width: 55px;
   background-color: #B58D10;
   margin: auto;
-  margin-top: 15%; }
+  bottom: 0; }
 
 .main-title_destacadas::before {
   content: '';
   position: absolute;
   height: 3px;
-  width: 30%;
+  width: 55px;
   background-color: #B58D10;
   margin: auto;
-  margin-top: 33%; }
+  bottom: 0; }
 
 #servicios {
   background-image: url(../images/Nuestros_servicios.jpg);
@@ -8495,6 +8516,9 @@ p, span, b {
     margin: 3%; }
   #servicios .titulo_cont_servi {
     margin-top: 14%; }
+    @media (max-width: 768px) {
+      #servicios .titulo_cont_servi {
+        margin-left: 3%; } }
   #servicios .overlay {
     position: absolute;
     width: 100%;
@@ -8588,16 +8612,23 @@ p, span, b {
 #asesores .letra_titulo {
   color: #002230;
   font-size: 48px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: 7%; }
+  @media (min-width: 768px) {
+    #asesores .letra_titulo {
+      margin-left: 3%; } }
+  @media (min-width: 992px) {
+    #asesores .letra_titulo {
+      margin-left: 0%; } }
 
 #asesores .main-title::before {
   content: '';
   position: absolute;
   height: 3px;
-  width: 10%;
+  width: 55px;
   background-color: #B58D10;
   margin: auto;
-  margin-top: 6%; }
+  bottom: 0; }
 
 #asesores .color_titulo_Card {
   color: #002230; }
@@ -8661,6 +8692,27 @@ p, span, b {
   margin: auto;
   margin-top: 6%; }
 
+#aliados .owl-carousel .owl-stage-outer {
+  position: relative;
+  height: 194px;
+  overflow: hidden;
+  left: 31%; }
+  @media (min-width: 768px) {
+    #aliados .owl-carousel .owl-stage-outer {
+      left: 27%; } }
+  @media (min-width: 992px) {
+    #aliados .owl-carousel .owl-stage-outer {
+      left: 0%; } }
+
+.tamaño_slider {
+  width: 102%; }
+  @media (min-width: 768px) {
+    .tamaño_slider {
+      left: -13%; } }
+  @media (min-width: 992px) {
+    .tamaño_slider {
+      left: 0%; } }
+
 #aliados .titulo {
   color: #002230;
   font-size: 48px;
@@ -8670,7 +8722,13 @@ p, span, b {
   padding-left: 0%; }
 
 #aliados .aliados_contenedor {
-  left: -11%; }
+  left: 0%; }
+  @media (min-width: 768px) {
+    #aliados .aliados_contenedor {
+      left: 0%; } }
+  @media (min-width: 992px) {
+    #aliados .aliados_contenedor {
+      left: -11%; } }
 
 #aliados img {
   height: 100%;
@@ -8687,10 +8745,10 @@ p, span, b {
   content: '';
   position: absolute;
   height: 3px;
-  width: 23%;
+  width: 55px;
   background-color: #B58D10;
   margin: auto;
-  margin-top: 15%; }
+  bottom: 0; }
 
 #ultimas_noticias .letra_titulo {
   color: #002230;
@@ -8701,10 +8759,13 @@ p, span, b {
   content: '';
   position: absolute;
   height: 3px;
-  width: 9%;
+  width: 55px;
   background-color: #B58D10;
-  margin: auto;
-  margin-top: 7%; }
+  bottom: 0%; }
+
+@media (max-width: 767px) {
+  #ultimas_noticias .main-title::before {
+    bottom: 50%; } }
 
 #ultimas_noticias hr {
   width: 90%;
@@ -8853,16 +8914,31 @@ p, span, b {
   display: inline-block;
   width: 100%; }
 
-.dropdown-content {
-  display: none;
-  position: inherit;
-  background-color: #002230;
-  min-width: 160px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  width: 106%;
-  left: -6%; }
+@media (max-width: 1220px) {
+  .dropdown-content {
+    display: none;
+    position: inherit;
+    background-color: #002230;
+    min-width: 160px;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 106%;
+    left: -6%;
+    /* left:-2%; */ } }
+
+@media (max-width: 768px) {
+  .dropdown-content {
+    display: none;
+    position: inherit;
+    background-color: #002230;
+    min-width: 160px;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 106%;
+    /* left:-6%; */
+    left: -2%; } }
 
 .dropdown-content a {
   color: black;
@@ -9015,6 +9091,17 @@ p, span, b {
 .imagen_formulario {
   -webkit-filter: brightness(50%);
   filter: brightness(50%); }
+
+.texto_propiedades {
+  margin-top: 8%;
+  margin-bottom: 3%;
+  margin-left: 3%; }
+  @media (min-width: 768px) {
+    .texto_propiedades {
+      margin-left: 3%; } }
+  @media (min-width: 992px) {
+    .texto_propiedades {
+      margin-left: 0%; } }
 
 #detalle_asesor {
   padding: 10%; }

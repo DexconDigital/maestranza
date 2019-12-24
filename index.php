@@ -35,7 +35,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
             <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item ">
+                    <div class="carousel-item">
                         <div class="view container_movil">
                             <img class="d-block w-100" id="style_slider_img" src="images/ciudad-1.jpg" alt="First slide">
                             <div class="mask rgba-black-light waves-light"></div>
@@ -44,7 +44,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <h1 id="style_slide_uno" class="h3-responsive"> <span class="color_dorado">Maestranza</span> <span class="color_azul">Gestión</span> <span class="color_dorado">Inmobiliaria</span></h1>
                         </div>
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <div class="view  container_movil">
                             <img class="d-block w-100" id="style_slider_img" src="images/ciudad-3.jpg" alt="Second slide">
                             <div class="mask rgba-black-light waves-light"></div>
@@ -54,7 +54,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                         </div>
                     </div>
-                    <div class="carousel-item  ">
+                    <div class="carousel-ite active ">
                         <div class="view  container_movil">
                             <img class="d-block w-100" id="style_slider_img" src="images/Manchester_Render.jpg" alt="Third slide">
                             <div class="mask rgba-black-light waves-light"></div>
@@ -66,13 +66,15 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     </div>
                 </div>
 
-                <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-angle-left nex_slide "></i></span>
-                    <span class="sr-only">Previous</span>
+                <a class="carousel-control-prev " href="#carousel-example-2" role="button" data-slide="prev">
+                    <span id="posicion_flechas" class="carousel-control-prev-icon" aria-hidden="true">
+                        <!-- <i class="fas fa-angle-left nex_slide "></i></span> -->
+                    <!-- <span class="sr-only">Previous</span> -->
                 </a>
                 <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-angle-right nex_slide "></i></span>
-                    <span class="sr-only">Next</span>
+                    <span id="posicion_flechas" class="carousel-control-next-icon" aria-hidden="true">
+                    <!-- <i class="fas fa-angle-right nex_slide "></i></span> -->
+                    <!-- <span class="sr-only">Next</span> -->
                 </a>
 
             </div>
@@ -84,8 +86,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
         <section id="texto_logo" class="text-center">
             <div class="col-12 d-flex justify-content-center">
-                <div class="col-4  mt-5 mb-5 efecto_zoom">
-
+                <div class="col-lg-3 col-md-4 col-5  mt-5 mb-5 efecto_zoom">
                     <a href="quienes_somos.php">
                         <img src="images/Maestranza_Logo 3.png" class="logo_inicio_seccion " alt="">
                     </a>
@@ -103,7 +104,6 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
                 <div class="col-12 mt-5">
                     <div class="row justify-content-center">
-
 
                         <?php if (isset($asesor_array)) {
                             modelo_asesor($asesor_array);
@@ -128,14 +128,14 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="container espacio_margen ">
                 <div class="col-12 ">
                     <div class="row">
-                        <div class="col-5 titulo_cont_servi ">
-                            <h2 class="main-title letra_gruesa2">Servicios</h2>
+                        <div class="col-lg-5 col-md-12 col-12 titulo_cont_servi ">
+                            <h2 class="position-relative main-title letra_gruesa2">Servicios</h2>
                             <p class="mt-4 color_blanco">Somos especialistas en</p>
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-lg-7 col-md-12 col-12 ">
                             <div class="cont_servi col-12 ">
                                 <div class="row">
-                                    <div class="col-5 border color_fichas cont_servi cont_arrendamiento">
+                                    <div class="col-lg-5 col-md-5 col-11 border color_fichas cont_servi cont_arrendamiento">
                                         <a href="administracion.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['administracion'] ?>"></i>
@@ -143,7 +143,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             <h4 class="text-center text_servi">Administración</h4>
                                         </a>
                                     </div>
-                                    <div class="col-5 border color_fichas cont_servi cont_ventas">
+                                    <div class="col-lg-5 col-md-5 col-11 border color_fichas cont_servi cont_ventas">
                                         <a href="samyl.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['samyl'] ?>"></i>
@@ -151,7 +151,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             <h4 class="text-center text_servi">Samyl</h4>
                                         </a>
                                     </div>
-                                    <div class="col-5 border color_fichas cont_servi cont_arrendamiento">
+                                    <div class="col-lg-5 col-md-5 col-11 border color_fichas cont_servi cont_arrendamiento">
                                         <a href="corretaje.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['corretaje'] ?>"></i>
@@ -159,7 +159,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             <h4 class="text-center text_servi">Corretaje</h4>
                                         </a>
                                     </div>
-                                    <div class="col-5 border color_fichas cont_servi cont_ventas">
+                                    <div class="col-lg-5 col-md-5 col-11 border color_fichas cont_servi cont_ventas">
                                         <a href="gerencia_comercial.php">
                                             <div class="text-center">
                                                 <i class="cont_icono <?php echo $iconos_servicios['gerencia_comercial'] ?>"></i>
@@ -182,11 +182,11 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="container">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-4" style="margin-top: 8%;">
-                            <h2 class=" main-title_destacadas  letra_gruesa"> Propiedades Destacadas</h2>
+                        <div class="col-lg-4 col-md-12 col-12 texto_propiedades">
+                            <h2 class="position-relative main-title_destacadas  letra_gruesa"> Propiedades Destacadas</h2>
                             <p class="mt-4"> Nuestras propiedades destacadas en este momento</p>
                         </div>
-                        <div class="col-8">
+                        <div class=" col-lg-8 col-md-12 col-12">
                             <div class="owl-carousel owl-theme" id="aliados_slide">
 
                                 <?php
@@ -208,11 +208,11 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="container margen_cont">
                 <div class="col-12 margen">
                     <div class="row">
-                        <div class="col-5 margen_titulo">
-                            <h1 class="titulo main-title text-left">Aliados</h1>
+                        <div class="col-lg-5 col-md-12 col-12 margen_titulo">
+                            <h1 class="position-relative titulo main-title text-left">Aliados</h1>
                         </div>
-                        <div class="col-7 aliados_contenedor">
-                            <div class="owl-carousel owl-theme" style="width: 126%;" id="aliados_slide1">
+                        <div class="col-lg-7 col-md-10 col-12 aliados_contenedor">
+                            <div class="owl-carousel owl-theme tamaño_slider" id="aliados_slide1">
                                 <div class="item mr-3">
                                     <div class="" style="width: 10rem;">
                                         <img src="<?php echo $logos_aliados[0] ?>" class="card-img-top imagen_card" alt="...">
@@ -307,13 +307,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="container espacio_margen ">
                 <div class="col-12 ">
                     <div class="row">
-                        <div class="col-5 titulo_cont_servi ">
+                        <div class="col-lg-5 col-md-12 col-12 titulo_cont_servi ">
                             <h2 class="main-title letra_gruesa2">Formularios</h2>
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-lg-7 col-md-12 col-12 ">
                             <div class="cont_servi col-12 ">
                                 <div class="row">
-                                    <div class="col-5 border color_fichas cont_servi cont_arrendamiento">
+                                    <div class="col-lg-5 col-md-5 col-10 border color_fichas cont_servi cont_arrendamiento">
                                         <a data-toggle="modal" data-target="#exampleModal">
                                             <div class="text-center">
                                                 <i class="cont_icono fas fa-home"></i>
@@ -321,7 +321,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             <h4 class="text-center text_servi">Consignar inmueble</h4>
                                         </a>
                                     </div>
-                                    <div class="col-5 border color_fichas cont_servi cont_ventas">
+                                    <div class="col-lg-5 col-md-5 col-10 border color_fichas cont_servi cont_ventas">
                                         <a href="https://www.unifianza.com.co/formularios-interactivos.html" target="_blank">
                                             <div class="text-center">
                                                 <img class="tamaño_unifianza_logo" src="images/LOGO_UNIFIANZA.png" alt="">

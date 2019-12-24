@@ -34,7 +34,7 @@ p, span, b {
         text-shadow: 0px 1px 2px #ffffff;
         @include media-breakpoint-up(md){
             font-size: 233%;
-            margin-top: -60%;
+            margin-top: -62%;
             text-shadow: 0px 1px 2px #ffffff;
         }
         @include media-breakpoint-up(lg){
@@ -44,24 +44,24 @@ p, span, b {
         }
     }
     #style_slide_dos{
-        margin-top: -28%;
+        margin-top: -25%;
         font-size: 147%;
         text-shadow: 0px 1px 2px #ffffff;
-        @include media-breakpoint-up(md){
+
+     @include media-breakpoint-up(md){
             margin-top: -68%;
             font-size: 272%;
             text-shadow: 0px 1px 2px #ffffff;
-
+    
         }
         @include media-breakpoint-up(lg){
             margin-top: -32%;
             font-size: 339%;
             text-shadow: 0px 1px 2px #ffffff;
         }
-        
     }
     #style_slide_tres{
-        margin-top: 0%;
+        margin-top: -24%;
         font-size: 135%;
         text-shadow: 0px 1px 2px #ffffff;
         @include media-breakpoint-up(md){
@@ -125,16 +125,37 @@ p, span, b {
     }
    
     .container{
-    margin-top: 34px;
+        margin-top: 77px;
     background-color: #f8f9fa;
     padding: 2%;
+    @include media-breakpoint-up(md){
+        margin-top: -169px;
+      }
+      @include media-breakpoint-up(lg){
+        margin-top: 77px;
+      }
     }
+
     .cont_interno{
         margin-left: 0%;
     }
 
 }
-
+#posicion_flechas{
+    width: 17px;
+    height: 17px;
+    margin-top: -6%;
+    @include media-breakpoint-up(md){
+        width: 21px;
+        height: 22px;
+        margin-top: -172%;
+      }
+      @include media-breakpoint-up(lg){
+        width: 40px;
+        height: 40px;
+        margin-top: -25%;
+      }
+}
 #nav{
     .container{
         position: absolute;
@@ -177,7 +198,7 @@ p, span, b {
     }
     .logo_inicio_seccion{
         margin-bottom: 0rem;
-        width: 70%;
+        width: 100%;
          height: 100%;
     }
     .efecto_zoom{
@@ -309,20 +330,20 @@ p, span, b {
     content: '';
     position: absolute;
     height: 3px;
-    width: 23%;
+    width: 55px;
     background-color:$color_dorado;
     margin: auto;
-    margin-top: 15%;
+    bottom:0;
     
 }
 .main-title_destacadas::before{
     content: '';
     position: absolute;
     height: 3px;
-    width: 30%;
-    background-color:$color_dorado;
+    width: 55px;
+    background-color: #B58D10;
     margin: auto;
-    margin-top: 33%;
+    bottom: 0;
     
 }
 #servicios{
@@ -349,6 +370,13 @@ p, span, b {
     }
     .titulo_cont_servi{
         margin-top: 14%;
+        @media (max-width:768px){
+           margin-left: 3%;
+        
+        }
+        @media (max-width:1220px){
+            
+        }
         
     }
     .overlay{
@@ -476,15 +504,22 @@ p, span, b {
         color: $color_azul_oscuro;
         font-size: 48px;
         font-weight: bold;
+        margin-left: 7%;
+        @include media-breakpoint-up(md){
+            margin-left: 3%
+        }
+        @include media-breakpoint-up(lg){
+            margin-left: 0%
+        }
     }
     .main-title::before{
         content: '';
         position: absolute;
         height: 3px;
-        width: 10%;
+        width: 55px;
         background-color: #B58D10;
         margin: auto;
-        margin-top: 6%;
+        bottom:0;
     }
     .color_titulo_Card{
         color: $color_azul_oscuro;
@@ -555,7 +590,27 @@ p, span, b {
         margin-top: 6%;
     }
 }
-
+#aliados .owl-carousel .owl-stage-outer{
+    position: relative;
+    height: 194px;
+    overflow: hidden;
+    left: 31%;
+    @include media-breakpoint-up(md){
+        left: 27%;
+    }
+    @include media-breakpoint-up(lg){
+        left:0%;
+    }
+}
+.tamaño_slider{
+    width: 102%;
+    @include media-breakpoint-up(md){
+        left: -13%;
+    }
+    @include media-breakpoint-up(lg){
+        left:0%;
+    }
+}
 
 #aseguradoras{
     
@@ -573,7 +628,13 @@ p, span, b {
         padding-left: 0%;   
     }
     .aliados_contenedor{
-        left: -11%;
+        left: 0%;
+        @include media-breakpoint-up(md){
+            left: 0%;
+        }
+        @include media-breakpoint-up(lg){
+            left: -11%;
+        }
     }
     img{
     height: 100%;
@@ -589,11 +650,12 @@ p, span, b {
         content: '';
         position: absolute;
         height: 3px;
-        width: 23%;
+        width: 55px;
         background-color: #B58D10;
         margin: auto;
-        margin-top: 15%;
+        bottom:0;
     }
+    
 }
 #ultimas_noticias{
     
@@ -607,10 +669,15 @@ p, span, b {
         content: '';
         position: absolute;
         height: 3px;
-        width: 9%;
+        width: 55px;
         background-color: #B58D10;
-        margin: auto;
-        margin-top: 7%;
+        bottom: 0%;
+    }
+
+    @media (max-width:767px) {
+        .main-title::before {
+            bottom:50%;
+        }
     }
    
     
@@ -796,17 +863,38 @@ p, span, b {
 	display: inline-block;
 	width: 100%;
   }
+  @media (max-width:1220px) {
+
+    .dropdown-content {
+        display: none;
+        position: inherit;
+        background-color: $color_azul_oscuro;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        width:106%;
+        left:-6%;
+        /* left:-2%; */
+      }
+}
   
-  .dropdown-content {
-	display: none;
-	position: inherit;
-	background-color: $color_azul_oscuro;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-	width:106%;
-	left:-6%;
-  }
+  @media (max-width:768px) {
+
+    .dropdown-content {
+        display: none;
+        position: inherit;
+        background-color: $color_azul_oscuro;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        width:106%;
+        /* left:-6%; */
+        left:-2%;
+      }
+}
+
+
+
   
 .dropdown-content a {
     color: black;
@@ -989,4 +1077,15 @@ p, span, b {
     .imagen_formulario{
         -webkit-filter: brightness(50%);
         filter: brightness(50%);
+    }
+    .texto_propiedades{
+        margin-top: 8%;
+        margin-bottom: 3%;   
+        margin-left: 3%;
+        @include media-breakpoint-up(md){
+            margin-left: 3%;
+        }
+        @include media-breakpoint-up(lg){
+            margin-left: 0%;
+        }
     }
