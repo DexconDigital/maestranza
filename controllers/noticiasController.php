@@ -55,8 +55,8 @@ function modelo_ultima_noticia($r)
             $descrip = $descrip . '...';
         }
        echo'
-    <div class="col-4">
-      <div class="card" style="width: 21rem;">
+    <div class="col-lg-4 col-md-6 col-12 mb-4">
+      <div class="card tamaños_targetas">
        <img style="object-fit: cover;width: 100%;height: 255px;" src="'.$r[$i]['imagen'].'" class="card-img-top" alt="...">  
         <div class="card-body">
             <h4>' .$nombre.'</h4>

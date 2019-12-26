@@ -6,6 +6,13 @@
     background-repeat: no-repeat;
     display: block;
     position: relative;
+    margin-top: 20%;
+    @include media-breakpoint-up(md){
+        margin-top: 10%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 0%;
+    }
     .overlay{
         position: absolute;
         width: 100%;
@@ -22,7 +29,16 @@
     color: #fff;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 25%;
+    margin-top: -15%;
+    @include media-breakpoint-up(md){
+        margin-bottom: 12%;
+            margin-top: -7%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-bottom: 10%;
+        margin-top: 0%;
+    }
     }
 }
 #texto_contacto{
@@ -70,13 +86,25 @@
    .cont_top{
     margin-bottom: 10%;
     color: $color_dorado;
+    @include media-breakpoint-up(md){
+        margin-bottom: 21%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-bottom: 10%;
+    }
    }
    .cont_top_valores{
     margin-bottom: 6%;
     
    }
    #cont_top_valores2{
-    margin-bottom: 12%;
+    margin-bottom: 7%;
+    @include media-breakpoint-up(md){
+        margin-bottom: 14%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-bottom: 10%;
+    }
     
    }
    #valores{
@@ -94,4 +122,16 @@
    }
       
 
+}
+.cont_contacto_nav_2{
+    visibility: hidden;
+    @include media-breakpoint-up(md){
+        visibility: hidden;
+    }
+    @include media-breakpoint-up(lg){
+        visibility: inherit;
+    }
+}
+.cont_btn_contact{
+    text-align: end;
 }

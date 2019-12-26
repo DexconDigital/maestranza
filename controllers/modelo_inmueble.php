@@ -97,7 +97,7 @@ function modelo_inmueble2($r)
         }
         // fin de recortar cadena
         echo '
-    <div class="col-4 margen_cards">
+    <div class="col-lg-4 col-md-6 col-12 margen_cards">
      <div class="item" style="height: 180px;">
         <div class="card">
             <a style="    width: auto;"  href="./detalle_inmueble.php?co=' . $codigo . '">

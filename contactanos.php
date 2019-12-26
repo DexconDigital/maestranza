@@ -33,8 +33,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="container">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-6  mt-5">
-                            <h2 class="main-title_contac letra_titulo_contac">Datos de Contacto</h2>
+                        <div class="col-lg-6 col-md-12 col-12  mt-5">
+                            <h2 class="main-title_contac letra_titulo_contac position-relative">Datos de Contacto</h2>
                             <ul class="lista_contacto pl-0">
                                 <li>
                                     <p class="info_color" style="font-family: inherit;"><i class="fas fa-map-marker-alt mr-2"></i><?php echo $datos_contacto['direccion']['direccion'] ?>&nbsp&nbsp</p>
@@ -58,8 +58,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </ul>
 
                         </div>
-                        <div class="col-6 cont_formulario">
-                            <h2 class="main-title_contac letra_titulo_contac"> Formulario de Contacto</h2>
+                        <div class="col-lg-6 col-md-12 col-12 cont_formulario">
+                            <h2 class="main-title_contac letra_titulo_contac position-relative"> Formulario de Contacto</h2>
                             <div class="mt-5">
                                 <form action="" method="Post">
                                     <div class="col-md-12 row">

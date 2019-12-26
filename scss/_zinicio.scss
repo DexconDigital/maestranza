@@ -125,7 +125,7 @@ p, span, b {
     }
    
     .container{
-        margin-top: 77px;
+        margin-top: -62px;
     background-color: #f8f9fa;
     padding: 2%;
     @include media-breakpoint-up(md){
@@ -672,14 +672,8 @@ p, span, b {
         width: 55px;
         background-color: #B58D10;
         bottom: 0%;
+    
     }
-
-    @media (max-width:767px) {
-        .main-title::before {
-            bottom:50%;
-        }
-    }
-   
     
     hr{
         width: 90%;
@@ -778,7 +772,15 @@ p, span, b {
         width: 68%;
     }
     .margen_telefono{
-        margin-top: 11%;
+        margin-top: -83%;
+        @include media-breakpoint-up(md){
+            margin-top: -47%;
+            margin-left: 50%;
+        }
+        @include media-breakpoint-up(lg){
+            margin-top: 11%;
+            margin-left: 0%;
+        }
     }
     .estylo_teelfonos{
         list-style: none;
@@ -792,7 +794,13 @@ p, span, b {
     margin-bottom: 11%;
     }
     .top_mapa{
-        margin-top: 48px;
+        margin-top: 258px;
+        @include media-breakpoint-up(md){
+            margin-top: 48px;
+        }
+        @include media-breakpoint-up(lg){
+            margin-top: 48px;
+        }
     }
     .tamaño_mapa{
     height: 70%;
@@ -845,7 +853,7 @@ p, span, b {
 }
 
 .contenedor_footer{
-    margin-left: 3%;
+    
 }
 
 .dropbtn {
@@ -863,35 +871,22 @@ p, span, b {
 	display: inline-block;
 	width: 100%;
   }
-  @media (max-width:1220px) {
-
-    .dropdown-content {
-        display: none;
-        position: inherit;
-        background-color: $color_azul_oscuro;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        width:106%;
-        left:-6%;
-        /* left:-2%; */
-      }
-}
   
-  @media (max-width:768px) {
-
-    .dropdown-content {
+   .dropdown-content {
         display: none;
         position: inherit;
         background-color: $color_azul_oscuro;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
-        width:106%;
+        width:102%;
         /* left:-6%; */
         left:-2%;
+        @include media-breakpoint-up(lg){
+            left:-6%;
+        }
       }
-}
+
 
 
 
@@ -993,7 +988,17 @@ p, span, b {
     color: #fff;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 25%;
+    margin-top: -15%;
+
+    @include media-breakpoint-up(md){
+            margin-bottom: 12%;
+            margin-top: -7%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-bottom: 10%;
+        margin-top: 0%;
+    }
     }
     .codigo_style{
         padding-left: 0;
@@ -1087,5 +1092,41 @@ p, span, b {
         }
         @include media-breakpoint-up(lg){
             margin-left: 0%;
+        }
+    }
+    .texto_footer{
+        text-align: justify;
+        padding: 0%;
+        @include media-breakpoint-up(md){
+            text-align: justify;
+            padding: 0%;
+            padding-left: 3%;
+        }
+    }
+    .tex-politica{
+        margin-right: 10%;
+        @include media-breakpoint-up(md){
+            margin-right: 10%;
+        }
+    }
+    .conten_header{
+        visibility: hidden;
+        @include media-breakpoint-up(lg){
+            visibility: inherit;
+        }
+    }
+    .conten_header_2{
+        visibility: hidden;
+        @include media-breakpoint-up(lg){
+            visibility: inherit;
+        }
+    }
+    .tamaños_targetas{
+        width: 23rem;
+        @include media-breakpoint-up(md){
+            width: 21rem;
+        }
+        @include media-breakpoint-up(lg){
+            width: 21rem;
         }
     }

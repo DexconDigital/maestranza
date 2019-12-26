@@ -6,6 +6,16 @@
     background-repeat: no-repeat;
     display: block;
     position: relative;
+    margin-bottom: 34%;
+    margin-top: 20%;
+    @include media-breakpoint-up(md){
+        margin-top: 10%;
+        
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 0%;
+        margin-bottom: 0%
+    }
     .overlay{
         position: absolute;
         width: 100%;
@@ -69,7 +79,14 @@
             object-fit: cover;
         }
         .margen_cards{
-            margin-bottom: 27%;
+            margin-bottom: 95%;
+            @include media-breakpoint-up(md){
+                margin-bottom: 47%;
+                
+            }
+            @include media-breakpoint-up(lg){
+                margin-bottom: 27%;
+            }
         }
         .gestion_inmueble{
             position: absolute;

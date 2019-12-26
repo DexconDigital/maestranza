@@ -19,13 +19,13 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 </header>
 
-<body>
+<body class="container-fluid p-0">
 
     <section id="contact">
         <?php include 'layout/header2.php'  ?>
     </section>
 
-    <section id="texto_contacto" class="text-center">
+    <section id="texto_contacto" class="container text-center">
         <div class="col-12">
             <img src="images/Maestranza Logo 3.png" width="300" height="300" alt="">
         </div>
@@ -43,19 +43,19 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <div class="cont" id="contador">
             <div class="col-12">
                 <div class="row text-center">
-                    <div class="col-3 color_conted">
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 color_conted">
                         <h1 id="counter-propertys"></h1>
                         <h5>Total Inmuebles</h5>
                     </div>
-                    <div class="col-3 color_conted">
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 color_conted">
                         <h1 id="counter-rent"></h1>
                         <h5> Inmuebles en Arriendo</h5>
                     </div>
-                    <div class="col-3 color_conted">
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 color_conted">
                         <h1 id="counter-sale"></h1>
                         <h5>Inmuebles en Venta</h5>
                     </div>
-                    <div class="col-3 color_conted">
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 color_conted">
                         <h1 id="counter-sale-rent">0</h1>
                         <h5>Inmuebles en Arriendo/Venta</h5>
                     </div>
@@ -101,22 +101,24 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <h2 class="color_titulo"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
                             <div class="col-12">
                                 <div class="row text-center">
-                                    <div class="col-4">
+                                    <div class="col-lg-4 col-md-6 col-4">
                                         <h5 class="color_titulo_valores"><?php echo $texto_quienes_somos['valores']['parrafos'][0]['titulo'] ?></h5>
                                         <p class="text-justify"><?php echo $texto_quienes_somos['valores']['parrafos'][0]['parrafo'] ?></p>
                                     </div>
-                                    <div class="col-4">
-                                        <h5 class="color_titulo_valores"><?php echo $texto_quienes_somos['valores']['parrafos'][1]['titulo'] ?></h5>
-                                        <p class="text-justify"><?php echo $texto_quienes_somos['valores']['parrafos'][1]['parrafo'] ?></p>
-                                    </div>
-                                    <div class="col-4">
+                                    <div class="col-lg-4 col-md-6 col-4">
                                         <h5 class="color_titulo_valores"><?php echo $texto_quienes_somos['valores']['parrafos'][2]['titulo'] ?></h5>
                                         <p class="text-justify"><?php echo $texto_quienes_somos['valores']['parrafos'][2]['parrafo'] ?></p>
                                     </div>
+                                    <div class="col-lg-4 col-md-12 col-4">
+                                        <h5 class="color_titulo_valores"><?php echo $texto_quienes_somos['valores']['parrafos'][1]['titulo'] ?></h5>
+                                        <p class="text-justify"><?php echo $texto_quienes_somos['valores']['parrafos'][1]['parrafo'] ?></p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- active -->
                     <div class="carousel-item active">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div id="cont_top_valores2" class="carousel-caption d-none d-md-block">

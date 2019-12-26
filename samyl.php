@@ -32,30 +32,28 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         </div>
     </section>
     <section>
-        <div class="container" style="    margin-bottom: 10%;">
+        <div class="container" style="margin-bottom: 10%;">
 
-            <div class="col-12 text-center mt-3 d-flex justify-content-betwee">
-
-
-                <div class="col-6">
+            <div class="col-lg-6 col-12 text-center mt-3 d-flex justify-content-betwee">
+                <div class="col-lg-6 col-md-6 col-12">
                     <div class="row">
                         <div class="col-2 dimencion_imagen">
                             <img class="icono cuadro_button" src="images/limpieza-y-desinfeccion_azul.png" alt="">
                             <span class="cuadro_dorado"></span>
                         </div>
-                        <div class="col-10 ">
+                        <div class="col-lg-10 col-md-9 col-10 ">
                             <h5 class="estilo_titulo">Limpieza y Desinfección:</h5>
                             <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 ml-5">
+                <div class="col-lg-6 col-md-6 col-12 ml-5">
                     <div class="row">
                         <div class="col-2 dimencion_imagen_facility">
                             <img class="icono cuadro_button" src="images/facility-service_azul.png" alt="">
                             <span class="cuadro_dorado"></span>
                         </div>
-                        <div class="col-10 ">
+                        <div class="col-lg-10 col-md-9 col-10 ">
                             <h5 class="estilo_titulo">Facility Services:</h5>
                             <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['facility'][0] ?></p>
                         </div>
@@ -63,25 +61,25 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 </div>
             </div>
             <div class="col-12 text-center mt-5 d-flex justify-content-betwee">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-12">
                     <div class="row">
                         <div class="col-2 dimencion_imagen_mantenimiento">
                             <img class="icono cuadro_button" src="images/Mantenimiento_azul.png" alt="">
                             <span class="cuadro_dorado"></span>
                         </div>
-                        <div class="col-10 ">
+                        <div class="col-lg-10 col-md-9 col-10 ">
                             <h5 class="estilo_titulo">Mantenimiento:</h5>
                             <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['mantenimiento'][0] ?></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 ml-5">
+                <div class="col-lg-6 col-md-6 col-12 ml-5">
                     <div class="row">
                         <div class="col-2 dimencion_imagen_tigeras">
                             <img class="icono cuadro_button_exteriores" src="images/Exteriores_azul.png" alt="">
-                            <span class="cuadro_dorado"></span>
+                            <span class="cuadro_dorado2"></span>
                         </div>
-                        <div class="col-10 ">
+                        <div class="col-lg-10 col-md-9 col-10 ">
                             <h5 class="estilo_titulo">Exteriores:</h5>
                             <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
                         </div>

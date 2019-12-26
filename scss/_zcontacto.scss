@@ -6,6 +6,13 @@
     background-repeat: no-repeat;
     display: block;
     position: relative;
+    margin-top: 20%;
+    @include media-breakpoint-up(md){
+        margin-top: 10%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 0%;
+    }
     .overlay{
         position: absolute;
         width: 100%;
@@ -82,10 +89,9 @@
     content: '';
     position: absolute;
     height: 3px;
-    width: 23%;
+    width: 13%;
     background-color: #B58D10;
-    margin: auto;
-    margin-top: 10%;
+    bottom: 0;
 }
 #mapa_contacto{
 

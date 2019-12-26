@@ -27,7 +27,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <div class="overlay">
         </div>
         <div class="container col-12">
-            <nav class="navbar navbar-light">
+            <nav class="navbar navbar-light conten_header">
                 <div class="col-6">
                     <a href="index.php" class="navbar-brand"> <img class="logo" src="images/Maestranza_logo2 .png" width="100" height="100" alt=""> </a>
                 </div>

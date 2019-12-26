@@ -6,6 +6,13 @@
     background-repeat: no-repeat;
     display: block;
     position: relative;
+    margin-top: 20%;
+    @include media-breakpoint-up(md){
+        margin-top: 10%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 0%;
+    }
     .overlay{
         position: absolute;
         width: 100%;
@@ -38,15 +45,22 @@
 font-size: 48px;
 font-weight: bold;
 padding: 2%;
+
 }
 
 #contenido_arrendamientos{
     padding: 7%;
     .color_servicio{
         color: $color_azul_oscuro;
-        font-size: 48px;
+        font-size: 32px;
         font-weight: bold;
+        @include media-breakpoint-up(md){
+            font-size: 32px;
     }
+    @include media-breakpoint-up(lg){
+        font-size: 48px;
+}
+}
     .lista{
         text-align: left;
     margin-top: 3%;
@@ -112,6 +126,13 @@ p{
     background-repeat: no-repeat;
     display: block;
     position: relative;
+    margin-top: 20%;
+    @include media-breakpoint-up(md){
+        margin-top: 10%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 0%;
+    }
     .overlay{
         position: absolute;
         width: 100%;
@@ -143,6 +164,13 @@ p{
     background-repeat: no-repeat;
     display: block;
     position: relative;
+    margin-top: 10%;
+    @include media-breakpoint-up(md){
+        margin-top: 10%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 0%;
+    }
     .overlay{
         position: absolute;
         width: 100%;
@@ -171,8 +199,14 @@ p{
     padding: 6%;
     .color_servicio{
         color: $color_azul_oscuro;
-        font-size: 48px;
+        font-size: 32px;
         font-weight: bold;
+        @include media-breakpoint-up(md){
+            font-size: 32px;
+        }
+        @include media-breakpoint-up(lg){
+            font-size: 48px;
+        }
     }
     .organizacion_texto{
         text-align: justify;
@@ -203,6 +237,13 @@ p{
         background-repeat: no-repeat;
         display: block;
         position: relative;
+        margin-top: 20%;
+        @include media-breakpoint-up(md){
+            margin-top: 10%;
+        }
+        @include media-breakpoint-up(lg){
+            margin-top: 0%;
+        }
         .overlay{
             position: absolute;
             width: 100%;
@@ -300,18 +341,68 @@ p{
 .dimencion_imagen{
     background-color: white;
     margin-bottom: 10%;
+    @include media-breakpoint-up(md){
+        margin-bottom: 54%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-bottom: 10%;
+    }
 }
 .cuadro_button{
     margin-top: 12%;
+    position: absolute;
+    margin-left: -32%;
+    @include media-breakpoint-up(md){
+        margin-top: 12%;
+    position: absolute;
+    margin-left: -32%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 12%;
+        position: inherit;
+        margin-left: 0%;
+    }
 }
 .cuadro_dorado{
     background-color: #b58d10;
     width: 100%;
     height: 100%;
     position: absolute;
-    margin-left: -92%;
     z-index: -1;
-    margin-top: 7%
+    margin-top: 8%;
+    @include media-breakpoint-up(md){
+        margin-left: -61%;
+    }
+    @include media-breakpoint-up(lg){
+        background-color: #b58d10;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin-left: -92%;
+        z-index: -1;
+        margin-top: 7%;
+    }
+}
+.cuadro_dorado2{
+    background-color: #b58d10;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -152%;
+    @include media-breakpoint-up(md){
+        margin-left: -61%;
+    }
+    @include media-breakpoint-up(lg){
+        background-color: #b58d10;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        margin-top: 8%;
+        margin-left: -87%;
+   
+    }
 }
 .estilo_titulo{
     color: #111534;
@@ -320,18 +411,52 @@ p{
 .dimencion_imagen_facility{
     background-color: white;
     margin-bottom: 78px;
+    @include media-breakpoint-up(md){
+        margin-bottom: 208px;
+    }
+    @include media-breakpoint-up(lg){
+        margin-bottom: 78px;
+    }
+
 }
 .dimencion_imagen_mantenimiento{
     background-color: white;
-    margin-bottom: 11%;
+    
+    @include media-breakpoint-up(md){
+        margin-bottom: 60%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-bottom: 11%;
+    }
 }
 .dimencion_imagen_tigeras{
     background-color: white;
     margin-bottom: 11%;
+    @include media-breakpoint-up(md){
+        margin-bottom: 40%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-bottom: 11%;
+    }
+}
+@include media-breakpoint-up(md){
+    margin-bottom: 42%;
+}
+@include media-breakpoint-up(lg){
+    margin-bottom: 11%;
 }
 .cuadro_button_exteriores{
-    margin-top: 12%;
-    margin-bottom: 9px;
+    
+    @include media-breakpoint-up(md){
+        margin-top: 27%;
+        margin-bottom: 23px;
+        width: 38px;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 12%;
+    margin-bottom: 19px;
+    width: 51px;
+    }
 }
 .sub_gerencial{
     font-weight: bold;

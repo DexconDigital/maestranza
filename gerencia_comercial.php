@@ -38,7 +38,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
             <div class="col-12">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-12">
                         <ul class="lista2">
                             <li class="mb-1">
                                 <p class="text-justify"><span>1. </span><?php echo $texto_servicios['gerencia_comercial']['etapas'][0] ?></p>
@@ -50,7 +50,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-12">
                         <ul class="lista2">
                             <li class="mb-1">
                                 <p class="text-justify"><span>3. </span> <?php echo $texto_servicios['gerencia_comercial']['etapas'][2] ?></p>

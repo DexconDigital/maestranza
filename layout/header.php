@@ -1,5 +1,5 @@
 <div class="container col-12 ">
-    <nav class="navbar navbar-light">
+    <nav class="navbar navbar-light ">
         <div class="col-5">
             <a href="index.php" class="navbar-brand contenedor_imagen"> <img class="logo" src="images/Maestranza_logo2 .png" width="100" height="100" alt=""> </a>
         </div>
