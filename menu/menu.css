@@ -208,6 +208,8 @@
     margin: auto;
     width: 100%;
     left: 4%;
+    /* cambio importante */
+    
 }
 .yit-custom-nav-2.left-side-nav .yit-social li {
     display: block;
@@ -1002,6 +1004,7 @@ i.fa.fa-search{
     transform: none;
     display: table;
     top: 20px;
+    visibility: hidden;
 }
 .yit-social{
 }
@@ -1118,6 +1121,22 @@ i.fa.fa-search{
 @media (min-width:768px) and (max-width:980px) {
     .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a {
     font-size: 30px;
+}
+.yit-custom-nav-2.left-side-nav .yit-social {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -40%);
+    -o-transform: translate(0, -40%);
+    -ms-transform: translate(0, -40%);
+    -moz-transform: translate(0, -40%);
+    transform: translate(0, -40%);
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    left: 4%;
+    visibility: hidden;
+    /* cambio importante */
+    
 }
 .yit-custom-nav-3d.right-side-nav {
     width: 80%;

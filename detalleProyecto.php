@@ -35,7 +35,7 @@ $fec           = date('YmdHis'); ?>
     <section id="slide_fotos_deatalle" class="mt-4">
       <div class="container">
         <div class="col-12">
-          <div class="row justify-content-center">
+          <div class="justify-content-center">
             <!-- titulo -->
             <div class="col-12 text-center mb-4">
               <div class="nomproyectoLog" id="nomproyectoLog">
@@ -44,7 +44,7 @@ $fec           = date('YmdHis'); ?>
             </div>
             <div class="col-12">
               <!-- imprimir imagenes -->
-              <div class="col-12 col-md-10 col-lg-12 row justify-content-center">
+              <div class="col-12 col-md-12 col-lg-12 pr-0 justify-content-center">
                 <div id="carouselExampleControls" class="carousel slide w-100 overflow-hidden pl-4 pl-md-0" data-ride="carousel">
                   <div class="carousel-inner fondo_carrousel">
                     <!-- Imprimir las imagenes -->
@@ -64,7 +64,7 @@ $fec           = date('YmdHis'); ?>
 
             <div class="col-12 mt-5">
               <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12 col-12 mb-4">
                   <!-- CARACTERÍSTICAS -->
                   <div class="cd-section" id="">
                     <div class="card">
@@ -78,7 +78,7 @@ $fec           = date('YmdHis'); ?>
                     </div>
                   </div>
                 </div>
-                <div class="col-4 cd-section">
+                <div class="col-lg-4 col-md-12 col-12 mb-4 cd-section">
                   <!-- Zonas COMUNES -->
                   <div class="card ">
                     <div class="card-body">
@@ -93,7 +93,7 @@ $fec           = date('YmdHis'); ?>
                   </div>
 
                 </div>
-                <div class="col-4 cd-section">
+                <div class="col-lg-4 col-md-12 col-12 mb-4 cd-section">
                   <!-- Otras Zonas -->
                   <div class="card">
                     <div class="card-body">
@@ -135,13 +135,14 @@ $fec           = date('YmdHis'); ?>
       </div>
     </section>
   </div>
-  <div class="caracproyecto">
 
-    <div class="row justify-content-center">
-      <div class="col-md-4 col-md-offset-2 mb-4">
-        <a class="btn btn-block boton_dorado" href="proyectos.php">Ver más proyectos</a>
-      </div>
+  <div class="caracproyecto text-center">
+
+
+    <div class=" container col-md-12 col-12 mb-4 text-center">
+      <a class="btn btn-block col-lg-4 col-md-4 col-6 boton_dorado" href="proyectos.php">Ver más proyectos</a>
     </div>
+
 
     <script type="text/javascript">
       var map = "";
@@ -156,7 +157,7 @@ $fec           = date('YmdHis'); ?>
       </div>
       <?php include 'layout/footer.php' ?>
     </section>
-
+  </div>
 </body>
 
 <script>

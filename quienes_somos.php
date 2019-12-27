@@ -66,7 +66,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     </section>
 
 
-    <section id="slider_mision_vision" class="mt-5">
+    <section id="slider_mision_vision" class="mt-5 slider1_quienes">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -145,6 +145,115 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="" aria-hidden="true">
+                        <i class="fas fa-angle-right color"></i>
+                    </span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider movil -->
+    <section id="slider22_mision_vision" class="mt-5 mb-5  slider22_quienes">
+        <div class="bd-example22">
+            <div id="carouselExampleCaptions2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaption2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaption2" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaption2" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner ">
+                    <div class="carousel-item ">
+                        <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  cont_top_valores_mision22">
+                            <h2 id="color_titulo_valores22">
+                                <?php echo $texto_quienes_somos['mision']['titulo'] ?>
+                            </h2>
+                            <p class="tamaños_parrafo">
+                                <?php echo $texto_quienes_somos['mision']['parrafo'] ?>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- vision -->
+                    <div class="carousel-item">
+                        <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  cont_top_valores22">
+                            <h2 id="color_titulo_valores22">
+                                <?php echo $texto_quienes_somos['vision']['titulo'] ?>
+                            </h2>
+                            <p class="tamaños_parrafo"> <?php echo $texto_quienes_somos['vision']['parrafo'] ?></p>
+                        </div>
+                    </div>
+                    <!-- honestidad -->
+                    <div class="carousel-item">
+                        <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  cont_top_valores_honestidad22">
+                            <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
+
+                            <div class="col-lg-12 col-md-6 col-12">
+                                <h5 id="color_titulo_valores22"><?php echo $texto_quienes_somos['valores']['parrafos'][0]['titulo'] ?></h5>
+                                <p class="text-center tamaños_parrafo"><?php echo $texto_quienes_somos['valores']['parrafos'][0]['parrafo'] ?></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- responsabilidad -->
+                    <div class="carousel-item ">
+                        <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  cont_top_valores_responsa22">
+                            <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
+
+                            <div class="col-lg-12 col-md-6 col-12">
+                                <h5 id="color_titulo_valores22"><?php echo $texto_quienes_somos['valores']['parrafos'][1]['titulo'] ?></h5>
+                                <p class="text-center tamaños_parrafo"><?php echo $texto_quienes_somos['valores']['parrafos'][1]['parrafo'] ?></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- respeto -->
+                    <div class="carousel-item ">
+                        <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  cont_top_valores_respeto22">
+                            <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
+                            <div class="col-lg-12 col-md-12 col-12">
+                                <h5 id="color_titulo_valores22"><?php echo $texto_quienes_somos['valores']['parrafos'][2]['titulo'] ?></h5>
+                                <p class="text-center tamaños_parrafo"><?php echo $texto_quienes_somos['valores']['parrafos'][2]['parrafo'] ?></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- active -->
+                    <!-- trabajo en equipo -->
+                    <div class="carousel-item ">
+                        <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  cont_top_valores222">
+                            <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
+                            <div class="col-12">
+                                <h5 id="color_titulo_valores22"><?php echo $texto_quienes_somos['valores']['parrafos'][3]['titulo'] ?></h5>
+                                <p class="text-center tamaños_parrafo"><?php echo $texto_quienes_somos['valores']['parrafos'][3]['parrafo'] ?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- calidad -->
+                    <div class="carousel-item active">
+                        <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  cont_top_valores_calidad222">
+                            <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
+                            <div class="col-12">
+                                <h5 id="color_titulo_valores22"><?php echo $texto_quienes_somos['valores']['parrafos'][4]['titulo'] ?></h5>
+                                <p class="text-center tamaños_parrafo"><?php echo $texto_quienes_somos['valores']['parrafos'][4]['parrafo'] ?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions2" role="button" data-slide="prev">
+                    <span class="" aria-hidden="true">
+                        <i class="fas fa-angle-left color"></i>
+                    </span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions2" role="button" data-slide="next">
                     <span class="" aria-hidden="true">
                         <i class="fas fa-angle-right color"></i>
                     </span>

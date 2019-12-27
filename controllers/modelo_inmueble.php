@@ -179,7 +179,9 @@ function modelo_inmueble_similare($r)
     $codigo = str_ireplace("987-", "", $r[$i]['Codigo_Inmueble']);
     $api = $r[$i];
 
-    echo ' <div class="item mb-4">
+    echo '
+    <div class="col-lg-12 col-md-6 col-12">
+    <div class="item mb-4">
     <div class="card" style="">
         <div class="property">
             <a href="./detalle_inmueble.php?co=' . $codigo . '">
@@ -206,7 +208,10 @@ function modelo_inmueble_similare($r)
             </div>
         </div>
     </div>
- </div> ';
+ </div>
+    </div>
+    
+    ';
   }
 }
 // Funciones para los modelos de propiedades
@@ -217,5 +222,3 @@ function existeImagen($r)
     }
     return $r;
 }
-
-?>

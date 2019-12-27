@@ -21,89 +21,38 @@ require_once('controllers/detalle_noticiasController.php'); ?>
 </header>
 
 <body>
-
-    <!-- <div class="row justify-content-center ">
-
-
-            <div class="col-11 col-md-8 col-lg-6 margen_imagen_detalle" style="margin-bottom: -1%;">
-                <div class="text-center" style="height: 80%; width: 100%;object-fit: contain;">
-                    <img style="object-fit: contain ;width: 100%;height: 100%;" src="<?php echo $ruta_imagen ?>" alt="" class="img-fluid-top">
-                    <div class="col-12">
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12" style="    margin-top: -30px;">
-                <div class="col-12 p-0 text-center">
-                    <h3 style="color:black"><?php echo $nombre ?></h3>
-                </div>
-                <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2" style="text-align: justify;">
-                <?php echo $noticia ?>
-                </div>
-                
-                <div class="container col-12 col-md-10  col-lg-8 borde-detalle-inmueble">
-                    <div class="row mb-4">
-                        <div class="col-12 col-md-5">
-                            Publicado el: <?php echo $fecha_complete; ?>
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <?php if ($url != "") {
-                                                                                            echo '
-                                <a style="color:black;" href="' . $url . '" target="_blank"><i style="color:red;" class="fab fa-youtube mr-2"></i>Ver video</a> ';
-                                                                                        } elseif ($insta_url != "") {
-                                                                                            echo '
-                                <a style="color:black;" href="' . $insta_url . '" target="_blank"><i style="color: #cf3c6d;font-size: 21px;" class="fab fa-instagram mr-2"></i>Ver imagenes</a> ';
-                                                                                        }
-
-
-                            ?>
-                        </div>
-                        <div class="col-12 col-md-4" style="text-align: end;">
-                            <?php if ($ruta_archivo != $comparador . "") {
-                                                                                            echo '<a style="color:black;" href="' . $ruta_archivo . '" download="Noticias.pdf"><i style="color:red;" class="fas fa-file-pdf mr-3"></i>Descargar Archivo Adjunto</a>';
-                                                                                        } ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
-
-
-
-    <div class="container-fluid mt-5">
+    <div class="container-fluid cont_noticias">
         <div class="container">
             <div class="col-12 text-center mb-4">
                 <h2><?php echo $nombre ?></h2>
             </div>
             <div class="col-12">
-                <img style="object-fit: contain ;width: 50%;height: 50%;" src="<?php echo $ruta_imagen ?>" alt="" class="img-fluid-top float-left mr-4">
+                <img id="cont_img_noticia" class="img-fluid-top mr-4 img_notica"  src="<?php echo $ruta_imagen ?>" alt="">
                 <p class="text-justify"> <?php echo $noticia ?></p>
             </div>
         </div>
         <div class="container col-10 text-center mb-4 ">
             <div class="row">
-                <div class="col-4">
-                  
-                    <span class="text-muted">  Publicado el: <?php echo $fecha_complete; ?></span>
+                <div class="col-lg-4 col-md-5 col-12">
+
+                    <span class="text-muted"> Publicado el: <?php echo $fecha_complete; ?></span>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-2 col-1 mt-2 mb-2">
                     <?php if ($url != "") {
-                                                                                            echo '
+                        echo '
                                 <a style="color:black;" href="' . $url . '" target="_blank"><i style="color:red;" class="fab fa-youtube mr-2"></i>Ver video</a> ';
-                                                                                        } elseif ($insta_url != "") {
-                                                                                            echo '
+                    } elseif ($insta_url != "") {
+                        echo '
                                 <a style="color:black;" href="' . $insta_url . '" target="_blank"><i style="color: #cf3c6d;font-size: 21px;" class="fab fa-instagram mr-2"></i>Ver imagenes</a> ';
-                                                                                        }
+                    }
 
 
                     ?>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-5 col-12">
                     <?php if ($ruta_archivo != $comparador . "") {
-                                                                                            echo '<a style="color:black;" href="' . $ruta_archivo . '" download="Noticias.pdf"><i style="color:red;" class="fas fa-file-pdf mr-3"></i>Descargar Archivo Adjunto</a>';
-                                                                                        } ?>
+                        echo '<a style="color:black;" href="' . $ruta_archivo . '" download="Noticias.pdf"><i style="color:red;" class="fas fa-file-pdf mr-3"></i>Descargar Archivo Adjunto</a>';
+                    } ?>
                 </div>
             </div>
         </div>

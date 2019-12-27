@@ -34,12 +34,11 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <section>
         <div class="container" style="margin-bottom: 10%;">
 
-            <div class="col-lg-6 col-12 text-center mt-3 d-flex justify-content-betwee">
+            <!-- <div class="col-lg-6 col-12 text-center mt-3">
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="row">
-                        <div class="col-2 dimencion_imagen">
-                            <img class="icono cuadro_button" src="images/limpieza-y-desinfeccion_azul.png" alt="">
-                            <span class="cuadro_dorado"></span>
+                        <div class="col-2">
+                            <img class="icono cuadro_button" src="images/limpieza-y-desinfeccion_cuadro.png" alt="">
                         </div>
                         <div class="col-lg-10 col-md-9 col-10 ">
                             <h5 class="estilo_titulo">Limpieza y Desinfección:</h5>
@@ -50,8 +49,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="col-lg-6 col-md-6 col-12 ml-5">
                     <div class="row">
                         <div class="col-2 dimencion_imagen_facility">
-                            <img class="icono cuadro_button" src="images/facility-service_azul.png" alt="">
-                            <span class="cuadro_dorado"></span>
+                            <img class="icono cuadro_button" src="images/servicios_cuadroamarillo.JPG" alt="">
                         </div>
                         <div class="col-lg-10 col-md-9 col-10 ">
                             <h5 class="estilo_titulo">Facility Services:</h5>
@@ -59,13 +57,12 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-12 text-center mt-5 d-flex justify-content-betwee">
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="row">
                         <div class="col-2 dimencion_imagen_mantenimiento">
-                            <img class="icono cuadro_button" src="images/Mantenimiento_azul.png" alt="">
-                            <span class="cuadro_dorado"></span>
+                            <img class="icono cuadro_button" src="images/mantenimiento.JPG" alt="">
                         </div>
                         <div class="col-lg-10 col-md-9 col-10 ">
                             <h5 class="estilo_titulo">Mantenimiento:</h5>
@@ -76,8 +73,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="col-lg-6 col-md-6 col-12 ml-5">
                     <div class="row">
                         <div class="col-2 dimencion_imagen_tigeras">
-                            <img class="icono cuadro_button_exteriores" src="images/Exteriores_azul.png" alt="">
-                            <span class="cuadro_dorado2"></span>
+                            <img class="icono cuadro_button_exteriores" src="images/Exteriores.JPG" alt="">
                         </div>
                         <div class="col-lg-10 col-md-9 col-10 ">
                             <h5 class="estilo_titulo">Exteriores:</h5>

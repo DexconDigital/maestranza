@@ -67,14 +67,14 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <div class="container">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-12">
                         <h4><?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?></h4>
                         <div class="col-12">
                             <div class="row">
-                                <div class="col-3">
+                                <div class="col-lg-3 col-md-3 col-12 ">
                                     <p class="codigo_style">Código: <span> <?php echo $co; ?></span></p>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-lg-8 col-md-8 col-12">
                                     <p class="codigo_style">Precio:
                                         <?php if ($r['Gestion'] == 'Arriendo') {
                                             echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
@@ -89,7 +89,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-12 texto_asesor">
                         <h4 class="text-center">Contacto con Asesor </h4>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <div class="container">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-12">
                         <!-- main slider carousel items -->
                         <section class="mt-3" id="slide-detalle">
                             <?php
@@ -133,23 +133,26 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             }
                             ?>
                         </section>
-                        <div class="col-12 mt-4">
+                        <div class="col-12 mt-4 text-center">
                             <div class="row">
-                                <div class="col-7">
+                                <div class="col-lg-6 col-md-5 col-12">
                                     <button type="button" class="btn color_comparit rounded-0 col-8 compartir_boton" name=""><a class="color_blanco_url" href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=987-<?php echo $co ?>" target="_blank">Imprimir ficha</a></button>
                                 </div>
 
-                                <div class="col-md-3 col-lg-4 col-6 col-sm-1 mr-2 texto_compartir">
-                                    <h5 class="compartir">Compartir por :</h5>
-                                </div>
-                                <div class="col-2 margen_iconos">
+                                <div class="col-md-6 col-lg-6 col-12 text-center texto_compartir">
                                     <div class="row">
-                                        <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot row"><a href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www..com.co/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
-                                        <div class="col-md-5 col-2 col-sm-1 mr-2 icon_foot row"><a href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.maestranza.com.co%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank"><i class="fab fa-twitter "></i></a></div>
-                                        <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot row"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.maestranza.com.co%2Fdetalle_inmueble.php%3Fco%3D987-<?php echo $co; ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+
+                                        <h5 class="compartir">Compartir por :</h5>
+
+
+                                        <a class="icon_foot mr-3" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www..com.co/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank"><i class="fab fa-whatsapp margen_icon"></i></a>
+                                        <a class="icon_foot mr-2" href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.maestranza.com.co%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank"><i class="fab fa-twitter margen_icon"></i></a>
+                                        <a class="icon_foot mr-2" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.maestranza.com.co%2Fdetalle_inmueble.php%3Fco%3D987-<?php echo $co; ?>" target="_blank"><i class="fab fa-facebook-f margen_icon"></i></a>
 
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
                         <div id="referencia_inmueble" class="col-md-12 mt-4">
@@ -244,40 +247,47 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-12">
                         <div class="row caja">
-                            <div class="col-4">
-                                <img class="cont_img" src="<?php echo $asesor['FotoAsesor']; ?>" width="100%" height="100%" alt="">
-                            </div>
-                            <div class="col-8">
-                                <p><i class="fas fa-user"></i></i> <span><?php echo $asesor['ntercero']; ?></span></p>
-                                <p><i class="fas fa-mobile-alt"></i></i> <span><a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></span></p>
-                                <p><i class="fas fa-envelope"></i></i> <span><a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></span></p>
+                            <div class="container">
+                                <div class="row">
+                                    <div id="texto_asesor2" class="col-12 mt-4 mb-4">
+                                        <h4 class="text-center">Contacto con Asesor </h4>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-12 text-center">
+                                        <img class="cont_img col-6 col-md-12 col-lg-12" src="<?php echo $asesor['FotoAsesor']; ?>" width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-12 mt-4">
+                                        <p><i class="fas fa-user"></i></i> <span><?php echo $asesor['ntercero']; ?></span></p>
+                                        <p><i class="fas fa-mobile-alt"></i></i> <span><a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></span></p>
+                                        <p><i class="fas fa-envelope"></i></i> <span><a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></span></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="container p-3">
-                            <div class="col-12">
-                                <div class="col-xl-12 col-md-4 col-12  margen_busca">
+                            <div class="col-12 p-0">
+                                <div class="col-xl-12 col-md-12 col-12  margen_busca">
                                     <input type="text" class="form-control rounded-0" id="" placeholder="Nombre y Apellido">
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="col-xl-12 col-md-4 col-12  margen_busca">
+                            <div class="col-12 p-0">
+                                <div class="col-xl-12 col-md-12 col-12  margen_busca">
                                     <input type="text" class="form-control rounded-0" id="" placeholder="Correo Electrónico">
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="col-xl-12 col-md-4 col-12  margen_busca">
+                            <div class="col-12 p-0">
+                                <div class="col-xl-12 col-md-12 col-12  margen_busca">
                                     <input type="text" class="form-control rounded-0" id="" placeholder="Teléfono">
                                 </div>
                             </div>
                             <div class="col-12 caja_texto">
                                 <div class="form-group">
-                                    <textarea cols="15" rows="5" name="message" class="textarea form-control tamaño_tex_area" placeholder="Mensaje"></textarea>
+                                    <textarea cols="15" rows="5" name="message" class="textarea form-control tamaño_tex_area rounded-0" placeholder="Mensaje"></textarea>
                                 </div>
                             </div>
                             <div class="col-12 div_condiciones text-break">
-                                <div class="custom-control custom-checkbox mb-4">
+                                <div class="custom-control custom-checkbox mb-4 pl-3">
                                     <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
                                     <label class="custom-control-label" for="defaultContactFormCopy">&nbsp&nbsp&nbsp&nbsp&nbspConfimo que he leído, entendido y acepto la<a class="color_a_condiciones" href="Politica_de_tratamiento_de_datos_personales.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                                 </div>
@@ -286,42 +296,16 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 <button type="button" class="btn color_comparit rounded-0 col-4 compartir_boton" name=""><a class="color_blanco_url" href="">Enviar</a></button>
                             </div>
                         </div>
-                        <div class="col-12 p-5">
+                        <div class="col-12 contenedor_simialres">
                             <div class="text-center">
-                                <h5 class="propiedades_similares">
+                                <h5 class="propiedades_similares mb-4">
                                     Propiedades Similares
                                 </h5>
                             </div>
-                            <div class="">
-                                <?php similares($r['IdCiudad'], $r['IdTpInm']); ?>
-                                <!-- <div class="item mb-4">
-                                    <div class="card" style="">
-                                        <div class="property">
-                                            <a href="detalle_inmueble.php?co=40">
-                                                <div class="property-image">
-                                                    <img class="alto_img" alt="" src="images/no_image.png"></div>
-                                                <div class="overlay">
+                            <div class="row">
 
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class=" row col-12 margen_card">
-                                            <div class="col-12">
-                                                <p class="mb-1"><b>Oficinas en Arriendo</b></p>
-                                            </div>
-                                            <div class="col-12">
-                                                <p class="mb-1"><i class="fas fa-map-marker-alt mr-2"></i>El Contador, Bogota</p>
-                                            </div>
-                                            <hr>
-                                            <div class="col-12">
-                                                <p class="mb-1"> <small>
-                                                        Código:40
-                                                    </small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
+                                <?php similares($r['IdCiudad'], $r['IdTpInm']); ?>
+
                             </div>
                         </div>
                     </div>

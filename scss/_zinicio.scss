@@ -86,8 +86,10 @@ p, span, b {
 }
 .margen_slider{
     margin-top: 77px;
+    margin-bottom: 21%;
     @include media-breakpoint-up(md){
         margin-top: 77px;
+        margin-bottom: inherit;
     }
     @include media-breakpoint-up(lg){
         margin-top: 0px;
@@ -366,7 +368,13 @@ p, span, b {
         margin: 17px;
     }
     .cont_ventas{
-        margin: 3%;
+        margin: 5%;
+        @include media-breakpoint-up(md){
+            margin: 3%;
+        }
+        @include media-breakpoint-up(lg){
+            margin: 3%;
+        }
     }
     .titulo_cont_servi{
         margin-top: 14%;
@@ -446,7 +454,13 @@ p, span, b {
         margin: 17px;
     }
     .cont_ventas{
-        margin: 3%;
+        margin: 5%;
+        @include media-breakpoint-up(md){
+            margin: 3%;
+        }
+        @include media-breakpoint-up(lg){
+            margin: 3%;
+        }
     }
     .titulo_cont_servi{
         margin-top: 9%;
@@ -469,6 +483,7 @@ p, span, b {
         color: white;
         font-size: 48px;
         font-weight: bold;
+        position: relative;
       }
       .color_blanco{
           color: white;
@@ -644,7 +659,10 @@ p, span, b {
         margin-top: 8%;
     }
     .margen_titulo{
-        margin-top: -2%;
+        margin-top: 7%;
+        @include media-breakpoint-up(md){
+            margin-top: 0%;
+        }
     }
     .main-title::before {
         content: '';
@@ -663,6 +681,13 @@ p, span, b {
         color: $color_azul_oscuro;
         font-size: 48px;
         font-weight: bold;
+        margin-top: 13%;
+        @include media-breakpoint-up(md){
+            margin-top: 9%;
+        }
+        @include media-breakpoint-up(lg){
+            margin-top: 0%;
+        }
         
     }
     .main-title::before {
@@ -1129,4 +1154,38 @@ p, span, b {
         @include media-breakpoint-up(lg){
             width: 21rem;
         }
+    }
+    .cont_noticias{
+        margin-top: 7rem;
+        @include media-breakpoint-up(md){
+            margin-top: 6rem;
+        }
+        @include media-breakpoint-up(lg){
+            margin-top: 3rem;
+        }
+    }
+    .img_noticia{
+        float: inherit;
+        object-fit: contain ;
+       
+        @include media-breakpoint-up(md){
+            float: left;
+            object-fit: contain ;
+            width: 50%;
+            height: 50%;
+        }
+        @include media-breakpoint-up(lg){
+            float: left;
+        }
+    }
+    #cont_img_noticia{
+        width: 100%;
+        height: 100%;
+        @include media-breakpoint-up(md){
+            float: left;
+            object-fit: contain ;
+            width: 50%;
+            height: 50%;
+        }
+       
     }

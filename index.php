@@ -177,7 +177,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </section>
 
-        <section id="destacadas">
+        <section id="destacadas" class="mb-4">
 
             <div class="container">
                 <div class="col-12">

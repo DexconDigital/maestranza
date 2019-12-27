@@ -8274,10 +8274,12 @@ p, span, b {
   z-index: 98; }
 
 .margen_slider {
-  margin-top: 77px; }
+  margin-top: 77px;
+  margin-bottom: 21%; }
   @media (min-width: 768px) {
     .margen_slider {
-      margin-top: 77px; } }
+      margin-top: 77px;
+      margin-bottom: inherit; } }
   @media (min-width: 992px) {
     .margen_slider {
       margin-top: 0px; } }
@@ -8513,7 +8515,13 @@ p, span, b {
   #servicios .cont_arrendamiento {
     margin: 17px; }
   #servicios .cont_ventas {
-    margin: 3%; }
+    margin: 5%; }
+    @media (min-width: 768px) {
+      #servicios .cont_ventas {
+        margin: 3%; } }
+    @media (min-width: 992px) {
+      #servicios .cont_ventas {
+        margin: 3%; } }
   #servicios .titulo_cont_servi {
     margin-top: 14%; }
     @media (max-width: 768px) {
@@ -8570,7 +8578,13 @@ p, span, b {
   #formulario .cont_arrendamiento {
     margin: 17px; }
   #formulario .cont_ventas {
-    margin: 3%; }
+    margin: 5%; }
+    @media (min-width: 768px) {
+      #formulario .cont_ventas {
+        margin: 3%; } }
+    @media (min-width: 992px) {
+      #formulario .cont_ventas {
+        margin: 3%; } }
   #formulario .titulo_cont_servi {
     margin-top: 9%; }
   #formulario .tamaño_unifianza_logo {
@@ -8587,7 +8601,8 @@ p, span, b {
   #formulario .letra_gruesa2 {
     color: white;
     font-size: 48px;
-    font-weight: bold; }
+    font-weight: bold;
+    position: relative; }
   #formulario .color_blanco {
     color: white; }
   #formulario .color_fichas {
@@ -8739,7 +8754,10 @@ p, span, b {
   margin-top: 8%; }
 
 #aliados .margen_titulo {
-  margin-top: -2%; }
+  margin-top: 7%; }
+  @media (min-width: 768px) {
+    #aliados .margen_titulo {
+      margin-top: 0%; } }
 
 #aliados .main-title::before {
   content: '';
@@ -8753,7 +8771,14 @@ p, span, b {
 #ultimas_noticias .letra_titulo {
   color: #002230;
   font-size: 48px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: 13%; }
+  @media (min-width: 768px) {
+    #ultimas_noticias .letra_titulo {
+      margin-top: 9%; } }
+  @media (min-width: 992px) {
+    #ultimas_noticias .letra_titulo {
+      margin-top: 0%; } }
 
 #ultimas_noticias .main-title::before {
   content: '';
@@ -9144,6 +9169,41 @@ p, span, b {
     .tamaños_targetas {
       width: 21rem; } }
 
+.cont_noticias {
+  margin-top: 7rem; }
+  @media (min-width: 768px) {
+    .cont_noticias {
+      margin-top: 6rem; } }
+  @media (min-width: 992px) {
+    .cont_noticias {
+      margin-top: 3rem; } }
+
+.img_noticia {
+  float: inherit;
+  -o-object-fit: contain;
+  object-fit: contain; }
+  @media (min-width: 768px) {
+    .img_noticia {
+      float: left;
+      -o-object-fit: contain;
+      object-fit: contain;
+      width: 50%;
+      height: 50%; } }
+  @media (min-width: 992px) {
+    .img_noticia {
+      float: left; } }
+
+#cont_img_noticia {
+  width: 100%;
+  height: 100%; }
+  @media (min-width: 768px) {
+    #cont_img_noticia {
+      float: left;
+      -o-object-fit: contain;
+      object-fit: contain;
+      width: 50%;
+      height: 50%; } }
+
 #detalle_asesor {
   padding: 10%; }
   #detalle_asesor .style_titulo {
@@ -9288,6 +9348,53 @@ p, span, b {
   color: #002230;
   font-weight: bold; }
 
+#slider22_mision_vision h5 {
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 1px; }
+
+#slider22_mision_vision p {
+  color: black; }
+
+#slider22_mision_vision .color {
+  color: black;
+  font-size: 253%; }
+
+#slider22_mision_vision .cont_top {
+  margin-bottom: 10%;
+  color: #B58D10; }
+  @media (min-width: 768px) {
+    #slider22_mision_vision .cont_top {
+      margin-bottom: 21%; } }
+  @media (min-width: 992px) {
+    #slider22_mision_vision .cont_top {
+      margin-bottom: 10%; } }
+
+#slider22_mision_vision .cont_top_valores {
+  margin-bottom: 6%; }
+
+#slider22_mision_vision #cont_top_valores2 {
+  margin-bottom: 7%; }
+  @media (min-width: 768px) {
+    #slider22_mision_vision #cont_top_valores2 {
+      margin-bottom: 14%; } }
+  @media (min-width: 992px) {
+    #slider22_mision_vision #cont_top_valores2 {
+      margin-bottom: 10%; } }
+
+#slider22_mision_vision #valores {
+  margin-bottom: 5%; }
+
+#slider22_mision_vision h2 {
+  margin-bottom: 5%; }
+
+#slider22_mision_vision .color_titulo {
+  color: #B58D10; }
+
+#slider22_mision_vision .color_titulo_valores {
+  color: #002230;
+  font-weight: bold; }
+
 .cont_contacto_nav_2 {
   visibility: hidden; }
   @media (min-width: 768px) {
@@ -9299,6 +9406,74 @@ p, span, b {
 
 .cont_btn_contact {
   text-align: end; }
+
+.slider1_quienes {
+  visibility: hidden;
+  display: none; }
+  @media (min-width: 768px) {
+    .slider1_quienes {
+      visibility: inherit;
+      display: inherit; } }
+  @media (min-width: 992px) {
+    .slider1_quienes {
+      visibility: inherit;
+      display: initial; } }
+
+.slider22_quienes {
+  visibility: inherit;
+  display: inherit; }
+  @media (min-width: 768px) {
+    .slider22_quienes {
+      visibility: hidden;
+      display: none; } }
+  @media (min-width: 992px) {
+    .slider22_quienes {
+      visibility: hidden;
+      display: none; } }
+
+.bd-example {
+  margin-left: 5%; }
+
+.tamaños_parrafo {
+  font-size: 72%; }
+
+#color_titulo_valores22 {
+  color: #002230;
+  font-weight: bold;
+  font-size: 13px !important;
+  line-height: 1.5;
+  letter-spacing: 1px; }
+
+.color_titulo22 {
+  color: #B58D10;
+  font-size: 95%; }
+
+.cont_top_valores22 {
+  margin-bottom: -8%; }
+
+.bd-example22 {
+  margin-left: 0%; }
+
+.cont_top_valores222 {
+  margin-bottom: -14%; }
+
+.carousel-indicators {
+  visibility: hidden !important; }
+
+.cont_top_valores_mision22 {
+  margin-bottom: -5%; }
+
+.cont_top_valores_honestidad22 {
+  margin-bottom: -7%; }
+
+.cont_top_valores_responsa22 {
+  margin-bottom: -11%; }
+
+.cont_top_valores_respeto22 {
+  margin-bottom: -3%; }
+
+.cont_top_valores_calidad222 {
+  margin-bottom: -6%; }
 
 #arrendamientos {
   background-image: url(../images/Gerencia_comercial.jpg);
@@ -9600,7 +9775,14 @@ p, span, b {
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
-  position: relative; }
+  position: relative;
+  margin-top: 20%; }
+  @media (min-width: 768px) {
+    #proyecto {
+      margin-top: 10%; } }
+  @media (min-width: 992px) {
+    #proyecto {
+      margin-top: 0%; } }
   #proyecto .overlay {
     position: absolute;
     width: 100%;
@@ -9866,9 +10048,15 @@ p, span, b {
   -webkit-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.1);
-  width: 486px;
+  width: inherit;
   position: relative;
   margin: auto; }
+  @media (min-width: 768px) {
+    #contacto .caja {
+      width: inherit; } }
+  @media (min-width: 992px) {
+    #contacto .caja {
+      width: 486px; } }
   #contacto .caja img {
     -o-object-fit: cover;
     object-fit: cover; }
@@ -9876,12 +10064,28 @@ p, span, b {
     color: #B58D10; }
 
 #contacto .caja_texto {
-  padding: 6%;
-  margin-top: -6%; }
+  padding: 5%;
+  margin-top: -4%; }
+  @media (min-width: 768px) {
+    #contacto .caja_texto {
+      padding: 15px;
+      margin-top: -2%; } }
+  @media (min-width: 992px) {
+    #contacto .caja_texto {
+      padding: 3%;
+      margin-top: -3%; } }
 
 #contacto .div_condiciones {
-  padding: 3%;
-  margin-top: -10%; }
+  padding: 0%;
+  margin-top: -2%; }
+  @media (min-width: 768px) {
+    #contacto .div_condiciones {
+      padding: 1%;
+      margin-top: -4%; } }
+  @media (min-width: 992px) {
+    #contacto .div_condiciones {
+      padding: 0%;
+      margin-top: 0%; } }
 
 #contacto .color_a_condiciones {
   color: #0057A1; }
@@ -9890,7 +10094,29 @@ p, span, b {
 
 #contacto .texto_compartir {
   margin-top: 19px;
-  margin-left: -10%; }
+  margin-left: 7%;
+  left: 0%; }
+  @media (min-width: 768px) {
+    #contacto .texto_compartir {
+      margin-top: 11px;
+      margin-left: 7%;
+      left: 0%; } }
+  @media (min-width: 992px) {
+    #contacto .texto_compartir {
+      margin-top: 19px;
+      margin-left: -5%; } }
+
+#contacto .compartir {
+  padding-right: 15%; }
+  @media (min-width: 768px) {
+    #contacto .compartir {
+      padding-right: inherit; } }
+
+#contacto .margen_icon {
+  margin-left: -60%; }
+  @media (min-width: 768px) {
+    #contacto .margen_icon {
+      margin-left: inherit; } }
 
 #contacto .color_comparit {
   background-color: #002230; }
@@ -9901,8 +10127,16 @@ p, span, b {
     text-decoration: none; }
 
 #contacto .icon_foot {
-  font-size: 23px;
-  padding: 0px; }
+  font-size: 23px; }
+  @media (min-width: 768px) {
+    #contacto .icon_foot {
+      font-size: 23px;
+      margin-left: 6%; } }
+  @media (min-width: 992px) {
+    #contacto .icon_foot {
+      font-size: 23px;
+      margin-left: 4%;
+      padding: 0px; } }
 
 #contacto .container_icon_compartir {
   margin-left: 2%;
@@ -9942,7 +10176,13 @@ p, span, b {
   object-fit: cover; }
 
 #cont_margen_total {
-  margin-top: 5%; }
+  margin-top: 25%; }
+  @media (min-width: 768px) {
+    #cont_margen_total {
+      margin-top: 15%; } }
+  @media (min-width: 992px) {
+    #cont_margen_total {
+      margin-top: 5%; } }
 
 .color_asesor {
   color: #0057A1;
@@ -9950,6 +10190,34 @@ p, span, b {
   .color_asesor:hover {
     color: #002230;
     text-decoration: none; }
+
+.texto_asesor {
+  visibility: hidden; }
+  @media (min-width: 768px) {
+    .texto_asesor {
+      visibility: hidden; } }
+  @media (min-width: 992px) {
+    .texto_asesor {
+      visibility: inherit; } }
+
+#texto_asesor2 {
+  visibility: inherit; }
+  @media (min-width: 768px) {
+    #texto_asesor2 {
+      visibility: inherit; } }
+  @media (min-width: 992px) {
+    #texto_asesor2 {
+      position: fixed;
+      visibility: hidden; } }
+
+.contenedor_simialres {
+  padding: inherit; }
+  @media (min-width: 768px) {
+    .contenedor_simialres {
+      padding: 3rem; } }
+  @media (min-width: 992px) {
+    .contenedor_simialres {
+      padding: 3rem; } }
 
 #contactanos {
   background-image: url(../images/Contacto.jpg);
@@ -10035,10 +10303,10 @@ p, span, b {
 #mapa_contacto .contenedor_mapa {
   position: relative;
   height: 314px;
-  margin-bottom: 2%; }
+  padding: 0; }
 
 #mapa_contacto .tamaño_mapa {
-  min-width: 103%;
+  width: 100%;
   -o-object-fit: contain;
   object-fit: contain;
   height: 100%; }

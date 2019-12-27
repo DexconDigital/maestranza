@@ -308,6 +308,13 @@ p{
     background-repeat: no-repeat;
     display: block;
     position: relative;
+    margin-top: 20%;
+    @include media-breakpoint-up(md){
+        margin-top: 10%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 0%;
+    }
     .overlay{
         position: absolute;
         width: 100%;
