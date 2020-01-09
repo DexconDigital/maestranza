@@ -49,7 +49,7 @@ $redes_sociales = [
 //datos de contacto 
 $datos_contacto = [
 	"direccion" => [
-		"direccion" => "Carrera 42 # 3 sur - 81 Torre 2 Oficina: 717 <br> Milla de Oro Distrito de Negocios",
+		"direccion" => "Carrera 42 # 3 sur - 81 Torre 2 Oficina: 717 Milla de Oro Distrito de Negocios",
 		"icono" => "fas fa-map-marker-alt",
 	],
 	"telefono_fijo" => [

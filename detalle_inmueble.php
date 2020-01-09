@@ -28,7 +28,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <style>
     #map {
-        height: 350px;
+        height: 300px;
         z-index: 20;
     }
 
@@ -71,10 +71,10 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <h4><?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?></h4>
                         <div class="col-12">
                             <div class="row">
-                                <div class="col-lg-3 col-md-3 col-12 ">
+                                <div class="col-lg-3 col-md-3 col-12 p-0 ">
                                     <p class="codigo_style">Código: <span> <?php echo $co; ?></span></p>
                                 </div>
-                                <div class="col-lg-8 col-md-8 col-12">
+                                <div class="col-lg-8 col-md-8 col-12 p-0">
                                     <p class="codigo_style">Precio:
                                         <?php if ($r['Gestion'] == 'Arriendo') {
                                             echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
@@ -161,7 +161,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                         <div class="col-md-12" style="margin-bottom: 12px;">
                             <h4 class="property-single-detail-title">Características</h4>
-                            <ul class="pl-4">
+                            <ul class="">
                                 <li>Código: <?php echo $co; ?></li>
                                 <li>Alcobas: <?php echo $alcobas; ?></li>
                                 <li>Baños: <?php echo $banios; ?></li>
@@ -265,23 +265,23 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="container p-3">
+                        <div class="container p-0 mt-5">
                             <div class="col-12 p-0">
-                                <div class="col-xl-12 col-md-12 col-12  margen_busca">
+                                <div class="col-xl-12 col-md-12 col-12  margen_busca p-0">
                                     <input type="text" class="form-control rounded-0" id="" placeholder="Nombre y Apellido">
                                 </div>
                             </div>
                             <div class="col-12 p-0">
-                                <div class="col-xl-12 col-md-12 col-12  margen_busca">
+                                <div class="col-xl-12 col-md-12 col-12  margen_busca p-0">
                                     <input type="text" class="form-control rounded-0" id="" placeholder="Correo Electrónico">
                                 </div>
                             </div>
                             <div class="col-12 p-0">
-                                <div class="col-xl-12 col-md-12 col-12  margen_busca">
+                                <div class="col-xl-12 col-md-12 col-12  margen_busca p-0">
                                     <input type="text" class="form-control rounded-0" id="" placeholder="Teléfono">
                                 </div>
                             </div>
-                            <div class="col-12 caja_texto">
+                            <div class="col-12 caja_texto p-0">
                                 <div class="form-group">
                                     <textarea cols="15" rows="5" name="message" class="textarea form-control tamaño_tex_area rounded-0" placeholder="Mensaje"></textarea>
                                 </div>

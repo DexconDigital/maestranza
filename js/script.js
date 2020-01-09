@@ -20,7 +20,7 @@ $(document).ready(function() {
     $('#aliados_slide').owlCarousel({
         loop: true,
         margin: 10,
-        autoplay: 100,
+        /* autoplay: 100, */
         autoplayHoverPause: false,   
         nav: false,
         responsive: {

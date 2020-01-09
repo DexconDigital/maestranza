@@ -8238,7 +8238,7 @@ p, span, b {
 
 #hero #style_slide_dos {
   margin-top: -25%;
-  font-size: 147%;
+  font-size: 132%;
   text-shadow: 0px 1px 2px #ffffff; }
   @media (min-width: 768px) {
     #hero #style_slide_dos {
@@ -8253,7 +8253,7 @@ p, span, b {
 
 #hero #style_slide_tres {
   margin-top: -24%;
-  font-size: 135%;
+  font-size: 130%;
   text-shadow: 0px 1px 2px #ffffff; }
   @media (min-width: 768px) {
     #hero #style_slide_tres {
@@ -8426,7 +8426,7 @@ p, span, b {
     display: flex;
     list-style: none;
     margin-left: -6%;
-    margin-right: -10%; }
+    margin-right: -26%; }
   #destacadas .container_li {
     margin-right: 1.5em; }
   #destacadas .color_linea_divisora_Card {
@@ -8872,7 +8872,7 @@ p, span, b {
     margin-top: -7%;
     width: 68%; }
   #footer .margen_telefono {
-    margin-top: -83%; }
+    margin-top: 6%; }
     @media (min-width: 768px) {
       #footer .margen_telefono {
         margin-top: -47%;
@@ -8887,10 +8887,13 @@ p, span, b {
     #footer .estylo_teelfonos a {
       text-decoration: none; }
   #footer .div_info {
-    margin-top: -30%;
+    margin-top: 0%;
     margin-bottom: 11%; }
+    @media (min-width: 768px) {
+      #footer .div_info {
+        margin-top: -30%; } }
   #footer .top_mapa {
-    margin-top: 258px; }
+    margin-top: 37px; }
     @media (min-width: 768px) {
       #footer .top_mapa {
         margin-top: 48px; } }
@@ -8934,7 +8937,7 @@ p, span, b {
   background-color: #fff;
   color: #000;
   padding: 4px 0px 0px 0px;
-  font-size: 16px;
+  font-size: 15px;
   border: none;
   cursor: pointer;
   -webkit-transition: 0.5s all ease;
@@ -9028,7 +9031,7 @@ p, span, b {
   right: 20px;
   -webkit-box-shadow: -1px 1px 5px 1px #B58D10;
   box-shadow: -1px 1px 5px 1px #B58D10;
-  z-index: 2; }
+  z-index: 38; }
 
 .color_enviar {
   background-color: #B58D10;
@@ -9143,10 +9146,16 @@ p, span, b {
       padding-left: 3%; } }
 
 .tex-politica {
-  margin-right: 10%; }
+  margin-right: 10%;
+  margin-left: 9%; }
   @media (min-width: 768px) {
     .tex-politica {
-      margin-right: 10%; } }
+      margin-right: 10%;
+      margin-left: 0%; } }
+  @media (min-width: 992px) {
+    .tex-politica {
+      margin-right: 0%;
+      margin-left: 0%; } }
 
 .conten_header {
   visibility: hidden; }
@@ -9160,15 +9169,15 @@ p, span, b {
     .conten_header_2 {
       visibility: inherit; } }
 
-.tamaños_targetas {
-  width: 23rem; }
-  @media (min-width: 768px) {
-    .tamaños_targetas {
-      width: 21rem; } }
-  @media (min-width: 992px) {
-    .tamaños_targetas {
-      width: 21rem; } }
-
+/* .tamaños_targetas{
+        width: 23rem;
+        @include media-breakpoint-up(md){
+            width: 21rem;
+        }
+        @include media-breakpoint-up(lg){
+            width: 21rem;
+        }
+    } */
 .cont_noticias {
   margin-top: 7rem; }
   @media (min-width: 768px) {
@@ -9205,7 +9214,7 @@ p, span, b {
       height: 50%; } }
 
 #detalle_asesor {
-  padding: 10%; }
+  padding: 5%; }
   #detalle_asesor .style_titulo {
     color: #002230;
     font-weight: bold; }
@@ -9470,10 +9479,28 @@ p, span, b {
   margin-bottom: -11%; }
 
 .cont_top_valores_respeto22 {
-  margin-bottom: -3%; }
+  margin-bottom: -12%; }
+
+.carousel-control-next {
+  bottom: -10px; }
+
+.carousel-control-prev {
+  bottom: -10px; }
 
 .cont_top_valores_calidad222 {
   margin-bottom: -6%; }
+
+.carousel-caption2 {
+  position: absolute;
+  right: 1%;
+  width: 100%;
+  bottom: 20px;
+  left: 1%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center; }
 
 #arrendamientos {
   background-image: url(../images/Gerencia_comercial.jpg);
@@ -9822,19 +9849,42 @@ p, span, b {
       margin-bottom: 10%; } }
 
 .cuadro_button {
-  margin-top: 12%;
-  position: absolute;
-  margin-left: -32%; }
+  /* margin-left: 122px; */
+  width: 72px;
+  margin-bottom: -15%; }
   @media (min-width: 768px) {
     .cuadro_button {
-      margin-top: 12%;
+      margin-top: 20%;
       position: absolute;
-      margin-left: -32%; } }
+      margin-left: 10%;
+      width: 76px;
+      margin-bottom: 0%; } }
   @media (min-width: 992px) {
     .cuadro_button {
       margin-top: 12%;
       position: inherit;
-      margin-left: 0%; } }
+      margin-left: 0%;
+      width: 76px;
+      margin-bottom: 0%; } }
+
+.cuadro_button222 {
+  /* margin-left: 122px; */
+  width: 72px;
+  margin-bottom: -53px; }
+  @media (min-width: 768px) {
+    .cuadro_button222 {
+      margin-top: 20%;
+      position: absolute;
+      margin-left: 10%;
+      width: 76px;
+      margin-bottom: 0%; } }
+  @media (min-width: 992px) {
+    .cuadro_button222 {
+      margin-top: 12%;
+      position: inherit;
+      margin-left: 0%;
+      width: 76px;
+      margin-bottom: 0%; } }
 
 .cuadro_dorado {
   background-color: #b58d10;
@@ -9878,23 +9928,28 @@ p, span, b {
 
 .estilo_titulo {
   color: #111534;
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: center; }
 
 .dimencion_imagen_facility {
   background-color: white;
   margin-bottom: 78px; }
   @media (min-width: 768px) {
     .dimencion_imagen_facility {
-      margin-bottom: 208px; } }
+      margin-bottom: 61px; } }
   @media (min-width: 992px) {
     .dimencion_imagen_facility {
       margin-bottom: 78px; } }
+
+@media (max-width: 360px) {
+  .dimencion_imagen_facility {
+    width: 100%; } }
 
 .dimencion_imagen_mantenimiento {
   background-color: white; }
   @media (min-width: 768px) {
     .dimencion_imagen_mantenimiento {
-      margin-bottom: 60%; } }
+      margin-bottom: 9%; } }
   @media (min-width: 992px) {
     .dimencion_imagen_mantenimiento {
       margin-bottom: 11%; } }
@@ -9915,18 +9970,29 @@ p, span, b {
 @media (min-width: 992px) {
   margin-bottom: 11%; }
 
-@media (min-width: 768px) {
-  .cuadro_button_exteriores {
-    margin-top: 27%;
-    margin-bottom: 23px;
-    width: 38px; } }
+.cuadro_button_exteriores {
+  width: 68px;
+  margin-bottom: -15%;
+  /* margin-left: 122px; */ }
+  @media (min-width: 768px) {
+    .cuadro_button_exteriores {
+      margin-top: 30%;
+      width: 67px;
+      margin-left: 16px;
+      margin-bottom: 0%; } }
+  @media (min-width: 992px) {
+    .cuadro_button_exteriores {
+      margin-top: 12%;
+      margin-bottom: 19px;
+      width: 70px;
+      margin-left: 0px;
+      margin-bottom: 0%; } }
 
-@media (min-width: 992px) {
-  .cuadro_button_exteriores {
-    margin-top: 12%;
-    margin-bottom: 19px;
-    width: 51px; } }
-
+/* @media(max-width:360px){
+    .cuadro_button_exteriores{
+        width:100%;
+    }
+    } */
 .sub_gerencial {
   font-weight: bold; }
 
@@ -10064,8 +10130,8 @@ p, span, b {
     color: #B58D10; }
 
 #contacto .caja_texto {
-  padding: 5%;
-  margin-top: -4%; }
+  padding: 0%;
+  margin-top: 0%; }
   @media (min-width: 768px) {
     #contacto .caja_texto {
       padding: 15px;

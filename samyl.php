@@ -32,57 +32,55 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         </div>
     </section>
     <section>
-        <div class="container" style="margin-bottom: 10%;">
-
-            <!-- <div class="col-lg-6 col-12 text-center mt-3">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="row">
-                        <div class="col-2">
-                            <img class="icono cuadro_button" src="images/limpieza-y-desinfeccion_cuadro.png" alt="">
-                        </div>
-                        <div class="col-lg-10 col-md-9 col-10 ">
-                            <h5 class="estilo_titulo">Limpieza y Desinfección:</h5>
-                            <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 ml-5">
-                    <div class="row">
-                        <div class="col-2 dimencion_imagen_facility">
-                            <img class="icono cuadro_button" src="images/servicios_cuadroamarillo.JPG" alt="">
-                        </div>
-                        <div class="col-lg-10 col-md-9 col-10 ">
-                            <h5 class="estilo_titulo">Facility Services:</h5>
-                            <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['facility'][0] ?></p>
+        <div class="container">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6 mb-4">
+                        <div class="row">
+                            <div class="align-items-center col-12 col-lg-2 col-md-2 d-flex dimencion_imagen_facility justify-content-center">
+                                <img class="icono cuadro_button" src="images/limpieza-y-desinfeccion_cuadro.png" alt="">
+                            </div>
+                            <div class="col-lg-10 col-md-9 col-12">
+                                <h5 class="estilo_titulo">Limpieza y Desinfección:</h5>
+                                <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['limpieza'][0] ?></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div> -->
-            <div class="col-12 text-center mt-5 d-flex justify-content-betwee">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="row">
-                        <div class="col-2 dimencion_imagen_mantenimiento">
-                            <img class="icono cuadro_button" src="images/mantenimiento.JPG" alt="">
-                        </div>
-                        <div class="col-lg-10 col-md-9 col-10 ">
-                            <h5 class="estilo_titulo">Mantenimiento:</h5>
-                            <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['mantenimiento'][0] ?></p>
+                    <div class="col-12 col-md-12 col-lg-6 mb-4">
+                        <div class="row">
+                            <div class="col-12 col-md-2 col-lg-2 d-flex dimencion_imagen_facility justify-content-center">
+                                <img class="icono cuadro_button" src="images/servicios_cuadroamarillo.JPG" alt="">
+                            </div>
+                            <div class="col-lg-10 col-md-9 col-12">
+                                <h5 class="estilo_titulo">Facility Services:</h5>
+                                <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['facility'][0] ?></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 ml-5">
-                    <div class="row">
-                        <div class="col-2 dimencion_imagen_tigeras">
-                            <img class="icono cuadro_button_exteriores" src="images/Exteriores.JPG" alt="">
+                    <div class="col-12 col-md-12 col-lg-6 mb-4">
+                        <div class="row">
+                            <div class="col-12 col-md-2 col-lg-2 d-flex dimencion_imagen_facility justify-content-center">
+                                <img class="icono cuadro_button_exteriores" src="images/mantenimiento.JPG" alt="">
+                            </div>
+                            <div class="col-lg-10 col-md-9 col-12">
+                                <h5 class="estilo_titulo">Mantenimiento:</h5>
+                                <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['mantenimiento'][0] ?></p>
+                            </div>
                         </div>
-                        <div class="col-lg-10 col-md-9 col-10 ">
-                            <h5 class="estilo_titulo">Exteriores:</h5>
-                            <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mb-4">
+                        <div class="row">
+                            <div class="col-12 col-md-2 col-lg-2 d-flex dimencion_imagen_facility justify-content-center">
+                                <img class="icono cuadro_button222" src="images/Exteriores.JPG" alt="">
+                            </div>
+                            <div class="col-lg-10 col-md-9 col-12">
+                                <h5 class="estilo_titulo">Exteriores:</h5>
+                                <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 

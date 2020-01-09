@@ -45,7 +45,7 @@ p, span, b {
     }
     #style_slide_dos{
         margin-top: -25%;
-        font-size: 147%;
+        font-size: 132%;
         text-shadow: 0px 1px 2px #ffffff;
 
      @include media-breakpoint-up(md){
@@ -62,7 +62,7 @@ p, span, b {
     }
     #style_slide_tres{
         margin-top: -24%;
-        font-size: 135%;
+        font-size: 130%;
         text-shadow: 0px 1px 2px #ffffff;
         @include media-breakpoint-up(md){
             margin-top: -66%;
@@ -264,7 +264,7 @@ p, span, b {
         display: flex;
         list-style: none;
         margin-left: -6%;
-        margin-right: -10%;
+        margin-right: -26%;
     }
     .container_li{
         margin-right: 1.5em;
@@ -797,7 +797,7 @@ p, span, b {
         width: 68%;
     }
     .margen_telefono{
-        margin-top: -83%;
+        margin-top: 6%;
         @include media-breakpoint-up(md){
             margin-top: -47%;
             margin-left: 50%;
@@ -815,11 +815,14 @@ p, span, b {
         }
     }
     .div_info{
-    margin-top: -30%;
+    margin-top: 0%;
     margin-bottom: 11%;
+    @include media-breakpoint-up(md){
+        margin-top: -30%;
+    }
     }
     .top_mapa{
-        margin-top: 258px;
+        margin-top: 37px;
         @include media-breakpoint-up(md){
             margin-top: 48px;
         }
@@ -885,7 +888,7 @@ p, span, b {
 	background-color: #fff;
 	color: #000;
     padding: 4px 0px 0px 0px;
-	font-size: 16px;
+	font-size: 15px;
 	border: none;
 	cursor: pointer;
 	transition: 0.5s all ease;
@@ -981,7 +984,8 @@ p, span, b {
     bottom: 47px;
     right: 20px;
     box-shadow: -1px 1px 5px 1px #B58D10;
-    z-index: 2; }
+    z-index: 38; 
+}
     .color_enviar{
         background-color: $color_dorado;
         color: white;
@@ -1130,9 +1134,16 @@ p, span, b {
     }
     .tex-politica{
         margin-right: 10%;
+        margin-left: 9%;
         @include media-breakpoint-up(md){
             margin-right: 10%;
+            margin-left: 0%;
         }
+        @include media-breakpoint-up(lg){
+            margin-right: 0%;
+            margin-left: 0%;
+        }
+
     }
     .conten_header{
         visibility: hidden;
@@ -1146,7 +1157,7 @@ p, span, b {
             visibility: inherit;
         }
     }
-    .tamaños_targetas{
+    /* .tamaños_targetas{
         width: 23rem;
         @include media-breakpoint-up(md){
             width: 21rem;
@@ -1154,7 +1165,7 @@ p, span, b {
         @include media-breakpoint-up(lg){
             width: 21rem;
         }
-    }
+    } */
     .cont_noticias{
         margin-top: 7rem;
         @include media-breakpoint-up(md){

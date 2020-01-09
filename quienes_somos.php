@@ -163,8 +163,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <li data-target="#carouselExampleCaption2" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaption2" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner ">
-                    <div class="carousel-item ">
+                <!-- mision -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="padding-top: 10%;">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores_mision22">
                             <h2 id="color_titulo_valores22">
@@ -176,7 +177,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <!-- vision -->
-                    <div class="carousel-item">
+                    <div class="carousel-item" style="padding-top: 6%;">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores22">
                             <h2 id="color_titulo_valores22">
@@ -186,7 +187,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <!-- honestidad -->
-                    <div class="carousel-item">
+                    <div class="carousel-item" style="padding-top: 11%;">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores_honestidad22">
                             <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
@@ -199,7 +200,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <!-- responsabilidad -->
-                    <div class="carousel-item ">
+                    <div class="carousel-item " style="padding-top: 11%;">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores_responsa22">
                             <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
@@ -212,7 +213,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <!-- respeto -->
-                    <div class="carousel-item ">
+                    <div class="carousel-item">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores_respeto22">
                             <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
@@ -225,7 +226,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     </div>
                     <!-- active -->
                     <!-- trabajo en equipo -->
-                    <div class="carousel-item ">
+                    <div class="carousel-item" style="padding-top: 8%;" >
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores222">
                             <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
@@ -236,7 +237,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <!-- calidad -->
-                    <div class="carousel-item active">
+                    <div class="carousel-item" style="padding-top: 8%;">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores_calidad222">
                             <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>

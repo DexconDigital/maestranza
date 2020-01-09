@@ -356,19 +356,43 @@ p{
     }
 }
 .cuadro_button{
-    margin-top: 12%;
-    position: absolute;
-    margin-left: -32%;
+    /* margin-left: 122px; */
+    width: 72px;
+    margin-bottom: -15%;
     @include media-breakpoint-up(md){
-        margin-top: 12%;
-    position: absolute;
-    margin-left: -32%;
+        margin-top: 20%;
+        position: absolute;
+        margin-left: 10%;
+        width: 76px;
+        margin-bottom: 0%;
     }
     @include media-breakpoint-up(lg){
         margin-top: 12%;
         position: inherit;
         margin-left: 0%;
+        width: 76px;
+        margin-bottom: 0%;
     }
+   
+}
+.cuadro_button222{
+    /* margin-left: 122px; */
+    width: 72px;
+    margin-bottom: -53px;
+    @include media-breakpoint-up(md){
+        margin-top: 20%;
+        position: absolute;
+        margin-left: 10%;
+        width: 76px;
+        margin-bottom: 0%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 12%;
+        position: inherit;
+        margin-left: 0%;
+        width: 76px;
+        margin-bottom: 0%;
+    }   
 }
 .cuadro_dorado{
     background-color: #b58d10;
@@ -414,23 +438,29 @@ p{
 .estilo_titulo{
     color: #111534;
     font-weight: bold;
+    text-align: center;
 }
 .dimencion_imagen_facility{
     background-color: white;
     margin-bottom: 78px;
     @include media-breakpoint-up(md){
-        margin-bottom: 208px;
+        margin-bottom: 61px;
     }
     @include media-breakpoint-up(lg){
         margin-bottom: 78px;
     }
 
 }
+@media(max-width:360px){
+    .dimencion_imagen_facility{
+        width:100%;
+    }
+    }
 .dimencion_imagen_mantenimiento{
     background-color: white;
     
     @include media-breakpoint-up(md){
-        margin-bottom: 60%;
+        margin-bottom: 9%;
     }
     @include media-breakpoint-up(lg){
         margin-bottom: 11%;
@@ -453,18 +483,30 @@ p{
     margin-bottom: 11%;
 }
 .cuadro_button_exteriores{
-    
+    width: 68px;
+    margin-bottom: -15%;
+    /* margin-left: 122px; */
     @include media-breakpoint-up(md){
-        margin-top: 27%;
-        margin-bottom: 23px;
-        width: 38px;
+        margin-top: 30%;
+        width: 67px;
+        margin-left: 16px;
+        margin-bottom: 0%;
     }
     @include media-breakpoint-up(lg){
         margin-top: 12%;
     margin-bottom: 19px;
-    width: 51px;
+    width: 70px;
+    margin-left: 0px;
+    margin-bottom: 0%;
     }
 }
+/* @media(max-width:360px){
+    .cuadro_button_exteriores{
+        width:100%;
+    }
+    } */
+
+
 .sub_gerencial{
     font-weight: bold;
 }

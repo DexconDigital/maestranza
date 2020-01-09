@@ -49,7 +49,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     </section>
 
     <section id="buscador_inmuebles">
-        <div class="col-12 p-5">
+        <div class="col-12">
             <div class="row">
 
                 <!-- propiedades -->
