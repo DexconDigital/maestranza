@@ -24,10 +24,10 @@ require_once('controllers/detalle_asesor.php');  ?>
 <body>
 
     <section id="detalle_asesor">
-        <div class="container">
+        <div class="container margen_completa">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-8 alineacion_izq">
+                    <div class="col-12 col-md-8 col-lg-8 cont_movil alineacion_izq">
                         <h4 class="style_titulo"><?php echo $nombre ?></h4>
                         <ul class="">
                             <li>
@@ -67,7 +67,7 @@ require_once('controllers/detalle_asesor.php');  ?>
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal fade modal_top" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -98,8 +98,8 @@ require_once('controllers/detalle_asesor.php');  ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 21rem;">
+                    <div class="col-12 col-md-4 col-lg-4 imagen asesora">
+                        <div class="card dimencion">
                             <img src="<?php echo $ruta_imagen ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="rounded-0 linea_decoracion"></p>
@@ -112,6 +112,8 @@ require_once('controllers/detalle_asesor.php');  ?>
     </section>
 
     <section id="footer" class="fondo">
+    <div class="overlay">
+            </div>
         <?php include 'layout/footer.php' ?>
     </section>
 </body>

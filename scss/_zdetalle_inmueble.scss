@@ -176,12 +176,15 @@
 }
 .texto_asesor{
     visibility: hidden;
+    position: absolute !important;
     @include media-breakpoint-up(md){
     visibility: hidden;
+    position: absolute !important;
         
     }
     @include media-breakpoint-up(lg){
         visibility: inherit;
+        position: inherit !important;
     }
 }
 #texto_asesor2{

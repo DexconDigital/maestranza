@@ -89,7 +89,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 texto_asesor">
+                    <div class="col-lg-6 col-md-6 col-12 texto_asesor ocultar_asesor">
                         <h4 class="text-center">Contacto con Asesor </h4>
                     </div>
                 </div>

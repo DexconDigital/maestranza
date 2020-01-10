@@ -1,6 +1,53 @@
 
 #detalle_asesor{
     padding: 5%;
+    margin-top: 0%;
+    @include media-breakpoint-up(md){
+        padding: 5%;
+        margin-top: 7%;
+    } @include media-breakpoint-up(lg){
+        padding: 5%;
+        margin-top: 0%;
+        
+    }
+    .dimencion{
+        width: 100%;
+
+    }
+    .modal_top{
+        margin-top: 21%;
+        @include media-breakpoint-up(md){
+            margin-top: 9%;
+        } @include media-breakpoint-up(lg){
+            margin-top: 3%;
+            
+        }
+    }
+    .asesora{
+        position: absolute;
+        margin-top: 28%;
+        
+        @include media-breakpoint-up(md){
+            position: inherit;
+        margin-top: 0%;
+        
+        } @include media-breakpoint-up(lg){
+            position: inherit;
+        margin-top: 0%;
+        }
+    }
+    .cont_movil{
+        margin-top: 182%;
+        margin-bottom: 10%;
+        @include media-breakpoint-up(md){
+            margin-top: 0%;
+            margin-bottom: 0%;
+        } @include media-breakpoint-up(lg){
+            margin-top: 0%;
+            margin-bottom: 0%;
+            
+        }
+    }
     .style_titulo{
         color: $color_azul_oscuro;
         font-weight: bold;
@@ -15,10 +62,24 @@
     list-style: none;
     }
     .info_espacio {
-        margin-right: 5%;
+        margin-right: 3%;
     }
     .alineacion_izq{
         text-align: right;
+    }
+    @media(max-width:360px){
+        .alineacion_izq{
+            padding: 0;
+        }
+        .asesora{
+            padding: 0;
+        }
+        .cont_movil{
+            margin-top: 200%;
+        }
+        .margen_completa{
+            padding: 0;
+        }
     }
     .card{
         box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,.12);
