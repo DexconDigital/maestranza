@@ -82,7 +82,7 @@ include 'layout/layout.php';
                     <label for="" class="col-sm-2 col-form-label">Imagen</label>
                     <div class="col-sm-10">
                         <input type="file" class="form-control-file" name="imagen" id="imagen" accept="image/*">
-                        <small id="tituloHepl" class="form-text text-muted"> Ingrese una imagen que no supere las 2MB de peso y tamaño de 900 * 360 pixeles </small> 
+                        <small id="tituloHepl" class="form-text text-muted"> Ingrese una imagen que no supere las 2MB de peso y tamaño de 900 pixeles de Ancho por 500 pixeles de Alto</small> 
                     </div>
                 </div>
 

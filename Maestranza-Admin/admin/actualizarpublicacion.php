@@ -52,24 +52,28 @@ $res =  mysqli_fetch_array($sql);
                     <label for="inputPassword" class="col-sm-2 col-form-label">Descripcion Corta</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" name="descripcion" id="descripcion" value="<?php echo $res[2]; ?>">
+                        <small id="tituloHepl" class="form-text text-muted">Titulo principal de la publicación</small>
                     </div>
                 </div>
                 <div class="form-group row mb-4 ">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Url del Video</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" name="url" id="url" value="<?php echo $res[7]; ?>">
+                        <small id="tituloHepl" class="form-text text-muted">Url del video en Youtube</small>
                     </div>
                 </div>
                 <div class="form-group row mb-4 ">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Instagram Url</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" name="insta_url" id="insta_url" value="<?php echo $res[8]; ?>">
+                        <small id="tituloHepl" class="form-text text-muted">Url de la noticia en Instagram</small>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Noticia:</label>
                     <div class="col-sm-10">
                         <textarea name="noticia" id="noticia"><?php echo $res[5]; ?></textarea>
+                        <small id="tituloHepl" class="form-text text-muted"> Ingrese el Contenido de la publicación y si es un texto copiado no olvide borrar el formato </small> 
                     </div>
                 </div>
                 <div class="form-group row">
@@ -79,6 +83,7 @@ $res =  mysqli_fetch_array($sql);
                     </div>
                     <div class="col-sm-10 offset-2">
                         <input type="file" class="form-control-file" name="imagen" id="imagen" accept="image/*">
+                        <small id="tituloHepl" class="form-text text-muted"> Ingrese una imagen que no supere las 2MB de peso y tamaño de 900 pixeles de Ancho por 500 pixeles de Alto</small> 
                     </div>
                 </div>
                 <div class="form-group row">
@@ -86,6 +91,7 @@ $res =  mysqli_fetch_array($sql);
                     <label for="" class="col-sm-10 col-form-label"><?php echo $res[4]; ?></label>
                     <div class="col-sm-8 offset-2">
                         <input type="file" class="form-control-file" name="archivo" id="archivo" accept="application/pdf">
+                        <small id="tituloHepl" class="form-text text-muted"> Ingrese una Archivo formato PDF que no supere las 2MB de peso</small> 
                     </div>
                 </div>
                 <input type="hidden" id="fecha" name="fecha">

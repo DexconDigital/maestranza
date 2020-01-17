@@ -17,14 +17,14 @@ function modelo_inmueble($r, $cantidad_inmuebles)
                               <img src="' . $imagen . '" class="card-img-top" alt="...">
                           </a>
                           <span class="precio_inmueble">';
-                          if ($api['Gestion'] == 'Arriendo/venta') {
-                              echo '$' . $api['Canon'] . ' <br>$' . $api['Venta'];
-                          } else if ($api['Gestion'] == 'Arriendo') {
-                              echo '$' . $api['Canon'];
-                          } else {
-                              echo '$' . $api['Venta'];
-                          }
-                          echo '
+        if ($api['Gestion'] == 'Arriendo/venta') {
+            echo '$' . $api['Canon'] . ' <br>$' . $api['Venta'];
+        } else if ($api['Gestion'] == 'Arriendo') {
+            echo '$' . $api['Canon'];
+        } else {
+            echo '$' . $api['Venta'];
+        }
+        echo '
                           </span>
                           <span class="gestion_inmueble">' . $api['Tipo_Inmueble'] . ' en ' . $api['Gestion'] . '</span>
                           <div class="card-body">
@@ -82,11 +82,11 @@ function modelo_inmueble($r, $cantidad_inmuebles)
 //modelo inmueble de la pagina de inmuebles.php
 function modelo_inmueble2($r)
 {
+
     for ($i = 0; $i < count($r); $i++) {
         $imagen = existeImagen(($r[$i]['foto1']));
         $codigo = str_ireplace("987-", "", $r[$i]['Codigo_Inmueble']);
         $api = $r[$i];
-
         $descripcion = $api['descripcionlarga'];
         $limite_de_cadena = 10;
         // recortar cadena
@@ -95,8 +95,10 @@ function modelo_inmueble2($r)
         } else {
             $descripcion = $descripcion . '...';
         }
+        
         // fin de recortar cadena
         echo '
+
     <div class="col-lg-4 col-md-6 col-12 margen_cards">
      <div class="item" style="height: 180px;">
         <div class="card">
@@ -174,19 +176,19 @@ function modelo_inmueble2($r)
 function modelo_inmueble_similare($r)
 {
 
-  for ($i = 0; $i < count($r); $i++) {
-    $imagen = existeImagen(($r[$i]['foto1']));
-    $codigo = str_ireplace("987-", "", $r[$i]['Codigo_Inmueble']);
-    $api = $r[$i];
+    for ($i = 0; $i < count($r); $i++) {
+        $imagen = existeImagen(($r[$i]['foto1']));
+        $codigo = str_ireplace("987-", "", $r[$i]['Codigo_Inmueble']);
+        $api = $r[$i];
 
-    echo '
+        echo '
     <div class="col-lg-12 col-md-6 col-12">
     <div class="item mb-4">
     <div class="card" style="">
         <div class="property">
             <a href="./detalle_inmueble.php?co=' . $codigo . '">
                 <div class="property-image">
-                    <img class="alto_img" alt="" src="'. $imagen . '"></div>
+                    <img class="alto_img" alt="" src="' . $imagen . '"></div>
                 <div class="overlay">
 
                 </div>
@@ -212,7 +214,7 @@ function modelo_inmueble_similare($r)
     </div>
     
     ';
-  }
+    }
 }
 // Funciones para los modelos de propiedades
 function existeImagen($r)

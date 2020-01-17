@@ -49,19 +49,17 @@ $ch = curl_init();
     $result = curl_exec($ch);
     curl_close($ch);
     $api = json_decode($result, true);
-
-    
+   
 function listar_inmuebles($r)
 {
             modelo_inmueble2($r);
  
 }
-
-
 $totalinmuebles=0;
 if(is_array($api)){
     $totalinmuebles = $api['datosGrales']['totalInmuebles'];
 }
+
 // Paginador
 $valor_reemplazar = '&pag='.$pag.'';
 $url_pagina = str_ireplace($valor_reemplazar, '', $url_pagina);

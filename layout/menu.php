@@ -59,7 +59,9 @@
     </a>
 
     <ul class="toogle-nav yit-listing-block sidenav">
-        <li><a href="index.php">
+        <li class="<?php if ($page == 'Inicio') {
+                                          echo 'active';
+                                        } ?>"><a href="index.php"> 
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Inicio</font>
                 </font>
