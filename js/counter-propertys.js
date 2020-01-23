@@ -47,9 +47,12 @@ setTimeout(() => {
       },
       'dataType': "json",
       success: function (response) {
-         
+         var inmuebles_count = 0;
+         if(response != 'Sin resultados'){
+            var inmuebles_count = response.datosGrales.totalInmuebles;
+         }
          // buscar el id en el dom y imprimir el resultado
-         let contador1 = new CountUp("counter-propertys",0,response.datosGrales.totalInmuebles,N_INIT,TIME);
+         let contador1 = new CountUp("counter-propertys",0,inmuebles_count,N_INIT,TIME);
          
          //  Iniciar el  efecto segun la posicion del scroll
          $(window).scroll(function (event) {
@@ -73,8 +76,12 @@ setTimeout(() => {
       },
       'dataType': "json",
       success: function (response) {
+         var inmuebles_count = 0;
+         if(response != 'Sin resultados'){
+            var inmuebles_count = response.datosGrales.totalInmuebles;
+         }
          // buscar el id en el dom y imprimir el resultado
-         let contador2= new CountUp("counter-rent",0,response.datosGrales.totalInmuebles, N_INIT, TIME);
+        let contador2= new CountUp("counter-rent",0,inmuebles_count, N_INIT, TIME);
          
          //  Iniciar el  efecto segun la posicion del scroll
          $(window).scroll(function (event) {
@@ -99,10 +106,12 @@ setTimeout(() => {
       },
       'dataType': "json",
       success: function (response) {
-         
-         
+         var inmuebles_count = 0;
+         if(response != 'Sin resultados'){
+            var inmuebles_count = response.datosGrales.totalInmuebles;
+         }
          // buscar el id en el dom y imprimir el resultado
-         let contador3 = new CountUp("counter-sale",0,response.datosGrales.totalInmuebles,N_INIT,TIME);
+         let contador3 = new CountUp("counter-sale",0,inmuebles_count,N_INIT,TIME);
 
          //  Iniciar el  efecto segun la posicion del scroll
          $(window).scroll(function (event) {
@@ -127,9 +136,12 @@ setTimeout(() => {
       },
       'dataType': "json",
       success: function (response) {
-         
+         var inmuebles_count = 0;
+         if(response != 'Sin resultados'){
+            var inmuebles_count = response.datosGrales.totalInmuebles;
+         }
          // buscar el id en el dom y imprimir el resultado
-         let contador4 = new CountUp("counter-sale-rent",0,response.datosGrales.totalInmuebles,N_INIT,TIME);
+         let contador4 = new CountUp("counter-sale-rent",0,inmuebles_count,N_INIT,TIME);
       
          //  Iniciar el  efecto segun la posicion del scroll
          $(window).scroll(function (event) {

@@ -11,9 +11,9 @@ $usuario =  mysqli_fetch_array($sql);
 
 <style>
     input[type]:focus {
-        border-color:  #B58D10;
+        border-color:  #B58D10
          !important;
-        box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px  #B58D10;
+        box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px  #B58D10
          !important;
         outline: 0 none;
     }
@@ -24,7 +24,7 @@ $usuario =  mysqli_fetch_array($sql);
 
     }
     .container{
-    background-color: white;
+         background-color: white;
 }
 
     .color_boton:hover {
@@ -32,7 +32,7 @@ $usuario =  mysqli_fetch_array($sql);
     }
 
     .conct_botton{
-    text-align: center;
+     text-align: center;
     }
     .cancelar{
         background-color: #002230 ;
@@ -42,7 +42,6 @@ $usuario =  mysqli_fetch_array($sql);
     .cancelar:hover{
         color: white;
     }
-}
 </style>
 <div class="container">
     <div class="row justify-content-center">

@@ -60,8 +60,8 @@
 
     <ul class="toogle-nav yit-listing-block sidenav">
         <li class="<?php if ($page == 'Inicio') {
-                                          echo 'active';
-                                        } ?>"><a href="index.php"> 
+                        echo 'active';
+                    } ?>"><a href="index.php">
                 <font style="vertical-align: inherit;">
                     <font style="vertical-align: inherit;">Inicio</font>
                 </font>
@@ -129,7 +129,7 @@
                         <font style="vertical-align: inherit;">Propietarios</font>
                     </font>
                 </a>
-                <a href="">
+                <a href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blanck">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">Pagos PSE</font>
                     </font>
@@ -170,6 +170,9 @@
                 </font>
             </a>
         </li>
+     <!--    <li class="wapp_movil">
+            <a href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"><i class="color_wapp fab fa-whatsapp"></i></a>
+        </li> -->
     </ul>
 
 
@@ -181,12 +184,12 @@
             <li class="tamaño"><a href="<?php echo $redes_sociales['linkedin']['link'] ?>" target="_blank"><i class="color_linked fab fa-linkedin-in"></i></a></li>
             <li class="tamaño"><a href="<?php echo $redes_sociales['youtube']['link'] ?>" target="_blank"><i class="color_youtube fab fa-youtube"></i></a></li>
             <li class="tamaño_wapp"><a href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"><i class="color_wapp fab fa-whatsapp"></i></a></li>
-            <a href="index.php"> <img class="dimencion_boton_pse" src="images/logopse.png" alt=""> </a>
+            <a href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blanck"> <img class="dimencion_boton_pse" src="images/logopse.png" alt=""> </a>
         </ul>
     </div>
     <!-- /Logo BOC -->
     <div class="container">
-        <a class="logo phone_logo" href="index.php" title="Logo"> <img class="tamaño" src="images/Maestranza_Logo 3.png" alt="WebPanda Creative Studio"> </a>
+        <a class="logo phone_logo" href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blanck" title="Logo"> <img class="tamaño" src="images/Maestranza_Logo 3.png" alt="WebPanda Creative Studio"> </a>
     </div>
 
     <!-- /Logo EOC -->
