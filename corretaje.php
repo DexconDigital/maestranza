@@ -36,7 +36,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="col-12 text-center mt-3">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-12">
-                        <ul class="lista">
+                        <ul class="lista text-justify" style=" list-style: inherit !important;">
                             <li class="mb-1">
                                 <p><?php echo $texto_servicios['corretaje']['parrafos'][0] ?></p>
 
@@ -52,7 +52,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-12 col-12">
-                        <ul class="lista">
+                        <ul class="lista text-justify" style=" list-style: inherit !important;">
                             <li class="mb-1">
                                 <p><?php echo $texto_servicios['corretaje']['parrafos'][3] ?></p>
 

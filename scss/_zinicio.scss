@@ -984,6 +984,12 @@ p, span, b {
     }
 }
 
+.dimencion_boton_pse_movil{
+    width:20%;
+    @include media-breakpoint-up(md){
+        width:11%;
+    }
+}
 
 .subir {
     display: none;
@@ -1212,4 +1218,18 @@ p, span, b {
         }
        
     }
+.wapp_movil {
 
+    display: inherit;
+    @include media-breakpoint-up(md){
+       display: inherit;
+    }
+    @include media-breakpoint-up(lg){
+       display: none !important;
+    }
+}
+   
+.tamaño_wapp_movil{
+    font-size: 47px;
+    
+}

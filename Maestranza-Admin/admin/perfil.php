@@ -88,7 +88,7 @@ $usuario =  mysqli_fetch_array($sql);
                         </div>
 
                     </div>
-                    <div class="form-group row">
+                 <div class="form-group row">
                         <label class="col-2 control-label" for="noticia">Subir Nueva Imagen</label>
                         <div class="col-8">
                             <input type="file" name="imagen" id="imagen">

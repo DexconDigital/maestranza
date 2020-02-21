@@ -45,9 +45,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 <li>
                                     <a class="info_color" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><i class="fas fa-mobile-alt mr-2"></i><?php echo $datos_contacto['celular']['imprimir'] ?></a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a class="info_color" target="_blank" <?php echo $datos_contacto['whatsapp']['link'] ?>><i class="fab fa-whatsapp mr-2"></i><?php echo $datos_contacto['whatsapp']['imprimir'] ?></a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a class="info_color" href="mailto:<?php echo $datos_contacto['correo']['correo'] ?>"><i class="far fa-envelope mr-2"></i><?php echo $datos_contacto['correo']['correo'] ?></a>
                                 </li>

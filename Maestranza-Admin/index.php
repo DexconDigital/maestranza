@@ -59,7 +59,7 @@ $color_fondo = "";
                     <div class="card-header img_container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-12 col-lg-10 text-center">
-                                <img style="    object-fit: contain;height: 100%;width: 75%;" src="<?php echo $imagen_login ?>" alt="..." class="" style="width:300px; height:auto;">
+                                <img style="object-fit: contain;height: 100%;width: 75%;" src="<?php echo $imagen_login ?>" alt="..." class="" style="width:300px; height:auto;">
                             </div>
                         </div>
 

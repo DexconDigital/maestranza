@@ -56,7 +56,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <h5>Inmuebles en Venta</h5>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4 color_conted">
-                        <h1 id="counter-sale-rent">0</h1>
+                        <h1 id="counter-sale-rent"></h1>
                         <h5>Inmuebles en Arriendo/Venta</h5>
                     </div>
                 </div>

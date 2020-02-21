@@ -99,7 +99,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <section id="asesores" class="mb-5">
             <div class="container espacio_margen">
                 <div class="col-12">
-                    <h2 class="main-title letra_titulo text-left mb-5">Asesores</h2>
+                    <h2 class="main-title letra_titulo text-left mb-5">Nuestro Equipo</h2>
                 </div>
 
                 <div class="col-12 mt-5">
@@ -291,6 +291,16 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 <div class="item">
                                     <div class="" style="width: 10rem;">
                                         <img src="<?php echo $logos_aliados[6] ?>" class="card-img-top imagen_card" alt="...">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="" style="width: 10rem;">
+                                        <img src="<?php echo $logos_aliados[17] ?>" class="card-img-top imagen_card" alt="...">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="" style="width: 10rem;">
+                                        <img src="<?php echo $logos_aliados[18] ?>" class="card-img-top imagen_card" alt="...">
                                     </div>
                                 </div>
                             </div>

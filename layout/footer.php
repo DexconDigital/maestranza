@@ -42,6 +42,7 @@
                                 <i class=" <?php echo $datos_contacto['telefono_fijo']['icono'] ?>"></i>
                                 <?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>
                             </a>
+                       
                         </li>
                         <li class="estylo_teelfonos">
                             <a href="tel:<?php echo $datos_contacto['celular']['link'] ?>">
@@ -49,12 +50,12 @@
                                 <?php echo $datos_contacto['celular']['imprimir'] ?>
                             </a>
                         </li>
-                        <li class="estylo_teelfonos">
+                        <!-- <li class="estylo_teelfonos">
                             <a href=" <?php echo $datos_contacto['whatsapp']['link'] ?>" target="blanck">
                                 <i class="mr-2 <?php echo $datos_contacto['whatsapp']['icono'] ?>"></i>
                                 <?php echo $datos_contacto['whatsapp']['imprimir'] ?>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
 

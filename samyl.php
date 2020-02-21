@@ -74,7 +74,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 <img class="icono cuadro_button222" src="images/Exteriores.JPG" alt="">
                             </div>
                             <div class="col-lg-10 col-md-9 col-12">
-                                <h5 class="estilo_titulo">Exteriores:</h5>
+                                <h5 class="estilo_titulo">Medio Ambiente y Paisajismo:</h5>
                                 <p class="text-justify"><?php echo $texto_servicios['samyl']['parrafos']['exteriores'][0] ?></p>
                             </div>
                         </div>

@@ -34,9 +34,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <h2 class="color_servicio"><?php echo $texto_servicios['administracion']['titulo'] ?></h2>
             </div>
             <div class="col-12 text-center mt-3">
-                <div class="row">
+                <div class="row ">
                     <div class="col-lg-6 col-md-12 col-12">
-                        <ul class="lista">
+                        <ul class="lista text-justify" style=" list-style: inherit !important;">
                             <li class="mb-1">
                                 <p> <?php echo $texto_servicios['administracion']['parrafos'][0] ?></p>
                             </li>
@@ -60,7 +60,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-12 col-12">
-                        <ul class="lista">
+                        <ul class="lista text-justify" style=" list-style: inherit !important;">
                             <li class="mb-1">
                                 <p> <?php echo $texto_servicios['administracion']['parrafos'][6] ?></p>
 

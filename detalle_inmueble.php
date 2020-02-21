@@ -1,5 +1,5 @@
 <?php require 'variables/variables.php';
-require 'controllers/detalleInmuebleController.php';
+require 'controllers/detalleInmuebleController.php'; 
 $page = 'Detalle Inmueble';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
@@ -145,7 +145,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                         <h5 class="compartir">Compartir por :</h5>
 
 
-                                        <a class="icon_foot mr-3" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www..com.co/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank"><i class="fab fa-whatsapp margen_icon"></i></a>
+                                        <a class="icon_foot mr-3" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www.maestranza.com.co/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank"><i class="fab fa-whatsapp margen_icon"></i></a>
                                         <a class="icon_foot mr-2" href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.maestranza.com.co%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank"><i class="fab fa-twitter margen_icon"></i></a>
                                         <a class="icon_foot mr-2" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.maestranza.com.co%2Fdetalle_inmueble.php%3Fco%3D987-<?php echo $co; ?>" target="_blank"><i class="fab fa-facebook-f margen_icon"></i></a>
                                     </div>
@@ -156,7 +156,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                         <div id="referencia_inmueble" class="col-md-12 mt-4">
                             <h4 class="property-single-detail-title">Descripción</h4>
-                            <p style="text-align: justify;"><?php echo $descripcion ?></p>
+                            
                         </div>
                         <div class="col-md-12" style="margin-bottom: 12px;">
                             <h4 class="property-single-detail-title">Características</h4>

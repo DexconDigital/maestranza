@@ -42,11 +42,24 @@
     }
 }
 #texto_contacto{
-    margin-top: 9%;
+    
+        margin-right: inherit;
+        margin-top: 9%;
+    
+    @include media-breakpoint-up(md){
+        margin-right: inherit;
+        margin-top: 9%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 9%;
+        margin-right: 6%;
+    }
+    
     .titulo_cont{
         margin-top: -5%;
         font-weight: bold;
     }
+
 }
 #banner_contador{
     background: url(../images/banner_estadisticas.jpg);
@@ -56,6 +69,15 @@
     background-size: cover;
     background-repeat: repeat;
     margin-top: 5%;
+    @include media-breakpoint-up(md){
+        margin-left: inherit;
+    
+    }
+
+    @include media-breakpoint-up(lg){
+      
+        margin-left: 6%;
+    }
     
 
     .color_conted{
@@ -215,7 +237,14 @@ display: inherit;
 }
 }
 .bd-example{
-    margin-left: 5%;
+    
+    @include media-breakpoint-up(md){
+        margin-left: inherit;
+    }
+    @include media-breakpoint-up(lg){
+        margin-left: 5%;
+    }
+   
 }
 
 .tamaños_parrafo{

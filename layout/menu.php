@@ -170,9 +170,10 @@
                 </font>
             </a>
         </li>
-     <!--    <li class="wapp_movil">
-            <a href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"><i class="color_wapp fab fa-whatsapp"></i></a>
-        </li> -->
+        <li class="wapp_movil d-flex">
+            <a class="mr-4" href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"><i class="tamaño_wapp_movil color_wapp fab fa-whatsapp"></i></a>
+            <a href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blank"><img class="dimencion_boton_pse_movil" src="images/logopse.png" alt=""></a>
+        </li>
     </ul>
 
 

@@ -72,7 +72,7 @@ $datos_contacto = [
 		"icono" => "far fa-envelope",
 	],
 	"horario" => [
-		"horario" => "Lunes a viernes de 07:30 am a 05:30 pm",
+		"horario" => "Lunes a Sábado de 07:30 am a 05:30 pm",
 		"icono" => "fas fa-calendar-alt",
 	],	
 ];
@@ -83,7 +83,7 @@ $logos_aliados = [
 	1 => "images/bien_raiz.png",
 	3 => "images/cosmovision.png",
 	4 => "images/fabricas_unidas.png",
-	6 => "images/jch.png",
+	6 => "images/af_abogados.png",
 	7 => "images/gomez.png",
 	8 => "images/lonja.png",
 	9 => "images/mattis.png",
@@ -94,6 +94,8 @@ $logos_aliados = [
 	14 => "images/servex.png",
 	15 => "images/smart_fit.png",
 	16 => "images/urbico.png",
+	17 => "images/credicorpcapital.png",
+	18 => "images/fenalco.png",
 ];
 
 
@@ -139,7 +141,7 @@ $texto_quienes_somos = [
 		"titulo" => "Trabajamos en tus sueños porque creemos en ellos…",//en negrita
 		"parrafos" => [
 			0 => "Maestranza es una empresa que se desarrolla en el sector inmobiliario con la intención de sumarse  a los objetivos y estrategias de nuestros clientes de manera integral, ágil y oportuna.",
-			1 => "Trabajamos bajo dos pilares fundamentales, el Talento Humano concentrando nuestros esfuerzos en el  proceso de selección, formación y capacitación constante de nuestro personal, generando empoderamiento y una alineación perfecta con nuestra cultura del servicio y La Responsabilidad Social siendo un eje  empresarial de Maestranza, la mejora social, económica y ambiental bajo la implementación del SG SST, promoviendo condiciones laborales favorables para la calidad de vida, el desarrollo humano y profesional de nuestra comunidad.",
+			1 => "Trabajamos bajo dos pilares fundamentales, el Talento Humano concentrando nuestros esfuerzos en el  proceso de selección, formación y capacitación constante de nuestro personal, generando empoderamiento y una alineación perfecta con nuestra cultura de servicio y La Responsabilidad Social siendo un eje  empresarial de Maestranza, la mejora social, económica y ambiental bajo la implementación del SG SST, promoviendo condiciones laborales favorables para la calidad de vida, el desarrollo humano y profesional de nuestra comunidad.",
 		],	
 	],
 	"mision" => [
@@ -241,10 +243,10 @@ $texto_servicios = [
 		"titulo" => "Gerencia Comercial",
 		"etapas" => [
 			"titulo" => "",
-				0 => "Planeación Comercial: Ubicamos los proyectos en los contextos adecuados para garantizar el éxito en las ventas.",
-				1 => "Implementación de Estrategia Comercial: Ejecutamos las acciones integrales que hacen realidad, el desarrollo comercial del proyecto.",
-				2 => "Cierres de Proceso de Ventas: Acompañamiento en trámites administrativos, legales y de gestión desde la estructuración hasta la entrega.",
-				3 => "Post Venta: Medimos la experiencia del usuario a traves del proceso y trabajamos para la satisfaccion de sus necesidades.",
+				0 => "Ubicamos los proyectos en los contextos adecuados para garantizar el éxito en las ventas.",
+				1 => "Ejecutamos las acciones integrales que hacen realidad, el desarrollo comercial del proyecto.",
+				2 => "Acompañamiento en trámites administrativos, legales y de gestión desde la estructuración hasta la entrega.",
+				3 => "Medimos la experiencia del usuario a traves del proceso y trabajamos para la satisfacción de sus necesidades.",
 		],
 		"ventajas" => [
 			"titulo" => "Ventajas y Alacances de la Gerencia Comercial con Maestranza",
@@ -256,7 +258,7 @@ $texto_servicios = [
 	],
 	"administracion" =>[
 	"imagen" => "images/administración de inmuebles.jpg",
-		"titulo" => "Administración de Bienes",
+		"titulo" => "Administración de Inmuebles",
 		"parrafos" => [
 			0 => "Estudio de seguridad y Aseguramiento de los contratos de arrendamiento.",
 			1 => "Elaboración de Contratos de Arrendamiento (Arrendatarios)",
@@ -299,7 +301,7 @@ $texto_servicios = [
 				],				
 			"exteriores" => [
 				"icono" => "images/Exteriores.png",
-				0 => "Somos especialistas en la realización de estudios de calidad ambiental, certificando la adecuación de las instalaciones en las condiciones higiénicas y sanitarias óptimas.",
+				0 => "Somos especialistas en el diseño, desarrollo y mantenimiento de jardines, parques e instalaciones deportivas, nuestro equipo esta integrado por técnicos y creativos expertos en Paisajismo, Arquitectura, Urbanismo, Ingeniería Química, Biología, Ingeniería Agrónoma y Gestión de Proyectos.",
 				],
 			],
 	],			
