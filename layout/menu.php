@@ -183,7 +183,7 @@
         <li>
             <a href="contactanos.php">
                 <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Contáctanos</font>
+                    <font style="vertical-align: inherit;">Contáctenos</font>
                 </font>
             </a>
         </li>
