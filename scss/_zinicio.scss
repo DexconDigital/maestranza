@@ -1158,8 +1158,13 @@ p, span, b {
         @include media-breakpoint-up(md){
             text-align: justify;
             padding: 0%;
-            padding-left: 3%;
+            padding-left: 4%;
         }
+    }
+    .texto_footer2{
+        text-align: justify;
+    padding: 0%;
+    padding-left: 7%;   
     }
     .tex-politica{
         margin-right: 10%;
@@ -1169,7 +1174,7 @@ p, span, b {
             margin-left: 0%;
         }
         @include media-breakpoint-up(lg){
-            margin-right: 0%;
+            margin-right: -3%;
             margin-left: 0%;
         }
 
