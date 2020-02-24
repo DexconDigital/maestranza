@@ -9485,16 +9485,16 @@ p, span, b {
       margin-bottom: 10%; } }
 
 #slider_mision_vision .cont_top_valores {
-  margin-bottom: 6%; }
+  margin-bottom: 5%; }
 
 #slider_mision_vision #cont_top_valores2 {
   margin-bottom: 7%; }
   @media (min-width: 768px) {
     #slider_mision_vision #cont_top_valores2 {
-      margin-bottom: 14%; } }
+      margin-bottom: 13%; } }
   @media (min-width: 992px) {
     #slider_mision_vision #cont_top_valores2 {
-      margin-bottom: 10%; } }
+      margin-bottom: 8%; } }
 
 #slider_mision_vision #valores {
   margin-bottom: 5%; }

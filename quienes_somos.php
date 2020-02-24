@@ -86,7 +86,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </p>
                         </div>
                     </div>
-                    <div class="carousel-item ">
+                    <div class="carousel-item">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block cont_top">
                             <h2>
