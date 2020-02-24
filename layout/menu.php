@@ -47,6 +47,23 @@
 </script>
 <!-- Fin de codigo preloader -->
 
+<section id="seccion_redes" class="col-2 col-lg-2 col-md-1 wapp_movil">
+
+    <div class="contenedor_iconos rounded flex-column d-flex justify-content-around align-items-center h-100">
+        <div class="align-items-center border-bottom d-flex justify-content-center w-100">
+            <!-- <i target="blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"><i class="iconos icono_f <?php echo $redes_sociales['facebook']['icono'] ?>"></i></a> -->
+            <a href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blank"><img class="dimencion_boton_pse_movil" src="images/logopse.png" alt=""></a>
+        </div>
+
+        <div class="align-items-center border-bottom d-flex justify-content-center w-100">
+             <a target="blank" href="<?php echo $datos_contacto['whatsapp']['link'] ?>"><i class="tamaño_wapp_movil color_wapp fab fa-whatsapp"></i></a>
+            <!-- <a class="mr-4" href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"><i class="tamaño_wapp_movil color_wapp fab fa-whatsapp"></i></a> -->
+        </div>
+    </div>
+
+</section>
+
+
 
 <!--Menu -->
 <div class=" container yit-custom-nav-2 left-side-nav js-nav-active yit-custom-slide-left-nav">
@@ -170,10 +187,10 @@
                 </font>
             </a>
         </li>
-        <li class="wapp_movil d-flex">
+        <!-- <li class="wapp_movil d-flex">
             <a class="mr-4" href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"><i class="tamaño_wapp_movil color_wapp fab fa-whatsapp"></i></a>
             <a href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blank"><img class="dimencion_boton_pse_movil" src="images/logopse.png" alt=""></a>
-        </li>
+        </li> -->
     </ul>
 
 
