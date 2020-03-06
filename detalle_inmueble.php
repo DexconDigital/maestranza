@@ -337,7 +337,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <!-- from slider -->
 <script src="./menu/menu.js.download"></script>
-<?php include('layout/archivosfooter.php'); ?>
+<!-- <?php include('layout/archivosfooter.php'); ?> -->
 <script src="js/slick.min.js"></script>
 <script>
     $('#slide-detalle').slick({
