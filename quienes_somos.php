@@ -40,7 +40,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     </section>
 
     <section id="banner_contador">
-        <div class="cont" id="contador">
+        <div class="cont" id="contador" style="padding: 6%;">
             <div class="col-12">
                 <div class="row text-center">
                     <div class="col-lg-3 col-md-6 col-12 mb-4 color_conted">
