@@ -96,6 +96,9 @@ $logos_aliados = [
 	16 => "images/urbico.png",
 	17 => "images/credicorpcapital.png",
 	18 => "images/fenalco.png",
+	19 => "images/continuum.png",
+	20 => "images/tip.png",
+	21 => "images/forzacreativa.png",
 ];
 
 

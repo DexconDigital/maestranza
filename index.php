@@ -303,6 +303,21 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                         <img src="<?php echo $logos_aliados[18] ?>" class="card-img-top imagen_card" alt="...">
                                     </div>
                                 </div>
+                                <div class="item">
+                                    <div class="" style="width: 10rem;">
+                                        <img src="<?php echo $logos_aliados[19] ?>" class="card-img-top imagen_card" alt="...">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="" style="width: 10rem;">
+                                        <img src="<?php echo $logos_aliados[20] ?>" class="card-img-top imagen_card" alt="...">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="" style="width: 10rem;">
+                                        <img src="<?php echo $logos_aliados[21] ?>" class="card-img-top imagen_card" alt="...">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

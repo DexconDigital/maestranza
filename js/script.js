@@ -74,6 +74,7 @@ $(document).ready(function() {
         }
     });
     
+    
 });
 // fin de boton subir
 
