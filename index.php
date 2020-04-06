@@ -1,6 +1,7 @@
 <?php require 'variables/variables.php';
 require 'controllers/noticiasController.php';
 require 'controllers/asesor_detalle.php';
+require 'variables/metaEtiquetas.php';
 $page = 'Inicio';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <!DOCTYPE html>
