@@ -19,7 +19,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 </header>
 
-<body>
+<body class="pr-0">
 
     <section id="symil">
 
