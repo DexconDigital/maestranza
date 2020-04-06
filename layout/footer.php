@@ -1,7 +1,7 @@
 <i class="fas fa-angle-double-up subir"></i>
 <footer>
     <div class="">
-        <div class=" container col-11 ">
+        <div class=" container col-11 espacio_footer">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-12  text-center">
                     <a href="index.php">

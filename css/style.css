@@ -9274,7 +9274,7 @@ p, span, b {
     background-color: white;
     height: 100px;
     position: fixed;
-    top: 510px;
+    top: 261px;
     right: 0;
     z-index: 1000; } }
 
@@ -9304,6 +9304,22 @@ p, span, b {
     top: 200px;
     right: 0;
     z-index: 1000; } }
+
+.espacio_footer {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+  @media (max-width: 768px) {
+    .espacio_footer {
+      padding-top: inherit;
+      padding-bottom: inherit; } }
+  @media (max-width: 450px) {
+    .espacio_footer {
+      padding-top: inherit;
+      padding-bottom: inherit; } }
+  @media (max-width: 360px) {
+    .espacio_footer {
+      padding-top: inherit;
+      padding-bottom: inherit; } }
 
 #detalle_asesor {
   padding: 5%;

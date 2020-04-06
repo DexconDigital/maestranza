@@ -1263,11 +1263,13 @@ p, span, b {
 }
 
 #seccion_redes {
+    
     @media (max-width: 768px){
         background-color: white;
         height: 100px;
         position: fixed;
-        top: 510px;
+        // top: 510px;
+        top: 261px;
         right: 0;
         z-index: 1000;
     }
@@ -1294,6 +1296,24 @@ p, span, b {
         top: 200px;
         right: 0;
         z-index: 1000;
+    }
+    
+}
+
+.espacio_footer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    @media (max-width: 768px){
+        padding-top: inherit;
+        padding-bottom: inherit;
+    }
+    @media(max-width: 450px){
+        padding-top: inherit;
+        padding-bottom: inherit;
+    }
+    @media(max-width: 360px){
+        padding-top: inherit;
+        padding-bottom: inherit;
     }
     
 }

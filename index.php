@@ -38,7 +38,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <div class="carousel-item active">
                         <div class="view container_movil">
                             <img class="d-block w-100" id="style_slider_img" src="images/ciudad-1.jpg" alt="First slide">
-                            <div class="mask rgba-black-light waves-light"></div>
+                            <!-- <div class="mask rgba-black-light waves-light"></div> -->
                         </div>
                         <div class="carousel-caption wow fadeInUp" data-wow-delay="0.6s">
                             <h1 id="style_slide_uno" class="h3-responsive"> <span class="color_dorado">Maestranza</span> <span class="color_azul">Gestión</span> <span class="color_dorado">Inmobiliaria</span></h1>
@@ -47,7 +47,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <div class="carousel-item">
                         <div class="view  container_movil">
                             <img class="d-block w-100" id="style_slider_img" src="images/ciudad-3.jpg" alt="Second slide">
-                            <div class="mask rgba-black-light waves-light"></div>
+                            <!-- <div class="mask rgba-black-light waves-light"></div> -->
                         </div>
                         <div class="carousel-caption wow fadeInLeft" data-wow-delay="0.6s">
                             <h1 id="style_slide_dos" class="h3-responsive"><span class="color_dorado">Trabajamos</span> <span class="color_azul">en tus</span> <span class="color_dorado">sueños,</span> <br> <span class="color_azul">porque</span> <span class="color_dorado">creemos</span> <span class="color_azul">en ellos</span></h1>
@@ -57,7 +57,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <div class="carousel-item ">
                         <div class="view  container_movil">
                             <img class="d-block w-100" id="style_slider_img" src="images/Manchester_Render.jpg" alt="Third slide">
-                            <div class="mask rgba-black-light waves-light"></div>
+                            <!-- <div class="mask rgba-black-light waves-light"></div> -->
                         </div>
                         <div class="carousel-caption wow fadeInDown" data-wow-delay="0.6s">
                             <h1 id="style_slide_tres" class="h3-responsive"> <span class="color_dorado">Encuentra</span> <span class="color_azul">la propiedad</span> <span class="color_azul">que</span> <br> <span class="color_azul">siempre</span> <span class="color_dorado"> has querido</span></h1>
