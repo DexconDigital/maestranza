@@ -1,9 +1,10 @@
-<?php require 'variables/variables.php';
+<?php 
+require 'variables/variables.php';
 require 'controllers/noticiasController.php';
 require 'controllers/asesor_detalle.php';
-require 'variables/metaEtiquetas.php';
 $page = 'Inicio';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <meta charset="UTF-8">
@@ -12,14 +13,15 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <link rel="stylesheet" href="./menu/bootstrap.css">
 <link rel="stylesheet" href="./menu/menu.css">
-
+<?php require 'variables/metaEtiquetas.php'; ?>
 <?php include 'layout/archivosheader.php'; ?>
 <?php require 'controllers/indexController.php'; ?>
 <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 
 <header class="webp-creative-header">
 
-    <?php include 'layout/menu.php' ?>
+    <?php include 'layout/menu.php' ;?>
+    
 
 </header>
 

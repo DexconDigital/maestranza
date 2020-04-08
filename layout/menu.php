@@ -207,7 +207,7 @@
     </div>
     <!-- /Logo BOC -->
     <div class="container">
-        <a class="logo phone_logo" href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blanck" title="Logo"> <img class="tamaño" src="images/Maestranza_Logo 3.png" alt="WebPanda Creative Studio"> </a>
+        <a class="logo phone_logo" href="index.php" title="Logo"> <img class="tamaño" src="images/Maestranza_Logo 3.png" alt="WebPanda Creative Studio"> </a>
     </div>
 
     <!-- /Logo EOC -->
