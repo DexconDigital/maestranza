@@ -791,7 +791,7 @@ p, span, b {
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 0%;
-    border: 1px solid $color_dorado;
+    border: 1px solid white;
     display: inline-block;
     margin-right: 5px;
     }
@@ -877,7 +877,8 @@ p, span, b {
         color: white;
     }
     .color_a_foot_imper{
-        color: $color_dorado;
+        color: $color_azul_oscuro;
+        text-shadow: 0px 1px 2px #ffffff;
         text-decoration: none;
  
         &:hover{

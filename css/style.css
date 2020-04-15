@@ -8867,7 +8867,7 @@ p, span, b {
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 0%;
-    border: 1px solid #B58D10;
+    border: 1px solid white;
     display: inline-block;
     margin-right: 5px; }
   #footer .style_icono:hover {
@@ -8933,7 +8933,8 @@ p, span, b {
   #footer .copy_style {
     color: white; }
   #footer .color_a_foot_imper {
-    color: #B58D10;
+    color: #002230;
+    text-shadow: 0px 1px 2px #ffffff;
     text-decoration: none; }
     #footer .color_a_foot_imper:hover {
       color: white; }
