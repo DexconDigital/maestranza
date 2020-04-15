@@ -53,7 +53,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="view container_movil">
-                            <img class="d-block w-100" id="style_slider_img" src="images/ciudad-1.jpg" alt="First slide">
+                            <img class="d-block w-100" id="style_slider_img" src="images/segunda.png" alt="First slide">
                             <!-- <div class="mask rgba-black-light waves-light"></div> -->
                         </div>
                         <div class="carousel-caption wow fadeInUp" data-wow-delay="0.6s">
@@ -72,7 +72,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     </div>
                     <div class="carousel-item ">
                         <div class="view  container_movil">
-                            <img class="d-block w-100" id="style_slider_img" src="images/Manchester_Render.jpg" alt="Third slide">
+                            <img class="d-block w-100" id="style_slider_img" src="images/ciudad-1.jpg" alt="Third slide">
                             <!-- <div class="mask rgba-black-light waves-light"></div> -->
                         </div>
                         <div class="carousel-caption wow fadeInDown" data-wow-delay="0.6s">
