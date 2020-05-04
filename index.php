@@ -416,7 +416,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="content">
-                                                <h3 style="color:white;">POPIETARIO</h3>
+                                                <h3 style="color:white;">PROPIETARIO</h3>
                                             </div>
                                             <a class="purchased" data-toggle="modal" data-target="#exampleModalab">
                                                 Ver más</a>
