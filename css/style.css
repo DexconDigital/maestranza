@@ -8232,7 +8232,7 @@ p, span, b {
       text-shadow: 0px 1px 2px #ffffff; } }
   @media (min-width: 992px) {
     #hero #style_slide_uno {
-      margin-top: -29%;
+      margin-top: -33%;
       font-size: 339%;
       text-shadow: 0px 1px 2px #ffffff; } }
 
@@ -8247,7 +8247,7 @@ p, span, b {
       text-shadow: 0px 1px 2px #ffffff; } }
   @media (min-width: 992px) {
     #hero #style_slide_dos {
-      margin-top: -32%;
+      margin-top: -37%;
       font-size: 339%;
       text-shadow: 0px 1px 2px #ffffff; } }
 
@@ -8262,7 +8262,7 @@ p, span, b {
       text-shadow: 0px 1px 2px #ffffff; } }
   @media (min-width: 992px) {
     #hero #style_slide_tres {
-      margin-top: -32%;
+      margin-top: -37%;
       font-size: 339%;
       text-shadow: 0px 1px 2px #ffffff; } }
 
@@ -8769,12 +8769,256 @@ p, span, b {
   margin: auto;
   bottom: 0; }
 
+#transaccion #titulo {
+  color: #002230;
+  font-size: 48px;
+  font-weight: bold; }
+
+#transaccion .main-title::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 55px;
+  background-color: #B58D10;
+  margin: auto;
+  bottom: 0; }
+
+#transaccion .margen_cont {
+  margin-top: 8%; }
+
+#arrendatario .inner-box {
+  position: relative;
+  overflow: hidden; }
+
+#arrendatario .overlay-box {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(26, 29, 31, 0.5);
+  -webkit-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  transition: all 700ms ease;
+  -webkit-transform: translate(-100%, 0%);
+  -ms-transform: translate(-100%, 0%);
+  -o-transform: translate(-100%, 0%);
+  -moz-transform: translate(-100%, 0%);
+  transform: translate(-100%, 0%); }
+
+#arrendatario .inner-box:hover .overlay-box {
+  opacity: 1;
+  -webkit-transform: translate(0%);
+  -ms-transform: translate(0%);
+  -o-transform: translate(0%);
+  -moz-transform: translate(0%);
+  transform: translate(0%); }
+
+#arrendatario .inner-box .overlay-box .overlay-inner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+  padding: 10px 0px; }
+
+#arrendatario .inner-box .overlay-box .purchased {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  padding: 16px 0px;
+  display: block;
+  color: #ffffff;
+  background-color: #b58d10; }
+
+#arrendatario .inner-box .overlay-box h3 {
+  position: relative;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase; }
+
+#arrendatario .inner-box .overlay-box .overlay-inner .content {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle; }
+
+#propietario .inner-box {
+  position: relative;
+  overflow: hidden; }
+
+#propietario .overlay-box {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(26, 29, 31, 0.5);
+  -webkit-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  transition: all 700ms ease;
+  -webkit-transform: translate(-100%, 0%);
+  -ms-transform: translate(-100%, 0%);
+  -o-transform: translate(-100%, 0%);
+  -moz-transform: translate(-100%, 0%);
+  transform: translate(-100%, 0%); }
+
+#propietario .inner-box:hover .overlay-box {
+  opacity: 1;
+  -webkit-transform: translate(0%);
+  -ms-transform: translate(0%);
+  -o-transform: translate(0%);
+  -moz-transform: translate(0%);
+  transform: translate(0%); }
+
+#propietario .inner-box .overlay-box .overlay-inner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+  padding: 10px 0px; }
+
+#propietario .inner-box .overlay-box .purchased {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  padding: 16px 0px;
+  display: block;
+  color: #ffffff;
+  background-color: #b58d10; }
+
+#propietario .inner-box .overlay-box h3 {
+  position: relative;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase; }
+
+#propietario .inner-box .overlay-box .overlay-inner .content {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle; }
+
+#pagospse .imagen {
+  margin-top: 5%;
+  margin-bottom: 12%;
+  padding: 9px; }
+
+#pagospse .inner-box {
+  position: relative;
+  overflow: hidden; }
+
+#pagospse .overlay-box {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(26, 29, 31, 0.5);
+  -webkit-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  transition: all 700ms ease;
+  -webkit-transform: translate(-100%, 0%);
+  -ms-transform: translate(-100%, 0%);
+  -o-transform: translate(-100%, 0%);
+  -moz-transform: translate(-100%, 0%);
+  transform: translate(-100%, 0%); }
+
+#pagospse .inner-box:hover .overlay-box {
+  opacity: 1;
+  -webkit-transform: translate(0%);
+  -ms-transform: translate(0%);
+  -o-transform: translate(0%);
+  -moz-transform: translate(0%);
+  transform: translate(0%); }
+
+#pagospse .inner-box .overlay-box .overlay-inner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+  padding: 10px 0px; }
+
+#pagospse .inner-box .overlay-box .purchased {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  padding: 16px 0px;
+  display: block;
+  color: #ffffff;
+  background-color: #b58d10; }
+
+#pagospse .inner-box .overlay-box h3 {
+  position: relative;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase; }
+
+#pagospse .inner-box .overlay-box .overlay-inner .content {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle; }
+
+#btn_modal {
+  background-color: #002230 !important;
+  color: white !important; }
+  #btn_modal:hover {
+    background-color: #B58D10 !important;
+    color: white !important; }
+
+.option_modal {
+  background-color: #B58D10 !important;
+  color: white !important; }
+  .option_modal:hover {
+    color: #002230 !important; }
+
+.tamaño_arrendatario_btn {
+  padding-left: 79px !important;
+  padding-right: 79px !important; }
+
+.tamaño_propietario_btn {
+  padding-left: 74px !important;
+  padding-right: 74px !important; }
+
 .titulo_totalinmuebles {
   text-align: center;
   font-family: 'roboto'; }
 
 .color_dorado {
   color: #B58D10; }
+
+#ultimas_noticias .margen_cont {
+  margin-top: 8%; }
 
 #ultimas_noticias .letra_titulo {
   color: #002230;

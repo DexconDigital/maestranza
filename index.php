@@ -1,4 +1,4 @@
-<?php 
+<?php
 require 'variables/variables.php';
 require 'controllers/noticiasController.php';
 require 'controllers/asesor_detalle.php';
@@ -20,8 +20,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 <header class="webp-creative-header">
 
-    <?php include 'layout/menu.php' ;?>
-    
+    <?php include 'layout/menu.php'; ?>
+
 
 </header>
 
@@ -60,7 +60,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             <h1 id="style_slide_uno" class="h3-responsive"> <span class="color_dorado">Maestranza</span> <span class="color_azul">Gestión</span> <span class="color_dorado">Inmobiliaria</span></h1>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item ">
                         <div class="view  container_movil">
                             <img class="d-block w-100" id="style_slider_img" src="images/ciudad-3.jpg" alt="Second slide">
                             <!-- <div class="mask rgba-black-light waves-light"></div> -->
@@ -380,8 +380,117 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </section>
 
+        <section id="transaccion">
+            <div class="overlay">
+            </div>
+            <div class="container margen_cont border">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-12 col-12 titulo_cont_servi ">
+                            <h2 id="titulo" class="main-title main-title text-left">Transacciones en Línea</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-5">
+                    <div class="d-flex">
+                        <div class="col-4 border" id="arrendatario">
+                            <div class="inner-box">
+                                <div class="card" style="height: 14rem;">
+                                    <img src="images/arrendatarios.png" class="card-img-top w-100 h-100" alt="...">
+                                    <div class="overlay-box">
+                                        <div class="overlay-inner">
+                                            <div class="content">
+                                                <h3 style="color:white;">ARRENDATARIO</h3>
+                                            </div>
+                                            <a class="purchased" data-toggle="modal" data-target="#exampleModala">
+                                                Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4" id="propietario" class="border">
+                            <div class="inner-box">
+                                <div class="card" style="height: 14rem;">
+                                    <img src="images/propietarios.jpg" class="card-img-top w-100 h-100" alt="...">
+                                    <div class="overlay-box">
+                                        <div class="overlay-inner">
+                                            <div class="content">
+                                                <h3 style="color:white;">POPIETARIO</h3>
+                                            </div>
+                                            <a class="purchased" data-toggle="modal" data-target="#exampleModalab">
+                                                Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4" id="pagospse" class="border">
+                            <div class="inner-box">
+                                <div class="card">
+                                    <img src="images/pagospse.png" class="card-img-top w-100 h-100 imagen" alt="...">
+                                    <div class="overlay-box">
+                                        <div class="overlay-inner">
+                                            <div class="content">
+                                                <h3><a href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blanck" style="color:inherit;">PAGOS PSE</a></h3>
+                                            </div>
+                                            <a class="purchased" href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blanck">
+                                                Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- modal arrendatario  -->
+
+        <div class="modal fade" id="exampleModala" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Arrendatarios</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <a type="button" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="_blank" class="btn option_modal tamaño_arrendatario_btn">Ingresar Aquí </a><br>
+                        <a type="button" href="" class="btn option_modal">Ver Manual de Arrendatario </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn" id="btn_modal" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal propietario  -->
+        <div class="modal fade" id="exampleModalab" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Propietarios</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <a type="button" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="_blank" class="btn option_modal tamaño_propietario_btn">Ingresar Aquí </a><br>
+                        <a type="button" href="" class="btn option_modal">Ver Manual de Propietario </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn" id="btn_modal" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <section id="ultimas_noticias" class="mb-5">
-            <div class="container espacio_margen">
+            <div class="container margen_cont espacio_margen">
                 <div class="col-12 mb-5">
                     <h2 class="main-title text-left letra_titulo"> Informativo Inmobiliario </h2>
                 </div>
