@@ -383,7 +383,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <section id="transaccion">
             <div class="overlay">
             </div>
-            <div class="container margen_cont border">
+            <div class="container margen_cont">
                 <div class="col-12">
                     <div class="row">
                         <div class="col-lg-7 col-md-12 col-12 titulo_cont_servi ">
@@ -393,7 +393,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 </div>
                 <div class="col-12 mt-5">
                     <div class="d-flex">
-                        <div class="col-4 border" id="arrendatario">
+                        <div class="col-4" id="arrendatario">
                             <div class="inner-box">
                                 <div class="card" style="height: 14rem;">
                                     <img src="images/arrendatarios.png" class="card-img-top w-100 h-100" alt="...">
@@ -426,7 +426,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </div>
                         </div>
                         <div class="col-4" id="pagospse" class="border">
-                            <div class="inner-box">
+                            <div class="inner-box border">
                                 <div class="card">
                                     <img src="images/pagospse.png" class="card-img-top w-100 h-100 imagen" alt="...">
                                     <div class="overlay-box">
