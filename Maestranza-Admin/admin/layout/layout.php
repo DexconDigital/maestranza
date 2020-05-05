@@ -4,7 +4,7 @@ $con = Conect();
 $qry = "SELECT * FROM usuarios where usuario ='$user'";
 $sql = mysqli_query($con, $qry);
 $usuario =  mysqli_fetch_array($sql);
-$imagen_inicio = $usuario[7];
+// $imagen_inicio = $usuario[7];
 $page = "inicio";
 ?>
 <!DOCTYPE html>

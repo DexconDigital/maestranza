@@ -118,7 +118,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <h2 class="main-title letra_titulo text-left mb-5">Nuestro Equipo</h2>
                 </div>
 
-                <div class="col-12 mt-5">
+                <div class="col-12 mt-5 border">
                     <div class="row justify-content-center">
 
                         <?php if (isset($asesor_array)) {

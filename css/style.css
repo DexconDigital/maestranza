@@ -8786,6 +8786,15 @@ p, span, b {
 #transaccion .margen_cont {
   margin-top: 8%; }
 
+.asesores {
+  margin-left: 0%; }
+  @media (min-width: 768px) {
+    .asesores {
+      margin-left: 0%; } }
+  @media (min-width: 992px) {
+    .asesores {
+      margin-left: 1%; } }
+
 #arrendatario {
   margin-bottom: 7%; }
   #arrendatario .inner-box {
@@ -9181,11 +9190,12 @@ p, span, b {
   #footer .copy_style {
     color: white; }
   #footer .color_a_foot_imper {
-    color: #002230;
-    text-shadow: 0px 1px 2px #ffffff;
+    color: white;
+    text-shadow: 0px 0px 2px #ffffff;
     text-decoration: none; }
     #footer .color_a_foot_imper:hover {
-      color: white; }
+      color: #B58D10;
+      text-shadow: inherit; }
 
 .margen.contacto {
   margin-right: 8%; }
