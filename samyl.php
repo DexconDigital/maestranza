@@ -32,7 +32,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         </div>
     </section>
     <section>
-        <div class="container">
+        <div class="container mb-5">
             <div class="col-12">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-6 mb-4">

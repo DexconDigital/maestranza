@@ -55,7 +55,7 @@ $(document).ready(function () {
                         }
                         html += '\
                                     <div class="col-12 col-md-6 col-lg-4">\
-                                        <div class="infoProyect" style="height:inherit">'+ logoProyect + '\
+                                        <div class="infoProyect" style="">'+ logoProyect + '\
                                             <a href="detalleProyecto.php?inmo=' + data[i].IdInmobiliaria + '&codinm=' + data[i].codinm + '" class="imgProyectBack" style="background-image: url(' + "'" + data[i].foto + "'" + ')">\
                                             </a>\
                                             <div class="contentInfoProy">\

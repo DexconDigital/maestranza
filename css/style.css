@@ -8786,137 +8786,141 @@ p, span, b {
 #transaccion .margen_cont {
   margin-top: 8%; }
 
-#arrendatario .inner-box {
-  position: relative;
-  overflow: hidden; }
+#arrendatario {
+  margin-bottom: 7%; }
+  #arrendatario .inner-box {
+    position: relative;
+    overflow: hidden; }
+  #arrendatario .overlay-box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(26, 29, 31, 0.5);
+    -webkit-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+    -webkit-transform: translate(-100%, 0%);
+    -ms-transform: translate(-100%, 0%);
+    -o-transform: translate(-100%, 0%);
+    -moz-transform: translate(-100%, 0%);
+    transform: translate(-100%, 0%); }
+  #arrendatario .inner-box:hover .overlay-box {
+    opacity: 1;
+    -webkit-transform: translate(0%);
+    -ms-transform: translate(0%);
+    -o-transform: translate(0%);
+    -moz-transform: translate(0%);
+    transform: translate(0%); }
+  #arrendatario .inner-box .overlay-box .overlay-inner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+    padding: 10px 0px; }
+  #arrendatario .inner-box .overlay-box .purchased {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 16px 0px;
+    display: block;
+    color: #ffffff;
+    background-color: #b58d10; }
+  #arrendatario .inner-box .overlay-box h3 {
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase; }
+  #arrendatario .inner-box .overlay-box .overlay-inner .content {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle; }
+  @media (min-width: 768px) {
+    #arrendatario {
+      margin-bottom: 10%; } }
+  @media (min-width: 992px) {
+    #arrendatario {
+      margin-bottom: 0%; } }
 
-#arrendatario .overlay-box {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  display: block;
-  background-color: rgba(26, 29, 31, 0.5);
-  -webkit-transition: all 700ms ease;
-  -ms-transition: all 700ms ease;
-  -o-transition: all 700ms ease;
-  transition: all 700ms ease;
-  -webkit-transform: translate(-100%, 0%);
-  -ms-transform: translate(-100%, 0%);
-  -o-transform: translate(-100%, 0%);
-  -moz-transform: translate(-100%, 0%);
-  transform: translate(-100%, 0%); }
-
-#arrendatario .inner-box:hover .overlay-box {
-  opacity: 1;
-  -webkit-transform: translate(0%);
-  -ms-transform: translate(0%);
-  -o-transform: translate(0%);
-  -moz-transform: translate(0%);
-  transform: translate(0%); }
-
-#arrendatario .inner-box .overlay-box .overlay-inner {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  display: table;
-  vertical-align: middle;
-  padding: 10px 0px; }
-
-#arrendatario .inner-box .overlay-box .purchased {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  padding: 16px 0px;
-  display: block;
-  color: #ffffff;
-  background-color: #b58d10; }
-
-#arrendatario .inner-box .overlay-box h3 {
-  position: relative;
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase; }
-
-#arrendatario .inner-box .overlay-box .overlay-inner .content {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle; }
-
-#propietario .inner-box {
-  position: relative;
-  overflow: hidden; }
-
-#propietario .overlay-box {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  display: block;
-  background-color: rgba(26, 29, 31, 0.5);
-  -webkit-transition: all 700ms ease;
-  -ms-transition: all 700ms ease;
-  -o-transition: all 700ms ease;
-  transition: all 700ms ease;
-  -webkit-transform: translate(-100%, 0%);
-  -ms-transform: translate(-100%, 0%);
-  -o-transform: translate(-100%, 0%);
-  -moz-transform: translate(-100%, 0%);
-  transform: translate(-100%, 0%); }
-
-#propietario .inner-box:hover .overlay-box {
-  opacity: 1;
-  -webkit-transform: translate(0%);
-  -ms-transform: translate(0%);
-  -o-transform: translate(0%);
-  -moz-transform: translate(0%);
-  transform: translate(0%); }
-
-#propietario .inner-box .overlay-box .overlay-inner {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  display: table;
-  vertical-align: middle;
-  padding: 10px 0px; }
-
-#propietario .inner-box .overlay-box .purchased {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  padding: 16px 0px;
-  display: block;
-  color: #ffffff;
-  background-color: #b58d10; }
-
-#propietario .inner-box .overlay-box h3 {
-  position: relative;
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase; }
-
-#propietario .inner-box .overlay-box .overlay-inner .content {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle; }
+#propietario {
+  margin-bottom: 7%; }
+  #propietario .inner-box {
+    position: relative;
+    overflow: hidden; }
+  #propietario .overlay-box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(26, 29, 31, 0.5);
+    -webkit-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+    -webkit-transform: translate(-100%, 0%);
+    -ms-transform: translate(-100%, 0%);
+    -o-transform: translate(-100%, 0%);
+    -moz-transform: translate(-100%, 0%);
+    transform: translate(-100%, 0%); }
+  #propietario .inner-box:hover .overlay-box {
+    opacity: 1;
+    -webkit-transform: translate(0%);
+    -ms-transform: translate(0%);
+    -o-transform: translate(0%);
+    -moz-transform: translate(0%);
+    transform: translate(0%); }
+  #propietario .inner-box .overlay-box .overlay-inner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+    padding: 10px 0px; }
+  #propietario .inner-box .overlay-box .purchased {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 16px 0px;
+    display: block;
+    color: #ffffff;
+    background-color: #b58d10; }
+  #propietario .inner-box .overlay-box h3 {
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase; }
+  #propietario .inner-box .overlay-box .overlay-inner .content {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle; }
+  @media (min-width: 768px) {
+    #propietario {
+      margin-bottom: 10%; } }
+  @media (min-width: 992px) {
+    #propietario {
+      margin-bottom: 0%; } }
 
 #pagospse .imagen {
   margin-top: 5%;
@@ -9704,10 +9708,22 @@ p, span, b {
   @media (min-width: 992px) {
     #texto_contacto {
       margin-top: 9%;
-      margin-right: 6%; } }
+      margin-right: 7%; } }
   #texto_contacto .titulo_cont {
     margin-top: -5%;
     font-weight: bold; }
+
+#video .video_maestranza {
+  width: 323px;
+  height: 360px; }
+  @media (min-width: 768px) {
+    #video .video_maestranza {
+      width: 640px;
+      height: 360px; } }
+  @media (min-width: 992px) {
+    #video .video_maestranza {
+      width: 640px;
+      height: 360px; } }
 
 #banner_contador {
   background: url(../images/banner_estadisticas.jpg);
@@ -9722,7 +9738,8 @@ p, span, b {
       margin-left: inherit; } }
   @media (min-width: 992px) {
     #banner_contador {
-      margin-left: 6%; } }
+      margin-left: 6%;
+      margin-bottom: 0%; } }
   #banner_contador h5 {
     color: white; }
   #banner_contador h1 {

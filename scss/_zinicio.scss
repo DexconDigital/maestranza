@@ -698,6 +698,7 @@ p, span, b {
 }
 
 #arrendatario{
+    margin-bottom: 7%;
     .inner-box{
     position: relative;
     overflow: hidden;
@@ -767,8 +768,16 @@ p, span, b {
         vertical-align:middle; 
     }
 
+    @include media-breakpoint-up(md){
+        margin-bottom: 10%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-bottom: 0%;
+    }
+
 }
 #propietario{
+    margin-bottom: 7%;
     .inner-box{
         position: relative;
         overflow: hidden;
@@ -836,6 +845,12 @@ p, span, b {
             position:relative;
             display:table-cell;
             vertical-align:middle; 
+        }
+        @include media-breakpoint-up(md){
+            margin-bottom: 10%;
+        }
+        @include media-breakpoint-up(lg){
+            margin-bottom: 0%;
         }
     
 }

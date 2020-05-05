@@ -39,6 +39,14 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     </section>
 
+    <section id="video" class="mt-4">
+        <div class="col-12">
+            <div class="col-12 text-center justify-content-center">
+                <iframe class="video_maestranza" src="images/Video.mp4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
     <section id="banner_contador">
         <div class="cont" id="contador" style="padding: 6%;">
             <div class="col-12">

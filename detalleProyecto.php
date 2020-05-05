@@ -64,7 +64,7 @@ $fec           = date('YmdHis'); ?>
 
             <div class="col-12 mt-5">
               <div class="row">
-                <div class="col-lg-4 col-md-12 col-12 mb-4">
+                <div class="col-lg-8 col-md-12 col-12 mb-4">
                   <!-- CARACTERÍSTICAS -->
                   <div class="cd-section" id="">
                     <div class="card">
@@ -78,7 +78,8 @@ $fec           = date('YmdHis'); ?>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-12 mb-4 cd-section">
+                <div class="col-4"></div>
+                <div class="col-lg-12 col-md-12 col-12 mb-4 cd-section">
                   <!-- Zonas COMUNES -->
                   <div class="card ">
                     <div class="card-body">
@@ -93,7 +94,7 @@ $fec           = date('YmdHis'); ?>
                   </div>
 
                 </div>
-                <div class="col-lg-4 col-md-12 col-12 mb-4 cd-section">
+                <div class="col-lg-12 col-md-12 col-12 mb-4 cd-section">
                   <!-- Otras Zonas -->
                   <div class="card">
                     <div class="card-body">

@@ -392,8 +392,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     </div>
                 </div>
                 <div class="col-12 mt-5">
-                    <div class="d-flex">
-                        <div class="col-4" id="arrendatario">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center ">
+                        <div class="col-lg-4 col-md-6 col-12" id="arrendatario">
                             <div class="inner-box">
                                 <div class="card" style="height: 14rem;">
                                     <img src="images/arrendatarios.png" class="card-img-top w-100 h-100" alt="...">
@@ -409,7 +409,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4" id="propietario" class="border">
+                        <div class="col-lg-4 col-md-6 col-12" id="propietario" class="border">
                             <div class="inner-box">
                                 <div class="card" style="height: 14rem;">
                                     <img src="images/propietarios.jpg" class="card-img-top w-100 h-100" alt="...">
@@ -425,7 +425,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4" id="pagospse" class="border">
+                        <div class="col-lg-4 col-md-6 col-12" id="pagospse" class="border">
                             <div class="inner-box border">
                                 <div class="card">
                                     <img src="images/pagospse.png" class="card-img-top w-100 h-100 imagen" alt="...">
