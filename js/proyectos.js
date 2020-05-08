@@ -54,25 +54,28 @@ $(document).ready(function () {
                             logoProyect = '<div class="logproybus"><img typeof="foaf:Image" class="img-responsive" src="images/no_image.png" width="100%" height="auto" alt="" style="object-fit:cover;"></div>';
                         }
                         html += '\
-                                    <div class="col-12 col-md-6 col-lg-4">\
-                                        <div class="infoProyect" style="">'+ logoProyect + '\
+                                    <div class="col-12 col-md-6 col-lg-4" style="margin-bottom: 3%;">\
+                                        <div class="infoProyect" style="margin-bottom: 10px;">'+ logoProyect + '\
                                             <a href="detalleProyecto.php?inmo=' + data[i].IdInmobiliaria + '&codinm=' + data[i].codinm + '" class="imgProyectBack" style="background-image: url(' + "'" + data[i].foto + "'" + ')">\
                                             </a>\
-                                            <div class="contentInfoProy">\
-                                                <div class="titleContentPro">\
-                                                    <h2>\
-                                                        <a href="detalleProyecto.php?inmo=' + data[i].IdInmobiliaria + '&codinm=' + data[i].codinm + '">' + data[i].NombreProyecto + '</a>\
+                                        </div>\
+                                        <div class="col-12 col-md-12 col-lg-12">\
+                                         <div class="contentInfoProy">\
+                                             <div class="titleContentPro" style="width: 110%;">\
+                                                    <h2 style="font-size: 20px;margin-bottom: 0px; margin-top: 10px;">\
+                                                        <a style="color:#002230" href="detalleProyecto.php?inmo=' + data[i].IdInmobiliaria + '&codinm=' + data[i].codinm + '">' + data[i].NombreProyecto + '</a>\
                                                     </h2>\
                                                     <a href="detalleProyecto.php?inmo=' + data[i].IdInmobiliaria + '&codinm=' + data[i].codinm + '">\
-                                                        <p>' + data[i].DirProyecto + '</p>\
+                                                        <p style="color:#002230">' + data[i].DirProyecto + '</p>\
                                                     </a>\
                                                 </div>\
+                                                \
                                                 <div class="princiInfoContentPro">\
                                                     <div class="areaProy">\
-                                                        <a href="detalleProyecto.php?inmo=' + data[i].IdInmobiliaria + '&codinm=' + data[i].codinm + '">\
+                                                      <a style="color:#002230" href="detalleProyecto.php?inmo=' + data[i].IdInmobiliaria + '&codinm=' + data[i].codinm + '">\
                                                             <span>Área desde</span>\
                                                         </a>\
-                                                        <a href="detalleProyecto.php?inmo=' + data[i].IdInmobiliaria + '&codinm=' + data[i].codinm + '">\
+                                                        <a style="color:#002230" href="detalleProyecto.php?inmo=' + data[i].IdInmobiliaria + '&codinm=' + data[i].codinm + '">\
                                                             <div class="contentArea">\
                                                                 ' + data[i].AreaLote + 'm<sup>2</sup>\
                                                             </div>\
@@ -84,14 +87,15 @@ $(document).ready(function () {
                                                             <p> ' + data[i].alcobas + '</p>\
                                                         </a>\
                                                     </div>-->\
-                                                    <div class="precioProy">\
+                                                   <div class="precioProy">\
                                                         <span class="Vivienda">Precio desde</span>\
                                                         <p>$ ' + data[i].precio + '</p>\
                                                     </div>\
                                                 </div>\
                                             </div>\
-                                        </div>\
+                                    </div>\
                                     </div>'
+                                    
                     }
                     $('#list-proyects').html(html);
                 }
@@ -238,7 +242,7 @@ $(document).ready(function () {
                 if (data[0].otrasC.length <= 0) {
                     $('.titleOtras').hide();
                 }
-                var htmlOtras = "<ul>";
+                var htmlOtras = "<ul class='lista_proyexto'>";
                 for (o in data[0].otrasC) {
                     htmlOtras += "<li class=''><i class='fa " + data[0].otrasC[o].obser_det + "'></i> " + data[0].otrasC[o].Descripcion + "</li>";
                 }

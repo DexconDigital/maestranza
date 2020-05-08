@@ -99,7 +99,7 @@ $fec           = date('YmdHis'); ?>
                   <div class="card">
                     <div class="card-body">
                       <h4 class="card-title">OTRAS</h4>
-                      <div class="col-md-11 col-md-offset-1" id="listOtras">
+                      <div class="col-md-12 col-md-offset-1" id="listOtras">
                         <div class="col-md-12 list">
                         </div>
                       </div>
