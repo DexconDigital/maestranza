@@ -235,7 +235,7 @@ $(document).ready(function () {
                 }
                 var htmlZonasComunes = "<ul>";
                 for (z in data[0].zcomunes) {
-                    htmlZonasComunes += "<li class=''><i class='fa " + data[0].zcomunes[z].obser_det + "'></i> " + data[0].zcomunes[z].Descripcion + "</li>";
+                    htmlZonasComunes += "<li class=''><i class='fa " + data[0].zcomunes[z].obser_det + "' style='color: #B58D10;'></i> " + data[0].zcomunes[z].Descripcion + "</li>";
                 }
                 htmlZonasComunes += "</ul>";
                 $('#listZonas .list').html(htmlZonasComunes);
@@ -244,7 +244,7 @@ $(document).ready(function () {
                 }
                 var htmlOtras = "<ul class='lista_proyexto'>";
                 for (o in data[0].otrasC) {
-                    htmlOtras += "<li class=''><i class='fa " + data[0].otrasC[o].obser_det + "'></i> " + data[0].otrasC[o].Descripcion + "</li>";
+                    htmlOtras += "<li class=''><i class='fa " + data[0].otrasC[o].obser_det + "' style='color: #B58D10;'></i> " + data[0].otrasC[o].Descripcion + "</li>";
                 }
                 htmlOtras += "</ul>";
                 $('#listOtras .list').html(htmlOtras);
