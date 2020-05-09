@@ -109,7 +109,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         </div>
 
         <!--  cards de proyectos -->
-        <div class="container clearfix row mx-auto" id="list-proyects">
+        <div class="container clearfix row mx-auto justify-content-center" id="list-proyects">
         </div>
       </section>
     </section>

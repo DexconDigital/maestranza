@@ -1,6 +1,6 @@
 <?php require 'variables/variables.php';
 require 'controllers/noticiasController.php';
-$page = 'Infomativo inmobilario';
+$page = 'Detalle del Proyecto';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza';
 $inmo          = $_GET['inmo'];
 $codinm        = $_GET['codinm'];
