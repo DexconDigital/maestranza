@@ -64,7 +64,7 @@ $fec           = date('YmdHis'); ?>
 
             <div class="col-12 mt-5">
               <div class="row">
-                <div class="col-lg-8 col-md-12 col-12 mb-4">
+                <div class="col-lg-12 col-md-12 col-12 mb-4">
                   <!-- CARACTERÍSTICAS -->
                   <div class="cd-section" id="">
                     <div class="card">
