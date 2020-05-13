@@ -458,7 +458,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </button>
                     </div>
                     <div class="modal-body text-center">
-                        <a type="button" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="_blank" class="btn option_modal tamaño_arrendatario_btn">Ingresar Aquí </a><br>
+                        <a type="button" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="_blank" class="btn option_modal tamaño_arrendatario_btn">Ingresar Aquí </a><br>
                         <a type="button" href="" class="btn option_modal">Ver Manual de Arrendatario </a>
                     </div>
                     <div class="modal-footer">
@@ -478,7 +478,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </button>
                     </div>
                     <div class="modal-body text-center">
-                        <a type="button" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="_blank" class="btn option_modal tamaño_propietario_btn">Ingresar Aquí </a><br>
+                        <a type="button" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="_blank" class="btn option_modal tamaño_propietario_btn">Ingresar Aquí </a><br>
                         <a type="button" href="" class="btn option_modal">Ver Manual de Propietario </a>
                     </div>
                     <div class="modal-footer">
