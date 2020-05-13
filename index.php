@@ -500,7 +500,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </button>
                     </div>
                     <div class="modal-body text-center">
-                        <a type="button" href="https://gateway2.tucompra.com.co/sites/MGI" target="_blank" class="btn option_modal tamaño_propietario_btn">Ingresar Aquí </a><br>
+                        <a type="button" class="btn option_modal tamaño_propietario_btn">Ingresar Aquí </a><br>
                         <a type="button" href="manuales/INSTRUCTIVO_PSE_MAESTRANZA.pdf" target="blanck" class="btn option_modal">&nbsp&nbspVer Manual de Pagos PSE&nbsp&nbsp</a>
                     </div>
                     <div class="modal-footer">
