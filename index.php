@@ -432,9 +432,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="content">
-                                                <h3><a href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blanck" style="color:inherit;">PAGOS PSE</a></h3>
+                                                <h3><a href="https://gateway2.tucompra.com.co/sites/MGI" target="_blanck" style="color:inherit;">PAGOS PSE</a></h3>
                                             </div>
-                                            <a class="purchased" href="https://www.psepagos.co/PSEHostingUI/DatabaseTicketOffice.aspx?ID=8187" target="_blanck">
+                                            <a class="purchased" href="https://gateway2.tucompra.com.co/sites/MGI" target="_blanck">
                                                 Ver más</a>
                                         </div>
                                     </div>
