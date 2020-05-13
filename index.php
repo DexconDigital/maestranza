@@ -434,7 +434,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                             <div class="content">
                                                 <h3><a href="https://gateway2.tucompra.com.co/sites/MGI" target="_blanck" style="color:inherit;">PAGOS PSE</a></h3>
                                             </div>
-                                            <a class="purchased" href="https://gateway2.tucompra.com.co/sites/MGI" target="_blanck">
+                                            <!-- <a class="purchased" href="https://gateway2.tucompra.com.co/sites/MGI" target="_blanck">
+                                                Ver más</a> -->
+                                                <a class="purchased" data-toggle="modal" data-target="#exampleModalabc">
                                                 Ver más</a>
                                         </div>
                                     </div>
@@ -459,7 +461,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     </div>
                     <div class="modal-body text-center">
                         <a type="button" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="_blank" class="btn option_modal tamaño_arrendatario_btn">Ingresar Aquí </a><br>
-                        <a type="button" href="" class="btn option_modal">Ver Manual de Arrendatario </a>
+                        <a type="button" href="manuales/INSTRUCTIVO_ARRENDATARIOS_MAESTRANZA.pdf" target="blanck" class="btn option_modal">Ver Manual de Arrendatario </a>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn" id="btn_modal" data-dismiss="modal">Cerrar</button>
@@ -479,7 +481,27 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     </div>
                     <div class="modal-body text-center">
                         <a type="button" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="_blank" class="btn option_modal tamaño_propietario_btn">Ingresar Aquí </a><br>
-                        <a type="button" href="" class="btn option_modal">Ver Manual de Propietario </a>
+                        <a type="button" href="manuales/INSTRUCTIVO_PROPIETARIOS_MAESTRANZA.pdf" target="blanck" class="btn option_modal">Ver Manual de Propietario </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn" id="btn_modal" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal pse  -->
+        <div class="modal fade" id="exampleModalabc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Pagos PSE</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <a type="button" href="https://gateway2.tucompra.com.co/sites/MGI" target="_blank" class="btn option_modal tamaño_propietario_btn">Ingresar Aquí </a><br>
+                        <a type="button" href="manuales/INSTRUCTIVO_PSE_MAESTRANZA.pdf" target="blanck" class="btn option_modal">&nbsp&nbspVer Manual de Pagos PSE&nbsp&nbsp</a>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn" id="btn_modal" data-dismiss="modal">Cerrar</button>
