@@ -136,12 +136,12 @@
                     </font>
                 </div>
                 <div class="dropdown-content">
-                    <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="_blank">
+                    <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="_blank">
                         <font style="vertical-align: inherit;">
                             <font style="vertical-align: inherit;">Arrendatarios</font>
                         </font>
                     </a>
-                    <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="_blank">
+                    <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="_blank">
                         <font style="vertical-align: inherit;">
                             <font style="vertical-align: inherit;">Propietarios</font>
                         </font>
