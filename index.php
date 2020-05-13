@@ -432,7 +432,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="content">
-                                                <h3><a style="color:inherit;">PAGOS PSE</a></h3>
+                                                <h3>style="color:inherit;">PAGOS PSE</h3>
                                             </div>
                                                 <a class="purchased" data-toggle="modal" data-target="#exampleModalabc">
                                                 Ver más</a>
