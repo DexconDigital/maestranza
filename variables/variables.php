@@ -99,6 +99,10 @@ $logos_aliados = [
 	19 => "images/continuum.png",
 	20 => "images/tip.png",
 	21 => "images/forzacreativa.png",
+	22 => "images/coordiutil.png",
+	23 => "images/samyl.png",
+	24 => "images/vendes_facil.png",
+	25 => "images/unifianza.png",
 ];
 
 

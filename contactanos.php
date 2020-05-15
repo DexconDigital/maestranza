@@ -61,7 +61,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <div class="col-lg-6 col-md-12 col-12 cont_formulario">
                             <h2 class="main-title_contac letra_titulo_contac position-relative"> Formulario de Contacto</h2>
                             <div class="mt-5">
-                                <form action="" method="Post">
+                                <form action="email/enviarCorreo.php" method="Post">
                                     <div class="col-md-12 row">
                                         <div class="col-lg-12 col-md-12">
                                             <div class="form-group">
@@ -87,15 +87,15 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="custom-control custom-checkbox mb-4">
-                                            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
-                                            <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="color_a_contacto" href="Politica_de_tratamiento_de_datos_personales.pdf" download="Política de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                            <input type="checkbox" class="custom-control-input" id="exampleCheck1" required>
+                                            <label class="custom-control-label" for="exampleCheck1">Confimo que he leído, entendido y acepto la<a class="color_a_contacto" href="Politica_de_tratamiento_de_datos_personales.pdf" download="Política de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
                                         <div class="form-group text-center">
                                             <button type="submit" class="btn rounded-0 col-6 waves-effect waves-light color_boton_contacto p-2" name=""><span style="color:white">Enviar</span></button>
                                         </div>
-                                        <!-- comunicaciones@maestranza.com.co -->
+                                        
                                     </div>
 
                                 </form>

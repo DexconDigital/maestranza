@@ -26,9 +26,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     </section>
 
     <section id="texto_contacto" class="container text-center">
-        <div class="col-12">
+        <!-- <div class="col-12">
             <img src="images/Maestranza Logo 3.png" width="300" height="300" alt="">
-        </div>
+        </div> -->
         <h2 class="titulo_cont"><?php echo $texto_quienes_somos['quienes_somos']['titulo'] ?></h2>
         <div class="col-12 mt-4">
             <div class="container text-justify">
@@ -42,7 +42,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <section id="video" class="mt-4">
         <div class="col-12">
             <div class="col-12 text-center justify-content-center">
-                <iframe class="video_maestranza" src="images/Video.mp4" frameborder="0" allowfullscreen></iframe>
+                <!-- <iframe class="video_maestranza"  src="images/Video.mp4" frameborder="0" allowfullscreen></iframe> -->
+                <video class="video_maestranza border" controls style="width: 35%; height: 100%;">
+                    <source src="images/Video.mp4" type="video/mp4"></video>
             </div>
         </div>
     </section>
@@ -73,8 +75,30 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     </section>
 
+    <section id="misionvision">
+        <div class="col-12 p-0 d-flex flex-wrap justify-content-center text-center">
+            <div class="col-md-12 col-lg-5  col-12">
+                <div class="">
+                    <h2 id="color_titulo_valores">
+                        <?php echo $texto_quienes_somos['mision']['titulo'] ?>
+                    </h2>
+                    <p>
+                        <?php echo $texto_quienes_somos['mision']['parrafo'] ?>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-5  col-12">
+                <div class="">
+                    <h2 id="color_titulo_valores">
+                        <?php echo $texto_quienes_somos['vision']['titulo'] ?>
+                    </h2>
+                    <p> <?php echo $texto_quienes_somos['vision']['parrafo'] ?></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="slider_mision_vision" class="slider1_quienes">
+    <section id="slider_mision_vision" class="slider1_quienes" style="margin-top: -3%;">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -84,36 +108,6 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 </ol>
                 <div class="carousel-inner ">
                     <div class="carousel-item active">
-                        <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
-                        <div id="cont_top_valores2" class="carousel-caption d-none d-md-block">
-                            <div class="col-12">
-                                <div class="row text-center">
-                                    <div class="col-6">
-                                        <h2 class="color_titulo">
-                                            <?php echo $texto_quienes_somos['mision']['titulo'] ?>
-                                        </h2>
-                                        <p class="text-justify"> <?php echo $texto_quienes_somos['mision']['parrafo'] ?></p>
-                                    </div>
-                                    <div class="col-6">
-                                        <h2 class="color_titulo">
-                                            <?php echo $texto_quienes_somos['vision']['titulo'] ?>
-                                        </h2>
-                                        <p class="text-justify"> <?php echo $texto_quienes_somos['vision']['parrafo'] ?></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="carousel-item">
-                        <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block cont_top">
-                            <h2>
-                                <?php echo $texto_quienes_somos['vision']['titulo'] ?>
-                            </h2>
-                            <p> <?php echo $texto_quienes_somos['vision']['parrafo'] ?></p>
-                        </div>
-                    </div> -->
-                    <div class="carousel-item">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block cont_top_valores">
                             <h2 class="color_titulo"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
@@ -171,6 +165,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </div>
     </section>
+
+
 
     <!-- slider movil -->
     <section id="slider22_mision_vision" class="mt-5 mb-5  slider22_quienes">

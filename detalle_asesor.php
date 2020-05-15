@@ -70,30 +70,38 @@ require_once('controllers/detalle_asesor.php');  ?>
                         <div class="modal fade modal_top" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Escribe tu información</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombres y Apellidos" require>
+                                    <form action="email/correoAsesor.php" method="Post">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Escribe tu información</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
                                         </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Teléfono">
+                                        <div class="modal-body">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="exampleInputEmail1" name="nombres" aria-describedby="emailHelp" placeholder="Nombres y Apellidos" require>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="exampleInputEmail1" name="telefono" aria-describedby="emailHelp" placeholder="Teléfono">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="exampleInputEmail1" name="correo" aria-describedby="emailHelp" placeholder="Correo electronico">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" name="mensaje" placeholder="Escribe tu mensaje" rows="3"></textarea>
+                                            </div>
+                                            <select name="nom_asesor" class="invisible display:none">
+                                                <option value="<?php echo $nombre ?>"></option>
+                                            </select>
+                                            <select name="correo_asesor" class="invisible display:none">
+                                                <!-- <option value=" <?php echo $correo ?>"> <?php echo $correo ?></option> -->
+                                            </select>
                                         </div>
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electronico">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn  rounded-0 color_cancelar" data-dismiss="modal">Cerrar</button>
+                                            <button type="submit" class="btn  rounded-0 color_enviar">Enviar</button>
                                         </div>
-                                        <div class="form-group">
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje" rows="3"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn  rounded-0 color_cancelar" data-dismiss="modal">Cerrar</button>
-                                        <button type="button" class="btn  rounded-0 color_enviar">Enviar</button>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -112,8 +120,8 @@ require_once('controllers/detalle_asesor.php');  ?>
     </section>
 
     <section id="footer" class="fondo">
-    <div class="overlay">
-            </div>
+        <div class="overlay">
+        </div>
         <?php include 'layout/footer.php' ?>
     </section>
 </body>

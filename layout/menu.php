@@ -216,36 +216,35 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> ¿Quieres consignar tu inmueble? </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="">
+                <form action="email/consignainmueble.php" method="Post">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"> ¿Quieres consignar tu inmueble? </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
                         <div class="col-12 mb-3">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombres y Apellidos">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" name="nombres" placeholder="Nombres y Apellidos">
                         </div>
                         <div class="col-12 mb-3">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" Teléfono / Celular">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" name="telefono" placeholder=" Teléfono / Celular">
                         </div>
                         <div class="col-12 mb-3">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" name="correo" placeholder="Correo Electrónico">
                         </div>
                         <div class="col-12 div_condiciones text-break">
                             <div class="custom-control custom-checkbox mb-4">
                                 <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
                                 <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="color_a_condiciones" href="Política de tratamiento de datos personales.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                             </div>
-                            <!-- comunicaciones@maestranza.com.co -->
                         </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn color_cancelar" data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn color_enviar">Envíar</button>
-                </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn color_cancelar" data-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn color_enviar">Envíar</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

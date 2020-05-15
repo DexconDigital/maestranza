@@ -43,18 +43,32 @@
 }
 #texto_contacto{
     
-        margin-right: inherit;
-        margin-top: 9%;
+       
     
-    @include media-breakpoint-up(md){
+    @media (min-width:320px) {
         margin-right: inherit;
         margin-top: 9%;
     }
-    @include media-breakpoint-up(lg){
+    @media (min-width:425px) {
+        margin-right: inherit;
+        margin-top: 9%;
+    }
+    @media (min-width:768px) {
+        margin-right: inherit;
+        margin-top: 9%;
+    }
+    @media (min-width:1024px) {
         margin-top: 9%;
         margin-right: 7%;
     }
-    
+    @media (min-width:1440px) {
+        margin-top: 9%;
+        margin-right:7%;
+    }
+    @media (min-width:1441px) and (max-width:2560px) {
+        margin-top: 9%;
+        margin-right: auto;
+    }
     .titulo_cont{
         margin-top: -5%;
         font-weight: bold;
@@ -83,14 +97,19 @@
     background-size: cover;
     background-repeat: repeat;
     margin-top: 5%;
-    @include media-breakpoint-up(md){
+    @media (min-width:768px) {
         margin-left: inherit;
-    
     }
-
-    @include media-breakpoint-up(lg){
-      
+    @media (min-width:1024px) {
         margin-left: 6%;
+        margin-bottom: 0%;
+    }
+    @media (min-width:1440px) {
+        margin-left: 5%;
+        margin-bottom: 0%;
+    }
+    @media (min-width:1441px) and (max-width:2560px) {
+        margin-left: 0%;
         margin-bottom: 0%;
     }
     
@@ -262,9 +281,6 @@ display: inherit;
    
 }
 
-.tamaños_parrafo{
-    font-size: 72%;
-}
 #color_titulo_valores22{
     color: #002230;
     font-weight: bold;
@@ -322,3 +338,38 @@ visibility: hidden !important;
     text-align: center;
 }
 
+#color_titulo_valores{
+    color: #002230;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px
+}
+#misionvision{
+    @media (min-width:320px) {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    @media (min-width:425px) {
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    @media (min-width:768px) {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    }
+    @media (min-width:1024px) {
+        margin-top: 8%;
+    margin-left: 5%;
+    }
+    @media (min-width:1440px) {
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: inherit;
+    }
+    @media (min-width:1441px) and (max-width:2560px) {
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-bottom: inherit;
+    }
+}

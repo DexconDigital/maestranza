@@ -11,7 +11,7 @@ function getCiudad(select,uri,selectRes,nomSelect,dataType,gif,console,selected)
                               'Authorization',
                               /* 'Basic ' + btoa('Authorization:7LnhmIPlCggg2nXyRP0OL0AV1KgHNtBXd5lLy2se-459')); */
                               /* 'Basic ' + btoa('Authorization:TJnAWfBovzU4OiXABshy2f4LbqIIhJ7yNH9bOpil-786')); */
-                              'Basic ' + btoa('Authorization:8JLOWfgCpU0J3K8bR00skoeK7d37qdC825PIVKBT-987'));
+                              'Basic ' + btoa('Authorization:8JLOWfgCpU0J3K8bR00skoeK7d37qdC825PIVKBT-987')); 
                           },
                     'dataType': dataType,
 

@@ -676,6 +676,22 @@ p, span, b {
     }
     
 }
+#Proyectos{
+    .titulop{
+        color: $color_azul_oscuro;
+        font-size: 48px;
+        font-weight: bold;
+        }
+        .margen_titulo{
+            margin-top: 7%;
+            @include media-breakpoint-up(md){
+                margin-top: 6%;
+            }
+            @include media-breakpoint-up(lg){
+                margin-top: 6%;
+            }
+        }
+}
 
 #transaccion{
     #titulo{
@@ -693,7 +709,7 @@ p, span, b {
         bottom:0;
     }
     .margen_cont{
-        margin-top: 8%;
+        margin-top: 1%;
     }
 }
 .asesores{
@@ -1457,12 +1473,20 @@ p, span, b {
     .tex-politica{
         margin-right: 10%;
         margin-left: 9%;
-        @include media-breakpoint-up(md){
+        @media (min-width:768px) {
             margin-right: 10%;
             margin-left: 0%;
         }
-        @include media-breakpoint-up(lg){
-            margin-right: -3%;
+        @media (min-width:1024px) {
+            margin-right: -2%;
+            margin-left: 0%;
+        }
+        @media (min-width:1440px) {
+            margin-right: -2%;
+            margin-left: 0%;
+        }
+        @media (min-width:1441px) and (max-width:2560px) {
+            margin-right: -1%;
             margin-left: 0%;
         }
 
@@ -1640,4 +1664,12 @@ p, span, b {
         column-count:1;
     }
     
+}
+
+#titulo_transacciones{
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
 }

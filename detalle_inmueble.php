@@ -1,5 +1,5 @@
 <?php require 'variables/variables.php';
-require 'controllers/detalleInmuebleController.php'; 
+require 'controllers/detalleInmuebleController.php';
 $page = 'Detalle Inmueble';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
@@ -156,7 +156,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                         <div id="referencia_inmueble" class="col-md-12 mt-4">
                             <h4 class="property-single-detail-title">Descripción</h4>
-                            
+
                         </div>
                         <div class="col-md-12" style="margin-bottom: 12px;">
                             <h4 class="property-single-detail-title">Características</h4>
@@ -265,35 +265,46 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                             </div>
                         </div>
                         <div class="container p-0 mt-5">
-                            <div class="col-12 p-0">
-                                <div class="col-xl-12 col-md-12 col-12  margen_busca p-0">
-                                    <input type="text" class="form-control rounded-0" id="" placeholder="Nombre y Apellido">
+                            <form action="email/Correodetalleinmueble.php" method="POST">
+                                <div class="col-12 p-0">
+                                    <div class="col-xl-12 col-md-12 col-12  margen_busca p-0">
+                                        <input type="text" class="form-control rounded-0" id="" name="nombre" placeholder="Nombre y Apellido">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12 p-0">
-                                <div class="col-xl-12 col-md-12 col-12  margen_busca p-0">
-                                    <input type="text" class="form-control rounded-0" id="" placeholder="Correo Electrónico">
+                                <div class="col-12 p-0">
+                                    <div class="col-xl-12 col-md-12 col-12  margen_busca p-0">
+                                        <input type="text" class="form-control rounded-0" id="" name="correo" placeholder="Correo Electrónico">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12 p-0">
-                                <div class="col-xl-12 col-md-12 col-12  margen_busca p-0">
-                                    <input type="text" class="form-control rounded-0" id="" placeholder="Teléfono">
+                                <div class="col-12 p-0">
+                                    <div class="col-xl-12 col-md-12 col-12  margen_busca p-0">
+                                        <input type="text" class="form-control rounded-0" id="" name="telefono" placeholder="Teléfono">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12 caja_texto p-0">
-                                <div class="form-group">
-                                    <textarea cols="15" rows="5" name="message" class="textarea form-control tamaño_tex_area rounded-0" placeholder="Mensaje"></textarea>
+                                <div class="col-12 caja_texto p-0 mt-3">
+                                    <div class="form-group">
+                                        <textarea cols="15" rows="5" name="mensaje" class="textarea form-control tamaño_tex_area rounded-0" placeholder="Mensaje"></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12 div_condiciones text-break">
-                                <div class="custom-control custom-checkbox mb-4 pl-3">
-                                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
-                                    <label class="custom-control-label" for="defaultContactFormCopy">&nbsp&nbsp&nbsp&nbsp&nbspConfimo que he leído, entendido y acepto la<a class="color_a_condiciones" href="Politica_de_tratamiento_de_datos_personales.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                <div class="col-12 div_condiciones text-break">
+                                    <div class="custom-control custom-checkbox pl-3">
+                                        <input type="checkbox" class="custom-control-input" id="inmuebles" required>
+                                        <label class="custom-control-label" for="inmuebles">&nbsp&nbsp&nbsp&nbsp&nbspConfimo que he leído, entendido y acepto la<a class="color_a_condiciones" href="Politica_de_tratamiento_de_datos_personales.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12 text-center">
-                                <button type="button" class="btn color_comparit rounded-0 col-4 compartir_boton" name=""><a class="color_blanco_url" href="">Enviar</a></button>
-                            </div>
+                                <select name="correo_asesor" class="invisible display:none">
+                                    <!-- <option value="wdsp9898@gmail.com">wdsp9898@gmail.com</option> -->
+                                </select>
+                                <select name="nom_asesor" class="invisible display:none">
+                                    <option value=" <?php echo $asesor['ntercero']; ?>"> <?php echo $asesor['ntercero']; ?></option>
+                                </select>
+                                <select name="codigo" class="invisible display:none">
+                                    <option value=" <?php echo $co?>"> <?php echo $co ?></option>
+                                </select>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn color_comparit rounded-0 col-4 compartir_boton" name=""><a class="color_blanco_url" href="">Enviar</a></button>
+                                </div>
+                            </form>
                         </div>
                         <div class="col-12 contenedor_simialres">
                             <div class="text-center">

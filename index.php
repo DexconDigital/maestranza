@@ -99,6 +99,32 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <section id="buscador">
             <?php include 'layout/buscador.php'; ?>
         </section>
+        <section id="destacadas" class="">
+
+            <div class="container">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-12 texto_propiedades">
+                            <h2 class="position-relative main-title_destacadas  letra_gruesa"> Propiedades Destacadas</h2>
+                            <p class="mt-4"> Nuestras propiedades destacadas en este momento</p>
+                        </div>
+                        <div class=" col-lg-8 col-md-12 col-12">
+                            <div class="owl-carousel owl-theme" id="aliados_slide">
+
+                                <?php
+                                if (is_array($api)) {
+                                    inmuebles_destacados($api);
+                                } else {
+                                    echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
+                                }
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
         <section id="texto_logo" class="text-center">
             <div class="col-12 d-flex justify-content-center">
@@ -118,7 +144,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <h2 class="main-title letra_titulo text-left mb-5">Nuestro Equipo</h2>
                 </div>
 
-                <div class="col-12 mt-5 border">
+                <div class="col-12 mt-5">
                     <div class="row justify-content-center">
 
                         <?php if (isset($asesor_array)) {
@@ -193,32 +219,68 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </section>
 
-        <section id="destacadas" class="mb-4">
-
-            <div class="container">
-                <div class="col-12">
+        <section id="Proyectos" class="mb-5">
+            <div class="container margen_cont">
+                <div class="col-12 margen">
                     <div class="row">
-                        <div class="col-lg-4 col-md-12 col-12 texto_propiedades">
-                            <h2 class="position-relative main-title_destacadas  letra_gruesa"> Propiedades Destacadas</h2>
-                            <p class="mt-4"> Nuestras propiedades destacadas en este momento</p>
+                        <div class="col-lg-3 col-md-12 col-12 margen_titulo">
+                            <h1 class="position-relative titulop main-title text-left">Proyectos</h1>
                         </div>
-                        <div class=" col-lg-8 col-md-12 col-12">
-                            <div class="owl-carousel owl-theme" id="aliados_slide">
-
-                                <?php
-                                if (is_array($api)) {
-                                    inmuebles_destacados($api);
-                                } else {
-                                    echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
-                                }
-                                ?>
+                        <div class="col-lg-9 col-md-12 d-flex col-12 margen_titulo p-0 justify-content-end flex-wrap">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img src="images/proyecto1.png" style="width: 100%;object-fit: contain;height: 100%;" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img src="images/proyecto2.png" style="width: 100%;object-fit: contain;height: 100%;" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img src="images/proyecto3.png" style="width: 100%;object-fit: contain;height: 100%;" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
+
+
+        <section id="formulario">
+            <div class="overlay">
+            </div>
+            <div class="container espacio_margen ">
+                <div class="col-12 ">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-12 col-12 titulo_cont_servi ">
+                            <h2 class="main-title letra_gruesa2">Formularios</h2>
+                        </div>
+                        <div class="col-lg-7 col-md-12 col-12 ">
+                            <div class="cont_servi col-12 ">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-10 border color_fichas cont_servi cont_arrendamiento">
+                                        <a data-toggle="modal" data-target="#exampleModal">
+                                            <div class="text-center">
+                                                <i class="cont_icono fas fa-home"></i>
+                                            </div>
+                                            <h4 class="text-center text_servi">Consignar inmueble</h4>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-10 border color_fichas cont_servi cont_ventas">
+                                        <a href="https://www.unifianza.com.co/formularios-interactivos.html" target="_blank">
+                                            <div class="text-center">
+                                                <img class="tamaño_unifianza_logo" src="images/LOGO_UNIFIANZA.png" alt="">
+                                            </div>
+                                            <h4 class="text-center text_servi">Aseguradora Unifianza</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
 
         <section id="aliados">
             <div class="container margen_cont">
@@ -334,49 +396,30 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                         <img src="<?php echo $logos_aliados[21] ?>" class="card-img-top imagen_card" alt="...">
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="formulario">
-            <div class="overlay">
-            </div>
-            <div class="container espacio_margen ">
-                <div class="col-12 ">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-12 col-12 titulo_cont_servi ">
-                            <h2 class="main-title letra_gruesa2">Formularios</h2>
-                        </div>
-                        <div class="col-lg-7 col-md-12 col-12 ">
-                            <div class="cont_servi col-12 ">
-                                <div class="row">
-                                    <div class="col-lg-5 col-md-5 col-10 border color_fichas cont_servi cont_arrendamiento">
-                                        <a data-toggle="modal" data-target="#exampleModal">
-                                            <div class="text-center">
-                                                <i class="cont_icono fas fa-home"></i>
-                                            </div>
-                                            <h4 class="text-center text_servi">Consignar inmueble</h4>
-                                        </a>
+                                <div class="item">
+                                    <div class="" style="width: 10rem;">
+                                        <img src="<?php echo $logos_aliados[22] ?>" class="card-img-top imagen_card" alt="...">
                                     </div>
-                                    <div class="col-lg-5 col-md-5 col-10 border color_fichas cont_servi cont_ventas">
-                                        <a href="https://www.unifianza.com.co/formularios-interactivos.html" target="_blank">
-                                            <div class="text-center">
-                                                <img class="tamaño_unifianza_logo" src="images/LOGO_UNIFIANZA.png" alt="">
-                                            </div>
-                                            <h4 class="text-center text_servi">Aseguradora Unifianza</h4>
-                                        </a>
+                                </div>
+                                <div class="item">
+                                    <div class="" style="width: 10rem;">
+                                        <img src="<?php echo $logos_aliados[23] ?>" class="card-img-top imagen_card" alt="...">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="" style="width: 10rem;">
+                                        <img src="<?php echo $logos_aliados[24] ?>" class="card-img-top imagen_card" alt="...">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="" style="width: 10rem;">
+                                        <img src="<?php echo $logos_aliados[25] ?>" class="card-img-top imagen_card" alt="...">
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -386,7 +429,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             <div class="container margen_cont">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-lg-7 col-md-12 col-12 titulo_cont_servi ">
+                        <div class="col-lg-7 col-md-12 col-12 titulo_cont_servi p-0">
                             <h2 id="titulo" class="main-title main-title text-left">Transacciones en Línea</h2>
                         </div>
                     </div>
@@ -408,6 +451,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     </div>
                                 </div>
                             </div>
+                            <h3 id="titulo_transacciones" style="color:black;" class="mt-3">ARRENDATARIO</h3>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12" id="propietario" class="border">
                             <div class="inner-box">
@@ -424,6 +468,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     </div>
                                 </div>
                             </div>
+                            <h3 id="titulo_transacciones" style="color:black;" class="mt-3">PROPIETARIO</h3>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12" id="pagospse" class="border">
                             <div class="inner-box border">
@@ -432,14 +477,15 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="content">
-                                                <h3 style="color:white">PAGOS PSE</h3>
+                                                <h3 style="color:white;">PAGOS PSE</h3>
                                             </div>
-                                                <a class="purchased" data-toggle="modal" data-target="#exampleModalabc">
+                                            <a class="purchased" data-toggle="modal" data-target="#exampleModalabc">
                                                 Ver más</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <h3 id="titulo_transacciones" style="color:black;" class="mt-3">PAGOS PSE</h3>
                         </div>
                     </div>
                 </div>
@@ -510,7 +556,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
 
         <section id="ultimas_noticias" class="mb-5">
-            <div class="container margen_cont espacio_margen">
+            <div class="container margen_cont">
                 <div class="col-12 mb-5">
                     <h2 class="main-title text-left letra_titulo"> Informativo Inmobiliario </h2>
                 </div>
@@ -528,27 +574,6 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 </div>
             </div>
         </section>
-
-        <!-- <section id="consignar">
-            <div class="container color_fondo">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-7">
-                            <h2>¿Quieres consignar tu inmueble?</h2>
-                        </div>
-                       
-                       
-                        <div class="col-3">
-                            <a class="btn color_btn rounded-0" data-toggle="modal" data-target="#exampleModal">Consignar Inmueble</a>
-                        </div>
-                        <div class="col-1"></div>
-                    </div>
-                </div>
-
-            </div>
-        </section> -->
-
         <section id="footer" class="fondo">
             <div class="overlay">
             </div>
