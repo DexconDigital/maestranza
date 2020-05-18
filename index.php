@@ -105,8 +105,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="col-12">
                     <div class="row">
                         <div class="col-lg-4 col-md-12 col-12 texto_propiedades">
-                            <h2 class="position-relative main-title_destacadas  letra_gruesa"> Propiedades Destacadas</h2>
-                            <p class="mt-4"> Nuestras propiedades destacadas en este momento</p>
+                            <h2 class="position-relative main-title_destacadas "><a class="letra_gruesa" href="inmuebles.php?">Propiedades Destacadas</a></h2>
+                            <p class="mt-4">Nuestras propiedades destacadas en este momento</p>
                         </div>
                         <div class=" col-lg-8 col-md-12 col-12">
                             <div class="owl-carousel owl-theme" id="aliados_slide">
@@ -224,7 +224,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="col-12 margen">
                     <div class="row">
                         <div class="col-lg-3 col-md-12 col-12 margen_titulo">
-                            <h1 class="position-relative titulop main-title text-left">Proyectos</h1>
+                            <h1 class="position-relative main-title text-left"> <a class="titulop" href="proyectos.php">Proyectos</a></h1>
                         </div>
                         <div class="col-lg-9 col-md-12 d-flex col-12 margen_titulo p-0 justify-content-end flex-wrap">
                             <div class="col-lg-4 col-md-4 col-12">
@@ -451,7 +451,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     </div>
                                 </div>
                             </div>
-                            <h3 id="titulo_transacciones" style="color:black;" class="mt-3">ARRENDATARIO</h3>
+                            <h3 id="titulo_transacciones"class="mt-3"><a data-toggle="modal" data-target="#exampleModala" class="colortransaccion">ARRENDATARIO</a></h3>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12" id="propietario" class="border">
                             <div class="inner-box">
@@ -468,7 +468,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     </div>
                                 </div>
                             </div>
-                            <h3 id="titulo_transacciones" style="color:black;" class="mt-3">PROPIETARIO</h3>
+                            <h3 id="titulo_transacciones" class="mt-3"><a data-toggle="modal" data-target="#exampleModalab" class="colortransaccion" >PROPIETARIO</a></h3>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12" id="pagospse" class="border">
                             <div class="inner-box border">
@@ -485,7 +485,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     </div>
                                 </div>
                             </div>
-                            <h3 id="titulo_transacciones" style="color:black;" class="mt-3">PAGOS PSE</h3>
+                            <h3 id="titulo_transacciones" class="mt-3"> <a data-toggle="modal" data-target="#exampleModalabc" class="colortransaccion">PAGOS PSE</a></h3>
                         </div>
                     </div>
                 </div>
@@ -558,7 +558,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <section id="ultimas_noticias" class="mb-5">
             <div class="container margen_cont">
                 <div class="col-12 mb-5">
-                    <h2 class="main-title text-left letra_titulo"> Informativo Inmobiliario </h2>
+                    <h2 class="main-title text-left"> <a class="letra_titulo" href="blog.php">Informativo Inmobiliario</a></h2>
                 </div>
                 <div class="col-12 mt-4">
                     <div class="row">

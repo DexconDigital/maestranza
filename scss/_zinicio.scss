@@ -328,7 +328,10 @@ p, span, b {
     color:$color_azul_oscuro;
     font-size: 48px;
     font-weight: bold;
-  }
+    &:hover{
+        color: $color_dorado !important;
+    }
+}
   .main-title::before{
     content: '';
     position: absolute;
@@ -681,7 +684,11 @@ p, span, b {
         color: $color_azul_oscuro;
         font-size: 48px;
         font-weight: bold;
+        &:hover{
+            color: $color_dorado;
         }
+        }
+
         .margen_titulo{
             margin-top: 7%;
             @include media-breakpoint-up(md){
@@ -985,6 +992,12 @@ p, span, b {
 .color_dorado{
     color: $color_dorado;
 }
+.colortransaccion{
+    color: black;
+    &:hover{
+        color: $color_dorado !important;
+    }
+}
 #ultimas_noticias{
     
     .margen_cont{
@@ -995,6 +1008,9 @@ p, span, b {
         font-size: 48px;
         font-weight: bold;
         margin-top: 13%;
+        &:hover{
+            color: $color_dorado;
+        }
         @include media-breakpoint-up(md){
             margin-top: 9%;
         }

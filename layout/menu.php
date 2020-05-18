@@ -91,6 +91,53 @@
             <li class="dropdown">
                 <div class="dropbtn">
                     <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Transacciones en Línea</font>
+                    </font>
+                </div>
+                <div class="dropdown-content">
+                    <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="_blank">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Arrendatarios</font>
+                        </font>
+                    </a>
+                    <a href="manuales/INSTRUCTIVO_ARRENDATARIOS_MAESTRANZA.pdf" target="blanck">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Instructivo Arrendatarios</font>
+                        </font>
+                    </a>
+                    <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="_blank">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Propietarios</font>
+                        </font>
+                    </a>
+                    <a href="manuales/INSTRUCTIVO_PROPIETARIOS_MAESTRANZA.pdf" target="blanck">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Instructivo Propietarios</font>
+                        </font>
+                    </a>
+                    <a href="https://gateway2.tucompra.com.co/sites/MGI" target="_blanck">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Pagos PSE</font>
+                        </font>
+                    </a>
+                    <a href="manuales/INSTRUCTIVO_PSE_MAESTRANZA.pdf" target="blanck">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Instructivo Pagos PSE</font>
+                        </font>
+                    </a>
+
+                </div>
+            </li>
+
+            <li><a href="inmuebles.php?">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Propiedades</font>
+                    </font>
+                </a>
+            </li>
+            <li class="dropdown">
+                <div class="dropbtn">
+                    <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">Nuestros Servicios</font>
                     </font>
                 </div>
@@ -117,11 +164,6 @@
                     </a>
                 </div>
             </li>
-            <li><a href="inmuebles.php?">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Propiedades</font>
-                    </font>
-                </a></li>
             <li>
                 <a href="proyectos.php">
                     <font style="vertical-align: inherit;">
@@ -129,50 +171,6 @@
                     </font>
                 </a>
             </li>
-            <li class="dropdown">
-                <div class="dropbtn">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Transacciones en Línea</font>
-                    </font>
-                </div>
-                <div class="dropdown-content">
-                    <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=2" target="_blank">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Arrendatarios</font>
-                        </font>
-                    </a>
-                    <a href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=987&tipo=1" target="_blank">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Propietarios</font>
-                        </font>
-                    </a>
-                    <a href="https://gateway2.tucompra.com.co/sites/MGI" target="_blanck">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Pagos PSE</font>
-                        </font>
-                    </a>
-
-                </div>
-            </li>
-            <!-- <li class="dropdown">
-                <div class="dropbtn">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Formulario</font>
-                    </font>
-                </div>
-                <div class="dropdown-content">
-                    <a data-toggle="modal" data-target="#exampleModal">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Consignar Inmueble </font>
-                        </font>
-                    </a>
-                    <a href="https://www.unifianza.com.co/formularios-interactivos.html" target="_blank">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Aseguradora Unifianza</font>
-                        </font>
-                    </a>
-                </div>
-            </li> -->
             <li>
                 <a href="blog.php">
                     <font style="vertical-align: inherit;">
