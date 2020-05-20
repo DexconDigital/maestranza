@@ -4,7 +4,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza';
 require_once('controllers/detalle_asesor.php');  ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 
 <meta charset="UTF-8">
@@ -20,7 +20,14 @@ require_once('controllers/detalle_asesor.php');  ?>
 
 </header>
 
-
+<style>
+    .color_telefono_asesor{
+        color: black;
+    }
+    .color_telefono_asesor:hover{
+        color: #B58D10;
+    }
+</style>
 <body>
 
     <section id="detalle_asesor">
@@ -42,7 +49,7 @@ require_once('controllers/detalle_asesor.php');  ?>
                             </li>
                             <li>
                                 <font class="">
-                                    <font class="info_espacio"><?php echo $celular ?> :</font>
+                                    <font class="info_espacio"> <a class="color_telefono_asesor" href="tel:<?php echo $celular ?>"><?php echo $celular ?></a>:</font>
                                 </font>
                                 <span>
                                     <font>

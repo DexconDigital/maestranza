@@ -30,9 +30,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <section>
         <div class="container margen_blog">
             <div class="col-12 mt-4">
-                <div class="row">
+                <div class="row justify-content-center">
                     <?php if (isset($noticias_array)) {
-                        modelo_ultima_noticia($noticias_array);
+                        modelo_noticia($noticias_array);
                     } else {
                         echo '<div class="col 12">
                         <h3 class="text-center">Muy pronto publicaremos contenido para ti<h3>

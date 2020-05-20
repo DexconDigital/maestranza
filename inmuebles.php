@@ -50,7 +50,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
     <section id="buscador_inmuebles">
         <div class="col-12">
-            <div class="row">
+            <div class="row justify-content-center">
                 <?php $totalinmuebles = 0;
                 if (is_array($api)) {
                     $totalinmuebles = $api['datosGrales']['totalInmuebles'];
