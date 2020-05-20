@@ -660,7 +660,13 @@ p, span, b {
     object-fit: contain;
     }
     .margen_cont{
-        margin-top: 8%;
+        margin-top: 13%;
+        @include media-breakpoint-up(md){
+            margin-top: 13%;
+        }
+        @include media-breakpoint-up(lg){
+            margin-top: 8%;
+        }
     }
     .margen_titulo{
         margin-top: 7%;
@@ -1688,4 +1694,14 @@ p, span, b {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+}
+.btn_pdf{
+    border: 2px solid $color_dorado!important;
+    background-color: transparent!important;
+    color: #212121!important;
+    &:hover{
+        border: 2px solid $color_azul_oscuro!important;
+        background-color: $color_dorado!important;
+        color: white!important;
+    }
 }

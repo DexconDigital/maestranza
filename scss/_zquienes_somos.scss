@@ -77,15 +77,33 @@
 }
 #video{
     .video_maestranza{
-        width: 323px;
-        height: 360px;
-        @include media-breakpoint-up(md){
-            width: 640px;
-            height: 360px;
+       
+        @media (min-width:320px) {
+             width: 90%;
+            height: 100%;
         }
-        @include media-breakpoint-up(lg){
-            width: 640px;
-            height: 360px;
+        @media (min-width:425px) {
+            width: 90%;
+            height: 100%;
+        }
+        @media (min-width:768px) {
+            width: 70%;
+            height: 100%;
+        }
+        @media (min-width:1024px) {
+            width: 80%;
+            height: 100%;
+            margin-left: 2%;
+        }
+        @media (min-width:1440px) {
+            width: 76%;
+            height: 100%;
+            margin-left: 8%;
+        }
+        @media (min-width:1441px) and (max-width:2560px) {
+            width: 43%;
+            height: 100%;
+            margin-left: inherit
         }
     }
 }
@@ -288,6 +306,11 @@ display: inherit;
     line-height: 1.5;
     letter-spacing: 1px;
 }
+#color_titulo_principal{
+    color: #B58D10;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
 .color_titulo22{
     color: #B58D10;
     font-size: 95%;
@@ -359,7 +382,7 @@ visibility: hidden !important;
     margin-bottom: 2%;
     }
     @media (min-width:1024px) {
-        margin-top: 8%;
+        margin-top: 6%;
     margin-left: 5%;
     }
     @media (min-width:1440px) {

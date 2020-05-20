@@ -32,7 +32,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         </div>
     </section>
     <section>
-        <div class="container mb-5">
+        <div class="container">
             <div class="col-12">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-6 mb-4">
@@ -83,7 +83,31 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
             </div>
         </div>
     </section>
-
+    <section>
+        <div class="col-12 text-center mb-5">
+            <button type="button" class="btn btn_pdf" data-toggle="modal" data-target="#exampleModalpdf">Ver Más</button>
+            <!-- <iframe src="images/Dossier.pdf" width="50%" height="680px"></iframe> -->
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalpdf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Dossier</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                     <iframe src="images/Dossier.pdf" width="100%" height="800px"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" id="btn_modal" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <section id="footer" class="fondo">
         <div class="overlay">
         </div>

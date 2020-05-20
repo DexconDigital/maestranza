@@ -43,7 +43,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <div class="col-12">
             <div class="col-12 text-center justify-content-center">
                 <!-- <iframe class="video_maestranza"  src="images/Video.mp4" frameborder="0" allowfullscreen></iframe> -->
-                <video class="video_maestranza border" controls style="width: 35%; height: 100%;">
+                <video class="video_maestranza border" controls>
                     <source src="images/Video.mp4" type="video/mp4"></video>
             </div>
         </div>
@@ -76,6 +76,9 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     </section>
 
     <section id="misionvision">
+        <div class="col-12 text-center mb-5">
+        <h2 id="color_titulo_principal">Nosotros</h2>     
+       </div>
         <div class="col-12 p-0 d-flex flex-wrap justify-content-center text-center">
             <div class="col-md-12 col-lg-5  col-12">
                 <div class="">
@@ -201,7 +204,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <!-- honestidad -->
-                    <div class="carousel-item" style="padding-top: 11%;">
+                    <div class="carousel-item" style="padding-top: 4%;">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores_honestidad22">
                             <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
@@ -214,7 +217,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <!-- responsabilidad -->
-                    <div class="carousel-item " style="padding-top: 11%;">
+                    <div class="carousel-item " style="padding-top: 4%;">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores_responsa22">
                             <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
@@ -240,7 +243,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     </div>
                     <!-- active -->
                     <!-- trabajo en equipo -->
-                    <div class="carousel-item" style="padding-top: 8%;">
+                    <div class="carousel-item" style="padding-top: 10%;">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores222">
                             <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
@@ -251,7 +254,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         </div>
                     </div>
                     <!-- calidad -->
-                    <div class="carousel-item" style="padding-top: 8%;">
+                    <div class="carousel-item" style="padding-top: 10%;">
                         <img src="images/fondo_blanco.JPG" class="d-block w-100" alt="...">
                         <div class="carousel-caption  cont_top_valores_calidad222">
                             <h2 class="color_titulo22"><?php echo $texto_quienes_somos['valores']['titulo'] ?></h2>
