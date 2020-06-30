@@ -138,7 +138,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 <!-- from slider -->
 <script src="./menu/menu.js.download"></script>
 <?php include('layout/archivosfooter.php'); ?>
-<script type="text/javascript" src="js/proyectos.js"></script>
+<script type="text/javascript" src="js/proyectos.js"></script> 
 <script type="text/javascript" src="js/rangejs/jquery-ui.js"></script>
 <script type="text/javascript" src="js/formatnumber/jquery.number.js"></script>
 <script type="text/javascript" src="webservice/apisimi.js"></script>

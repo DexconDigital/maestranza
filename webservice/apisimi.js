@@ -9,8 +9,8 @@ function getCiudad(select,uri,selectRes,nomSelect,dataType,gif,console,selected)
                       $(gif).show();
                            xhr.setRequestHeader(
                               'Authorization',
-                              /* 'Basic ' + btoa('Authorization:7LnhmIPlCggg2nXyRP0OL0AV1KgHNtBXd5lLy2se-459')); */
-                              /* 'Basic ' + btoa('Authorization:TJnAWfBovzU4OiXABshy2f4LbqIIhJ7yNH9bOpil-786')); */
+                             /*  'Basic ' + btoa('Authorization:7LnhmIPlCggg2nXyRP0OL0AV1KgHNtBXd5lLy2se-459')); */
+                            //    'Basic ' + btoa('Authorization:TJnAWfBovzU4OiXABshy2f4LbqIIhJ7yNH9bOpil-786')); 
                               'Basic ' + btoa('Authorization:8JLOWfgCpU0J3K8bR00skoeK7d37qdC825PIVKBT-987')); 
                           },
                     'dataType': dataType,
@@ -55,9 +55,9 @@ function getCiudadesNvo(idselect,selected = 0,debug = 0) {
         type: 'POST',
         dataType: 'json',
         data: {
-            /* inmo: 786 */
-            /* inmo: 459 */
-            inmo: 987
+            //  inmo: 786 
+           /*  inmo: 459 */
+             inmo: 987 
         },
         success: function(data) {
             var html = '';

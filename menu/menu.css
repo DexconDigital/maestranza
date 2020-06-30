@@ -1180,6 +1180,13 @@ a.nav-toggle-bar {
 .phone_logo{
 	display:block;
 }
+@media (max-width:1024px){
+    .tamaño {
+        width: 24%;
+        margin-top: 14%;
+        margin-left: -39%
+    }
+}
 
 @media (max-width:768px){
 

@@ -31,7 +31,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <div id="contenedor" class="container-fluid body">
 
         <section id="nav">
-            <div class="container col-12 ">
+            <div class="container col-12 menu_principal">
                 <nav class="navbar navbar-light ">
                     <div class="col-5">
                         <a href="index.php" class="navbar-brand contenedor_imagen"> <img class="logo" src="images/Maestranza_logoazul.png" width="100" height="100" alt=""> </a>

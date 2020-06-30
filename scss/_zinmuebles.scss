@@ -8,10 +8,21 @@
     position: relative;
     margin-bottom: 34%;
     margin-top: 20%;
-    @include media-breakpoint-up(md){
-        margin-top: 10%;
-        
-    }
+    @media(max-width: 1140px){
+        margin-top: 0%;
+     }
+     @media(max-width: 1023px){
+        margin-top: 0%;
+     }
+     @media(max-width: 768px){
+         margin-top: 10%;
+     }
+     @media(max-width: 425px){
+        margin-top: 20%;
+     }
+     @media(max-width: 360px){
+        margin-top: 20%;
+     }
     @include media-breakpoint-up(lg){
         margin-top: 0%;
         margin-bottom: 0%

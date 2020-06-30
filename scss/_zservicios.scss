@@ -7,9 +7,21 @@
     display: block;
     position: relative;
     margin-top: 20%;
-    @include media-breakpoint-up(md){
-        margin-top: 10%;
-    }
+    @media(max-width: 1140px){
+        margin-top: 0%;
+     }
+     @media(max-width: 1023px){
+        margin-top: 0%;
+     }
+     @media(max-width: 768px){
+         margin-top: 10%;
+     }
+     @media(max-width: 425px){
+        margin-top: 20%;
+     }
+     @media(max-width: 360px){
+        margin-top: 20%;
+     }
     @include media-breakpoint-up(lg){
         margin-top: 0%;
     }
@@ -127,9 +139,21 @@ p{
     display: block;
     position: relative;
     margin-top: 20%;
-    @include media-breakpoint-up(md){
-        margin-top: 10%;
-    }
+    @media(max-width: 1140px){
+        margin-top: 0%;
+     }
+     @media(max-width: 1023px){
+        margin-top: 0%;
+     }
+     @media(max-width: 768px){
+         margin-top: 10%;
+     }
+     @media(max-width: 425px){
+        margin-top: 20%;
+     }
+     @media(max-width: 360px){
+        margin-top: 20%;
+     }
     @include media-breakpoint-up(lg){
         margin-top: 0%;
     }
@@ -165,9 +189,21 @@ p{
     display: block;
     position: relative;
     margin-top: 10%;
-    @include media-breakpoint-up(md){
-        margin-top: 10%;
-    }
+    @media(max-width: 1140px){
+        margin-top: 0%;
+     }
+     @media(max-width: 1023px){
+        margin-top: 0%;
+     }
+     @media(max-width: 768px){
+         margin-top: 10%;
+     }
+     @media(max-width: 425px){
+        margin-top: 20%;
+     }
+     @media(max-width: 360px){
+        margin-top: 20%;
+     }
     @include media-breakpoint-up(lg){
         margin-top: 0%;
     }
@@ -238,9 +274,21 @@ p{
         display: block;
         position: relative;
         margin-top: 20%;
-        @include media-breakpoint-up(md){
-            margin-top: 10%;
-        }
+        @media(max-width: 1140px){
+            margin-top: 0%;
+         }
+         @media(max-width: 1023px){
+            margin-top: 0%;
+         }
+         @media(max-width: 768px){
+             margin-top: 10%;
+         }
+         @media(max-width: 425px){
+            margin-top: 20%;
+         }
+         @media(max-width: 360px){
+            margin-top: 20%;
+         }
         @include media-breakpoint-up(lg){
             margin-top: 0%;
         }
@@ -309,9 +357,21 @@ p{
     display: block;
     position: relative;
     margin-top: 20%;
-    @include media-breakpoint-up(md){
-        margin-top: 10%;
-    }
+    @media(max-width: 1140px){
+        margin-top: 0%;
+     }
+     @media(max-width: 1023px){
+        margin-top: 0%;
+     }
+     @media(max-width: 768px){
+         margin-top: 10%;
+     }
+     @media(max-width: 425px){
+        margin-top: 20%;
+     }
+     @media(max-width: 360px){
+        margin-top: 20%;
+     }
     @include media-breakpoint-up(lg){
         margin-top: 0%;
     }

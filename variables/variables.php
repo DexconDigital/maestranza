@@ -275,7 +275,7 @@ $texto_servicios = [
 			5 => "Reintegro del canon de arrendamiento a los propietarios dentro de las fechas pactadas.",
 			6 => "Pago de obligaciones y cargos fijos de los inmuebles (Cuotas de administración)",
 			7 => "Mantenimiento y reparaciones locativas de los Inmuebles.",
-			8 => "Promoción de los inmuebles en disintos medios (Redes, Web, Clasificados y Alianzas con inmobiliarias)",
+			8 => "Promoción de los inmuebles en distintos medios (Redes, Web, Clasificados y Alianzas con inmobiliarias)",
 			9 => "Estudio de Mercado y Clasificación de los inmuebles por especificaciones de acabados, Antigüedad, ubicación y costo de m2.",
 			],
 	],

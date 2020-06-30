@@ -18,7 +18,6 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     <?php include 'layout/menu.php' ?>
 
 </header>
-
 <body class="pr-0">
 
     <section id="symil">
@@ -91,8 +90,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     </section>
     <!-- Modal -->
     <div class="modal fade" id="exampleModalpdf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
-            <div class="modal-content">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered espacio" role="document">
+            <div class="modal-content margen">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Dossier</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -100,7 +99,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     </button>
                 </div>
                 <div class="modal-body">
-                     <iframe src="images/Dossier.pdf" width="100%" height="800px"></iframe>
+                     <iframe src="images/Dossier.pdf" width="100%" height="800px" type="application/pdf"></iframe>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn" id="btn_modal" data-dismiss="modal">Cerrar</button>

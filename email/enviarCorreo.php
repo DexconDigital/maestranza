@@ -5,6 +5,7 @@ use PHPMailer\PHPMailer\Exception;
 
 require '../vendor/autoload.php';
 
+
 if ($_POST) {
     $nombre = $_POST['name'];
     $telefono = $_POST['telefono']; 

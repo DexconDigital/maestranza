@@ -29,7 +29,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
         <div class="container col-12">
             <nav class="navbar navbar-light conten_header">
                 <div class="col-6">
-                    <a href="index.php" class="navbar-brand"> <img class="logo" src="images/Maestranza_logo2 .png" width="100" height="100" alt=""> </a>
+                    <a href="index.php" class="navbar-brand"> <img class="logo" src="images/Maestranza_Logo2 .png" width="100" height="100" alt=""> </a>
                 </div>
                 <form class="form-inline">
                     <a class="color_a_nav" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><i class="fas fa-phone mr-2"></i><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?>&nbsp&nbsp</a>

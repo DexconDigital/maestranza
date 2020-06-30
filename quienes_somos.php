@@ -352,7 +352,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                 <div class="container col-lg-9 col-md-7 col-10 texto_footer2">
                     <p class="copy_style"> Diseñado y Desarrollado por <a class="color_a_foot_imper" target="blanck" href="https://www.dexcondigital.com">Dexcon Digital </a>©Copyright 2020 para Inmobiliaria Maestranza. Todos los derechos reservados.</p>
                 </div>
-                <div class="container col-lg-3 col-md-3  col-12 p-0 tex-politica">
+                <div class="container col-lg-3 col-md-3  col-11 p-0 tex-politica">
                     <p class=""><a class="color_a_foot_imper" href="Politica_de_tratamiento_de_datos_personales.pdf" download="Politica de tratamiento de infromación.pdf"> Política de tratamiento de datos</p>
                 </div>
             </div>

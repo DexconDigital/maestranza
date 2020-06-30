@@ -85,14 +85,50 @@ p, span, b {
     }
 }
 .margen_slider{
-    margin-top: 77px;
-    margin-bottom: 21%;
-    @include media-breakpoint-up(md){
+    @media(max-width: 1140px){
+        margin-top: 0px;
+        margin-bottom: inherit;   
+    }
+    @media(max-width: 1024px){
+        margin-top: 0px;
+        margin-bottom: inherit;   
+    }
+    @media(max-width: 768px){
         margin-top: 77px;
         margin-bottom: inherit;
     }
-    @include media-breakpoint-up(lg){
-        margin-top: 0px;
+    @media(max-width: 767px){
+        margin-top: 77px;
+        margin-bottom: inherit;
+    }
+    @media(max-width: 590px){
+        margin-top: 77px;
+        margin-bottom: 21%;
+    }
+    @media(max-width: 425px){
+        margin-top: 77px;
+        margin-bottom: 21%;
+    }
+    @media(max-width: 360px){
+        margin-top: 77px;
+        margin-bottom: 21%;
+    }
+}
+.menu_principal{
+    @media(max-width: 1140px){
+       display: inherit;
+    }
+    @media(max-width: 1023px){
+        display: none;
+    }
+    @media(max-width: 768px){
+        display: none;
+    }
+    @media(max-width: 425px){
+        display: none;  
+    }
+    @media(max-width: 360px){
+        display: none;
     }
 }
 .boton_dorado{
@@ -1311,10 +1347,25 @@ p, span, b {
 }
 
 .dimencion_boton_pse_movil{
+    @media(max-width: 1025px){
+        width: 114%;
+        padding-top: 10px;
+        margin-left: -5%;
+    }
     @media(max-width: 768px){
         width: 114%;
         padding-top: 10px;
         margin-left: -5%;
+    }
+    @media(max-width: 767px){
+        width: 47%;
+    padding-top: 10px;
+    margin-left: 26%;
+    }
+    @media(max-width: 590px){
+        width: 60%;
+    padding-top: 10px;
+    margin-left: 19%;
     }
     @media(max-width: 425px){
         width: 100%;
@@ -1703,5 +1754,58 @@ p, span, b {
         border: 2px solid $color_azul_oscuro!important;
         background-color: $color_dorado!important;
         color: white!important;
+    }
+    @media (max-width: 1024px){
+        display: inherit;
+    }
+    @media (max-width: 768px){
+        display: none;
+    }
+    @media (max-width: 425px){
+        display: none;
+    }
+    @media (max-width: 375px){
+        display: none;
+    }
+}
+.margen{
+    @media (max-width: 1140px){
+        margin-top:inherit !important;
+    }
+    @media (max-width: 1024px){
+        margin-top: inherit !important;
+    }
+    @media (max-width: 768px){
+        margin-top: 12% !important;
+    }
+    @media (max-width: 425px){
+        margin-top: 18% !important;
+    }
+    @media (max-width: 375px){
+        margin-top: 21% !important;
+    }
+    @media (max-width: 250px){
+        margin-top: 21% !important;
+    }
+    
+}
+.espacio{
+    @media (max-width: 1140px){
+        margin-left:auto;
+    }
+    @media (max-width: 1024px){
+        margin-left:auto;
+    }
+    @media (max-width: 768px){
+        margin-left:auto;
+    }
+    @media (max-width: 425px){
+        margin-left: 1px;
+    }
+    @media (max-width: 375px){
+        margin-left:2%;
+    }
+    @media (max-width: 250px){
+        margin-left:inherit;
     }
 }
