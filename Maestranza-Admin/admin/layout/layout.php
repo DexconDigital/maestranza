@@ -106,16 +106,16 @@ $page = "Administrador Mestranza";
                     <i class="fas fa-list-ol"></i>
                     <span>Lista de Asesores</span></a>
             </li>
-            <!--  <li class="nav-item">
+             <li class="nav-item">
                 <a class="nav-link" href="agregar-imagen.php">
-                    <i class="fas fa-image"></i>
-                    <span>Agregar Imagenes</span></a>
-            </li> -->
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="lista-imagenes.php">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Agregar Proyecto</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lista-proyect.php">
                     <i class="far fa-images"></i>
-                    <span>Ver Imagenes</span></a>
-            </li> -->
+                    <span>Imagenes de Proyectos</span></a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="perfil.php">
                     <i class="fas fa-tools"></i>

@@ -354,6 +354,8 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
     $('#slide-detalle').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplayTimeout: 4000,
         arrows: true,
         fade: true,
         asNavFor: '#miniaturas'

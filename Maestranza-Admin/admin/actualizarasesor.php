@@ -40,7 +40,7 @@ $res =  mysqli_fetch_array($sql);
         margin-left: 40%;
         margin-top: 5%;
     }
-    }
+    
 </style>
 <div class="container contenedor_color">
     <div class="row justify-content-center">

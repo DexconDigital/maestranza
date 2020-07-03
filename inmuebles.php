@@ -71,6 +71,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
             </div>
         </div>
+        <!-- paginador -->
         <div class="col-12 text-center">
             <?php if (is_array($api)) : ?>
                 <ul class="pagination mt-4 align-items-end justify-content-center">

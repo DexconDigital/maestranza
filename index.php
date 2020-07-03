@@ -2,6 +2,7 @@
 require 'variables/variables.php';
 require 'controllers/noticiasController.php';
 require 'controllers/asesor_detalle.php';
+require 'controllers/proyect_img_bd.php';
 $page = 'Inicio';
 $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
 
@@ -226,16 +227,11 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                         <div class="col-lg-3 col-md-12 col-12 margen_titulo">
                             <h1 class="position-relative main-title text-left"> <a class="titulop" href="proyectos.php">Proyectos</a></h1>
                         </div>
-                        <div class="col-lg-9 col-md-12 d-flex col-12 margen_titulo p-0 justify-content-end flex-wrap">
-                            <div class="col-lg-4 col-md-4 col-12">
-                                <img src="images/proyecto1.png" style="width: 100%;object-fit: contain;height: 100%;" alt="">
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-12">
-                                <img src="images/proyecto2.png" style="width: 100%;object-fit: contain;height: 100%;" alt="">
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-12">
-                                <img src="images/proyecto3.png" style="width: 100%;object-fit: contain;height: 100%;" alt="">
-                            </div>
+                        <div class="col-lg-9 col-md-12 d-flex col-12 margen_titulo p-0 justify-content-end flex-wrap justify-content-center">
+                            <?php if (isset($proyect_array)) {
+                               imagenes_proyect($proyect_array);
+                            } 
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -451,7 +447,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     </div>
                                 </div>
                             </div>
-                            <h3 id="titulo_transacciones"class="mt-3"><a data-toggle="modal" data-target="#exampleModala" class="colortransaccion">ARRENDATARIO</a></h3>
+                            <h3 id="titulo_transacciones" class="mt-3"><a data-toggle="modal" data-target="#exampleModala" class="colortransaccion">ARRENDATARIO</a></h3>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12" id="propietario" class="border">
                             <div class="inner-box">
@@ -468,7 +464,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                                     </div>
                                 </div>
                             </div>
-                            <h3 id="titulo_transacciones" class="mt-3"><a data-toggle="modal" data-target="#exampleModalab" class="colortransaccion" >PROPIETARIO</a></h3>
+                            <h3 id="titulo_transacciones" class="mt-3"><a data-toggle="modal" data-target="#exampleModalab" class="colortransaccion">PROPIETARIO</a></h3>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12" id="pagospse" class="border">
                             <div class="inner-box border">
@@ -561,7 +557,7 @@ $nombre_inmobiliaria = 'Inmobiliaria Maestranza' ?>
                     <h2 class="main-title text-left"> <a class="letra_titulo" href="blog.php">Informativo Inmobiliario</a></h2>
                 </div>
                 <div class="col-12 mt-4">
-                    <div class="row">
+                    <div class="d-flex flex-wrap justify-content-center">
                         <?php if (isset($noticias_array)) {
                             modelo_ultima_noticia($noticias_array);
                         } else {
